@@ -1,0 +1,15 @@
+. ./vars.ps1
+
+if ($args.count -gt 0) {
+	$dirs = $args[0];
+} else {
+	$dirs = "KAT_*";
+}
+
+Get-ChildItem . -Directory $dirs | Foreach-Object {
+	$fn = $_.FullName;
+	$signArg = "-sign=" + $privKey;
+	$whitelistArg = "-include=" + $( Get-Location ) + "\addonBuilderWhitelist.txt";
+	
+	& $addonBuilder $fn $destinationMusic $signArg $whitelistArg -binarizeFullLogs -binarizeAllTextures;
+}
