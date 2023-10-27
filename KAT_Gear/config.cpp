@@ -6,7 +6,9 @@ class CfgPatches
 	{
 		author = "MisfitMaid";
 		hideName = 0;
-		units[] = {};
+		units[] = {
+			"KAT_ZEUS_LR_Spartan"
+		};
 		weapons[] = {};
 		magazines[]=
 		{
@@ -104,6 +106,23 @@ class CfgMagazineWells
 			"KAT_4Rnd_145x114_HVAP_Mag",
 			"KAT_4Rnd_145x114_APFSDS_Mag"
 		};
+	};
+};
+
+class CfgVehicles
+{
+	class OPTRE_ANPRC_521_Black_Spartan;
+	class KAT_ZEUS_LR_Spartan: OPTRE_ANPRC_521_Black_Spartan
+	{
+		displayName="[KAT] Zeus LR (Spartan)";
+		tf_isolatedAmount=0.64999998;
+		tf_encryptionCode="tf_west_radio_code";
+		tf_dialog="anarc210_radio_dialog";
+		tf_subtype="digital_lr";
+		tf_range=120000;
+		tf_dialogUpdate="[""%1""] call TFAR_fnc_updateLRDialogToChannel;";
+		tf_hasLRradio=1;
+		maximumLoad=1000;
 	};
 };
 
