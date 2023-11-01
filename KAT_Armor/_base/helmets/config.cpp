@@ -58,6 +58,46 @@ class CfgWeapons
 		};
 	};
 
+	class OPTRE_UNSC_EOD_Helmet;
+	class KAT_Base_EOD_Helmet : OPTRE_UNSC_EOD_Helmet
+	{
+		class ItemInfo;
+		dlc = "KAT";
+        author = "MisfitMaid";
+		scope = 1;
+		scopeArsenal = 1;
+		scopeCurator = 1;
+		weaponPoolAvailable = 1;
+		ace_hearing_protection = 5.0;
+		ace_hearing_lowerVolume = 0.25;
+		displayName = "Mark V/EOD Helmet - Base";
+		class ItemInfo: ItemInfo
+		{
+			mass = 30;
+			class HitpointsProtectionInfo
+			{
+				class Face
+				{
+					armor = 35;
+					hitpointName = "HitFace";
+					passThrough = 0.1;
+				};
+				class Head
+				{
+					armor = 35;
+					hitPointName = "HitHead";
+					passThrough = 0.1;
+				};
+				class Neck
+				{
+					armor = 35;
+					hitpointName = "HitNeck";
+					passThrough = 0.1;
+				};
+			};
+		};
+	};
+
 	
 	// what the fuck is this code lmao
 	class MA_Helmet_Base;
