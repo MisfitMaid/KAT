@@ -98,6 +98,52 @@ class CfgWeapons
 		};
 	};
 
+	class OPTRE_UNSC_Recon_Helmet;
+	class KAT_Base_Recon_Helmet : OPTRE_UNSC_Recon_Helmet
+	{
+		class ItemInfo;
+		dlc = "KAT";
+        author = "MisfitMaid";
+		scope = 1;
+		scopeArsenal = 1;
+		scopeCurator = 1;
+		weaponPoolAvailable = 1;
+		ace_hearing_protection = 5.0;
+		ace_hearing_lowerVolume = 0.25;
+		displayName = "R/B5 Helmet - Base";
+        picture = "\OPTRE_UNSC_Units\Army\icons\odst_recon";
+		hiddenSelections[] = {"camo","camo2","camo3","camo4","H_Ghillie"};
+		hiddenSelectionsTextures[] = {"optre_unsc_units\army\data\recon_co.paa","optre_unsc_units\army\data\recon_visor_co.paa","optre_unsc_units\army\data\ghillie_woodland_co.paa","optre_unsc_units\army\data\soft_packs_co.paa"};
+		class ItemInfo: ItemInfo
+		{
+			mass = 30;
+			uniformModel = "OPTRE_UNSC_Units\Army\recon_helmet";
+			hiddenSelections[] = {"camo","camo2","camo3","camo4","H_Ghillie"};
+			hiddenSelectionsTextures[] = {"optre_unsc_units\army\data\recon_co.paa","optre_unsc_units\army\data\recon_visor_co.paa","optre_unsc_units\army\data\ghillie_woodland_co.paa","optre_unsc_units\army\data\soft_packs_co.paa"};
+			class HitpointsProtectionInfo
+			{
+				class Face
+				{
+					armor = 35;
+					hitpointName = "HitFace";
+					passThrough = 0.1;
+				};
+				class Head
+				{
+					armor = 35;
+					hitPointName = "HitHead";
+					passThrough = 0.1;
+				};
+				class Neck
+				{
+					armor = 35;
+					hitpointName = "HitNeck";
+					passThrough = 0.1;
+				};
+			};
+		};
+	};
+
 	
 	// what the fuck is this code lmao
 	class MA_Helmet_Base;
