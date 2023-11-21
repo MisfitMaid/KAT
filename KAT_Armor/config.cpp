@@ -52,7 +52,7 @@ class XtdGearModels
 			{
 				alwaysSelectable = 1;
 				label = "Role";
-				values[] = {"valkyrie", "cooper", "barnes", "williams"};
+				values[] = {"valkyrie", "cooper", "barnes", "williams", "oneill"};
 				class valkyrie
 				{
 					label = "Valkyrie";
@@ -68,6 +68,10 @@ class XtdGearModels
 				class williams
 				{
 					label = "Williams";
+				};
+				class oneill
+				{
+					label = "ONeill";
 				};
 			};
 		};
@@ -111,6 +115,11 @@ class XtdGearInfos
 		{
 			model = "KAT_Helmets";
 			role = "barnes";
+		};
+		class KAT_Helmets_ONeill
+		{
+			model = "KAT_Helmets";
+			role = "oneill";
 		};
 	};
 };

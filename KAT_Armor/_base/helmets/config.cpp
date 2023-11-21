@@ -9,7 +9,8 @@ class CfgPatches
 		requiredAddons[] =
 		{
 			"A3_Characters_F",
-			"OPTRE_Core"
+			"OPTRE_Core",
+			"19thODSTArmor"
 		};
 	};
 };
@@ -144,7 +145,50 @@ class CfgWeapons
 		};
 	};
 
-	
+	class 19th_H_ODST;
+	class KAT_Base_Jaeger_Helmet : 19th_H_ODST
+	{
+		class ItemInfo;
+		dlc = "KAT";
+		author = "wlan0";
+		scope = 1;
+		scopeArsenal = 1;
+		scopeCurator = 1;
+		weaponPoolAvailable = 1;
+		ace_hearing_protection = 5.0;
+		ace_hearing_lowerVolume = 0.25;
+		displayName = "M56S/Jaeger Helmet - Base";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"KAT_ARMOR\_base\helmets\jaeger\jaeger_helmet_co.paa"};
+		class ItemInfo: ItemInfo
+		{
+			mass = 30;
+			hiddenSelections[] = {"camo"};
+			hiddenSelectionsTextures = {"KAT_ARMOR\_base\helmets\jaeger\jaeger_helmet_co.paa"};
+			class HitpointsProtectionInfo
+			{
+				class Face
+				{
+					armor = 35;
+					hitpointName = "HitFace";
+					passThrough = 0.1;
+				};
+				class Head
+				{
+					armor = 35;
+					hitpointName = "HitHead";
+					passThrough = 0.1;
+				};
+				class Neck
+				{
+					armor = 35;
+					hitpointName = "HitNeck";
+					passThrough = 0.1;
+				};
+			};
+		};
+	};
+
 	// what the fuck is this code lmao
 	class MA_Helmet_Base;
 	class MA_Helmet_Base_o : MA_Helmet_Base
