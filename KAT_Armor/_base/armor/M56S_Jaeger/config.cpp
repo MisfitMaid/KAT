@@ -451,21 +451,41 @@ class CfgWeapons
         displayName = "[KAT] M56S/J Rifleman";
         hiddenSelections[] =
         {
+            // Commented out means visible on the armor
+            /*
+                A = Armor component
+                AS = Shoulder plate
+                AP = Belt Pouches
+                APO = Accessories
+            */
             "camo",
             "camo2",
             "camo3",
             "camo4",
             "camo5",
+            // "A_Base",
+            // "A_ChestArmor",
+            "A_Ghillie",
+            // "A_KneesLeft",
+            // "A_KneesRight",
             "A_KneesMarLeft",
             "A_KneesMarRight",
-            "A_Ghillie",
+            // "A_ODST",
+            // "A_ShinArmorLeft",
+            // "A_ShinArmorRight",
             "A_TacPad",
+            // "A_ThighArmorLeft",
+            // "A_ThighArmorRight",
+            // "AS_BaseLeft",
+            // "AS_BaseRight",
             "AS_LargeLeft",
             "AS_LargeRight",
             "AS_MediumLeft",
             "AS_MediumRight",
             "AS_ODSTCQBLeft",
             "AS_ODSTCQBRight",
+            // "AS_ODSTLeft",
+            // "AS_ODSTRight",
             "AS_ODSTSniperLeft",
             "AS_ODSTSniperRight",
             "AS_SmallLeft",
@@ -476,7 +496,6 @@ class CfgWeapons
             "AP_GL",
             "AP_Knife",
             "AP_MGThigh",
-            "AP_AR",
             "AP_Pack",
             "AP_Pistol",
             "AP_Rounds",
@@ -484,8 +503,11 @@ class CfgWeapons
             "AP_SMG",
             "AP_Sniper",
             "AP_Thigh",
+            // "AP_Frag",
+            // "AP_Smoke",
+            // "APO_AR",
             "APO_BR",
-            "APO_Knife",
+            // "APO_Knife",
             "APO_SMG",
             "APO_Sniper",
             "CustomKit_Scorch"
@@ -502,21 +524,41 @@ class CfgWeapons
         {
             hiddenSelections[] =
             {
+                // Commented out means visible on the armor
+                /*
+                    A = Armor component
+                    AS = Shoulder plate
+                    AP = Belt Pouches
+                    APO = Accessories
+                */
                 "camo",
                 "camo2",
                 "camo3",
                 "camo4",
                 "camo5",
+                // "A_Base",
+                // "A_ChestArmor",
+                "A_Ghillie",
+                // "A_KneesLeft",
+                // "A_KneesRight",
                 "A_KneesMarLeft",
                 "A_KneesMarRight",
-                "A_Ghillie",
+                // "A_ODST",
+                // "A_ShinArmorLeft",
+                // "A_ShinArmorRight",
                 "A_TacPad",
+                // "A_ThighArmorLeft",
+                // "A_ThighArmorRight",
+                // "AS_BaseLeft",
+                // "AS_BaseRight",
                 "AS_LargeLeft",
                 "AS_LargeRight",
                 "AS_MediumLeft",
                 "AS_MediumRight",
                 "AS_ODSTCQBLeft",
                 "AS_ODSTCQBRight",
+                // "AS_ODSTLeft",
+                // "AS_ODSTRight",
                 "AS_ODSTSniperLeft",
                 "AS_ODSTSniperRight",
                 "AS_SmallLeft",
@@ -527,7 +569,6 @@ class CfgWeapons
                 "AP_GL",
                 "AP_Knife",
                 "AP_MGThigh",
-                "AP_AR",
                 "AP_Pack",
                 "AP_Pistol",
                 "AP_Rounds",
@@ -535,8 +576,11 @@ class CfgWeapons
                 "AP_SMG",
                 "AP_Sniper",
                 "AP_Thigh",
+                // "AP_Frag",
+                // "AP_Smoke",
+                // "APO_AR",
                 "APO_BR",
-                "APO_Knife",
+                // "APO_Knife",
                 "APO_SMG",
                 "APO_Sniper",
                 "CustomKit_Scorch"

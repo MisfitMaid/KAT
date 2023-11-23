@@ -20,27 +20,46 @@ class CfgWeapons
     {
         class ItemInfo;
     };
-    /* Default */
     class KAT_M56S_Jaeger_Armor_Breacher: KAT_M56S_Jaeger_Armor_Rifleman
     {
         displayName = "[KAT] M56S/J Breacher";
         hiddenSelections[] =
         {
+            // Commented out means visible on the armor
+            /*
+                A = Armor component
+                AS = Shoulder plate
+                AP = Belt Pouches
+                APO = Accessories
+            */
             "camo",
             "camo2",
             "camo3",
             "camo4",
             "camo5",
+            // "A_Base",
+            // "A_ChestArmor",
+            "A_Ghillie",
+            // "A_KneesLeft",
+            // "A_KneesRight",
             "A_KneesMarLeft",
             "A_KneesMarRight",
-            "A_Ghillie",
+            // "A_ODST",
+            // "A_ShinArmorLeft",
+            // "A_ShinArmorRight",
             "A_TacPad",
+            // "A_ThighArmorLeft",
+            // "A_ThighArmorRight",
+            // "AS_BaseLeft",
+            // "AS_BaseRight",
             "AS_LargeLeft",
             "AS_LargeRight",
             "AS_MediumLeft",
             "AS_MediumRight",
-            "AS_ODSTCQBLeft",
-            "AS_ODSTCQBRight",
+            // "AS_ODSTCQBLeft",
+            // "AS_ODSTCQBRight",
+            "AS_ODSTLeft",
+            "AS_ODSTRight",
             "AS_ODSTSniperLeft",
             "AS_ODSTSniperRight",
             "AS_SmallLeft",
@@ -49,16 +68,21 @@ class CfgWeapons
             "AP_BR",
             "AP_Canteen",
             "AP_GL",
-            "AP_Knife",
+            // "AP_Knife",
             "AP_MGThigh",
-            "AP_AR",
             "AP_Pack",
             "AP_Pistol",
             "AP_Rounds",
-            "APO_SMG",
+            // "AP_SG",
             "AP_SMG",
             "AP_Sniper",
+            // "AP_Thigh",
+            // "AP_Frag",
+            // "AP_Smoke",
+            // "APO_AR",
             "APO_BR",
+            "APO_Knife",
+            "APO_SMG",
             "APO_Sniper",
             "CustomKit_Scorch"
         };
@@ -66,21 +90,41 @@ class CfgWeapons
         {
             hiddenSelections[] =
             {
+                // Commented out means visible on the armor
+                /*
+                    A = Armor component
+                    AS = Shoulder plate
+                    AP = Belt Pouches
+                    APO = Accessories
+                */
                 "camo",
                 "camo2",
                 "camo3",
                 "camo4",
                 "camo5",
+                // "A_Base",
+                // "A_ChestArmor",
+                "A_Ghillie",
+                // "A_KneesLeft",
+                // "A_KneesRight",
                 "A_KneesMarLeft",
                 "A_KneesMarRight",
-                "A_Ghillie",
+                // "A_ODST",
+                // "A_ShinArmorLeft",
+                // "A_ShinArmorRight",
                 "A_TacPad",
+                // "A_ThighArmorLeft",
+                // "A_ThighArmorRight",
+                // "AS_BaseLeft",
+                // "AS_BaseRight",
                 "AS_LargeLeft",
                 "AS_LargeRight",
                 "AS_MediumLeft",
                 "AS_MediumRight",
-                "AS_ODSTCQBLeft",
-                "AS_ODSTCQBRight",
+                // "AS_ODSTCQBLeft",
+                // "AS_ODSTCQBRight",
+                "AS_ODSTLeft",
+                "AS_ODSTRight",
                 "AS_ODSTSniperLeft",
                 "AS_ODSTSniperRight",
                 "AS_SmallLeft",
@@ -89,444 +133,84 @@ class CfgWeapons
                 "AP_BR",
                 "AP_Canteen",
                 "AP_GL",
-                "AP_Knife",
+                // "AP_Knife",
                 "AP_MGThigh",
-                "AP_AR",
                 "AP_Pack",
                 "AP_Pistol",
                 "AP_Rounds",
-                "APO_SMG",
+                // "AP_SG",
                 "AP_SMG",
                 "AP_Sniper",
+                // "AP_Thigh",
+                // "AP_Frag",
+                // "AP_Smoke",
+                // "APO_AR",
                 "APO_BR",
+                "APO_Knife",
+                "APO_SMG",
                 "APO_Sniper",
                 "CustomKit_Scorch"
             };
         };
     };
-    /* Red */
-    class KAT_M56S_Jaeger_Armor_Rifleman_Red : KAT_M56S_Jaeger_Armor_Rifleman { };
-    class KAT_M56S_Jaeger_Armor_Breacher_Red : KAT_M56S_Jaeger_Armor_Rifleman_Red
+    class KAT_M56S_Jaeger_Armor_Breacher_Red : KAT_M56S_Jaeger_Armor_Breacher
     {
         displayName = "[KAT] M56S/J Breacher [Red]";
-        hiddenSelections[] =
+        hiddenSelectionsTextures[] =
         {
-            "camo",
-            "camo2",
-            "camo3",
-            "camo4",
-            "camo5",
-            "A_KneesMarLeft",
-            "A_KneesMarRight",
-            "A_Ghillie",
-            "A_TacPad",
-            "AS_LargeLeft",
-            "AS_LargeRight",
-            "AS_MediumLeft",
-            "AS_MediumRight",
-            "AS_ODSTCQBLeft",
-            "AS_ODSTCQBRight",
-            "AS_ODSTSniperLeft",
-            "AS_ODSTSniperRight",
-            "AS_SmallLeft",
-            "AS_SmallRight",
-            "AP_AR",
-            "AP_BR",
-            "AP_Canteen",
-            "AP_GL",
-            "AP_Knife",
-            "AP_MGThigh",
-            "AP_AR",
-            "AP_Pack",
-            "AP_Pistol",
-            "AP_Rounds",
-            "APO_SMG",
-            "AP_SMG",
-            "AP_Sniper",
-            "APO_BR",
-            "APO_Sniper",
-            "CustomKit_Scorch"
-        };
-        class ItemInfo : ItemInfo
-        {
-            hiddenSelections[] =
-            {
-                "camo",
-                "camo2",
-                "camo3",
-                "camo4",
-                "camo5",
-                "A_KneesMarLeft",
-                "A_KneesMarRight",
-                "A_Ghillie",
-                "A_TacPad",
-                "AS_LargeLeft",
-                "AS_LargeRight",
-                "AS_MediumLeft",
-                "AS_MediumRight",
-                "AS_ODSTCQBLeft",
-                "AS_ODSTCQBRight",
-                "AS_ODSTSniperLeft",
-                "AS_ODSTSniperRight",
-                "AS_SmallLeft",
-                "AS_SmallRight",
-                "AP_AR",
-                "AP_BR",
-                "AP_Canteen",
-                "AP_GL",
-                "AP_Knife",
-                "AP_MGThigh",
-                "AP_AR",
-                "AP_Pack",
-                "AP_Pistol",
-                "AP_Rounds",
-                "APO_SMG",
-                "AP_SMG",
-                "AP_Sniper",
-                "APO_BR",
-                "APO_Sniper",
-                "CustomKit_Scorch"
-            };
+            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Vest\vest_odst.paa",
+            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Armor\armor_odst.paa",
+            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Legs\legs_red.paa",
+            "optre_unsc_units\army\data\ghillie_desert_co.paa",
+            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Main\odst_red.paa"
         };
     };
-    /* Blue */
-    class KAT_M56S_Jaeger_Armor_Rifleman_Blue : KAT_M56S_Jaeger_Armor_Rifleman { };
-    class KAT_M56S_Jaeger_Armor_Breacher_Blue : KAT_M56S_Jaeger_Armor_Rifleman_Blue
+    class KAT_M56S_Jaeger_Armor_Breacher_Blue : KAT_M56S_Jaeger_Armor_Breacher
     {
         displayName = "[KAT] M56S/J Breacher [Blue]";
-        hiddenSelections[] =
+        hiddenSelectionsTextures[] =
         {
-            "camo",
-            "camo2",
-            "camo3",
-            "camo4",
-            "camo5",
-            "A_KneesMarLeft",
-            "A_KneesMarRight",
-            "A_Ghillie",
-            "A_TacPad",
-            "AS_LargeLeft",
-            "AS_LargeRight",
-            "AS_MediumLeft",
-            "AS_MediumRight",
-            "AS_ODSTCQBLeft",
-            "AS_ODSTCQBRight",
-            "AS_ODSTSniperLeft",
-            "AS_ODSTSniperRight",
-            "AS_SmallLeft",
-            "AS_SmallRight",
-            "AP_AR",
-            "AP_BR",
-            "AP_Canteen",
-            "AP_GL",
-            "AP_Knife",
-            "AP_MGThigh",
-            "AP_AR",
-            "AP_Pack",
-            "AP_Pistol",
-            "AP_Rounds",
-            "APO_SMG",
-            "AP_SMG",
-            "AP_Sniper",
-            "APO_BR",
-            "APO_Sniper",
-            "CustomKit_Scorch"
-        };
-        class ItemInfo : ItemInfo
-        {
-            hiddenSelections[] =
-            {
-                "camo",
-                "camo2",
-                "camo3",
-                "camo4",
-                "camo5",
-                "A_KneesMarLeft",
-                "A_KneesMarRight",
-                "A_Ghillie",
-                "A_TacPad",
-                "AS_LargeLeft",
-                "AS_LargeRight",
-                "AS_MediumLeft",
-                "AS_MediumRight",
-                "AS_ODSTCQBLeft",
-                "AS_ODSTCQBRight",
-                "AS_ODSTSniperLeft",
-                "AS_ODSTSniperRight",
-                "AS_SmallLeft",
-                "AS_SmallRight",
-                "AP_AR",
-                "AP_BR",
-                "AP_Canteen",
-                "AP_GL",
-                "AP_Knife",
-                "AP_MGThigh",
-                "AP_AR",
-                "AP_Pack",
-                "AP_Pistol",
-                "AP_Rounds",
-                "APO_SMG",
-                "AP_SMG",
-                "AP_Sniper",
-                "APO_BR",
-                "APO_Sniper",
-                "CustomKit_Scorch"
-            };
+            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Vest\vest_odst.paa",
+            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Armor\armor_odst.paa",
+            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Legs\legs_blue.paa",
+            "optre_unsc_units\army\data\ghillie_desert_co.paa",
+            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Main\odst_blue.paa"
         };
     };
-    /* Green */
-    class KAT_M56S_Jaeger_Armor_Rifleman_Green : KAT_M56S_Jaeger_Armor_Rifleman { };
-    class KAT_M56S_Jaeger_Armor_Breacher_Green : KAT_M56S_Jaeger_Armor_Rifleman_Green
+    class KAT_M56S_Jaeger_Armor_Breacher_Green : KAT_M56S_Jaeger_Armor_Breacher
     {
         displayName = "[KAT] M56S/J Breacher [Green]";
-        hiddenSelections[] =
+        hiddenSelectionsTextures[] =
         {
-            "camo",
-            "camo2",
-            "camo3",
-            "camo4",
-            "camo5",
-            "A_KneesMarLeft",
-            "A_KneesMarRight",
-            "A_Ghillie",
-            "A_TacPad",
-            "AS_LargeLeft",
-            "AS_LargeRight",
-            "AS_MediumLeft",
-            "AS_MediumRight",
-            "AS_ODSTCQBLeft",
-            "AS_ODSTCQBRight",
-            "AS_ODSTSniperLeft",
-            "AS_ODSTSniperRight",
-            "AS_SmallLeft",
-            "AS_SmallRight",
-            "AP_AR",
-            "AP_BR",
-            "AP_Canteen",
-            "AP_GL",
-            "AP_Knife",
-            "AP_MGThigh",
-            "AP_AR",
-            "AP_Pack",
-            "AP_Pistol",
-            "AP_Rounds",
-            "APO_SMG",
-            "AP_SMG",
-            "AP_Sniper",
-            "APO_BR",
-            "APO_Sniper",
-            "CustomKit_Scorch"
-        };
-        class ItemInfo : ItemInfo
-        {
-            hiddenSelections[] =
-            {
-                "camo",
-                "camo2",
-                "camo3",
-                "camo4",
-                "camo5",
-                "A_KneesMarLeft",
-                "A_KneesMarRight",
-                "A_Ghillie",
-                "A_TacPad",
-                "AS_LargeLeft",
-                "AS_LargeRight",
-                "AS_MediumLeft",
-                "AS_MediumRight",
-                "AS_ODSTCQBLeft",
-                "AS_ODSTCQBRight",
-                "AS_ODSTSniperLeft",
-                "AS_ODSTSniperRight",
-                "AS_SmallLeft",
-                "AS_SmallRight",
-                "AP_AR",
-                "AP_BR",
-                "AP_Canteen",
-                "AP_GL",
-                "AP_Knife",
-                "AP_MGThigh",
-                "AP_AR",
-                "AP_Pack",
-                "AP_Pistol",
-                "AP_Rounds",
-                "APO_SMG",
-                "AP_SMG",
-                "AP_Sniper",
-                "APO_BR",
-                "APO_Sniper",
-                "CustomKit_Scorch"
-            };
+            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Vest\vest_odst.paa",
+            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Armor\armor_odst.paa",
+            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Legs\legs_green.paa",
+            "optre_unsc_units\army\data\ghillie_desert_co.paa",
+            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Main\odst_green.paa"
         };
     };
-    /* Yellow */
-    class KAT_M56S_Jaeger_Armor_Rifleman_Yellow : KAT_M56S_Jaeger_Armor_Rifleman { };
-    class KAT_M56S_Jaeger_Armor_Breacher_Yellow : KAT_M56S_Jaeger_Armor_Rifleman_Yellow
+    class KAT_M56S_Jaeger_Armor_Breacher_Yellow : KAT_M56S_Jaeger_Armor_Breacher
     {
         displayName = "[KAT] M56S/J Breacher [Yellow]";
-        hiddenSelections[] =
+        hiddenSelectionsTextures[] =
         {
-            "camo",
-            "camo2",
-            "camo3",
-            "camo4",
-            "camo5",
-            "A_KneesMarLeft",
-            "A_KneesMarRight",
-            "A_Ghillie",
-            "A_TacPad",
-            "AS_LargeLeft",
-            "AS_LargeRight",
-            "AS_MediumLeft",
-            "AS_MediumRight",
-            "AS_ODSTCQBLeft",
-            "AS_ODSTCQBRight",
-            "AS_ODSTSniperLeft",
-            "AS_ODSTSniperRight",
-            "AS_SmallLeft",
-            "AS_SmallRight",
-            "AP_AR",
-            "AP_BR",
-            "AP_Canteen",
-            "AP_GL",
-            "AP_Knife",
-            "AP_MGThigh",
-            "AP_AR",
-            "AP_Pack",
-            "AP_Pistol",
-            "AP_Rounds",
-            "APO_SMG",
-            "AP_SMG",
-            "AP_Sniper",
-            "APO_BR",
-            "APO_Sniper",
-            "CustomKit_Scorch"
-        };
-        class ItemInfo : ItemInfo
-        {
-            hiddenSelections[] =
-            {
-                "camo",
-                "camo2",
-                "camo3",
-                "camo4",
-                "camo5",
-                "A_KneesMarLeft",
-                "A_KneesMarRight",
-                "A_Ghillie",
-                "A_TacPad",
-                "AS_LargeLeft",
-                "AS_LargeRight",
-                "AS_MediumLeft",
-                "AS_MediumRight",
-                "AS_ODSTCQBLeft",
-                "AS_ODSTCQBRight",
-                "AS_ODSTSniperLeft",
-                "AS_ODSTSniperRight",
-                "AS_SmallLeft",
-                "AS_SmallRight",
-                "AP_AR",
-                "AP_BR",
-                "AP_Canteen",
-                "AP_GL",
-                "AP_Knife",
-                "AP_MGThigh",
-                "AP_AR",
-                "AP_Pack",
-                "AP_Pistol",
-                "AP_Rounds",
-                "APO_SMG",
-                "AP_SMG",
-                "AP_Sniper",
-                "APO_BR",
-                "APO_Sniper",
-                "CustomKit_Scorch"
-            };
+            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Vest\vest_odst.paa",
+            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Armor\armor_odst.paa",
+            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Legs\legs_odst.paa",
+            "optre_unsc_units\army\data\ghillie_desert_co.paa",
+            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Main\odst_yellow.paa"
         };
     };
-    /* Purple */
-    class KAT_M56S_Jaeger_Armor_Rifleman_Purple : KAT_M56S_Jaeger_Armor_Rifleman { };
-    class KAT_M56S_Jaeger_Armor_Breacher_Purple : KAT_M56S_Jaeger_Armor_Rifleman_Purple
+    class KAT_M56S_Jaeger_Armor_Breacher_Purple : KAT_M56S_Jaeger_Armor_Breacher
     {
         displayName = "[KAT] M56S/J Breacher [Purple]";
-        hiddenSelections[] =
+        hiddenSelectionsTextures[] =
         {
-            "camo",
-            "camo2",
-            "camo3",
-            "camo4",
-            "camo5",
-            "A_KneesMarLeft",
-            "A_KneesMarRight",
-            "A_Ghillie",
-            "A_TacPad",
-            "AS_LargeLeft",
-            "AS_LargeRight",
-            "AS_MediumLeft",
-            "AS_MediumRight",
-            "AS_ODSTCQBLeft",
-            "AS_ODSTCQBRight",
-            "AS_ODSTSniperLeft",
-            "AS_ODSTSniperRight",
-            "AS_SmallLeft",
-            "AS_SmallRight",
-            "AP_AR",
-            "AP_BR",
-            "AP_Canteen",
-            "AP_GL",
-            "AP_Knife",
-            "AP_MGThigh",
-            "AP_AR",
-            "AP_Pack",
-            "AP_Pistol",
-            "AP_Rounds",
-            "APO_SMG",
-            "AP_SMG",
-            "AP_Sniper",
-            "APO_BR",
-            "APO_Sniper",
-            "CustomKit_Scorch"
-        };
-        class ItemInfo : ItemInfo
-        {
-            hiddenSelections[] =
-            {
-                "camo",
-                "camo2",
-                "camo3",
-                "camo4",
-                "camo5",
-                "A_KneesMarLeft",
-                "A_KneesMarRight",
-                "A_Ghillie",
-                "A_TacPad",
-                "AS_LargeLeft",
-                "AS_LargeRight",
-                "AS_MediumLeft",
-                "AS_MediumRight",
-                "AS_ODSTCQBLeft",
-                "AS_ODSTCQBRight",
-                "AS_ODSTSniperLeft",
-                "AS_ODSTSniperRight",
-                "AS_SmallLeft",
-                "AS_SmallRight",
-                "AP_AR",
-                "AP_BR",
-                "AP_Canteen",
-                "AP_GL",
-                "AP_Knife",
-                "AP_MGThigh",
-                "AP_AR",
-                "AP_Pack",
-                "AP_Pistol",
-                "AP_Rounds",
-                "APO_SMG",
-                "AP_SMG",
-                "AP_Sniper",
-                "APO_BR",
-                "APO_Sniper",
-                "CustomKit_Scorch"
-            };
+            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Vest\vest_odst.paa",
+            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Armor\armor_odst.paa",
+            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Legs\legs_odst.paa",
+            "optre_unsc_units\army\data\ghillie_desert_co.paa",
+            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Main\odst_purple.paa"
         };
     };
 };
