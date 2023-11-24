@@ -24,7 +24,7 @@ class CfgWeapons
         displayName = "[KAT] M56S/J Helmet [O'Neill]";
         hiddenSelectionsTextures[] =
         {
-            "KAT_Armor\oneill\_textures\helmet_m56sj_oneill.paa"
+            "KAT_Armor\oneill\helmets\M56S_Jaeger\_textures\blue.paa"
         };
     };
 };
