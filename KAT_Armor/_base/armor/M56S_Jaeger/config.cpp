@@ -81,6 +81,7 @@ class XtdGearModels
                 {
                     "default",
                     "red",
+                    "orange",
                     "green",
                     "blue",
                     "yellow",
@@ -95,6 +96,11 @@ class XtdGearModels
                 {
                     label = "Red";
                     image = "#(rgb,8,8,3)color(0.8,0,0,1)";
+                };
+                class orange
+                {
+                    label = "Orange";
+                    image = "#(rgb,8,8,3)color(0.81,0.58,0.03,1)";
                 };
                 class green
                 {
@@ -137,6 +143,12 @@ class XtdGearInfos
             role = "default";
             color = "red";
         };
+        class KAT_M56S_Jaeger_Armor_Rifleman_Orange
+        {
+            model = "KAT_M56S_Jaeger_Vests";
+            role = "default";
+            color = "orange";
+        };
         class KAT_M56S_Jaeger_Armor_Rifleman_Blue
         {
             model = "KAT_M56S_Jaeger_Vests";
@@ -174,6 +186,12 @@ class XtdGearInfos
             model = "KAT_M56S_Jaeger_Vests";
             role = "ar";
             color = "red";
+        };
+        class KAT_M56S_Jaeger_Armor_AutoRifleman_Orange
+        {
+            model = "KAT_M56S_Jaeger_Vests";
+            role = "ar";
+            color = "orange";
         };
         class KAT_M56S_Jaeger_Armor_AutoRifleman_Blue
         {
@@ -213,6 +231,12 @@ class XtdGearInfos
             role = "breach";
             color = "red";
         };
+        class KAT_M56S_Jaeger_Armor_Breacher_Orange
+        {
+            model = "KAT_M56S_Jaeger_Vests";
+            role = "breach";
+            color = "orange";
+        };
         class KAT_M56S_Jaeger_Armor_Breacher_Blue
         {
             model = "KAT_M56S_Jaeger_Vests";
@@ -250,6 +274,12 @@ class XtdGearInfos
             model = "KAT_M56S_Jaeger_Vests";
             role = "corpsman";
             color = "red";
+        };
+        class KAT_M56S_Jaeger_Armor_Corpsman_Orange
+        {
+            model = "KAT_M56S_Jaeger_Vests";
+            role = "corpsman";
+            color = "orange";
         };
         class KAT_M56S_Jaeger_Armor_Corpsman_Blue
         {
@@ -289,6 +319,12 @@ class XtdGearInfos
             role = "gren";
             color = "red";
         };
+        class KAT_M56S_Jaeger_Armor_Grenadier_Orange
+        {
+            model = "KAT_M56S_Jaeger_Vests";
+            role = "gren";
+            color = "orange";
+        };
         class KAT_M56S_Jaeger_Armor_Grenadier_Blue
         {
             model = "KAT_M56S_Jaeger_Vests";
@@ -326,6 +362,12 @@ class XtdGearInfos
             model = "KAT_M56S_Jaeger_Vests";
             role = "sniper";
             color = "red";
+        };
+        class KAT_M56S_Jaeger_Armor_Sniper_Orange
+        {
+            model = "KAT_M56S_Jaeger_Vests";
+            role = "sniper";
+            color = "orange";
         };
         class KAT_M56S_Jaeger_Armor_Sniper_Blue
         {
@@ -597,6 +639,18 @@ class CfgWeapons
             "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Legs\legs_red.paa",
             "optre_unsc_units\army\data\ghillie_desert_co.paa",
             "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Main\odst_red.paa"
+        };
+    };
+    class KAT_M56S_Jaeger_Armor_Rifleman_Orange : KAT_M56S_Jaeger_Armor_Rifleman
+    {
+        displayName = "[KAT] M56S/J Rifleman [Orange]";
+        hiddenSelectionsTextures[] =
+        {
+            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Vest\vest_odst.paa",
+            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Armor\armor_odst.paa",
+            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Legs\legs_odst.paa",
+            "optre_unsc_units\army\data\ghillie_desert_co.paa",
+            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Main\odst_orange.paa"
         };
     };
     class KAT_M56S_Jaeger_Armor_Rifleman_Blue : KAT_M56S_Jaeger_Armor_Rifleman

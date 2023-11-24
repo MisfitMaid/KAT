@@ -165,6 +165,18 @@ class CfgWeapons
             "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Main\odst_red.paa"
         };
     };
+    class KAT_M56S_Jaeger_Armor_AutoRifleman_Orange : KAT_M56S_Jaeger_Armor_AutoRifleman
+    {
+        displayName = "[KAT] M56S/J Autorifleman [Orange]";
+        hiddenSelectionsTextures[] =
+        {
+            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Vest\vest_odst.paa",
+            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Armor\armor_odst.paa",
+            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Legs\legs_odst.paa",
+            "optre_unsc_units\army\data\ghillie_desert_co.paa",
+            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Main\odst_orange.paa"
+        };
+    };
     class KAT_M56S_Jaeger_Armor_AutoRifleman_Blue : KAT_M56S_Jaeger_Armor_AutoRifleman
     {
         displayName = "[KAT] M56S/J Autorifleman [Blue]";
