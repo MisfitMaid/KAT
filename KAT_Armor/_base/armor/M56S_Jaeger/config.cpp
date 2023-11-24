@@ -32,8 +32,27 @@ class XtdGearModels
             label = "Jaeger";
             options[] =
             {
+                "vestmodel",
                 "role",
                 "color"
+            };
+            class vestmodel
+            {
+                alwaysSelectable = 1;
+                label = "Model";
+                values[] =
+                {
+                    "default",
+                    "oneill"
+                };
+                class default
+                {
+                    label = "Default";
+                };
+                class oneill
+                {
+                    label = "O'Neill";
+                };
             };
             class role
             {
@@ -134,42 +153,49 @@ class XtdGearInfos
         class KAT_M56S_Jaeger_Armor_Rifleman
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "default";
             color = "default";
         };
         class KAT_M56S_Jaeger_Armor_Rifleman_Red
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "default";
             color = "red";
         };
         class KAT_M56S_Jaeger_Armor_Rifleman_Orange
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "default";
             color = "orange";
         };
         class KAT_M56S_Jaeger_Armor_Rifleman_Blue
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "default";
             color = "blue";
         };
         class KAT_M56S_Jaeger_Armor_Rifleman_Green
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "default";
             color = "green";
         };
         class KAT_M56S_Jaeger_Armor_Rifleman_Yellow
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "default";
             color = "yellow";
         };
         class KAT_M56S_Jaeger_Armor_Rifleman_Purple
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "default";
             color = "purple";
         };
@@ -178,42 +204,49 @@ class XtdGearInfos
         class KAT_M56S_Jaeger_Armor_AutoRifleman
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "ar";
             color = "default";
         };
         class KAT_M56S_Jaeger_Armor_AutoRifleman_Red
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "ar";
             color = "red";
         };
         class KAT_M56S_Jaeger_Armor_AutoRifleman_Orange
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "ar";
             color = "orange";
         };
         class KAT_M56S_Jaeger_Armor_AutoRifleman_Blue
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "ar";
             color = "blue";
         };
         class KAT_M56S_Jaeger_Armor_AutoRifleman_Green
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "ar";
             color = "green";
         };
         class KAT_M56S_Jaeger_Armor_AutoRifleman_Yellow
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "ar";
             color = "yellow";
         };
         class KAT_M56S_Jaeger_Armor_AutoRifleman_Purple
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "ar";
             color = "purple";
         };
@@ -222,42 +255,49 @@ class XtdGearInfos
         class KAT_M56S_Jaeger_Armor_Breacher
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "breach";
             color = "default";
         };
         class KAT_M56S_Jaeger_Armor_Breacher_Red
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "breach";
             color = "red";
         };
         class KAT_M56S_Jaeger_Armor_Breacher_Orange
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "breach";
             color = "orange";
         };
         class KAT_M56S_Jaeger_Armor_Breacher_Blue
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "breach";
             color = "blue";
         };
         class KAT_M56S_Jaeger_Armor_Breacher_Green
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "breach";
             color = "green";
         };
         class KAT_M56S_Jaeger_Armor_Breacher_Yellow
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "breach";
             color = "yellow";
         };
         class KAT_M56S_Jaeger_Armor_Breacher_Purple
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "breach";
             color = "purple";
         };
@@ -266,42 +306,49 @@ class XtdGearInfos
         class KAT_M56S_Jaeger_Armor_Corpsman
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "corpsman";
             color = "default";
         };
         class KAT_M56S_Jaeger_Armor_Corpsman_Red
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "corpsman";
             color = "red";
         };
         class KAT_M56S_Jaeger_Armor_Corpsman_Orange
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "corpsman";
             color = "orange";
         };
         class KAT_M56S_Jaeger_Armor_Corpsman_Blue
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "corpsman";
             color = "blue";
         };
         class KAT_M56S_Jaeger_Armor_Corpsman_Green
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "corpsman";
             color = "green";
         };
         class KAT_M56S_Jaeger_Armor_Corpsman_Yellow
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "corpsman";
             color = "yellow";
         };
         class KAT_M56S_Jaeger_Armor_Corpsman_Purple
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "corpsman";
             color = "purple";
         };
@@ -310,42 +357,49 @@ class XtdGearInfos
         class KAT_M56S_Jaeger_Armor_Grenadier
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "gren";
             color = "default";
         };
         class KAT_M56S_Jaeger_Armor_Grenadier_Red
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "gren";
             color = "red";
         };
         class KAT_M56S_Jaeger_Armor_Grenadier_Orange
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "gren";
             color = "orange";
         };
         class KAT_M56S_Jaeger_Armor_Grenadier_Blue
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "gren";
             color = "blue";
         };
         class KAT_M56S_Jaeger_Armor_Grenadier_Green
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "gren";
             color = "green";
         };
         class KAT_M56S_Jaeger_Armor_Grenadier_Yellow
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "gren";
             color = "yellow";
         };
         class KAT_M56S_Jaeger_Armor_Grenadier_Purple
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "gren";
             color = "purple";
         };
@@ -354,44 +408,60 @@ class XtdGearInfos
         class KAT_M56S_Jaeger_Armor_Sniper
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "sniper";
             color = "default";
         };
         class KAT_M56S_Jaeger_Armor_Sniper_Red
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "sniper";
             color = "red";
         };
         class KAT_M56S_Jaeger_Armor_Sniper_Orange
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "sniper";
             color = "orange";
         };
         class KAT_M56S_Jaeger_Armor_Sniper_Blue
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "sniper";
             color = "blue";
         };
         class KAT_M56S_Jaeger_Armor_Sniper_Green
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "sniper";
             color = "green";
         };
         class KAT_M56S_Jaeger_Armor_Sniper_Yellow
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "sniper";
             color = "yellow";
         };
         class KAT_M56S_Jaeger_Armor_Sniper_Purple
         {
             model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "default";
             role = "sniper";
             color = "purple";
+        };
+
+        /* Custom: O'Neill */
+        class KAT_M56S_Jaeger_Armor_ONeill_Grenadier_Blue
+        {
+            model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "oneill";
+            role = "gren";
+            color = "blue";
         };
     };
 };
