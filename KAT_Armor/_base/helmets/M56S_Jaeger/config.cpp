@@ -219,12 +219,12 @@ class CfgWeapons
             };
         };
     };
-    class KAT_M56S_Jaeger_Helmet_Blue : KAT_M56S_Jaeger_Helmet_Default
+    class KAT_M56S_Jaeger_Helmet_Red : KAT_M56S_Jaeger_Helmet_Default
     {
-        displayName = "[KAT] M56S/J Helmet [Blue]";
+        displayName = "[KAT] M56S/J Helmet [Red]";
         hiddenSelectionsTextures[] = 
         {
-            "KAT_Armor\_base\helmets\M56S_Jaeger\_textures\odst_blue.paa"
+            "KAT_Armor\_base\helmets\M56S_Jaeger\_textures\odst_red.paa"
         };
     };
     class KAT_M56S_Jaeger_Helmet_Orange : KAT_M56S_Jaeger_Helmet_Default
@@ -233,6 +233,38 @@ class CfgWeapons
         hiddenSelectionsTextures[] = 
         {
             "KAT_Armor\_base\helmets\M56S_Jaeger\_textures\odst_orange.paa"
+        };
+    };
+    class KAT_M56S_Jaeger_Helmet_Green : KAT_M56S_Jaeger_Helmet_Default
+    {
+        displayName = "[KAT] M56S/J Helmet [Green]";
+        hiddenSelectionsTextures[] = 
+        {
+            "KAT_Armor\_base\helmets\M56S_Jaeger\_textures\odst_green.paa"
+        };
+    };
+    class KAT_M56S_Jaeger_Helmet_Blue : KAT_M56S_Jaeger_Helmet_Default
+    {
+        displayName = "[KAT] M56S/J Helmet [Blue]";
+        hiddenSelectionsTextures[] = 
+        {
+            "KAT_Armor\_base\helmets\M56S_Jaeger\_textures\odst_blue.paa"
+        };
+    };
+    class KAT_M56S_Jaeger_Helmet_Yellow : KAT_M56S_Jaeger_Helmet_Default
+    {
+        displayName = "[KAT] M56S/J Helmet [Yellow]";
+        hiddenSelectionsTextures[] = 
+        {
+            "KAT_Armor\_base\helmets\M56S_Jaeger\_textures\odst_yellow.paa"
+        };
+    };
+    class KAT_M56S_Jaeger_Helmet_Purple : KAT_M56S_Jaeger_Helmet_Default
+    {
+        displayName = "[KAT] M56S/J Helmet [Purple]";
+        hiddenSelectionsTextures[] = 
+        {
+            "KAT_Armor\_base\helmets\M56S_Jaeger\_textures\odst_purple.paa"
         };
     };
 };
