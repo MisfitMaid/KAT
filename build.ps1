@@ -7,7 +7,13 @@ if ($args.count -gt 0) {
 }
 
 # preprocessor stuff
-php KAT_Gear/tictacs/csvToTictac.php
+$oldPreference = $ErrorActionPreference
+$ErrorActionPreference = 'stop'
+try {if(Get-Command php){
+	php KAT_Gear/tictacs/csvToTictac.php
+}}
+catch {Write-Host "[WARN] php not found. skipping tictac generation" -ForegroundColor yellow}
+finally {$ErrorActionPreference = $oldPreference}
 
 Get-ChildItem . -Directory $dirs | Foreach-Object {
 	$fn = $_.FullName;
