@@ -43,7 +43,8 @@ class XtdGearModels
                 values[] =
                 {
                     "default",
-                    "oneill"
+                    "oneill",
+                    "hayes"
                 };
                 class default
                 {
@@ -52,6 +53,10 @@ class XtdGearModels
                 class oneill
                 {
                     label = "O'Neill";
+                };
+                class hayes
+                {
+                    label = "Hayes";
                 };
             };
             class color
@@ -159,6 +164,12 @@ class XtdGearInfos
         {
             model = "KAT_M56S_Jaeger_Helmets";
             helmmodel = "oneill";
+            color = "blue";
+        };
+        class KAT_M56S_Jaeger_Helmet_Hayes_Blue
+        {
+            model = "KAT_M56S_Jaeger_Helmets";
+            helmmodel = "hayes";
             color = "blue";
         };
     };
