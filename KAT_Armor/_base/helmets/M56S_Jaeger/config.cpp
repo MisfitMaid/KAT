@@ -45,6 +45,7 @@ class XtdGearModels
                     "default",
                     "oneill",
                     "hayes",
+                    "carter",
                 };
                 class default
                 {
@@ -57,6 +58,10 @@ class XtdGearModels
                 class hayes
                 {
                     label = "Hayes";
+                };
+                class carter
+                {
+                    label = "Carter";
                 };
             };
             class color
@@ -170,6 +175,12 @@ class XtdGearInfos
         {
             model = "KAT_M56S_Jaeger_Helmets";
             helmmodel = "hayes";
+            color = "blue";
+        };
+        class KAT_M56S_Jaeger_Helmet_Carter_Blue
+        {
+            model = "KAT_M56S_Jaeger_Helmets";
+            helmmodel = "carter";
             color = "blue";
         };
     };
