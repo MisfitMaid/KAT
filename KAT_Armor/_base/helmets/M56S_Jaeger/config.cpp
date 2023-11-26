@@ -44,7 +44,7 @@ class XtdGearModels
                 {
                     "default",
                     "oneill",
-                    "hayes"
+                    "hayes",
                 };
                 class default
                 {
