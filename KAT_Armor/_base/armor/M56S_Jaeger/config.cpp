@@ -44,7 +44,7 @@ class XtdGearModels
                 {
                     "default",
                     "oneill",
-                    "hayes"
+                    "hayes",
                 };
                 class default
                 {
@@ -57,7 +57,7 @@ class XtdGearModels
                 class hayes
                 {
                     label = "Hayes";
-                }
+                };
             };
             class role
             {
@@ -476,7 +476,7 @@ class XtdGearInfos
             vestmodel = "hayes";
             role = "corpsman";
             color = "blue";
-        }
+        };
     };
 };
 class CfgWeapons
