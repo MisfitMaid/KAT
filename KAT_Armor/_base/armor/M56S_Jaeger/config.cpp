@@ -43,7 +43,8 @@ class XtdGearModels
                 values[] =
                 {
                     "default",
-                    "oneill"
+                    "oneill",
+                    "hayes"
                 };
                 class default
                 {
@@ -53,6 +54,10 @@ class XtdGearModels
                 {
                     label = "O'Neill";
                 };
+                class hayes
+                {
+                    label = "Hayes";
+                }
             };
             class role
             {
@@ -463,6 +468,15 @@ class XtdGearInfos
             role = "gren";
             color = "blue";
         };
+
+        /* Custom: Hayes */
+        class KAT_M56S_Jaeger_Armor_Hayes_Corpsman_Blue
+        {
+            model = "KAT_M56S_Jaeger_Vests";
+            vestmodel = "hayes";
+            role = "corpsman";
+            color = "blue";
+        }
     };
 };
 class CfgWeapons
