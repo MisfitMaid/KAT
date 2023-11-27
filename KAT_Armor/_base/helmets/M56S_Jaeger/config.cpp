@@ -44,6 +44,7 @@ class XtdGearModels
                 {
                     "default",
                     "oneill",
+                    "shields",
                     "hayes",
                     "carter",
                 };
@@ -55,6 +56,9 @@ class XtdGearModels
                 {
                     label = "O'Neill";
                 };
+                class shields
+                {
+                    label = "Shields";
                 class hayes
                 {
                     label = "Hayes";
@@ -170,6 +174,11 @@ class XtdGearInfos
             model = "KAT_M56S_Jaeger_Helmets";
             helmmodel = "oneill";
             color = "blue";
+        };
+        class KAT_M56S_Jaeger_Helmet_Shields_Blue
+        {
+            model = "KAT_M56S_Jaeger_Helmets";
+            helmmodel = "shields";
         };
         class KAT_M56S_Jaeger_Helmet_Hayes_Blue
         {
