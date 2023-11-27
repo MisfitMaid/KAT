@@ -180,6 +180,7 @@ class XtdGearInfos
         {
             model = "KAT_M56S_Jaeger_Helmets";
             helmmodel = "shields";
+            color = "blue";
         };
         class KAT_M56S_Jaeger_Helmet_Hayes_Blue
         {
