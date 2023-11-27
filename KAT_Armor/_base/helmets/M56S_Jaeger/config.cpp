@@ -59,6 +59,7 @@ class XtdGearModels
                 class shields
                 {
                     label = "Shields";
+                };
                 class hayes
                 {
                     label = "Hayes";
