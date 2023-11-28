@@ -1,12 +1,12 @@
 class CfgPatches
 {
-    class KAT_M56S_Jaeger_Armor_Breacher
+    class KAT_M52D_Jaeger_Armor_Corpsman
     {
         author = "wlan0";
-        addonRootClass = "KAT_M56S_Jaeger_Armor";
+        addonRootClass = "KAT_M52D_Jaeger_Armor";
         requiredAddons[] = 
         {
-            "KAT_M56S_Jaeger_Armor"
+            "KAT_M52D_Jaeger_Armor"
         };
         requiredVersion = 0.1;
         units[] = {};
@@ -15,14 +15,14 @@ class CfgPatches
 };
 class CfgWeapons
 {
-    class KAT_M56S_Jaeger_Armor_Base;
-    class KAT_M56S_Jaeger_Armor_Rifleman : KAT_M56S_Jaeger_Armor_Base
+    class KAT_M52D_Jaeger_Armor_Base;
+    class KAT_M52D_Jaeger_Armor_Rifleman : KAT_M52D_Jaeger_Armor_Base
     {
         class ItemInfo;
     };
-    class KAT_M56S_Jaeger_Armor_Breacher: KAT_M56S_Jaeger_Armor_Rifleman
+    class KAT_M52D_Jaeger_Armor_Corpsman: KAT_M52D_Jaeger_Armor_Rifleman
     {
-        displayName = "[KAT] M56S/J Breacher";
+        displayName = "[KAT] M52D/J Corpsman";
         hiddenSelections[] =
         {
             // Commented out means visible on the armor
@@ -47,7 +47,7 @@ class CfgWeapons
             // "A_ODST",
             // "A_ShinArmorLeft",
             // "A_ShinArmorRight",
-            "A_TacPad",
+            // "A_TacPad",
             // "A_ThighArmorLeft",
             // "A_ThighArmorRight",
             // "AS_BaseLeft",
@@ -56,10 +56,10 @@ class CfgWeapons
             "AS_LargeRight",
             "AS_MediumLeft",
             "AS_MediumRight",
-            // "AS_ODSTCQBLeft",
-            // "AS_ODSTCQBRight",
-            "AS_ODSTLeft",
-            "AS_ODSTRight",
+            "AS_ODSTCQBLeft",
+            "AS_ODSTCQBRight",
+            // "AS_ODSTLeft",
+            // "AS_ODSTRight",
             "AS_ODSTSniperLeft",
             "AS_ODSTSniperRight",
             "AS_SmallLeft",
@@ -68,12 +68,12 @@ class CfgWeapons
             "AP_BR",
             "AP_Canteen",
             "AP_GL",
-            // "AP_Knife",
+            "AP_Knife",
             "AP_MGThigh",
             "AP_Pack",
             "AP_Pistol",
             "AP_Rounds",
-            // "AP_SG",
+            "AP_SG",
             "AP_SMG",
             "AP_Sniper",
             // "AP_Thigh",
@@ -112,7 +112,7 @@ class CfgWeapons
                 // "A_ODST",
                 // "A_ShinArmorLeft",
                 // "A_ShinArmorRight",
-                "A_TacPad",
+                // "A_TacPad",
                 // "A_ThighArmorLeft",
                 // "A_ThighArmorRight",
                 // "AS_BaseLeft",
@@ -121,10 +121,10 @@ class CfgWeapons
                 "AS_LargeRight",
                 "AS_MediumLeft",
                 "AS_MediumRight",
-                // "AS_ODSTCQBLeft",
-                // "AS_ODSTCQBRight",
-                "AS_ODSTLeft",
-                "AS_ODSTRight",
+                "AS_ODSTCQBLeft",
+                "AS_ODSTCQBRight",
+                // "AS_ODSTLeft",
+                // "AS_ODSTRight",
                 "AS_ODSTSniperLeft",
                 "AS_ODSTSniperRight",
                 "AS_SmallLeft",
@@ -133,12 +133,12 @@ class CfgWeapons
                 "AP_BR",
                 "AP_Canteen",
                 "AP_GL",
-                // "AP_Knife",
+                "AP_Knife",
                 "AP_MGThigh",
                 "AP_Pack",
                 "AP_Pistol",
                 "AP_Rounds",
-                // "AP_SG",
+                "AP_SG",
                 "AP_SMG",
                 "AP_Sniper",
                 // "AP_Thigh",
@@ -153,76 +153,76 @@ class CfgWeapons
             };
         };
     };
-    class KAT_M56S_Jaeger_Armor_Breacher_Red : KAT_M56S_Jaeger_Armor_Breacher
+    class KAT_M52D_Jaeger_Armor_Corpsman_Red : KAT_M52D_Jaeger_Armor_Corpsman
     {
-        displayName = "[KAT] M56S/J Breacher [Red]";
+        displayName = "[KAT] M52D/J Corpsman [Red]";
         hiddenSelectionsTextures[] =
         {
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Legs\legs_red.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_red.paa",
             "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Main\odst_red.paa"
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_red.paa"
         };
     };
-    class KAT_M56S_Jaeger_Armor_Breacher_Orange : KAT_M56S_Jaeger_Armor_Breacher
+    class KAT_M52D_Jaeger_Armor_Corpsman_Orange : KAT_M52D_Jaeger_Armor_Corpsman
     {
-        displayName = "[KAT] M56S/J Breacher [Orange]";
+        displayName = "[KAT] M52D/J Corpsman [Orange]";
         hiddenSelectionsTextures[] =
         {
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Legs\legs_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_odst.paa",
             "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Main\odst_orange.paa"
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_orange.paa"
         };
     };
-    class KAT_M56S_Jaeger_Armor_Breacher_Blue : KAT_M56S_Jaeger_Armor_Breacher
+    class KAT_M52D_Jaeger_Armor_Corpsman_Blue : KAT_M52D_Jaeger_Armor_Corpsman
     {
-        displayName = "[KAT] M56S/J Breacher [Blue]";
+        displayName = "[KAT] M52D/J Corpsman [Blue]";
         hiddenSelectionsTextures[] =
         {
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Legs\legs_blue.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_blue.paa",
             "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Main\odst_blue.paa"
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_blue.paa"
         };
     };
-    class KAT_M56S_Jaeger_Armor_Breacher_Green : KAT_M56S_Jaeger_Armor_Breacher
+    class KAT_M52D_Jaeger_Armor_Corpsman_Green : KAT_M52D_Jaeger_Armor_Corpsman
     {
-        displayName = "[KAT] M56S/J Breacher [Green]";
+        displayName = "[KAT] M52D/J Corpsman [Green]";
         hiddenSelectionsTextures[] =
         {
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Legs\legs_green.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_green.paa",
             "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Main\odst_green.paa"
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_green.paa"
         };
     };
-    class KAT_M56S_Jaeger_Armor_Breacher_Yellow : KAT_M56S_Jaeger_Armor_Breacher
+    class KAT_M52D_Jaeger_Armor_Corpsman_Yellow : KAT_M52D_Jaeger_Armor_Corpsman
     {
-        displayName = "[KAT] M56S/J Breacher [Yellow]";
+        displayName = "[KAT] M52D/J Corpsman [Yellow]";
         hiddenSelectionsTextures[] =
         {
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Legs\legs_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_odst.paa",
             "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Main\odst_yellow.paa"
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_yellow.paa"
         };
     };
-    class KAT_M56S_Jaeger_Armor_Breacher_Purple : KAT_M56S_Jaeger_Armor_Breacher
+    class KAT_M52D_Jaeger_Armor_Corpsman_Purple : KAT_M52D_Jaeger_Armor_Corpsman
     {
-        displayName = "[KAT] M56S/J Breacher [Purple]";
+        displayName = "[KAT] M52D/J Corpsman [Purple]";
         hiddenSelectionsTextures[] =
         {
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Legs\legs_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_odst.paa",
             "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Main\odst_purple.paa"
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_purple.paa"
         };
     };
 };

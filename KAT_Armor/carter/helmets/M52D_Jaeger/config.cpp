@@ -12,19 +12,19 @@ class CfgPatches
         units[] = {};
         weapons[] =
         {
-            "KAT_M56S_Jaeger_Helmet_Carter_Blue"
+            "KAT_M52D_Jaeger_Helmet_Carter_Blue"
         };
     };
 };
 class CfgWeapons
 {
-    class KAT_M56S_Jaeger_Helmet_Default;
-    class KAT_M56S_Jaeger_Helmet_Carter_Blue : KAT_M56S_Jaeger_Helmet_Default
+    class KAT_M52D_Jaeger_Helmet_Default;
+    class KAT_M52D_Jaeger_Helmet_Carter_Blue : KAT_M52D_Jaeger_Helmet_Default
     {
-        displayName = "[KAT] M56S/J Helmet [Carter]";
+        displayName = "[KAT] M52D/J Helmet [Carter]";
         hiddenSelectionsTextures[] =
         {
-            "KAT_Armor\carter\helmets\M56S_Jaeger\_textures\blue.paa"
+            "KAT_Armor\carter\helmets\M52D_Jaeger\_textures\blue.paa"
         };
     };
 };

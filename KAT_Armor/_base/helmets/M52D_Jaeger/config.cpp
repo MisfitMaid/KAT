@@ -1,6 +1,6 @@
 class CfgPatches
 {
-    class KAT_M56S_Jaeger_Helmet
+    class KAT_M52D_Jaeger_Helmet
     {
         author = "wlan0";
         addonRootClass = "KAT_Armor";
@@ -13,13 +13,13 @@ class CfgPatches
         units[] = {};
         weapons[] =
         {
-            "KAT_M56S_Jaeger_Helmet_Default",
-            "KAT_M56S_Jaeger_Helmet_Red",
-            "KAT_M56S_Jaeger_Helmet_Orange",
-            "KAT_M56S_Jaeger_Helmet_Green",
-            "KAT_M56S_Jaeger_Helmet_Blue",
-            "KAT_M56S_Jaeger_Helmet_Yellow",
-            "KAT_M56S_Jaeger_Helmet_Purple",
+            "KAT_M52D_Jaeger_Helmet_Default",
+            "KAT_M52D_Jaeger_Helmet_Red",
+            "KAT_M52D_Jaeger_Helmet_Orange",
+            "KAT_M52D_Jaeger_Helmet_Green",
+            "KAT_M52D_Jaeger_Helmet_Blue",
+            "KAT_M52D_Jaeger_Helmet_Yellow",
+            "KAT_M52D_Jaeger_Helmet_Purple",
 
         };
     };
@@ -28,7 +28,7 @@ class XtdGearModels
 {
     class CfgWeapons
     {
-        class KAT_M56S_Jaeger_Helmets
+        class KAT_M52D_Jaeger_Helmets
         {
             label = "Jaeger";
             options[] =
@@ -127,70 +127,70 @@ class XtdGearInfos
     class CfgWeapons
     {
         /* Colors */
-        class KAT_M56S_Jaeger_Helmet_Default
+        class KAT_M52D_Jaeger_Helmet_Default
         {
-            model = "KAT_M56S_Jaeger_Helmets";
+            model = "KAT_M52D_Jaeger_Helmets";
             helmmodel = "default";
             color = "default";
         };
-        class KAT_M56S_Jaeger_Helmet_Red
+        class KAT_M52D_Jaeger_Helmet_Red
         {
-            model = "KAT_M56S_Jaeger_Helmets";
+            model = "KAT_M52D_Jaeger_Helmets";
             helmmodel = "default";
             color = "red";
         };
-        class KAT_M56S_Jaeger_Helmet_Orange
+        class KAT_M52D_Jaeger_Helmet_Orange
         {
-            model = "KAT_M56S_Jaeger_Helmets";
+            model = "KAT_M52D_Jaeger_Helmets";
             helmmodel = "default";
             color = "orange";
         };
-        class KAT_M56S_Jaeger_Helmet_Green
+        class KAT_M52D_Jaeger_Helmet_Green
         {
-            model = "KAT_M56S_Jaeger_Helmets";
+            model = "KAT_M52D_Jaeger_Helmets";
             helmmodel = "default";
             color = "green";
         };
-        class KAT_M56S_Jaeger_Helmet_Blue
+        class KAT_M52D_Jaeger_Helmet_Blue
         {
-            model = "KAT_M56S_Jaeger_Helmets";
+            model = "KAT_M52D_Jaeger_Helmets";
             helmmodel = "default";
             color = "blue";
         };
-        class KAT_M56S_Jaeger_Helmet_Yellow
+        class KAT_M52D_Jaeger_Helmet_Yellow
         {
-            model = "KAT_M56S_Jaeger_Helmets";
+            model = "KAT_M52D_Jaeger_Helmets";
             helmmodel = "default";
             color = "yellow";
         };
-        class KAT_M56S_Jaeger_Helmet_Purple
+        class KAT_M52D_Jaeger_Helmet_Purple
         {
-            model = "KAT_M56S_Jaeger_Helmets";
+            model = "KAT_M52D_Jaeger_Helmets";
             helmmodel = "default";
             color = "purple";
         };
         /* Customs */
-        class KAT_M56S_Jaeger_Helmet_ONeill_Blue
+        class KAT_M52D_Jaeger_Helmet_ONeill_Blue
         {
-            model = "KAT_M56S_Jaeger_Helmets";
+            model = "KAT_M52D_Jaeger_Helmets";
             helmmodel = "oneill";
             color = "blue";
         };
-        class KAT_M56S_Jaeger_Helmet_Shields_Blue
+        class KAT_M52D_Jaeger_Helmet_Shields_Blue
         {
-            model = "KAT_M56S_Jaeger_Helmets";
+            model = "KAT_M52D_Jaeger_Helmets";
             helmmodel = "shields";
             color = "blue";
         };
-        class KAT_M56S_Jaeger_Helmet_Hayes_Blue
+        class KAT_M52D_Jaeger_Helmet_Hayes_Blue
         {
-            model = "KAT_M56S_Jaeger_Helmets";
+            model = "KAT_M52D_Jaeger_Helmets";
             helmmodel = "hayes";
             color = "blue";
         };
-        class KAT_M56S_Jaeger_Helmet_Carter_Blue
+        class KAT_M52D_Jaeger_Helmet_Carter_Blue
         {
-            model = "KAT_M56S_Jaeger_Helmets";
+            model = "KAT_M52D_Jaeger_Helmets";
             helmmodel = "carter";
             color = "blue";
         };
@@ -201,11 +201,11 @@ class CfgWeapons
     class ItemInfo;
     class HeadgearItem;
     class KAT_Helmets_Valkyrie;
-    class KAT_M56S_Jaeger_Helmet_Default : KAT_Helmets_Valkyrie
+    class KAT_M52D_Jaeger_Helmet_Default : KAT_Helmets_Valkyrie
     {
         author = "wlan0";
         model = "ODST\ODST_helm_F.p3d";
-        displayName = "[KAT] M56S/J Helmet";
+        displayName = "[KAT] M52D/J Helmet";
         ace_hearing_protection = 5.0;
         ace_hearing_lowerVolume = 0.25;
         hiddenSelections[] =
@@ -214,7 +214,7 @@ class CfgWeapons
         };
         hiddenSelectionsTextures[] =
         {
-            "KAT_Armor\_base\helmets\M56S_Jaeger\_textures\odst_default.paa"
+            "KAT_Armor\_base\helmets\M52D_Jaeger\_textures\odst_default.paa"
         };
         class ItemInfo: HeadgearItem
         {
@@ -252,52 +252,52 @@ class CfgWeapons
             };
         };
     };
-    class KAT_M56S_Jaeger_Helmet_Red : KAT_M56S_Jaeger_Helmet_Default
+    class KAT_M52D_Jaeger_Helmet_Red : KAT_M52D_Jaeger_Helmet_Default
     {
-        displayName = "[KAT] M56S/J Helmet [Red]";
+        displayName = "[KAT] M52D/J Helmet [Red]";
         hiddenSelectionsTextures[] = 
         {
-            "KAT_Armor\_base\helmets\M56S_Jaeger\_textures\odst_red.paa"
+            "KAT_Armor\_base\helmets\M52D_Jaeger\_textures\odst_red.paa"
         };
     };
-    class KAT_M56S_Jaeger_Helmet_Orange : KAT_M56S_Jaeger_Helmet_Default
+    class KAT_M52D_Jaeger_Helmet_Orange : KAT_M52D_Jaeger_Helmet_Default
     {
-        displayName = "[KAT] M56S/J Helmet [Orange]";
+        displayName = "[KAT] M52D/J Helmet [Orange]";
         hiddenSelectionsTextures[] = 
         {
-            "KAT_Armor\_base\helmets\M56S_Jaeger\_textures\odst_orange.paa"
+            "KAT_Armor\_base\helmets\M52D_Jaeger\_textures\odst_orange.paa"
         };
     };
-    class KAT_M56S_Jaeger_Helmet_Green : KAT_M56S_Jaeger_Helmet_Default
+    class KAT_M52D_Jaeger_Helmet_Green : KAT_M52D_Jaeger_Helmet_Default
     {
-        displayName = "[KAT] M56S/J Helmet [Green]";
+        displayName = "[KAT] M52D/J Helmet [Green]";
         hiddenSelectionsTextures[] = 
         {
-            "KAT_Armor\_base\helmets\M56S_Jaeger\_textures\odst_green.paa"
+            "KAT_Armor\_base\helmets\M52D_Jaeger\_textures\odst_green.paa"
         };
     };
-    class KAT_M56S_Jaeger_Helmet_Blue : KAT_M56S_Jaeger_Helmet_Default
+    class KAT_M52D_Jaeger_Helmet_Blue : KAT_M52D_Jaeger_Helmet_Default
     {
-        displayName = "[KAT] M56S/J Helmet [Blue]";
+        displayName = "[KAT] M52D/J Helmet [Blue]";
         hiddenSelectionsTextures[] = 
         {
-            "KAT_Armor\_base\helmets\M56S_Jaeger\_textures\odst_blue.paa"
+            "KAT_Armor\_base\helmets\M52D_Jaeger\_textures\odst_blue.paa"
         };
     };
-    class KAT_M56S_Jaeger_Helmet_Yellow : KAT_M56S_Jaeger_Helmet_Default
+    class KAT_M52D_Jaeger_Helmet_Yellow : KAT_M52D_Jaeger_Helmet_Default
     {
-        displayName = "[KAT] M56S/J Helmet [Yellow]";
+        displayName = "[KAT] M52D/J Helmet [Yellow]";
         hiddenSelectionsTextures[] = 
         {
-            "KAT_Armor\_base\helmets\M56S_Jaeger\_textures\odst_yellow.paa"
+            "KAT_Armor\_base\helmets\M52D_Jaeger\_textures\odst_yellow.paa"
         };
     };
-    class KAT_M56S_Jaeger_Helmet_Purple : KAT_M56S_Jaeger_Helmet_Default
+    class KAT_M52D_Jaeger_Helmet_Purple : KAT_M52D_Jaeger_Helmet_Default
     {
-        displayName = "[KAT] M56S/J Helmet [Purple]";
+        displayName = "[KAT] M52D/J Helmet [Purple]";
         hiddenSelectionsTextures[] = 
         {
-            "KAT_Armor\_base\helmets\M56S_Jaeger\_textures\odst_purple.paa"
+            "KAT_Armor\_base\helmets\M52D_Jaeger\_textures\odst_purple.paa"
         };
     };
 };

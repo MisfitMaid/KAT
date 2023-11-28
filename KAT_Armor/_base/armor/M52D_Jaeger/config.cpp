@@ -1,6 +1,6 @@
 class CfgPatches
 {
-    class KAT_M56S_Jaeger_Armor
+    class KAT_M52D_Jaeger_Armor
     {
         author = "wlan0";
         addonRootClass = "KAT_Armor";
@@ -14,12 +14,12 @@ class CfgPatches
         units[] = {};
         weapons[] =
         {
-            "KAT_M56S_Jaeger_Armor_Rifleman",
-            "KAT_M56S_Jaeger_Armor_Rifleman_Red",
-            "KAT_M56S_Jaeger_Armor_Rifleman_Blue",
-            "KAT_M56S_Jaeger_Armor_Rifleman_Green",
-            "KAT_M56S_Jaeger_Armor_Rifleman_Yellow",
-            "KAT_M56S_Jaeger_Armor_Rifleman_Purple"
+            "KAT_M52D_Jaeger_Armor_Rifleman",
+            "KAT_M52D_Jaeger_Armor_Rifleman_Red",
+            "KAT_M52D_Jaeger_Armor_Rifleman_Blue",
+            "KAT_M52D_Jaeger_Armor_Rifleman_Green",
+            "KAT_M52D_Jaeger_Armor_Rifleman_Yellow",
+            "KAT_M52D_Jaeger_Armor_Rifleman_Purple"
         };
     };
 };
@@ -27,7 +27,7 @@ class XtdGearModels
 {
     class CfgWeapons
     {
-        class KAT_M56S_Jaeger_Vests
+        class KAT_M52D_Jaeger_Vests
         {
             label = "Jaeger";
             options[] =
@@ -155,324 +155,324 @@ class XtdGearInfos
     class CfgWeapons
     {
         /* Default (Rifleman) */
-        class KAT_M56S_Jaeger_Armor_Rifleman
+        class KAT_M52D_Jaeger_Armor_Rifleman
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "default";
             color = "default";
         };
-        class KAT_M56S_Jaeger_Armor_Rifleman_Red
+        class KAT_M52D_Jaeger_Armor_Rifleman_Red
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "default";
             color = "red";
         };
-        class KAT_M56S_Jaeger_Armor_Rifleman_Orange
+        class KAT_M52D_Jaeger_Armor_Rifleman_Orange
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "default";
             color = "orange";
         };
-        class KAT_M56S_Jaeger_Armor_Rifleman_Blue
+        class KAT_M52D_Jaeger_Armor_Rifleman_Blue
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "default";
             color = "blue";
         };
-        class KAT_M56S_Jaeger_Armor_Rifleman_Green
+        class KAT_M52D_Jaeger_Armor_Rifleman_Green
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "default";
             color = "green";
         };
-        class KAT_M56S_Jaeger_Armor_Rifleman_Yellow
+        class KAT_M52D_Jaeger_Armor_Rifleman_Yellow
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "default";
             color = "yellow";
         };
-        class KAT_M56S_Jaeger_Armor_Rifleman_Purple
+        class KAT_M52D_Jaeger_Armor_Rifleman_Purple
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "default";
             color = "purple";
         };
 
         /* Autorifleman */
-        class KAT_M56S_Jaeger_Armor_AutoRifleman
+        class KAT_M52D_Jaeger_Armor_AutoRifleman
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "ar";
             color = "default";
         };
-        class KAT_M56S_Jaeger_Armor_AutoRifleman_Red
+        class KAT_M52D_Jaeger_Armor_AutoRifleman_Red
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "ar";
             color = "red";
         };
-        class KAT_M56S_Jaeger_Armor_AutoRifleman_Orange
+        class KAT_M52D_Jaeger_Armor_AutoRifleman_Orange
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "ar";
             color = "orange";
         };
-        class KAT_M56S_Jaeger_Armor_AutoRifleman_Blue
+        class KAT_M52D_Jaeger_Armor_AutoRifleman_Blue
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "ar";
             color = "blue";
         };
-        class KAT_M56S_Jaeger_Armor_AutoRifleman_Green
+        class KAT_M52D_Jaeger_Armor_AutoRifleman_Green
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "ar";
             color = "green";
         };
-        class KAT_M56S_Jaeger_Armor_AutoRifleman_Yellow
+        class KAT_M52D_Jaeger_Armor_AutoRifleman_Yellow
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "ar";
             color = "yellow";
         };
-        class KAT_M56S_Jaeger_Armor_AutoRifleman_Purple
+        class KAT_M52D_Jaeger_Armor_AutoRifleman_Purple
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "ar";
             color = "purple";
         };
 
         /* Breacher */
-        class KAT_M56S_Jaeger_Armor_Breacher
+        class KAT_M52D_Jaeger_Armor_Breacher
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "breach";
             color = "default";
         };
-        class KAT_M56S_Jaeger_Armor_Breacher_Red
+        class KAT_M52D_Jaeger_Armor_Breacher_Red
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "breach";
             color = "red";
         };
-        class KAT_M56S_Jaeger_Armor_Breacher_Orange
+        class KAT_M52D_Jaeger_Armor_Breacher_Orange
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "breach";
             color = "orange";
         };
-        class KAT_M56S_Jaeger_Armor_Breacher_Blue
+        class KAT_M52D_Jaeger_Armor_Breacher_Blue
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "breach";
             color = "blue";
         };
-        class KAT_M56S_Jaeger_Armor_Breacher_Green
+        class KAT_M52D_Jaeger_Armor_Breacher_Green
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "breach";
             color = "green";
         };
-        class KAT_M56S_Jaeger_Armor_Breacher_Yellow
+        class KAT_M52D_Jaeger_Armor_Breacher_Yellow
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "breach";
             color = "yellow";
         };
-        class KAT_M56S_Jaeger_Armor_Breacher_Purple
+        class KAT_M52D_Jaeger_Armor_Breacher_Purple
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "breach";
             color = "purple";
         };
 
         /* Corpsman */
-        class KAT_M56S_Jaeger_Armor_Corpsman
+        class KAT_M52D_Jaeger_Armor_Corpsman
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "corpsman";
             color = "default";
         };
-        class KAT_M56S_Jaeger_Armor_Corpsman_Red
+        class KAT_M52D_Jaeger_Armor_Corpsman_Red
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "corpsman";
             color = "red";
         };
-        class KAT_M56S_Jaeger_Armor_Corpsman_Orange
+        class KAT_M52D_Jaeger_Armor_Corpsman_Orange
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "corpsman";
             color = "orange";
         };
-        class KAT_M56S_Jaeger_Armor_Corpsman_Blue
+        class KAT_M52D_Jaeger_Armor_Corpsman_Blue
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "corpsman";
             color = "blue";
         };
-        class KAT_M56S_Jaeger_Armor_Corpsman_Green
+        class KAT_M52D_Jaeger_Armor_Corpsman_Green
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "corpsman";
             color = "green";
         };
-        class KAT_M56S_Jaeger_Armor_Corpsman_Yellow
+        class KAT_M52D_Jaeger_Armor_Corpsman_Yellow
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "corpsman";
             color = "yellow";
         };
-        class KAT_M56S_Jaeger_Armor_Corpsman_Purple
+        class KAT_M52D_Jaeger_Armor_Corpsman_Purple
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "corpsman";
             color = "purple";
         };
 
         /* Grenadier */
-        class KAT_M56S_Jaeger_Armor_Grenadier
+        class KAT_M52D_Jaeger_Armor_Grenadier
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "gren";
             color = "default";
         };
-        class KAT_M56S_Jaeger_Armor_Grenadier_Red
+        class KAT_M52D_Jaeger_Armor_Grenadier_Red
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "gren";
             color = "red";
         };
-        class KAT_M56S_Jaeger_Armor_Grenadier_Orange
+        class KAT_M52D_Jaeger_Armor_Grenadier_Orange
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "gren";
             color = "orange";
         };
-        class KAT_M56S_Jaeger_Armor_Grenadier_Blue
+        class KAT_M52D_Jaeger_Armor_Grenadier_Blue
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "gren";
             color = "blue";
         };
-        class KAT_M56S_Jaeger_Armor_Grenadier_Green
+        class KAT_M52D_Jaeger_Armor_Grenadier_Green
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "gren";
             color = "green";
         };
-        class KAT_M56S_Jaeger_Armor_Grenadier_Yellow
+        class KAT_M52D_Jaeger_Armor_Grenadier_Yellow
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "gren";
             color = "yellow";
         };
-        class KAT_M56S_Jaeger_Armor_Grenadier_Purple
+        class KAT_M52D_Jaeger_Armor_Grenadier_Purple
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "gren";
             color = "purple";
         };
 
         /* Sniper */
-        class KAT_M56S_Jaeger_Armor_Sniper
+        class KAT_M52D_Jaeger_Armor_Sniper
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "sniper";
             color = "default";
         };
-        class KAT_M56S_Jaeger_Armor_Sniper_Red
+        class KAT_M52D_Jaeger_Armor_Sniper_Red
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "sniper";
             color = "red";
         };
-        class KAT_M56S_Jaeger_Armor_Sniper_Orange
+        class KAT_M52D_Jaeger_Armor_Sniper_Orange
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "sniper";
             color = "orange";
         };
-        class KAT_M56S_Jaeger_Armor_Sniper_Blue
+        class KAT_M52D_Jaeger_Armor_Sniper_Blue
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "sniper";
             color = "blue";
         };
-        class KAT_M56S_Jaeger_Armor_Sniper_Green
+        class KAT_M52D_Jaeger_Armor_Sniper_Green
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "sniper";
             color = "green";
         };
-        class KAT_M56S_Jaeger_Armor_Sniper_Yellow
+        class KAT_M52D_Jaeger_Armor_Sniper_Yellow
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "sniper";
             color = "yellow";
         };
-        class KAT_M56S_Jaeger_Armor_Sniper_Purple
+        class KAT_M52D_Jaeger_Armor_Sniper_Purple
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
             role = "sniper";
             color = "purple";
         };
 
         /* Custom: O'Neill */
-        class KAT_M56S_Jaeger_Armor_ONeill_Grenadier_Blue
+        class KAT_M52D_Jaeger_Armor_ONeill_Grenadier_Blue
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "oneill";
             role = "gren";
             color = "blue";
         };
 
         /* Custom: Hayes */
-        class KAT_M56S_Jaeger_Armor_Hayes_Corpsman_Blue
+        class KAT_M52D_Jaeger_Armor_Hayes_Corpsman_Blue
         {
-            model = "KAT_M56S_Jaeger_Vests";
+            model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "hayes";
             role = "corpsman";
             color = "blue";
@@ -483,11 +483,11 @@ class CfgWeapons
 {
     class ItemInfo;
     class KAT_Armor__Base;
-    class KAT_M56S_Jaeger_Armor_Base : KAT_ARMOR__Base
+    class KAT_M52D_Jaeger_Armor_Base : KAT_ARMOR__Base
     {
         dlc = "KAT";
         author = "wlan0";
-        displayName = "[KAT] M56R/J Vest [Base]";
+        displayName = "[KAT] M52D/J Vest [Base]";
         model = "\OPTRE_UNSC_Units\Army\armor.p3d";
         picture = "\OPTRE_UNSC_Units\Army\icons\ODST_Vest";
         vestType = "Rebreather";
@@ -562,19 +562,19 @@ class CfgWeapons
             };
             hiddenSelectionsMaterials[] =
             {
-                "KAT_Armor\_base\armor\M56S_Jaeger\_textures\vest.rvmat",
-                "KAT_Armor\_base\armor\M56S_Jaeger\_textures\armor.rvmat",
-                "KAT_Armor\_base\armor\M56S_Jaeger\_textures\legs.rvmat",
+                "KAT_Armor\_base\armor\M52D_Jaeger\_textures\vest.rvmat",
+                "KAT_Armor\_base\armor\M52D_Jaeger\_textures\armor.rvmat",
+                "KAT_Armor\_base\armor\M52D_Jaeger\_textures\legs.rvmat",
                 "",
-                "KAT_Armor\_base\armor\M56S_Jaeger\_textures\odst.rvmat"
+                "KAT_Armor\_base\armor\M52D_Jaeger\_textures\odst.rvmat"
             };
         };
     };
-    class KAT_M56S_Jaeger_Armor_Rifleman : KAT_M56S_Jaeger_Armor_Base
+    class KAT_M52D_Jaeger_Armor_Rifleman : KAT_M52D_Jaeger_Armor_Base
     {
         scope = 2;
         scopeArsenal = 2;
-        displayName = "[KAT] M56S/J Rifleman";
+        displayName = "[KAT] M52D/J Rifleman";
         hiddenSelections[] =
         {
             // Commented out means visible on the armor
@@ -640,11 +640,11 @@ class CfgWeapons
         };
         hiddenSelectionsTextures[] =
         {
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Legs\legs_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_odst.paa",
             "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Main\odst_white.paa"
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_white.paa"
         };
         class ItemInfo: ItemInfo
         {
@@ -713,76 +713,76 @@ class CfgWeapons
             };
         };
     };
-    class KAT_M56S_Jaeger_Armor_Rifleman_Red : KAT_M56S_Jaeger_Armor_Rifleman
+    class KAT_M52D_Jaeger_Armor_Rifleman_Red : KAT_M52D_Jaeger_Armor_Rifleman
     {
-        displayName = "[KAT] M56S/J Rifleman [Red]";
+        displayName = "[KAT] M52D/J Rifleman [Red]";
         hiddenSelectionsTextures[] =
         {
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Legs\legs_red.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_red.paa",
             "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Main\odst_red.paa"
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_red.paa"
         };
     };
-    class KAT_M56S_Jaeger_Armor_Rifleman_Orange : KAT_M56S_Jaeger_Armor_Rifleman
+    class KAT_M52D_Jaeger_Armor_Rifleman_Orange : KAT_M52D_Jaeger_Armor_Rifleman
     {
-        displayName = "[KAT] M56S/J Rifleman [Orange]";
+        displayName = "[KAT] M52D/J Rifleman [Orange]";
         hiddenSelectionsTextures[] =
         {
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Legs\legs_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_odst.paa",
             "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Main\odst_orange.paa"
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_orange.paa"
         };
     };
-    class KAT_M56S_Jaeger_Armor_Rifleman_Blue : KAT_M56S_Jaeger_Armor_Rifleman
+    class KAT_M52D_Jaeger_Armor_Rifleman_Blue : KAT_M52D_Jaeger_Armor_Rifleman
     {
-        displayName = "[KAT] M56S/J Rifleman [Blue]";
+        displayName = "[KAT] M52D/J Rifleman [Blue]";
         hiddenSelectionsTextures[] =
         {
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Legs\legs_blue.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_blue.paa",
             "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Main\odst_blue.paa"
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_blue.paa"
         };
     };
-    class KAT_M56S_Jaeger_Armor_Rifleman_Green : KAT_M56S_Jaeger_Armor_Rifleman
+    class KAT_M52D_Jaeger_Armor_Rifleman_Green : KAT_M52D_Jaeger_Armor_Rifleman
     {
-        displayName = "[KAT] M56S/J Rifleman [Green]";
+        displayName = "[KAT] M52D/J Rifleman [Green]";
         hiddenSelectionsTextures[] =
         {
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Legs\legs_green.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_green.paa",
             "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Main\odst_green.paa"
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_green.paa"
         };
     };
-    class KAT_M56S_Jaeger_Armor_Rifleman_Yellow : KAT_M56S_Jaeger_Armor_Rifleman
+    class KAT_M52D_Jaeger_Armor_Rifleman_Yellow : KAT_M52D_Jaeger_Armor_Rifleman
     {
-        displayName = "[KAT] M56S/J Rifleman [Yellow]";
+        displayName = "[KAT] M52D/J Rifleman [Yellow]";
         hiddenSelectionsTextures[] =
         {
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Legs\legs_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_odst.paa",
             "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Main\odst_yellow.paa"
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_yellow.paa"
         };
     };
-    class KAT_M56S_Jaeger_Armor_Rifleman_Purple : KAT_M56S_Jaeger_Armor_Rifleman
+    class KAT_M52D_Jaeger_Armor_Rifleman_Purple : KAT_M52D_Jaeger_Armor_Rifleman
     {
-        displayName = "[KAT] M56S/J Rifleman [Purple]";
+        displayName = "[KAT] M52D/J Rifleman [Purple]";
         hiddenSelectionsTextures[] =
         {
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Legs\legs_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_odst.paa",
             "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Main\odst_purple.paa"
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_purple.paa"
         };
     };
 };

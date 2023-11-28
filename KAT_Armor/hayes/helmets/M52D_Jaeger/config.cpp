@@ -1,6 +1,6 @@
 class CfgPatches
 {
-    class KAT_Armor_ONeill
+    class KAT_Armor_Hayes
     {
         author = "wlan0";
         addonRootClass = "KAT_Armor";
@@ -12,19 +12,19 @@ class CfgPatches
         units[] = {};
         weapons[] =
         {
-            "KAT_M56S_Jaeger_Helmet_ONeill_Blue"
+            "KAT_M52D_Jaeger_Helmet_Hayes_Blue"
         };
     };
 };
 class CfgWeapons
 {
-    class KAT_M56S_Jaeger_Helmet_Default;
-    class KAT_M56S_Jaeger_Helmet_ONeill_Blue : KAT_M56S_Jaeger_Helmet_Default
+    class KAT_M52D_Jaeger_Helmet_Default;
+    class KAT_M52D_Jaeger_Helmet_Hayes_Blue : KAT_M52D_Jaeger_Helmet_Default
     {
-        displayName = "[KAT] M56S/J Helmet [O'Neill]";
+        displayName = "[KAT] M52D/J Helmet [Hayes]";
         hiddenSelectionsTextures[] =
         {
-            "KAT_Armor\oneill\helmets\M56S_Jaeger\_textures\blue.paa"
+            "KAT_Armor\hayes\helmets\M52D_Jaeger\_textures\blue.paa"
         };
     };
 };

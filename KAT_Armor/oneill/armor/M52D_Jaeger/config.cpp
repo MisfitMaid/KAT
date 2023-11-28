@@ -1,18 +1,18 @@
 class CfgPatches
 {
-    class KAT_M56S_Jaeger_Armor_ONeill
+    class KAT_M52D_Jaeger_Armor_ONeill
     {
         author = "wlan0";
-        addonRootClass = "KAT_M56S_Jaeger_Armor";
+        addonRootClass = "KAT_M52D_Jaeger_Armor";
         requiredAddons[] = 
         {
-            "KAT_M56S_Jaeger_Armor"
+            "KAT_M52D_Jaeger_Armor"
         };
         requiredVersion = 0.1;
         units[] = {};
         weapons[] =
         {
-            "KAT_M56S_Jaeger_Armor_ONeill_Grenadier_Blue"
+            "KAT_M52D_Jaeger_Armor_ONeill_Grenadier_Blue"
         };
     };
 };
@@ -20,17 +20,17 @@ class CfgWeapons
 {
      class ItemInfo;
 
-    class KAT_M56S_Jaeger_Armor_Rifleman;
-    class KAT_M56S_Jaeger_Armor_ONeill_Grenadier_Blue : KAT_M56S_Jaeger_Armor_Rifleman
+    class KAT_M52D_Jaeger_Armor_Rifleman;
+    class KAT_M52D_Jaeger_Armor_ONeill_Grenadier_Blue : KAT_M52D_Jaeger_Armor_Rifleman
     {
-        displayName = "[KAT] M56S/J Grenadier [O'Neill][Blue]";
+        displayName = "[KAT] M52D/J Grenadier [O'Neill][Blue]";
         hiddenSelectionsTextures[] =
         {
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Legs\legs_blue.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_blue.paa",
             "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\oneill\armor\M56S_Jaeger\_textures\main_blue.paa"
+            "KAT_Armor\oneill\armor\M52D_Jaeger\_textures\main_blue.paa"
         };
         class ItemInfo : ItemInfo
         {

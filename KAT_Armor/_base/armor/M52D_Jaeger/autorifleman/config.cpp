@@ -1,12 +1,12 @@
 class CfgPatches
 {
-    class KAT_M56S_Jaeger_Armor_Autorifleman
+    class KAT_M52D_Jaeger_Armor_Autorifleman
     {
         author = "wlan0";
-        addonRootClass = "KAT_M56S_Jaeger_Armor";
+        addonRootClass = "KAT_M52D_Jaeger_Armor";
         requiredAddons[] = 
         {
-            "KAT_M56S_Jaeger_Armor"
+            "KAT_M52D_Jaeger_Armor"
         };
         requiredVersion = 0.1;
         units[] = {};
@@ -15,14 +15,14 @@ class CfgPatches
 };
 class CfgWeapons
 {
-    class KAT_M56S_Jaeger_Armor_Base;
-    class KAT_M56S_Jaeger_Armor_Rifleman : KAT_M56S_Jaeger_Armor_Base
+    class KAT_M52D_Jaeger_Armor_Base;
+    class KAT_M52D_Jaeger_Armor_Rifleman : KAT_M52D_Jaeger_Armor_Base
     {
         class ItemInfo;
     };
-    class KAT_M56S_Jaeger_Armor_AutoRifleman: KAT_M56S_Jaeger_Armor_Rifleman
+    class KAT_M52D_Jaeger_Armor_AutoRifleman: KAT_M52D_Jaeger_Armor_Rifleman
     {
-        displayName = "[KAT] M56S/J AutoRifleman";
+        displayName = "[KAT] M52D/J AutoRifleman";
         hiddenSelections[] =
         {
             // Commented out means visible on the armor
@@ -153,76 +153,76 @@ class CfgWeapons
             };
         };
     };
-    class KAT_M56S_Jaeger_Armor_AutoRifleman_Red : KAT_M56S_Jaeger_Armor_AutoRifleman
+    class KAT_M52D_Jaeger_Armor_AutoRifleman_Red : KAT_M52D_Jaeger_Armor_AutoRifleman
     {
-        displayName = "[KAT] M56S/J Autorifleman [Red]";
+        displayName = "[KAT] M52D/J Autorifleman [Red]";
         hiddenSelectionsTextures[] =
         {
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Legs\legs_red.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_red.paa",
             "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Main\odst_red.paa"
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_red.paa"
         };
     };
-    class KAT_M56S_Jaeger_Armor_AutoRifleman_Orange : KAT_M56S_Jaeger_Armor_AutoRifleman
+    class KAT_M52D_Jaeger_Armor_AutoRifleman_Orange : KAT_M52D_Jaeger_Armor_AutoRifleman
     {
-        displayName = "[KAT] M56S/J Autorifleman [Orange]";
+        displayName = "[KAT] M52D/J Autorifleman [Orange]";
         hiddenSelectionsTextures[] =
         {
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Legs\legs_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_odst.paa",
             "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Main\odst_orange.paa"
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_orange.paa"
         };
     };
-    class KAT_M56S_Jaeger_Armor_AutoRifleman_Blue : KAT_M56S_Jaeger_Armor_AutoRifleman
+    class KAT_M52D_Jaeger_Armor_AutoRifleman_Blue : KAT_M52D_Jaeger_Armor_AutoRifleman
     {
-        displayName = "[KAT] M56S/J Autorifleman [Blue]";
+        displayName = "[KAT] M52D/J Autorifleman [Blue]";
         hiddenSelectionsTextures[] =
         {
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Legs\legs_blue.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_blue.paa",
             "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Main\odst_blue.paa"
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_blue.paa"
         };
     };
-    class KAT_M56S_Jaeger_Armor_AutoRifleman_Green : KAT_M56S_Jaeger_Armor_AutoRifleman
+    class KAT_M52D_Jaeger_Armor_AutoRifleman_Green : KAT_M52D_Jaeger_Armor_AutoRifleman
     {
-        displayName = "[KAT] M56S/J Autorifleman [Green]";
+        displayName = "[KAT] M52D/J Autorifleman [Green]";
         hiddenSelectionsTextures[] =
         {
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Legs\legs_green.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_green.paa",
             "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Main\odst_green.paa"
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_green.paa"
         };
     };
-    class KAT_M56S_Jaeger_Armor_AutoRifleman_Yellow : KAT_M56S_Jaeger_Armor_AutoRifleman
+    class KAT_M52D_Jaeger_Armor_AutoRifleman_Yellow : KAT_M52D_Jaeger_Armor_AutoRifleman
     {
-        displayName = "[KAT] M56S/J Autorifleman [Yellow]";
+        displayName = "[KAT] M52D/J Autorifleman [Yellow]";
         hiddenSelectionsTextures[] =
         {
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Legs\legs_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_odst.paa",
             "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Main\odst_yellow.paa"
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_yellow.paa"
         };
     };
-    class KAT_M56S_Jaeger_Armor_AutoRifleman_Purple : KAT_M56S_Jaeger_Armor_AutoRifleman
+    class KAT_M52D_Jaeger_Armor_AutoRifleman_Purple : KAT_M52D_Jaeger_Armor_AutoRifleman
     {
-        displayName = "[KAT] M56S/J Autorifleman [Purple]";
+        displayName = "[KAT] M52D/J Autorifleman [Purple]";
         hiddenSelectionsTextures[] =
         {
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Legs\legs_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_odst.paa",
             "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M56S_Jaeger\_textures\Main\odst_purple.paa"
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_purple.paa"
         };
     };
 };

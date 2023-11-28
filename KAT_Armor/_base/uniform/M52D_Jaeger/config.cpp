@@ -1,6 +1,6 @@
 class CfgPatches
 {
-    class KAT_M56S_Jaeger_Uniform
+    class KAT_M52D_Jaeger_Uniform
     {
         author = "wlan0";
         addonRootClass = "KAT_Armor";
@@ -13,9 +13,9 @@ class CfgPatches
         units[] = {};
         weapons[] =
         {
-            "KAT_M56S_Jaeger_BDU",
-            "KAT_M56S_Jaeger_BDU_Blue",
-            "KAT_M56S_Jaeger_BDU_Orange"
+            "KAT_M52D_Jaeger_BDU",
+            "KAT_M52D_Jaeger_BDU_Blue",
+            "KAT_M52D_Jaeger_BDU_Orange"
         };
     };
 };
@@ -23,7 +23,7 @@ class XtdGearModels
 {
     class CfgWeapons
     {
-        class KAT_M56S_Jaeger_BDUs
+        class KAT_M52D_Jaeger_BDUs
         {
             label = "Jaeger";
             options[] = { "color" };
@@ -60,19 +60,19 @@ class XtdGearInfos
 {
     class CfgWeapons
     {
-        class KAT_M56S_Jaeger_BDU
+        class KAT_M52D_Jaeger_BDU
         {
-            model = "KAT_M56S_Jaeger_BDUs";
+            model = "KAT_M52D_Jaeger_BDUs";
             color = "black";
         };
-        class KAT_M56S_Jaeger_BDU_Blue
+        class KAT_M52D_Jaeger_BDU_Blue
         {
-            model = "KAT_M56S_Jaeger_BDUs";
+            model = "KAT_M52D_Jaeger_BDUs";
             color = "blue";
         };
-        class KAT_M56S_Jaeger_BDU_Orange
+        class KAT_M52D_Jaeger_BDU_Orange
         {
-            model = "KAT_M56S_Jaeger_BDUs";
+            model = "KAT_M52D_Jaeger_BDUs";
             color = "orange";
         };
     };
@@ -81,50 +81,50 @@ class CfgWeapons
 {
     class ItemInfo;
     class KAT_M56S_BDU;
-    class KAT_M56S_Jaeger_BDU : KAT_M56S_BDU
+    class KAT_M52D_Jaeger_BDU : KAT_M56S_BDU
     {
-        displayName = "[KAT] M56S/J BDU";
+        displayName = "[KAT] M52D/J BDU";
         class ItemInfo: ItemInfo
         {
-            uniformClass = "KAT_M56S_Jaeger_BDU";
+            uniformClass = "KAT_M52D_Jaeger_BDU";
             uniformType = "Neopren";
         };
     };
-    class KAT_M56S_Jaeger_BDU_Blue : KAT_M56S_Jaeger_BDU
+    class KAT_M52D_Jaeger_BDU_Blue : KAT_M52D_Jaeger_BDU
     {
-        displayName = "[KAT] M56S/J BDU [Blue]";
+        displayName = "[KAT] M52D/J BDU [Blue]";
         class ItemInfo: ItemInfo
         {
-            uniformClass = "KAT_M56S_Jaeger_BDU_Blue";
+            uniformClass = "KAT_M52D_Jaeger_BDU_Blue";
         };
     };
-    class KAT_M56S_Jaeger_BDU_Orange : KAT_M56S_Jaeger_BDU
+    class KAT_M52D_Jaeger_BDU_Orange : KAT_M52D_Jaeger_BDU
     {
-        displayName = "[KAT] M56S/J BDU [Orange]";
+        displayName = "[KAT] M52D/J BDU [Orange]";
         class ItemInfo: ItemInfo
         {
-            uniformClass = "KAT_M56S_Jaeger_BDU_Orange";
+            uniformClass = "KAT_M52D_Jaeger_BDU_Orange";
         };
     };
 };
 class CfgVehicles
 {
     class KAT_Base_Uniform;
-    class KAT_M56S_Jaeger_BDU: KAT_Base_Uniform
+    class KAT_M52D_Jaeger_BDU: KAT_Base_Uniform
     {
-        uniformClass = "KAT_M56S_Jaeger_BDU";
+        uniformClass = "KAT_M52D_Jaeger_BDU";
         model = "ODST\ODST_Uniform_F.p3d";
         hiddenSelections[] = {"camo1", "camo2"};
-        hiddenSelectionsTextures[] = {"KAT_ARMOR\_base\uniform\M56S_Jaeger\m56s_jaeger_top.paa","KAT_ARMOR\_base\uniform\M56S_Jaeger\m56s_jaeger_pants.paa"};
+        hiddenSelectionsTextures[] = {"KAT_ARMOR\_base\uniform\M52D_Jaeger\M52D_Jaeger_top.paa","KAT_ARMOR\_base\uniform\M52D_Jaeger\M52D_Jaeger_pants.paa"};
     };
-    class KAT_M56S_Jaeger_BDU_Blue: KAT_M56S_Jaeger_BDU
+    class KAT_M52D_Jaeger_BDU_Blue: KAT_M52D_Jaeger_BDU
     {
-        uniformClass = "KAT_M56S_Jaeger_BDU_Blue";
-        hiddenSelectionsTextures[] = {"KAT_ARMOR\_base\uniform\M56S_Jaeger\m56s_jaeger_top_blue.paa","KAT_ARMOR\_base\uniform\M56S_Jaeger\m56s_jaeger_pants_blue.paa"};
+        uniformClass = "KAT_M52D_Jaeger_BDU_Blue";
+        hiddenSelectionsTextures[] = {"KAT_ARMOR\_base\uniform\M52D_Jaeger\M52D_Jaeger_top_blue.paa","KAT_ARMOR\_base\uniform\M52D_Jaeger\M52D_Jaeger_pants_blue.paa"};
     };
-    class KAT_M56S_Jaeger_BDU_Orange: KAT_M56S_Jaeger_BDU
+    class KAT_M52D_Jaeger_BDU_Orange: KAT_M52D_Jaeger_BDU
     {
-        uniformClass = "KAT_M56S_Jaeger_BDU_Orange";
-        hiddenSelectionsTextures[] = {"KAT_ARMOR\_base\uniform\M56S_Jaeger\m56s_jaeger_top_orange.paa","KAT_ARMOR\_base\uniform\M56S_Jaeger\m56s_jaeger_pants_orange.paa"};
+        uniformClass = "KAT_M52D_Jaeger_BDU_Orange";
+        hiddenSelectionsTextures[] = {"KAT_ARMOR\_base\uniform\M52D_Jaeger\M52D_Jaeger_top_orange.paa","KAT_ARMOR\_base\uniform\M52D_Jaeger\M52D_Jaeger_pants_orange.paa"};
     };
 };
