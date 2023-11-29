@@ -47,6 +47,7 @@ class XtdGearModels
                     "shields",
                     "hayes",
                     "carter",
+                    "reid",
                 };
                 class default
                 {
@@ -67,6 +68,10 @@ class XtdGearModels
                 class carter
                 {
                     label = "Carter";
+                };
+                class reid
+                {
+                    label = "Reid";
                 };
             };
             class color
@@ -192,6 +197,12 @@ class XtdGearInfos
         {
             model = "KAT_M52D_Jaeger_Helmets";
             helmmodel = "carter";
+            color = "blue";
+        };
+        class KAT_M52D_Jaeger_Helmet_Reid_Blue
+        {
+            model = "KAT_M52D_Jaeger_Helmets";
+            helmmodel = "reid";
             color = "blue";
         };
     };
