@@ -461,11 +461,46 @@ class XtdGearInfos
         };
 
         /* Custom: O'Neill */
+        class KAT_M52D_Jaeger_Armor_ONeill_Rifleman_Blue
+        {
+            model = "KAT_M52D_Jaeger_Vests";
+            vestmodel = "oneill";
+            role = "default";
+            color = "blue";
+        };
+        class KAT_M52D_Jaeger_Armor_ONeill_AutoRifleman_Blue
+        {
+            model = "KAT_M52D_Jaeger_Vests";
+            vestmodel = "oneill";
+            role = "ar";
+            color = "blue";
+        };
+        class KAT_M52D_Jaeger_Armor_ONeill_Breacher_Blue
+        {
+            model = "KAT_M52D_Jaeger_Vests";
+            vestmodel = "oneill";
+            role = "breach";
+            color = "blue";
+        };
+        class KAT_M52D_Jaeger_Armor_ONeill_Corpsman_Blue
+        {
+            model = "KAT_M52D_Jaeger_Vests";
+            vestmodel = "oneill";
+            role = "corpsman";
+            color = "blue";
+        };
         class KAT_M52D_Jaeger_Armor_ONeill_Grenadier_Blue
         {
             model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "oneill";
             role = "gren";
+            color = "blue";
+        };
+        class KAT_M52D_Jaeger_Armor_ONeill_Sniper_Blue
+        {
+            model = "KAT_M52D_Jaeger_Vests";
+            vestmodel = "oneill";
+            role = "sniper";
             color = "blue";
         };
 
