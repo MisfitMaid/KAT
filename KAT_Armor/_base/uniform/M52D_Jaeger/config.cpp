@@ -7,15 +7,15 @@ class CfgPatches
         requiredAddons[] =
         {
             "KAT_Armor",
-            "OPTRE_UNSC_Units",
-            "ZEPHIK_OPTRE_Compat",
+            "TCGM_Girls",
+
         };
         requiredVersion = 0.1;
         units[] = {};
         weapons[] =
         {
-            "KAT_M52D_Jaeger_BDU_Masc_Black",
-            "KAT_M52D_Jaeger_BDU_Femme_Black",
+            "KAT_M52D_Jaeger_BDU_Masc",
+            "KAT_M52D_Jaeger_BDU_Femme",
         };
     };
 };
@@ -28,7 +28,6 @@ class XtdGearModels
             label = "Jaeger";
             options[] = {
                 "bodytype",
-                "color",
             };
             class bodytype
             {
@@ -48,20 +47,6 @@ class XtdGearModels
                     label = "Femme";
                 };
             };
-            class color
-            {
-                label = "Color";
-                alwaysSelectable = 1;
-                values[] =
-                {
-                    "black",
-                };
-                class black
-                {
-                    label = "Black";
-                    image = "#(rgb,8,8,3)color(0,0,0,1)";
-                };
-            };
         };
     };
 };
@@ -69,17 +54,15 @@ class XtdGearInfos
 {
     class CfgWeapons
     {
-        class KAT_M52D_Jaeger_BDU_Masc_Black
+        class KAT_M52D_Jaeger_BDU_Masc
         {
             model = "KAT_M52D_Jaeger_BDUs";
             bodytype = "masc";
-            color = "black";
         };
-        class KAT_M52D_Jaeger_BDU_Femme_Black
+        class KAT_M52D_Jaeger_BDU_Femme
         {
             model = "KAT_M52D_Jaeger_BDUs";
             bodytype = "femme";
-            color = "black";
         };
     };
 };
@@ -87,21 +70,21 @@ class CfgWeapons
 {
     class ItemInfo;
     class KAT_M56S_BDU;
-    class KAT_M52D_Jaeger_BDU_Masc_Black: KAT_M56S_BDU
+    class KAT_M52D_Jaeger_BDU_Masc: KAT_M56S_BDU
     {
-        displayName = "[KAT] M52D/J BDU [Masc][Black]";
+        displayName = "[KAT] M52D/J BDU [Masc]";
         class ItemInfo: ItemInfo
         {
-            uniformClass = "KAT_M52D_Jaeger_BDU_Masc_Black";
+            uniformClass = "KAT_M52D_Jaeger_BDU_Masc";
             uniformType = "Neopren";
         };
     };
-    class KAT_M52D_Jaeger_BDU_Femme_Black: KAT_M56S_BDU
+    class KAT_M52D_Jaeger_BDU_Femme: KAT_M56S_BDU
     {
-        displayName = "[KAT] M52D/J BDU [Femme][Black]";
+        displayName = "[KAT] M52D/J BDU [Femme]";
         class ItemInfo: ItemInfo
         {
-            uniformClass = "KAT_M52D_Jaeger_BDU_Femme_Black";
+            uniformClass = "KAT_M52D_Jaeger_BDU_Femme";
             uniformType = "Neopren";
         };
     };
@@ -109,33 +92,30 @@ class CfgWeapons
 class CfgVehicles
 {
     class KAT_Base_Uniform;
-    class KAT_M52D_Jaeger_BDU_Masc_Black: KAT_Base_Uniform
+    class KAT_M52D_Jaeger_BDU_Masc: KAT_Base_Uniform
     {
-        uniformClass = "KAT_M52D_Jaeger_BDU_Masc_Black";
-        model = "OPTRE_UNSC_Units\Army\uniform.p3d";
-        hiddenSelections[] = {
+        uniformClass = "KAT_M52D_Jaeger_BDU_Masc";
+        model = "\A3\Characters_F_Exp\BLUFOR\B_CTRG_Soldier_01_F.p3d";
+        hiddenSelections[]=
+        {
             "camo",
-            "camo2",
-            "a_baseleg",
         };
-        hiddenSelectionsTextures[] = {
-            "KAT_Armor\_base\uniform\M52D_Jaeger\_textures\masc\top_black.paa",
-            "KAT_Armor\_base\uniform\M52D_Jaeger\_textures\masc\bottom_black.paa"
+        hiddenSelectionsTextures[]=
+        {
+            "KAT_Armor\_base\uniform\M52D_Jaeger\_textures\default.paa",
         };
     };
-    class KAT_M52D_Jaeger_BDU_Femme_Black: KAT_Base_Uniform
+    class KAT_M52D_Jaeger_BDU_Femme: KAT_Base_Uniform
     {
-        uniformClass = "KAT_M52D_Jaeger_BDU_Femme_Black";
-        model = "ZEPHIK_OPTRE_Compat\OPTRE_UNSC_Units\Army\uniform.p3d";
-        hiddenSelections[] = {
+        uniformClass = "KAT_M52D_Jaeger_BDU_Femme";
+        model = "TCGM_Girls\model\TCGM_CombatFatigues_Stealth.p3d";
+        hiddenSelections[] =
+        {
             "camo",
-            "camo2",
-            "a_baseleg",
         };
         hiddenSelectionsTextures[] =
         {
-            "KAT_Armor\_base\uniform\M52D_Jaeger\_textures\femme\top_black.paa",
-            "KAT_Armor\_base\uniform\M52D_Jaeger\_textures\femme\bottom_black.paa"
+            "KAT_Armor\_base\uniform\M52D_Jaeger\_textures\default.paa",
         };
     };
 };
