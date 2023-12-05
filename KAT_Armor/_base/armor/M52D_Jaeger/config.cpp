@@ -45,6 +45,7 @@ class XtdGearModels
                     "default",
                     "oneill",
                     "hayes",
+                    "reid",
                 };
                 class default
                 {
@@ -57,6 +58,10 @@ class XtdGearModels
                 class hayes
                 {
                     label = "Hayes";
+                };
+                class reid
+                {
+                    label = "Reid";
                 };
             };
             class role
@@ -510,6 +515,50 @@ class XtdGearInfos
             model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "hayes";
             role = "corpsman";
+            color = "blue";
+        };
+
+        /* Custom: Reid */
+        class KAT_M52D_Jaeger_Armor_Reid_Rifleman_Blue
+        {
+            model = "KAT_M52D_Jaeger_Vests";
+            vestmodel = "reid";
+            role = "default";
+            color = "blue";
+        };
+        class KAT_M52D_Jaeger_Armor_Reid_AutoRifleman_Blue
+        {
+            model = "KAT_M52D_Jaeger_Vests";
+            vestmodel = "reid";
+            role = "ar";
+            color = "blue";
+        };
+        class KAT_M52D_Jaeger_Armor_Reid_Breacher_Blue
+        {
+            model = "KAT_M52D_Jaeger_Vests";
+            vestmodel = "reid";
+            role = "breach";
+            color = "blue";
+        };
+        class KAT_M52D_Jaeger_Armor_Reid_Corpsman_Blue
+        {
+            model = "KAT_M52D_Jaeger_Vests";
+            vestmodel = "reid";
+            role = "corpsman";
+            color = "blue";
+        };
+        class KAT_M52D_Jaeger_Armor_Reid_Grenadier_Blue
+        {
+            model = "KAT_M52D_Jaeger_Vests";
+            vestmodel = "reid";
+            role = "gren";
+            color = "blue";
+        };
+        class KAT_M52D_Jaeger_Armor_Reid_Sniper_Blue
+        {
+            model = "KAT_M52D_Jaeger_Vests";
+            vestmodel = "reid";
+            role = "sniper";
             color = "blue";
         };
     };
