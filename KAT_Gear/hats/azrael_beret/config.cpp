@@ -3,7 +3,7 @@ class CfgPatches
     class KAT_Azrael_Beret
     {
         author = "wlan0";
-        addonRootClass = "KAT_Armor";
+        addonRootClass = "KAT_Gear";
         requiredAddons[] = {};
         requiredVersion = 0.1;
         units[] = {};
@@ -90,21 +90,25 @@ class CfgWeapons
     class KAT_Azrael_Beret_UNSC : H_Beret_02
     {
         displayName = "[KAT] UNSC Beret";
-        hiddenSelectionsTextures[] = { "KAT_Armor\_base\helmets\azrael_beret\_textures\unsc.paa" };
+        author = "wlan0";
+        hiddenSelectionsTextures[] = { "KAT_Gear\hats\azrael_beret\_textures\unsc.paa" };
     };
     class KAT_Azrael_Beret_ODST: H_Beret_02
     {
         displayName = "[KAT] ODST Beret";
-        hiddenSelectionsTextures[] = { "KAT_Armor\_base\helmets\azrael_beret\_textures\odst.paa" };
+        author = "wlan0";
+        hiddenSelectionsTextures[] = { "KAT_Gear\hats\azrael_beret\_textures\odst.paa" };
     };
     class KAT_Azrael_Beret_ONI: H_Beret_02
     {
         displayName = "[KAT] ONI Beret";
-        hiddenSelectionsTextures[] = { "KAT_Armor\_base\helmets\azrael_beret\_textures\oni.paa" };
+        author = "wlan0";
+        hiddenSelectionsTextures[] = { "KAT_Gear\hats\azrael_beret\_textures\oni.paa" };
     };
     class KAT_Azrael_Beret_Valkyrie: H_Beret_02
     {
         displayName = "[KAT] Valkyrie Squad Beret";
-        hiddenSelectionsTextures[] = { "KAT_Armor\_base\helmets\azrael_beret\_textures\valkyrie.paa" };
+        author = "wlan0";
+        hiddenSelectionsTextures[] = { "KAT_Gear\hats\azrael_beret\_textures\valkyrie.paa" };
     };
 };

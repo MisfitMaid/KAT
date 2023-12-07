@@ -131,8 +131,8 @@ class CfgVehicles
         displayName = "[KAT] ODST Light Hardcase";
         author = "wlan0";
         hiddenSelectionsTextures[] = {
-            "KAT_Armor\_base\backpacks\odst_hardcase\_textures\MA_Ruck\ruck.paa",
-            "KAT_Armor\_base\backpacks\odst_hardcase\_textures\MA_Ruck\backpack_radio_green.paa",
+            "KAT_Gear\backpacks\odst_hardcase\_textures\MA_Ruck\ruck.paa",
+            "KAT_Gear\backpacks\odst_hardcase\_textures\MA_Ruck\backpack_radio_green.paa",
         };
     };
 
@@ -146,7 +146,7 @@ class CfgVehicles
         maximumLoad = 350;
         mass = 50;
         hiddenSelectionsTextures[] = {
-            "KAT_Armor\_base\backpacks\odst_hardcase\_textures\OPTRE_ILCS_Ruck\hardcase_black.paa",
+            "KAT_Gear\backpacks\odst_hardcase\_textures\OPTRE_ILCS_Ruck\hardcase_black.paa",
         };
     };
     class KAT_Backpack_ODST_Hardcase_Padded_Basic : KAT_Backpack_ODST_Hardcase_Main
@@ -196,8 +196,8 @@ class CfgVehicles
         scopeCurator = 2;
         maximumLoad = 350;
         hiddenSelectionsTextures[] = {
-            "KAT_Armor\_base\backpacks\odst_hardcase\_textures\Longbow\longbow_base_black.paa",
-            "KAT_Armor\_base\backpacks\odst_hardcase\_textures\Longbow\longbow_main_black.paa",
+            "KAT_Gear\backpacks\odst_hardcase\_textures\Longbow\longbow_base_black.paa",
+            "KAT_Gear\backpacks\odst_hardcase\_textures\Longbow\longbow_main_black.paa",
         };
         // TFAR
         tf_encryptionCode = "tf_west_radio_code";
