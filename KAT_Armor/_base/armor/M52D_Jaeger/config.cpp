@@ -84,7 +84,7 @@ class XtdGearModels
                 class berserker
                 {
                     label = "Berserker";
-                    image = "#(rgb,8,8,3)color(0.0,0.51,0,1)";
+                    image = "#(rgb,8,8,3)color(0.91,0.56,0.09,1)";
                 };
             };
             class role
