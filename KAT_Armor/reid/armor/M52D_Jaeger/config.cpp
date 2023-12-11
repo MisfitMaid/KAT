@@ -26,16 +26,16 @@ class CfgWeapons
     class ItemInfo;
 
     class KAT_M52D_Jaeger_Armor_Rifleman;
-    class KAT_M52D_Jaeger_Armor_Reid_Rifleman_Blue : KAT_M52D_Jaeger_Armor_Rifleman
+    class KAT_M52D_Jaeger_Armor_Reid_Rifleman_Blue : KAT_M52D_Jaeger_Armor_Rifleman // named "Blue" for legacy purposes
     {
-        displayName = "[KAT] M52D/J Rifleman [Reid][Blue]";
+        displayName = "[KAT] M52D/J Rifleman [Reid][Valkyrie]";
         hiddenSelectionsTextures[] =
         {
             "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
             "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_blue.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_valkyrie.paa",
             "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\reid\armor\M52D_Jaeger\_textures\main_blue.paa"
+            "KAT_Armor\reid\armor\M52D_Jaeger\_textures\main_valkyrie.paa"
         };
         class ItemInfo : ItemInfo
         {
@@ -104,9 +104,9 @@ class CfgWeapons
             };
         };
     };
-    class KAT_M52D_Jaeger_Armor_Reid_AutoRifleman_Blue : KAT_M52D_Jaeger_Armor_Reid_Rifleman_Blue
+    class KAT_M52D_Jaeger_Armor_Reid_AutoRifleman_Blue : KAT_M52D_Jaeger_Armor_Reid_Rifleman_Blue // named "Blue" for legacy purposes
     {
-        displayName = "[KAT] M52D/J AutoRifleman [Reid][Blue]";
+        displayName = "[KAT] M52D/J AutoRifleman [Reid][Valkyrie]";
         class ItemInfo : ItemInfo
         {
             hiddenSelections[] =
@@ -174,9 +174,9 @@ class CfgWeapons
             };
         };
     };
-    class KAT_M52D_Jaeger_Armor_Reid_Breacher_Blue : KAT_M52D_Jaeger_Armor_Reid_Rifleman_Blue
+    class KAT_M52D_Jaeger_Armor_Reid_Breacher_Blue : KAT_M52D_Jaeger_Armor_Reid_Rifleman_Blue // named "Blue" for legacy purposes
     {
-        displayName = "[KAT] M52D/J Breacher [Reid][Blue]";
+        displayName = "[KAT] M52D/J Breacher [Reid][Valkyrie]";
         class ItemInfo : ItemInfo
         {
             hiddenSelections[] =
@@ -244,16 +244,16 @@ class CfgWeapons
             };
         };
     };
-    class KAT_M52D_Jaeger_Armor_Reid_Corpsman_Blue : KAT_M52D_Jaeger_Armor_Reid_Rifleman_Blue
+    class KAT_M52D_Jaeger_Armor_Reid_Corpsman_Blue : KAT_M52D_Jaeger_Armor_Reid_Rifleman_Blue // named "Blue" for legacy purposes
     {
-        displayName = "[KAT] M52D/J Corpsman [Reid][Blue]";
+        displayName = "[KAT] M52D/J Corpsman [Reid][Valkyrie]";
         hiddenSelectionsTextures[] =
         {
             "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
             "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_blue.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_valkyrie.paa",
             "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\reid\armor\M52D_Jaeger\_textures\corpsman_blue.paa"
+            "KAT_Armor\reid\armor\M52D_Jaeger\_textures\corpsman_valkyrie.paa"
         };
         class ItemInfo : ItemInfo
         {
@@ -322,9 +322,9 @@ class CfgWeapons
             };
         };
     };
-    class KAT_M52D_Jaeger_Armor_Reid_Grenadier_Blue : KAT_M52D_Jaeger_Armor_Reid_Rifleman_Blue
+    class KAT_M52D_Jaeger_Armor_Reid_Grenadier_Blue : KAT_M52D_Jaeger_Armor_Reid_Rifleman_Blue // named "Blue" for legacy purposes
     {
-        displayName = "[KAT] M52D/J Grenadier [Reid][Blue]";
+        displayName = "[KAT] M52D/J Grenadier [Reid][Valkyrie]";
         class ItemInfo : ItemInfo
         {
             hiddenSelections[] =
@@ -392,9 +392,9 @@ class CfgWeapons
             };
         };
     };
-    class KAT_M52D_Jaeger_Armor_Reid_Sniper_Blue : KAT_M52D_Jaeger_Armor_Reid_Rifleman_Blue
+    class KAT_M52D_Jaeger_Armor_Reid_Sniper_Blue : KAT_M52D_Jaeger_Armor_Reid_Rifleman_Blue // named "Blue" for legacy purposes
     {
-        displayName = "[KAT] M52D/J Sniper [Reid][Blue]";
+        displayName = "[KAT] M52D/J Sniper [Reid][Valkyrie]";
         class ItemInfo : ItemInfo
         {
             hiddenSelections[] =

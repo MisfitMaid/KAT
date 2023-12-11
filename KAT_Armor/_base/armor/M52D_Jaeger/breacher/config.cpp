@@ -153,76 +153,28 @@ class CfgWeapons
             };
         };
     };
-    class KAT_M52D_Jaeger_Armor_Breacher_Red : KAT_M52D_Jaeger_Armor_Breacher
+    class KAT_M52D_Jaeger_Armor_Breacher_Blue : KAT_M52D_Jaeger_Armor_Breacher // named "Blue" for legacy purposes
     {
-        displayName = "[KAT] M52D/J Breacher [Red]";
+        displayName = "[KAT] M52D/J Breacher [Valkyrie]";
         hiddenSelectionsTextures[] =
         {
             "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
             "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_red.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_valkyrie.paa",
             "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_red.paa"
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_valkyrie.paa"
         };
     };
-    class KAT_M52D_Jaeger_Armor_Breacher_Orange : KAT_M52D_Jaeger_Armor_Breacher
+    class KAT_M52D_Jaeger_Armor_Breacher_Berserker : KAT_M52D_Jaeger_Armor_Breacher
     {
-        displayName = "[KAT] M52D/J Breacher [Orange]";
+        displayName = "[KAT] M52D/J Breacher [Berserker]";
         hiddenSelectionsTextures[] =
         {
             "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
             "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_berserker.paa",
             "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_orange.paa"
-        };
-    };
-    class KAT_M52D_Jaeger_Armor_Breacher_Blue : KAT_M52D_Jaeger_Armor_Breacher
-    {
-        displayName = "[KAT] M52D/J Breacher [Blue]";
-        hiddenSelectionsTextures[] =
-        {
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_blue.paa",
-            "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_blue.paa"
-        };
-    };
-    class KAT_M52D_Jaeger_Armor_Breacher_Green : KAT_M52D_Jaeger_Armor_Breacher
-    {
-        displayName = "[KAT] M52D/J Breacher [Green]";
-        hiddenSelectionsTextures[] =
-        {
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_green.paa",
-            "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_green.paa"
-        };
-    };
-    class KAT_M52D_Jaeger_Armor_Breacher_Yellow : KAT_M52D_Jaeger_Armor_Breacher
-    {
-        displayName = "[KAT] M52D/J Breacher [Yellow]";
-        hiddenSelectionsTextures[] =
-        {
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_odst.paa",
-            "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_yellow.paa"
-        };
-    };
-    class KAT_M52D_Jaeger_Armor_Breacher_Purple : KAT_M52D_Jaeger_Armor_Breacher
-    {
-        displayName = "[KAT] M52D/J Breacher [Purple]";
-        hiddenSelectionsTextures[] =
-        {
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_odst.paa",
-            "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_purple.paa"
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_berserker.paa"
         };
     };
 };

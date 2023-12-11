@@ -15,11 +15,8 @@ class CfgPatches
         weapons[] =
         {
             "KAT_M52D_Jaeger_Armor_Rifleman",
-            "KAT_M52D_Jaeger_Armor_Rifleman_Red",
             "KAT_M52D_Jaeger_Armor_Rifleman_Blue",
-            "KAT_M52D_Jaeger_Armor_Rifleman_Green",
-            "KAT_M52D_Jaeger_Armor_Rifleman_Yellow",
-            "KAT_M52D_Jaeger_Armor_Rifleman_Purple"
+            "KAT_M52D_Jaeger_Armor_Rifleman_Berserker",
         };
     };
 };
@@ -33,8 +30,8 @@ class XtdGearModels
             options[] =
             {
                 "vestmodel",
+                "squad",
                 "role",
-                "color"
             };
             class vestmodel
             {
@@ -62,6 +59,32 @@ class XtdGearModels
                 class reid
                 {
                     label = "Reid";
+                };
+            };
+            class squad
+            {
+                label = "Squad";
+                alwaysSelectable = 1;
+                values[] =
+                {
+                    "generic",
+                    "valkyrie",
+                    "berserker",
+                };
+                class generic
+                {
+                    label = "No Squad";
+                    image = "#(rgb,8,8,3)color(0,0,0,1)";
+                };
+                class valkyrie
+                {
+                    label = "Valkyrie";
+                    image = "#(rgb,8,8,3)color(0.0,0,0.51,1)";
+                };
+                class berserker
+                {
+                    label = "Berserker";
+                    image = "#(rgb,8,8,3)color(0.0,0.51,0,1)";
                 };
             };
             class role
@@ -102,56 +125,6 @@ class XtdGearModels
                     label = "Sniper";
                 };
             };
-            class color
-            {
-                label = "Color";
-                alwaysSelectable = 1;
-                values[] =
-                {
-                    "default",
-                    "red",
-                    "orange",
-                    "green",
-                    "blue",
-                    "yellow",
-                    "purple"
-                };
-                class default
-                {
-                    label = "Default";
-                    image = "#(rgb,8,8,3)color(0,0,0,1)";
-                };
-                class red
-                {
-                    label = "Red";
-                    image = "#(rgb,8,8,3)color(0.8,0,0,1)";
-                };
-                class orange
-                {
-                    label = "Orange";
-                    image = "#(rgb,8,8,3)color(0.81,0.58,0.03,1)";
-                };
-                class green
-                {
-                    label = "Green";
-                    image = "#(rgb,8,8,3)color(0.0,0.51,0,1)";
-                };
-                class blue
-                {
-                    label = "Blue";
-                    image = "#(rgb,8,8,3)color(0.0,0,0.51,1)";
-                };
-                class yellow
-                {
-                    label = "Yellow";
-                    image = "#(rgb,8,8,3)color(0.80,0.8,0,1)";
-                };
-                class purple
-                {
-                    label = "Purple";
-                    image = "#(rgb,8,8,3)color(0.263,0.067,0.718,1)";
-                };
-            };
         };
     };
 };
@@ -164,50 +137,22 @@ class XtdGearInfos
         {
             model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
+            squad = "generic";
             role = "default";
-            color = "default";
         };
-        class KAT_M52D_Jaeger_Armor_Rifleman_Red
+        class KAT_M52D_Jaeger_Armor_Rifleman_Blue // named "Blue" for legacy purposes
         {
             model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
+            squad = "valkyrie";
             role = "default";
-            color = "red";
         };
-        class KAT_M52D_Jaeger_Armor_Rifleman_Orange
+        class KAT_M52D_Jaeger_Armor_Rifleman_Berserker
         {
             model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
+            squad = "berserker";
             role = "default";
-            color = "orange";
-        };
-        class KAT_M52D_Jaeger_Armor_Rifleman_Blue
-        {
-            model = "KAT_M52D_Jaeger_Vests";
-            vestmodel = "default";
-            role = "default";
-            color = "blue";
-        };
-        class KAT_M52D_Jaeger_Armor_Rifleman_Green
-        {
-            model = "KAT_M52D_Jaeger_Vests";
-            vestmodel = "default";
-            role = "default";
-            color = "green";
-        };
-        class KAT_M52D_Jaeger_Armor_Rifleman_Yellow
-        {
-            model = "KAT_M52D_Jaeger_Vests";
-            vestmodel = "default";
-            role = "default";
-            color = "yellow";
-        };
-        class KAT_M52D_Jaeger_Armor_Rifleman_Purple
-        {
-            model = "KAT_M52D_Jaeger_Vests";
-            vestmodel = "default";
-            role = "default";
-            color = "purple";
         };
 
         /* Autorifleman */
@@ -215,50 +160,22 @@ class XtdGearInfos
         {
             model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
+            squad = "generic";
             role = "ar";
-            color = "default";
         };
-        class KAT_M52D_Jaeger_Armor_AutoRifleman_Red
+        class KAT_M52D_Jaeger_Armor_AutoRifleman_Blue // named "Blue" for legacy purposes
         {
             model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
+            squad = "valkyrie";
             role = "ar";
-            color = "red";
         };
-        class KAT_M52D_Jaeger_Armor_AutoRifleman_Orange
+        class KAT_M52D_Jaeger_Armor_AutoRifleman_Berserker
         {
             model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
+            squad = "berserker";
             role = "ar";
-            color = "orange";
-        };
-        class KAT_M52D_Jaeger_Armor_AutoRifleman_Blue
-        {
-            model = "KAT_M52D_Jaeger_Vests";
-            vestmodel = "default";
-            role = "ar";
-            color = "blue";
-        };
-        class KAT_M52D_Jaeger_Armor_AutoRifleman_Green
-        {
-            model = "KAT_M52D_Jaeger_Vests";
-            vestmodel = "default";
-            role = "ar";
-            color = "green";
-        };
-        class KAT_M52D_Jaeger_Armor_AutoRifleman_Yellow
-        {
-            model = "KAT_M52D_Jaeger_Vests";
-            vestmodel = "default";
-            role = "ar";
-            color = "yellow";
-        };
-        class KAT_M52D_Jaeger_Armor_AutoRifleman_Purple
-        {
-            model = "KAT_M52D_Jaeger_Vests";
-            vestmodel = "default";
-            role = "ar";
-            color = "purple";
         };
 
         /* Breacher */
@@ -266,50 +183,22 @@ class XtdGearInfos
         {
             model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
+            squad = "generic";
             role = "breach";
-            color = "default";
         };
-        class KAT_M52D_Jaeger_Armor_Breacher_Red
+        class KAT_M52D_Jaeger_Armor_Breacher_Blue // named "Blue" for legacy purposes
         {
             model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
+            squad = "valkyrie";
             role = "breach";
-            color = "red";
         };
-        class KAT_M52D_Jaeger_Armor_Breacher_Orange
+        class KAT_M52D_Jaeger_Armor_Breacher_Berserker
         {
             model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
+            squad = "berserker";
             role = "breach";
-            color = "orange";
-        };
-        class KAT_M52D_Jaeger_Armor_Breacher_Blue
-        {
-            model = "KAT_M52D_Jaeger_Vests";
-            vestmodel = "default";
-            role = "breach";
-            color = "blue";
-        };
-        class KAT_M52D_Jaeger_Armor_Breacher_Green
-        {
-            model = "KAT_M52D_Jaeger_Vests";
-            vestmodel = "default";
-            role = "breach";
-            color = "green";
-        };
-        class KAT_M52D_Jaeger_Armor_Breacher_Yellow
-        {
-            model = "KAT_M52D_Jaeger_Vests";
-            vestmodel = "default";
-            role = "breach";
-            color = "yellow";
-        };
-        class KAT_M52D_Jaeger_Armor_Breacher_Purple
-        {
-            model = "KAT_M52D_Jaeger_Vests";
-            vestmodel = "default";
-            role = "breach";
-            color = "purple";
         };
 
         /* Corpsman */
@@ -317,50 +206,22 @@ class XtdGearInfos
         {
             model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
+            squad = "generic";
             role = "corpsman";
-            color = "default";
         };
-        class KAT_M52D_Jaeger_Armor_Corpsman_Red
+        class KAT_M52D_Jaeger_Armor_Corpsman_Blue // named "Blue" for legacy purposes
         {
             model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
+            squad = "valkyrie";
             role = "corpsman";
-            color = "red";
         };
-        class KAT_M52D_Jaeger_Armor_Corpsman_Orange
+        class KAT_M52D_Jaeger_Armor_Corpsman_Berserker
         {
             model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
+            squad = "berserker";
             role = "corpsman";
-            color = "orange";
-        };
-        class KAT_M52D_Jaeger_Armor_Corpsman_Blue
-        {
-            model = "KAT_M52D_Jaeger_Vests";
-            vestmodel = "default";
-            role = "corpsman";
-            color = "blue";
-        };
-        class KAT_M52D_Jaeger_Armor_Corpsman_Green
-        {
-            model = "KAT_M52D_Jaeger_Vests";
-            vestmodel = "default";
-            role = "corpsman";
-            color = "green";
-        };
-        class KAT_M52D_Jaeger_Armor_Corpsman_Yellow
-        {
-            model = "KAT_M52D_Jaeger_Vests";
-            vestmodel = "default";
-            role = "corpsman";
-            color = "yellow";
-        };
-        class KAT_M52D_Jaeger_Armor_Corpsman_Purple
-        {
-            model = "KAT_M52D_Jaeger_Vests";
-            vestmodel = "default";
-            role = "corpsman";
-            color = "purple";
         };
 
         /* Grenadier */
@@ -368,50 +229,22 @@ class XtdGearInfos
         {
             model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
+            squad = "generic";
             role = "gren";
-            color = "default";
         };
-        class KAT_M52D_Jaeger_Armor_Grenadier_Red
+        class KAT_M52D_Jaeger_Armor_Grenadier_Blue // named "Blue" for legacy purposes
         {
             model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
+            squad = "valkyrie";
             role = "gren";
-            color = "red";
         };
-        class KAT_M52D_Jaeger_Armor_Grenadier_Orange
+        class KAT_M52D_Jaeger_Armor_Grenadier_Berserker
         {
             model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
+            squad = "berserker";
             role = "gren";
-            color = "orange";
-        };
-        class KAT_M52D_Jaeger_Armor_Grenadier_Blue
-        {
-            model = "KAT_M52D_Jaeger_Vests";
-            vestmodel = "default";
-            role = "gren";
-            color = "blue";
-        };
-        class KAT_M52D_Jaeger_Armor_Grenadier_Green
-        {
-            model = "KAT_M52D_Jaeger_Vests";
-            vestmodel = "default";
-            role = "gren";
-            color = "green";
-        };
-        class KAT_M52D_Jaeger_Armor_Grenadier_Yellow
-        {
-            model = "KAT_M52D_Jaeger_Vests";
-            vestmodel = "default";
-            role = "gren";
-            color = "yellow";
-        };
-        class KAT_M52D_Jaeger_Armor_Grenadier_Purple
-        {
-            model = "KAT_M52D_Jaeger_Vests";
-            vestmodel = "default";
-            role = "gren";
-            color = "purple";
         };
 
         /* Sniper */
@@ -419,147 +252,119 @@ class XtdGearInfos
         {
             model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
+            squad = "generic";
             role = "sniper";
-            color = "default";
         };
-        class KAT_M52D_Jaeger_Armor_Sniper_Red
+        class KAT_M52D_Jaeger_Armor_Sniper_Blue // named "Blue" for legacy purposes
         {
             model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
+            squad = "valkyrie";
             role = "sniper";
-            color = "red";
         };
-        class KAT_M52D_Jaeger_Armor_Sniper_Orange
+        class KAT_M52D_Jaeger_Armor_Sniper_Berserker
         {
             model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "default";
+            squad = "berserker";
             role = "sniper";
-            color = "orange";
-        };
-        class KAT_M52D_Jaeger_Armor_Sniper_Blue
-        {
-            model = "KAT_M52D_Jaeger_Vests";
-            vestmodel = "default";
-            role = "sniper";
-            color = "blue";
-        };
-        class KAT_M52D_Jaeger_Armor_Sniper_Green
-        {
-            model = "KAT_M52D_Jaeger_Vests";
-            vestmodel = "default";
-            role = "sniper";
-            color = "green";
-        };
-        class KAT_M52D_Jaeger_Armor_Sniper_Yellow
-        {
-            model = "KAT_M52D_Jaeger_Vests";
-            vestmodel = "default";
-            role = "sniper";
-            color = "yellow";
-        };
-        class KAT_M52D_Jaeger_Armor_Sniper_Purple
-        {
-            model = "KAT_M52D_Jaeger_Vests";
-            vestmodel = "default";
-            role = "sniper";
-            color = "purple";
         };
 
         /* Custom: O'Neill */
-        class KAT_M52D_Jaeger_Armor_ONeill_Rifleman_Blue
+        class KAT_M52D_Jaeger_Armor_ONeill_Rifleman_Blue // named "Blue" for legacy purposes
         {
             model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "oneill";
+            squad = "valkyrie";
             role = "default";
-            color = "blue";
         };
-        class KAT_M52D_Jaeger_Armor_ONeill_AutoRifleman_Blue
+        class KAT_M52D_Jaeger_Armor_ONeill_AutoRifleman_Blue // named "Blue" for legacy purposes
         {
             model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "oneill";
+            squad = "valkyrie";
             role = "ar";
-            color = "blue";
         };
-        class KAT_M52D_Jaeger_Armor_ONeill_Breacher_Blue
+        class KAT_M52D_Jaeger_Armor_ONeill_Breacher_Blue // named "Blue" for legacy purposes
         {
             model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "oneill";
+            squad = "valkyrie";
             role = "breach";
-            color = "blue";
         };
-        class KAT_M52D_Jaeger_Armor_ONeill_Corpsman_Blue
+        class KAT_M52D_Jaeger_Armor_ONeill_Corpsman_Blue // named "Blue" for legacy purposes
         {
             model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "oneill";
+            squad = "valkyrie";
             role = "corpsman";
-            color = "blue";
         };
-        class KAT_M52D_Jaeger_Armor_ONeill_Grenadier_Blue
+        class KAT_M52D_Jaeger_Armor_ONeill_Grenadier_Blue // named "Blue" for legacy purposes
         {
             model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "oneill";
+            squad = "valkyrie";
             role = "gren";
-            color = "blue";
         };
-        class KAT_M52D_Jaeger_Armor_ONeill_Sniper_Blue
+        class KAT_M52D_Jaeger_Armor_ONeill_Sniper_Blue // named "Blue" for legacy purposes
         {
             model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "oneill";
+            squad = "valkyrie";
             role = "sniper";
-            color = "blue";
         };
 
         /* Custom: Hayes */
-        class KAT_M52D_Jaeger_Armor_Hayes_Corpsman_Blue
+        class KAT_M52D_Jaeger_Armor_Hayes_Corpsman_Blue // named "Blue" for legacy purposes
         {
             model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "hayes";
+            squad = "valkyrie";
             role = "corpsman";
-            color = "blue";
         };
 
         /* Custom: Reid */
-        class KAT_M52D_Jaeger_Armor_Reid_Rifleman_Blue
+        class KAT_M52D_Jaeger_Armor_Reid_Rifleman_Blue // named "Blue" for legacy purposes
         {
             model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "reid";
+            squad = "valkyrie";
             role = "default";
-            color = "blue";
         };
-        class KAT_M52D_Jaeger_Armor_Reid_AutoRifleman_Blue
+        class KAT_M52D_Jaeger_Armor_Reid_AutoRifleman_Blue // named "Blue" for legacy purposes
         {
             model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "reid";
+            squad = "valkyrie";
             role = "ar";
-            color = "blue";
         };
-        class KAT_M52D_Jaeger_Armor_Reid_Breacher_Blue
+        class KAT_M52D_Jaeger_Armor_Reid_Breacher_Blue // named "Blue" for legacy purposes
         {
             model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "reid";
+            squad = "valkyrie";
             role = "breach";
-            color = "blue";
         };
-        class KAT_M52D_Jaeger_Armor_Reid_Corpsman_Blue
+        class KAT_M52D_Jaeger_Armor_Reid_Corpsman_Blue // named "Blue" for legacy purposes
         {
             model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "reid";
+            squad = "valkyrie";
             role = "corpsman";
-            color = "blue";
         };
-        class KAT_M52D_Jaeger_Armor_Reid_Grenadier_Blue
+        class KAT_M52D_Jaeger_Armor_Reid_Grenadier_Blue // named "Blue" for legacy purposes
         {
             model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "reid";
+            squad = "valkyrie";
             role = "gren";
-            color = "blue";
         };
-        class KAT_M52D_Jaeger_Armor_Reid_Sniper_Blue
+        class KAT_M52D_Jaeger_Armor_Reid_Sniper_Blue // named "Blue" for legacy purposes
         {
             model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "reid";
+            squad = "valkyrie";
             role = "sniper";
-            color = "blue";
         };
     };
 };
@@ -659,76 +464,13 @@ class CfgWeapons
         scope = 2;
         scopeArsenal = 2;
         displayName = "[KAT] M52D/J Rifleman";
-        hiddenSelections[] =
-        {
-            // Commented out means visible on the armor
-            /*
-                A = Armor component
-                AS = Shoulder plate
-                AP = Belt Pouches
-                APO = Accessories
-            */
-            "camo",
-            "camo2",
-            "camo3",
-            "camo4",
-            "camo5",
-            // "A_Base",
-            // "A_ChestArmor",
-            "A_Ghillie",
-            // "A_KneesLeft",
-            // "A_KneesRight",
-            "A_KneesMarLeft",
-            "A_KneesMarRight",
-            // "A_ODST",
-            // "A_ShinArmorLeft",
-            // "A_ShinArmorRight",
-            "A_TacPad",
-            // "A_ThighArmorLeft",
-            // "A_ThighArmorRight",
-            // "AS_BaseLeft",
-            // "AS_BaseRight",
-            "AS_LargeLeft",
-            "AS_LargeRight",
-            "AS_MediumLeft",
-            "AS_MediumRight",
-            "AS_ODSTCQBLeft",
-            "AS_ODSTCQBRight",
-            // "AS_ODSTLeft",
-            // "AS_ODSTRight",
-            "AS_ODSTSniperLeft",
-            "AS_ODSTSniperRight",
-            "AS_SmallLeft",
-            "AS_SmallRight",
-            "AP_AR",
-            "AP_BR",
-            "AP_Canteen",
-            "AP_GL",
-            "AP_Knife",
-            "AP_MGThigh",
-            "AP_Pack",
-            "AP_Pistol",
-            "AP_Rounds",
-            "AP_SG",
-            "AP_SMG",
-            "AP_Sniper",
-            "AP_Thigh",
-            // "AP_Frag",
-            // "AP_Smoke",
-            // "APO_AR",
-            "APO_BR",
-            // "APO_Knife",
-            "APO_SMG",
-            "APO_Sniper",
-            "CustomKit_Scorch"
-        };
         hiddenSelectionsTextures[] =
         {
             "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
             "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_generic.paa",
             "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_white.paa"
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_generic.paa"
         };
         class ItemInfo: ItemInfo
         {
@@ -797,76 +539,28 @@ class CfgWeapons
             };
         };
     };
-    class KAT_M52D_Jaeger_Armor_Rifleman_Red : KAT_M52D_Jaeger_Armor_Rifleman
+    class KAT_M52D_Jaeger_Armor_Rifleman_Blue : KAT_M52D_Jaeger_Armor_Rifleman // named "Blue" for legacy purposes
     {
-        displayName = "[KAT] M52D/J Rifleman [Red]";
+        displayName = "[KAT] M52D/J Rifleman [Valkyrie]";
         hiddenSelectionsTextures[] =
         {
             "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
             "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_red.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_valkyrie.paa",
             "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_red.paa"
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_valkyrie.paa"
         };
     };
-    class KAT_M52D_Jaeger_Armor_Rifleman_Orange : KAT_M52D_Jaeger_Armor_Rifleman
+    class KAT_M52D_Jaeger_Armor_Rifleman_Berserker : KAT_M52D_Jaeger_Armor_Rifleman
     {
-        displayName = "[KAT] M52D/J Rifleman [Orange]";
+        displayName = "[KAT] M52D/J Rifleman [Berserker]";
         hiddenSelectionsTextures[] =
         {
             "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
             "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_berserker.paa",
             "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_orange.paa"
-        };
-    };
-    class KAT_M52D_Jaeger_Armor_Rifleman_Blue : KAT_M52D_Jaeger_Armor_Rifleman
-    {
-        displayName = "[KAT] M52D/J Rifleman [Blue]";
-        hiddenSelectionsTextures[] =
-        {
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_blue.paa",
-            "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_blue.paa"
-        };
-    };
-    class KAT_M52D_Jaeger_Armor_Rifleman_Green : KAT_M52D_Jaeger_Armor_Rifleman
-    {
-        displayName = "[KAT] M52D/J Rifleman [Green]";
-        hiddenSelectionsTextures[] =
-        {
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_green.paa",
-            "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_green.paa"
-        };
-    };
-    class KAT_M52D_Jaeger_Armor_Rifleman_Yellow : KAT_M52D_Jaeger_Armor_Rifleman
-    {
-        displayName = "[KAT] M52D/J Rifleman [Yellow]";
-        hiddenSelectionsTextures[] =
-        {
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_odst.paa",
-            "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_yellow.paa"
-        };
-    };
-    class KAT_M52D_Jaeger_Armor_Rifleman_Purple : KAT_M52D_Jaeger_Armor_Rifleman
-    {
-        displayName = "[KAT] M52D/J Rifleman [Purple]";
-        hiddenSelectionsTextures[] =
-        {
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_odst.paa",
-            "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_purple.paa"
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_berserker.paa"
         };
     };
 };
