@@ -85,7 +85,7 @@ class XtdGearModels
                     label = "Default";
                     image = "#(rgb,8,8,3)color(0,0,0,1)";
                 };
-                class blue
+                class valkyrie
                 {
                     label = "Valkyrie";
                     image = "#(rgb,8,8,3)color(0.0,0,0.51,1)";
