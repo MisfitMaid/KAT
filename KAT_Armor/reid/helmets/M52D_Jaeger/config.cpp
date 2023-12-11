@@ -19,9 +19,9 @@ class CfgPatches
 class CfgWeapons
 {
     class KAT_M52D_Jaeger_Helmet_Default;
-    class KAT_M52D_Jaeger_Helmet_Reid_Blue : KAT_M52D_Jaeger_Helmet_Default
+    class KAT_M52D_Jaeger_Helmet_Reid_Blue : KAT_M52D_Jaeger_Helmet_Default // named "Blue" for legacy purposes
     {
-        displayName = "[KAT] M52D/J Helmet [Reid]";
+        displayName = "[KAT] M52D/J Helmet [Reid][Valkyrie]";
         hiddenSelectionsTextures[] =
         {
             "KAT_Armor\reid\helmets\M52D_Jaeger\_textures\blue.paa"
