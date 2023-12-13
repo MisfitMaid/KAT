@@ -153,76 +153,28 @@ class CfgWeapons
             };
         };
     };
-    class KAT_M52D_Jaeger_Armor_Grenadier_Red : KAT_M52D_Jaeger_Armor_Grenadier
+    class KAT_M52D_Jaeger_Armor_Grenadier_Blue : KAT_M52D_Jaeger_Armor_Grenadier // named "Blue" for legacy purposes
     {
-        displayName = "[KAT] M52D/J Grenadier [Red]";
+        displayName = "[KAT] M52D/J Grenadier [Valkyrie]";
         hiddenSelectionsTextures[] =
         {
             "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
             "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_red.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_valkyrie.paa",
             "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_red.paa"
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_valkyrie.paa"
         };
     };
-    class KAT_M52D_Jaeger_Armor_Grenadier_Orange : KAT_M52D_Jaeger_Armor_Grenadier
-    {
-        displayName = "[KAT] M52D/J Grenadier [Orange]";
-        hiddenSelectionsTextures[] =
-        {
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_odst.paa",
-            "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_orange.paa"
-        };
-    };
-    class KAT_M52D_Jaeger_Armor_Grenadier_Blue : KAT_M52D_Jaeger_Armor_Grenadier
-    {
-        displayName = "[KAT] M52D/J Grenadier [Blue]";
-        hiddenSelectionsTextures[] =
-        {
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_blue.paa",
-            "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_blue.paa"
-        };
-    };
-    class KAT_M52D_Jaeger_Armor_Grenadier_Green : KAT_M52D_Jaeger_Armor_Grenadier
-    {
-        displayName = "[KAT] M52D/J Grenadier [Green]";
-        hiddenSelectionsTextures[] =
-        {
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_green.paa",
-            "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_green.paa"
-        };
-    };
-    class KAT_M52D_Jaeger_Armor_Grenadier_Yellow : KAT_M52D_Jaeger_Armor_Grenadier
-    {
-        displayName = "[KAT] M52D/J Grenadier [Yellow]";
-        hiddenSelectionsTextures[] =
-        {
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_odst.paa",
-            "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_yellow.paa"
-        };
-    };
-    class KAT_M52D_Jaeger_Armor_Grenadier_Purple : KAT_M52D_Jaeger_Armor_Grenadier
-    {
-        displayName = "[KAT] M52D/J Grenadier [Purple]";
-        hiddenSelectionsTextures[] =
-        {
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_odst.paa",
-            "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_purple.paa"
-        };
-    };
+    // class KAT_M52D_Jaeger_Armor_Grenadier_Berserker : KAT_M52D_Jaeger_Armor_Grenadier
+    // {
+    //     displayName = "[KAT] M52D/J Grenadier [Berserker]";
+    //     hiddenSelectionsTextures[] =
+    //     {
+    //         "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
+    //         "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
+    //         "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_berserker.paa",
+    //         "optre_unsc_units\army\data\ghillie_desert_co.paa",
+    //         "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_berserker.paa"
+    //     };
+    // };
 };
