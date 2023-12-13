@@ -83,6 +83,7 @@ class CfgVehicles {
 		class Turrets;
 		class Turrets: Turrets
 		{
+			class MainTurret;
 			class LeftDoorGun: MainTurret
 			{
 				CanEject=1;
@@ -223,6 +224,7 @@ class CfgVehicles {
 				{
 				};
 			};
+		};
 	};
 
 	
