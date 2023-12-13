@@ -81,7 +81,7 @@ class CfgWeapons
                 "AS_SmallLeft",
                 "AS_SmallRight",
                 "AP_AR",
-                "AP_BR",
+                // "AP_BR",
                 // "AP_Canteen",
                 "AP_GL",
                 "AP_Knife",
@@ -96,7 +96,7 @@ class CfgWeapons
                 // "AP_Frag",
                 "AP_Smoke",
                 "APO_AR",
-                // "APO_BR",
+                "APO_BR",
                 // "APO_Knife",
                 "APO_SMG",
                 "APO_Sniper",
@@ -150,7 +150,7 @@ class CfgWeapons
                 "AS_ODSTSniperRight",
                 "AS_SmallLeft",
                 "AS_SmallRight",
-                "AP_AR",
+                // "AP_AR",
                 "AP_BR",
                 // "AP_Canteen",
                 "AP_GL",
@@ -165,7 +165,7 @@ class CfgWeapons
                 // "AP_Thigh",
                 // "AP_Frag",
                 "AP_Smoke",
-                // "APO_AR",
+                "APO_AR",
                 "APO_BR",
                 // "APO_Knife",
                 "APO_SMG",
@@ -247,14 +247,6 @@ class CfgWeapons
     class KAT_M52D_Jaeger_Armor_ONeill_Corpsman_Blue : KAT_M52D_Jaeger_Armor_ONeill_Rifleman_Blue // named "Blue" for legacy purposes
     {
         displayName = "[KAT] M52D/J Corpsman [O'Neill][Valkyrie]";
-        hiddenSelectionsTextures[] =
-        {
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_valkyrie.paa",
-            "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\oneill\armor\M52D_Jaeger\_textures\corpsman_valkyrie.paa"
-        };
         class ItemInfo : ItemInfo
         {
             hiddenSelections[] =
