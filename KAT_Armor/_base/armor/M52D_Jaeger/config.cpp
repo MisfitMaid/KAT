@@ -69,7 +69,7 @@ class XtdGearModels
                 {
                     "generic",
                     "valkyrie",
-                    "berserker",
+                    // "berserker",
                 };
                 class generic
                 {
@@ -81,11 +81,11 @@ class XtdGearModels
                     label = "Valkyrie";
                     image = "#(rgb,8,8,3)color(0.0,0,0.51,1)";
                 };
-                class berserker
-                {
-                    label = "Berserker";
-                    image = "#(rgb,8,8,3)color(0.91,0.56,0.09,1)";
-                };
+                // class berserker
+                // {
+                //     label = "Berserker";
+                //     image = "#(rgb,8,8,3)color(0.91,0.56,0.09,1)";
+                // };
             };
             class role
             {
@@ -147,13 +147,13 @@ class XtdGearInfos
             squad = "valkyrie";
             role = "default";
         };
-        class KAT_M52D_Jaeger_Armor_Rifleman_Berserker
-        {
-            model = "KAT_M52D_Jaeger_Vests";
-            vestmodel = "default";
-            squad = "berserker";
-            role = "default";
-        };
+        // class KAT_M52D_Jaeger_Armor_Rifleman_Berserker
+        // {
+        //     model = "KAT_M52D_Jaeger_Vests";
+        //     vestmodel = "default";
+        //     squad = "berserker";
+        //     role = "default";
+        // };
 
         /* Autorifleman */
         class KAT_M52D_Jaeger_Armor_AutoRifleman
@@ -170,13 +170,13 @@ class XtdGearInfos
             squad = "valkyrie";
             role = "ar";
         };
-        class KAT_M52D_Jaeger_Armor_AutoRifleman_Berserker
-        {
-            model = "KAT_M52D_Jaeger_Vests";
-            vestmodel = "default";
-            squad = "berserker";
-            role = "ar";
-        };
+        // class KAT_M52D_Jaeger_Armor_AutoRifleman_Berserker
+        // {
+        //     model = "KAT_M52D_Jaeger_Vests";
+        //     vestmodel = "default";
+        //     squad = "berserker";
+        //     role = "ar";
+        // };
 
         /* Breacher */
         class KAT_M52D_Jaeger_Armor_Breacher
@@ -193,13 +193,13 @@ class XtdGearInfos
             squad = "valkyrie";
             role = "breach";
         };
-        class KAT_M52D_Jaeger_Armor_Breacher_Berserker
-        {
-            model = "KAT_M52D_Jaeger_Vests";
-            vestmodel = "default";
-            squad = "berserker";
-            role = "breach";
-        };
+        // class KAT_M52D_Jaeger_Armor_Breacher_Berserker
+        // {
+        //     model = "KAT_M52D_Jaeger_Vests";
+        //     vestmodel = "default";
+        //     squad = "berserker";
+        //     role = "breach";
+        // };
 
         /* Corpsman */
         class KAT_M52D_Jaeger_Armor_Corpsman
@@ -216,13 +216,13 @@ class XtdGearInfos
             squad = "valkyrie";
             role = "corpsman";
         };
-        class KAT_M52D_Jaeger_Armor_Corpsman_Berserker
-        {
-            model = "KAT_M52D_Jaeger_Vests";
-            vestmodel = "default";
-            squad = "berserker";
-            role = "corpsman";
-        };
+        // class KAT_M52D_Jaeger_Armor_Corpsman_Berserker
+        // {
+        //     model = "KAT_M52D_Jaeger_Vests";
+        //     vestmodel = "default";
+        //     squad = "berserker";
+        //     role = "corpsman";
+        // };
 
         /* Grenadier */
         class KAT_M52D_Jaeger_Armor_Grenadier
@@ -239,13 +239,13 @@ class XtdGearInfos
             squad = "valkyrie";
             role = "gren";
         };
-        class KAT_M52D_Jaeger_Armor_Grenadier_Berserker
-        {
-            model = "KAT_M52D_Jaeger_Vests";
-            vestmodel = "default";
-            squad = "berserker";
-            role = "gren";
-        };
+        // class KAT_M52D_Jaeger_Armor_Grenadier_Berserker
+        // {
+        //     model = "KAT_M52D_Jaeger_Vests";
+        //     vestmodel = "default";
+        //     squad = "berserker";
+        //     role = "gren";
+        // };
 
         /* Sniper */
         class KAT_M52D_Jaeger_Armor_Sniper
@@ -262,13 +262,13 @@ class XtdGearInfos
             squad = "valkyrie";
             role = "sniper";
         };
-        class KAT_M52D_Jaeger_Armor_Sniper_Berserker
-        {
-            model = "KAT_M52D_Jaeger_Vests";
-            vestmodel = "default";
-            squad = "berserker";
-            role = "sniper";
-        };
+        // class KAT_M52D_Jaeger_Armor_Sniper_Berserker
+        // {
+        //     model = "KAT_M52D_Jaeger_Vests";
+        //     vestmodel = "default";
+        //     squad = "berserker";
+        //     role = "sniper";
+        // };
 
         /* Custom: O'Neill */
         class KAT_M52D_Jaeger_Armor_ONeill_Rifleman_Blue // named "Blue" for legacy purposes
@@ -551,16 +551,16 @@ class CfgWeapons
             "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_valkyrie.paa"
         };
     };
-    class KAT_M52D_Jaeger_Armor_Rifleman_Berserker : KAT_M52D_Jaeger_Armor_Rifleman
-    {
-        displayName = "[KAT] M52D/J Rifleman [Berserker]";
-        hiddenSelectionsTextures[] =
-        {
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_berserker.paa",
-            "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_berserker.paa"
-        };
-    };
+    // class KAT_M52D_Jaeger_Armor_Rifleman_Berserker : KAT_M52D_Jaeger_Armor_Rifleman
+    // {
+    //     displayName = "[KAT] M52D/J Rifleman [Berserker]";
+    //     hiddenSelectionsTextures[] =
+    //     {
+    //         "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
+    //         "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
+    //         "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_berserker.paa",
+    //         "optre_unsc_units\army\data\ghillie_desert_co.paa",
+    //         "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_berserker.paa"
+    //     };
+    // };
 };

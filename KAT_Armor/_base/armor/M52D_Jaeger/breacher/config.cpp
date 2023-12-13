@@ -165,16 +165,16 @@ class CfgWeapons
             "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_valkyrie.paa"
         };
     };
-    class KAT_M52D_Jaeger_Armor_Breacher_Berserker : KAT_M52D_Jaeger_Armor_Breacher
-    {
-        displayName = "[KAT] M52D/J Breacher [Berserker]";
-        hiddenSelectionsTextures[] =
-        {
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_berserker.paa",
-            "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_berserker.paa"
-        };
-    };
+    // class KAT_M52D_Jaeger_Armor_Breacher_Berserker : KAT_M52D_Jaeger_Armor_Breacher
+    // {
+    //     displayName = "[KAT] M52D/J Breacher [Berserker]";
+    //     hiddenSelectionsTextures[] =
+    //     {
+    //         "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
+    //         "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
+    //         "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_berserker.paa",
+    //         "optre_unsc_units\army\data\ghillie_desert_co.paa",
+    //         "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_berserker.paa"
+    //     };
+    // };
 };
