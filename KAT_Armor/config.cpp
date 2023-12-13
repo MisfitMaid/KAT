@@ -28,7 +28,7 @@ class XtdGearModels
 			{
 				alwaysSelectable = 1;
 				label = "Role";
-				values[] = {"valkyrie", "cooper", "williams", "barnes"};
+				values[] = {"valkyrie", "cooper", "williams", "barnes", "morningstar"};
 				class valkyrie
 				{
 					label = "Valkyrie";
@@ -44,6 +44,10 @@ class XtdGearModels
 				class williams
 				{
 					label = "Williams";
+				};
+				class morningstar
+				{
+					label = "Morningstar";
 				};
 			};
 		};
@@ -56,7 +60,7 @@ class XtdGearModels
 			{
 				alwaysSelectable = 1;
 				label = "Role";
-				values[] = {"valkyrie", "cooper", "barnes", "williams"};
+				values[] = {"valkyrie", "cooper", "barnes", "williams", "morningstar"};
 				class valkyrie
 				{
 					label = "Valkyrie";
@@ -72,6 +76,10 @@ class XtdGearModels
 				class williams
 				{
 					label = "Williams";
+				};
+				class morningstar
+				{
+					label = "Morningstar";
 				};
 			};
 		};
@@ -120,6 +128,16 @@ class XtdGearInfos
 		{
 			model = "KAT_Helmets";
 			role = "barnes";
+		};
+		class KAT_Armor_Morningstar
+		{
+			model = "KAT_Armor";
+			role = "morningstar";
+		};
+		class KAT_Helmets_Morningstar
+		{
+			model = "KAT_Helmets";
+			role = "morningstar";
 		};
 	};
 };
