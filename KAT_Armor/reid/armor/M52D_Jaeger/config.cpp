@@ -247,14 +247,6 @@ class CfgWeapons
     class KAT_M52D_Jaeger_Armor_Reid_Corpsman_Blue : KAT_M52D_Jaeger_Armor_Reid_Rifleman_Blue // named "Blue" for legacy purposes
     {
         displayName = "[KAT] M52D/J Corpsman [Reid][Valkyrie]";
-        hiddenSelectionsTextures[] =
-        {
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_valkyrie.paa",
-            "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\reid\armor\M52D_Jaeger\_textures\corpsman_valkyrie.paa"
-        };
         class ItemInfo : ItemInfo
         {
             hiddenSelections[] =
