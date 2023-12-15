@@ -43,6 +43,7 @@ class XtdGearModels
                     "oneill",
                     "hayes",
                     "reid",
+                    "cline",
                 };
                 class default
                 {
@@ -59,6 +60,10 @@ class XtdGearModels
                 class reid
                 {
                     label = "Reid";
+                };
+                class cline
+                {
+                    label = "Cline";
                 };
             };
             class squad
@@ -365,6 +370,15 @@ class XtdGearInfos
             vestmodel = "reid";
             squad = "valkyrie";
             role = "sniper";
+        };
+
+        /* Custom: Cline */
+        class KAT_M52D_Jaeger_Armor_Cline_AutoRifleman_Valkyrie
+        {
+            model = "KAT_M52D_Jaeger_Vests";
+            vestmodel = "cline";
+            squad = "valkyrie";
+            role = "autorifleman";
         };
     };
 };
