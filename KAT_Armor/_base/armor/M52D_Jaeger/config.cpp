@@ -378,7 +378,7 @@ class XtdGearInfos
             model = "KAT_M52D_Jaeger_Vests";
             vestmodel = "cline";
             squad = "valkyrie";
-            role = "autorifleman";
+            role = "ar";
         };
     };
 };
