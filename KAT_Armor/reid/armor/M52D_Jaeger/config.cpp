@@ -18,6 +18,12 @@ class CfgPatches
             "KAT_M52D_Jaeger_Armor_Reid_Corpsman_Blue",
             "KAT_M52D_Jaeger_Armor_Reid_Grenadier_Blue",
             "KAT_M52D_Jaeger_Armor_Reid_Sniper_Blue",
+            "KAT_M52D_Jaeger_Armor_Reid_Rifleman_Berserker",
+            "KAT_M52D_Jaeger_Armor_Reid_AutoRifleman_Berserker",
+            "KAT_M52D_Jaeger_Armor_Reid_Breacher_Berserker",
+            "KAT_M52D_Jaeger_Armor_Reid_Corpsman_Berserker",
+            "KAT_M52D_Jaeger_Armor_Reid_Grenadier_Berserker",
+            "KAT_M52D_Jaeger_Armor_Reid_Sniper_Berserker",
         };
     };
 };
@@ -26,6 +32,8 @@ class CfgWeapons
     class ItemInfo;
 
     class KAT_M52D_Jaeger_Armor_Rifleman;
+
+    /* Valkyrie */
     class KAT_M52D_Jaeger_Armor_Reid_Rifleman_Blue : KAT_M52D_Jaeger_Armor_Rifleman // named "Blue" for legacy purposes
     {
         displayName = "[KAT] M52D/J Rifleman [Reid][Valkyrie]";
@@ -452,6 +460,80 @@ class CfgWeapons
                 // "APO_Sniper",
                 "CustomKit_Scorch"
             };
+        };
+    };
+
+    /* Berserker */
+    class KAT_M52D_Jaeger_Armor_Reid_Rifleman_Berserker : KAT_M52D_Jaeger_Armor_Reid_Rifleman_Blue
+    {
+        displayName = "[KAT] M52D/J Rifleman [Reid][Berserker]";
+        hiddenSelectionsTextures[] =
+        {
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_berserker.paa",
+            "optre_unsc_units\army\data\ghillie_desert_co.paa",
+            "KAT_Armor\reid\armor\M52D_Jaeger\_textures\main_berserker.paa"
+        };
+    };
+    class KAT_M52D_Jaeger_Armor_Reid_AutoRifleman_Berserker : KAT_M52D_Jaeger_Armor_Reid_AutoRifleman_Blue
+    {
+        displayName = "[KAT] M52D/J AutoRifleman [Reid][Berserker]";
+        hiddenSelectionsTextures[] =
+        {
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_berserker.paa",
+            "optre_unsc_units\army\data\ghillie_desert_co.paa",
+            "KAT_Armor\reid\armor\M52D_Jaeger\_textures\main_berserker.paa"
+        };
+    };
+    class KAT_M52D_Jaeger_Armor_Reid_Breacher_Berserker : KAT_M52D_Jaeger_Armor_Reid_Breacher_Blue
+    {
+        displayName = "[KAT] M52D/J Breacher [Reid][Berserker]";
+        hiddenSelectionsTextures[] =
+        {
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_berserker.paa",
+            "optre_unsc_units\army\data\ghillie_desert_co.paa",
+            "KAT_Armor\reid\armor\M52D_Jaeger\_textures\main_berserker.paa"
+        };
+    };
+    class KAT_M52D_Jaeger_Armor_Reid_Corpsman_Berserker : KAT_M52D_Jaeger_Armor_Reid_Corpsman_Blue
+    {
+        displayName = "[KAT] M52D/J Corpsman [Reid][Berserker]";
+        hiddenSelectionsTextures[] =
+        {
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_berserker.paa",
+            "optre_unsc_units\army\data\ghillie_desert_co.paa",
+            "KAT_Armor\reid\armor\M52D_Jaeger\_textures\main_berserker.paa"
+        };
+    };
+    class KAT_M52D_Jaeger_Armor_Reid_Grenadier_Berserker : KAT_M52D_Jaeger_Armor_Reid_Grenadier_Blue
+    {
+        displayName = "[KAT] M52D/J Grenadier [Reid][Berserker]";
+        hiddenSelectionsTextures[] =
+        {
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_berserker.paa",
+            "optre_unsc_units\army\data\ghillie_desert_co.paa",
+            "KAT_Armor\reid\armor\M52D_Jaeger\_textures\main_berserker.paa"
+        };
+    };
+    class KAT_M52D_Jaeger_Armor_Reid_Sniper_Berserker : KAT_M52D_Jaeger_Armor_Reid_Sniper_Blue
+    {
+        displayName = "[KAT] M52D/J Sniper [Reid][Berserker]";
+        hiddenSelectionsTextures[] =
+        {
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_berserker.paa",
+            "optre_unsc_units\army\data\ghillie_desert_co.paa",
+            "KAT_Armor\reid\armor\M52D_Jaeger\_textures\main_berserker.paa"
         };
     };
 };

@@ -420,6 +420,48 @@ class XtdGearInfos
             squad = "valkyrie";
             role = "sniper";
         };
+        class KAT_M52D_Jaeger_Armor_Reid_Rifleman_Berserker
+        {
+            model = "KAT_M52D_Jaeger_Vests";
+            vestmodel = "reid";
+            squad = "berserker";
+            role = "default";
+        };
+        class KAT_M52D_Jaeger_Armor_Reid_AutoRifleman_Berserker
+        {
+            model = "KAT_M52D_Jaeger_Vests";
+            vestmodel = "reid";
+            squad = "berserker";
+            role = "ar";
+        };
+        class KAT_M52D_Jaeger_Armor_Reid_Breacher_Berserker
+        {
+            model = "KAT_M52D_Jaeger_Vests";
+            vestmodel = "reid";
+            squad = "berserker";
+            role = "breach";
+        };
+        class KAT_M52D_Jaeger_Armor_Reid_Corpsman_Berserker
+        {
+            model = "KAT_M52D_Jaeger_Vests";
+            vestmodel = "reid";
+            squad = "berserker";
+            role = "corpsman";
+        };
+        class KAT_M52D_Jaeger_Armor_Reid_Grenadier_Berserker
+        {
+            model = "KAT_M52D_Jaeger_Vests";
+            vestmodel = "reid";
+            squad = "berserker";
+            role = "gren";
+        };
+        class KAT_M52D_Jaeger_Armor_Reid_Sniper_Berserker
+        {
+            model = "KAT_M52D_Jaeger_Vests";
+            vestmodel = "reid";
+            squad = "berserker";
+            role = "sniper";
+        };
 
         /* Custom: Cline */
         class KAT_M52D_Jaeger_Armor_Cline_AutoRifleman_Valkyrie

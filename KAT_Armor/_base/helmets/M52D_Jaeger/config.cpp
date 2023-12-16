@@ -165,6 +165,12 @@ class XtdGearInfos
             helmmodel = "reid";
             squad = "valkyrie";
         };
+        class KAT_M52D_Jaeger_Helmet_Reid_Berserker
+        {
+            model = "KAT_M52D_Jaeger_Helmets";
+            helmmodel = "reid";
+            squad = "berserker";
+        };
     };
 };
 class CfgWeapons
