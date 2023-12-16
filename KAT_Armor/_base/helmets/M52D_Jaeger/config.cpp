@@ -78,7 +78,7 @@ class XtdGearModels
                 {
                     "generic",
                     "valkyrie",
-                    // "berserker",
+                    "berserker",
                 };
                 class generic
                 {
@@ -90,11 +90,11 @@ class XtdGearModels
                     label = "Valkyrie";
                     image = "#(rgb,8,8,3)color(0.0,0,0.51,1)";
                 };
-                // class berserker
-                // {
-                //     label = "Berserker";
-                //     image = "#(rgb,8,8,3)color(0.91,0.56,0.09,1)";
-                // };
+                class berserker
+                {
+                    label = "Berserker";
+                    image = "#(rgb,8,8,3)color(0.91,0.56,0.09,1)";
+                };
             };
         };
     };
@@ -116,12 +116,12 @@ class XtdGearInfos
             helmmodel = "default";
             squad = "valkyrie";
         };
-        // class KAT_M52D_Jaeger_Helmet_Berserker
-        // {
-        //     model = "KAT_M52D_Jaeger_Helmets";
-        //     helmmodel = "default";
-        //     squad = "berserker";
-        // };
+        class KAT_M52D_Jaeger_Helmet_Berserker
+        {
+            model = "KAT_M52D_Jaeger_Helmets";
+            helmmodel = "default";
+            squad = "berserker";
+        };
         /* Customs */
         class KAT_M52D_Jaeger_Helmet_ONeill_Blue // named "Blue" for legacy purposes
         {
@@ -219,12 +219,12 @@ class CfgWeapons
             "KAT_Armor\_base\helmets\M52D_Jaeger\_textures\odst_valkyrie.paa"
         };
     };
-    // class KAT_M52D_Jaeger_Helmet_Berserker : KAT_M52D_Jaeger_Helmet_Default
-    // {
-    //     displayName = "[KAT] M52D/J Helmet [Berserker]";
-    //     hiddenSelectionsTextures[] = 
-    //     {
-    //         "KAT_Armor\_base\helmets\M52D_Jaeger\_textures\odst_berserker.paa"
-    //     };
-    // };
+    class KAT_M52D_Jaeger_Helmet_Berserker : KAT_M52D_Jaeger_Helmet_Default
+    {
+        displayName = "[KAT] M52D/J Helmet [Berserker]";
+        hiddenSelectionsTextures[] = 
+        {
+            "KAT_Armor\_base\helmets\M52D_Jaeger\_textures\odst_berserker.paa"
+        };
+    };
 };
