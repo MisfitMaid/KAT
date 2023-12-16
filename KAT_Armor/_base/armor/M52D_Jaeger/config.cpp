@@ -327,6 +327,13 @@ class XtdGearInfos
             squad = "valkyrie";
             role = "corpsman";
         };
+        class KAT_M52D_Jaeger_Armor_Hayes_Corpsman_Berserker
+        {
+            model = "KAT_M52D_Jaeger_Vests";
+            vestmodel = "hayes";
+            squad = "berserker";
+            role = "corpsman";
+        };
 
         /* Custom: Reid */
         class KAT_M52D_Jaeger_Armor_Reid_Rifleman_Blue // named "Blue" for legacy purposes
