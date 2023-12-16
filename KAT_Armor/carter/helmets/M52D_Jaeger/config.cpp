@@ -12,7 +12,8 @@ class CfgPatches
         units[] = {};
         weapons[] =
         {
-            "KAT_M52D_Jaeger_Helmet_Carter_Blue"
+            "KAT_M52D_Jaeger_Helmet_Carter_Blue",
+            "KAT_M52D_Jaeger_Helmet_Carter_Berserker",
         };
     };
 };
@@ -25,6 +26,14 @@ class CfgWeapons
         hiddenSelectionsTextures[] =
         {
             "KAT_Armor\carter\helmets\M52D_Jaeger\_textures\blue.paa"
+        };
+    };
+    class KAT_M52D_Jaeger_Helmet_Carter_Berserker : KAT_M52D_Jaeger_Helmet_Default
+    {
+        displayName = "[KAT] M52D/J Helmet [Carter][Berserker]";
+        hiddenSelectionsTextures[] =
+        {
+            "KAT_Armor\carter\helmets\M52D_Jaeger\_textures\berserker.paa"
         };
     };
 };
