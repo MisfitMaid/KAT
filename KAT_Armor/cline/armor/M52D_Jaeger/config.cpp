@@ -98,4 +98,16 @@ class CfgWeapons
             };
         };
     };
+    class KAT_M52D_Jaeger_Armor_Cline_AutoRifleman_Berserker : KAT_M52D_Jaeger_Armor_Cline_AutoRifleman_Valkyrie
+    {
+        displayName = "[KAT] M52D/J AutoRifleman [Cline][Berserker]";
+        hiddenSelectionsTextures[] =
+        {
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
+            "KAT_Armor\cline\armor\M52D_Jaeger\_textures\armor_berserker.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_berserker.paa",
+            "optre_unsc_units\army\data\ghillie_desert_co.paa",
+            "KAT_Armor\cline\armor\M52D_Jaeger\_textures\main_berserker.paa"
+        };
+    };
 };

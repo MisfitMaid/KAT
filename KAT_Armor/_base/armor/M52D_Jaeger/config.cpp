@@ -380,6 +380,13 @@ class XtdGearInfos
             squad = "valkyrie";
             role = "ar";
         };
+        class KAT_M52D_Jaeger_Armor_Cline_AutoRifleman_Berserker
+        {
+            model = "KAT_M52D_Jaeger_Vests";
+            vestmodel = "cline";
+            squad = "berserker";
+            role = "ar";
+        };
     };
 };
 class CfgWeapons
