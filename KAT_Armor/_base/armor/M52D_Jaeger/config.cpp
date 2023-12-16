@@ -318,6 +318,48 @@ class XtdGearInfos
             squad = "valkyrie";
             role = "sniper";
         };
+        class KAT_M52D_Jaeger_Armor_ONeill_Rifleman_Berserker
+        {
+            model = "KAT_M52D_Jaeger_Vests";
+            vestmodel = "oneill";
+            squad = "berserker";
+            role = "default";
+        };
+        class KAT_M52D_Jaeger_Armor_ONeill_AutoRifleman_Berserker
+        {
+            model = "KAT_M52D_Jaeger_Vests";
+            vestmodel = "oneill";
+            squad = "berserker";
+            role = "ar";
+        };
+        class KAT_M52D_Jaeger_Armor_ONeill_Breacher_Berserker
+        {
+            model = "KAT_M52D_Jaeger_Vests";
+            vestmodel = "oneill";
+            squad = "berserker";
+            role = "breach";
+        };
+        class KAT_M52D_Jaeger_Armor_ONeill_Corpsman_Berserker
+        {
+            model = "KAT_M52D_Jaeger_Vests";
+            vestmodel = "oneill";
+            squad = "berserker";
+            role = "corpsman";
+        };
+        class KAT_M52D_Jaeger_Armor_ONeill_Grenadier_Berserker
+        {
+            model = "KAT_M52D_Jaeger_Vests";
+            vestmodel = "oneill";
+            squad = "berserker";
+            role = "gren";
+        };
+        class KAT_M52D_Jaeger_Armor_ONeill_Sniper_Berserker
+        {
+            model = "KAT_M52D_Jaeger_Vests";
+            vestmodel = "oneill";
+            squad = "berserker";
+            role = "sniper";
+        };
 
         /* Custom: Hayes */
         class KAT_M52D_Jaeger_Armor_Hayes_Corpsman_Blue // named "Blue" for legacy purposes

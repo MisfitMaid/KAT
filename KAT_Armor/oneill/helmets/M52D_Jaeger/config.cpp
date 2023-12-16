@@ -12,7 +12,8 @@ class CfgPatches
         units[] = {};
         weapons[] =
         {
-            "KAT_M52D_Jaeger_Helmet_ONeill_Blue"
+            "KAT_M52D_Jaeger_Helmet_ONeill_Blue",
+            "KAT_M52D_Jaeger_Helmet_ONeill_Berserker",
         };
     };
 };
@@ -25,6 +26,14 @@ class CfgWeapons
         hiddenSelectionsTextures[] =
         {
             "KAT_Armor\oneill\helmets\M52D_Jaeger\_textures\blue.paa"
+        };
+    };
+    class KAT_M52D_Jaeger_Helmet_ONeill_Berserker : KAT_M52D_Jaeger_Helmet_Default
+    {
+        displayName = "[KAT] M52D/J Helmet [O'Neill][Berserker]";
+        hiddenSelectionsTextures[] =
+        {
+            "KAT_Armor\oneill\helmets\M52D_Jaeger\_textures\berserker.paa"
         };
     };
 };

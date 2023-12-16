@@ -129,6 +129,12 @@ class XtdGearInfos
             helmmodel = "oneill";
             squad = "valkyrie";
         };
+        class KAT_M52D_Jaeger_Helmet_ONeill_Berserker
+        {
+            model = "KAT_M52D_Jaeger_Helmets";
+            helmmodel = "oneill";
+            squad = "berserker";
+        };
         class KAT_M52D_Jaeger_Helmet_Shields_Blue // named "Blue" for legacy purposes
         {
             model = "KAT_M52D_Jaeger_Helmets";
