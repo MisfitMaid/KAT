@@ -13,6 +13,7 @@ class CfgPatches
             "KAT_Azrael_Beret_ODST",
             "KAT_Azrael_Beret_ONI",
             "KAT_Azrael_Beret_Valkyrie",
+            "KAT_Azrael_Beret_Berserker",
         };
     };
 };
@@ -37,6 +38,7 @@ class XtdGearModels
                     "odst",
                     "oni",
                     "valkyrie",
+                    "berserker",
                 };
                 class unsc
                 {
@@ -53,6 +55,10 @@ class XtdGearModels
                 class valkyrie
                 {
                     label = "Valkyrie";
+                };
+                class berserker
+                {
+                    label = "Berserker";
                 };
             };
         };
@@ -82,6 +88,11 @@ class XtdGearInfos
             model = "KAT_Azrael_Berets";
             style = "valkyrie";
         };
+        class KAT_Azrael_Beret_Berserker
+        {
+            model = "KAT_Azrael_Berets";
+            style = "berserker";
+        };
     };
 };
 class CfgWeapons
@@ -110,5 +121,11 @@ class CfgWeapons
         displayName = "[KAT] Valkyrie Squad Beret";
         author = "wlan0";
         hiddenSelectionsTextures[] = { "KAT_Gear\hats\azrael_beret\_textures\valkyrie.paa" };
+    };
+    class KAT_Azrael_Beret_Berserker: H_Beret_02
+    {
+        displayName = "[KAT] Berserker Squad Beret";
+        author = "wlan0";
+        hiddenSelectionsTextures[] = { "KAT_Gear\hats\azrael_beret\_textures\berserker.paa" };
     };
 };
