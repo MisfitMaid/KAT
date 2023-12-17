@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class KAT_Armor_Williams
+	class KAT_Armor_Berserker
 	{
 		author = "MisfitMaid";
 		units[] = {};
@@ -18,14 +18,14 @@ class CfgWeapons
 {
     class ItemInfo;
 
-    class KAT_Base_Recon_Helmet;
+	class KAT_M56SR_Helmet_Base;
     class KAT_Armor__Base;
-    class KAT_Armor_Williams : KAT_Armor__Base
+    class KAT_Armor_Berserker : KAT_Armor__Base
 	{
 		scope = 2;
 		scopeArsenal = 2;
 		author = "MisfitMaid";
-		displayName = "[KAT] M56R Combat Armor (Williams)";
+		displayName = "[KAT] M56R Combat Armor (Berserker)";
 		hiddenSelections[] = 
 		{
 			"camo1",
@@ -63,11 +63,11 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[] = 
 		{
-			"KAT_Armor\williams\Reach_Armor_Upper_co.paa", // shoulders
+			"KAT_Armor\berserker\Reach_Armor_Upper_co.paa", // shoulders
 			"", // unused
 			"", // unused
-			"KAT_Armor\williams\Reach_Armor_Upper_co.paa", // upper
-			"KAT_Armor\williams\Reach_Armor_Lower_co.paa", // lower
+			"KAT_Armor\berserker\Reach_Armor_Upper_co.paa", // upper
+			"KAT_Armor\berserker\Reach_Armor_Lower_co.paa", // lower
 			"" // unused
 		};
 		class ItemInfo: ItemInfo
@@ -112,31 +112,29 @@ class CfgWeapons
 			};
 			hiddenSelectionsTextures[] = 
 			{
-				"KAT_Armor\williams\Reach_Armor_Upper_co.paa", // shoulders
+				"KAT_Armor\berserker\Reach_Armor_Upper_co.paa", // shoulders
 				"", // unused
 				"", // unused
-				"KAT_Armor\williams\Reach_Armor_Upper_co.paa", // upper
-				"KAT_Armor\williams\Reach_Armor_Lower_co.paa", // lower
+				"KAT_Armor\berserker\Reach_Armor_Upper_co.paa", // upper
+				"KAT_Armor\berserker\Reach_Armor_Lower_co.paa", // lower
 				"" // unused
 			};
 		};
 	};
 
-    class KAT_Helmets_Williams: KAT_Base_Recon_Helmet
+    class KAT_Helmets_Berserker: KAT_M56SR_Helmet_Base
 	{
 		scope = 2;
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		author = "MisfitMaid";
-		displayName = "[KAT] R/B5 Helmet (Williams)";
-		hiddenSelections[] = {"camo","camo2","camo3","camo4","H_Ghillie"};
-		hiddenSelectionsTextures[] = {"KAT_Armor\williams\recon_helmet_co.paa","KAT_Armor\williams\recon_visor_co.paa", "optre_unsc_units\army\data\ghillie_woodland_co.paa","optre_unsc_units\army\data\soft_packs_co.paa"};
-		hiddenSelectionsMaterials[] = {"", "MA_Armor\data\Helmets\hr_odst\hr_odst_visor.rvmat"};
+		displayName = "[KAT] M56S-R Helmet (Berserker)";
+		hiddenSelections[] = {"camo1","camo2"};
+		hiddenSelectionsTextures[] = {"KAT_Armor\berserker\hr_odst_helmet_co.paa","MA_Armor\data\Helmets\H3_ODST\H3_Visor_Red_co.paa"};
 		class ItemInfo: ItemInfo
 		{
-			hiddenSelections[] = {"camo","camo2","camo3","camo4","H_Ghillie"};
-			hiddenSelectionsTextures[] = {"KAT_Armor\williams\recon_helmet_co.paa","KAT_Armor\williams\recon_visor_co.paa", "optre_unsc_units\army\data\ghillie_woodland_co.paa","optre_unsc_units\army\data\soft_packs_co.paa"};
-			hiddenSelectionsMaterials[] = {"", "MA_Armor\data\Helmets\hr_odst\hr_odst_visor.rvmat"};
+			hiddenSelections[] = {"camo1","camo2"};
+			hiddenSelectionsTextures[] = {"KAT_Armor\berserker\hr_odst_helmet_co.paa","MA_Armor\data\Helmets\H3_ODST\H3_Visor_Red_co.paa"};
 		};
 	};
 
