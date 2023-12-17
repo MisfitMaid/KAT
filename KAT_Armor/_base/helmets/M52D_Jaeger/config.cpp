@@ -78,7 +78,7 @@ class XtdGearModels
                 {
                     "generic",
                     "valkyrie",
-                    // "berserker",
+                    "berserker",
                 };
                 class generic
                 {
@@ -90,11 +90,11 @@ class XtdGearModels
                     label = "Valkyrie";
                     image = "#(rgb,8,8,3)color(0.0,0,0.51,1)";
                 };
-                // class berserker
-                // {
-                //     label = "Berserker";
-                //     image = "#(rgb,8,8,3)color(0.91,0.56,0.09,1)";
-                // };
+                class berserker
+                {
+                    label = "Berserker";
+                    image = "#(rgb,8,8,3)color(0.91,0.56,0.09,1)";
+                };
             };
         };
     };
@@ -116,18 +116,24 @@ class XtdGearInfos
             helmmodel = "default";
             squad = "valkyrie";
         };
-        // class KAT_M52D_Jaeger_Helmet_Berserker
-        // {
-        //     model = "KAT_M52D_Jaeger_Helmets";
-        //     helmmodel = "default";
-        //     squad = "berserker";
-        // };
+        class KAT_M52D_Jaeger_Helmet_Berserker
+        {
+            model = "KAT_M52D_Jaeger_Helmets";
+            helmmodel = "default";
+            squad = "berserker";
+        };
         /* Customs */
         class KAT_M52D_Jaeger_Helmet_ONeill_Blue // named "Blue" for legacy purposes
         {
             model = "KAT_M52D_Jaeger_Helmets";
             helmmodel = "oneill";
             squad = "valkyrie";
+        };
+        class KAT_M52D_Jaeger_Helmet_ONeill_Berserker
+        {
+            model = "KAT_M52D_Jaeger_Helmets";
+            helmmodel = "oneill";
+            squad = "berserker";
         };
         class KAT_M52D_Jaeger_Helmet_Shields_Blue // named "Blue" for legacy purposes
         {
@@ -141,17 +147,35 @@ class XtdGearInfos
             helmmodel = "hayes";
             squad = "valkyrie";
         };
+        class KAT_M52D_Jaeger_Helmet_Hayes_Berserker
+        {
+            model = "KAT_M52D_Jaeger_Helmets";
+            helmmodel = "hayes";
+            squad = "berserker";
+        };
         class KAT_M52D_Jaeger_Helmet_Carter_Blue // named "Blue" for legacy purposes
         {
             model = "KAT_M52D_Jaeger_Helmets";
             helmmodel = "carter";
             squad = "valkyrie";
         };
+        class KAT_M52D_Jaeger_Helmet_Carter_Berserker
+        {
+            model = "KAT_M52D_Jaeger_Helmets";
+            helmmodel = "carter";
+            squad = "berserker";
+        };
         class KAT_M52D_Jaeger_Helmet_Reid_Blue // named "Blue" for legacy purposes
         {
             model = "KAT_M52D_Jaeger_Helmets";
             helmmodel = "reid";
             squad = "valkyrie";
+        };
+        class KAT_M52D_Jaeger_Helmet_Reid_Berserker
+        {
+            model = "KAT_M52D_Jaeger_Helmets";
+            helmmodel = "reid";
+            squad = "berserker";
         };
     };
 };
@@ -219,12 +243,12 @@ class CfgWeapons
             "KAT_Armor\_base\helmets\M52D_Jaeger\_textures\odst_valkyrie.paa"
         };
     };
-    // class KAT_M52D_Jaeger_Helmet_Berserker : KAT_M52D_Jaeger_Helmet_Default
-    // {
-    //     displayName = "[KAT] M52D/J Helmet [Berserker]";
-    //     hiddenSelectionsTextures[] = 
-    //     {
-    //         "KAT_Armor\_base\helmets\M52D_Jaeger\_textures\odst_berserker.paa"
-    //     };
-    // };
+    class KAT_M52D_Jaeger_Helmet_Berserker : KAT_M52D_Jaeger_Helmet_Default
+    {
+        displayName = "[KAT] M52D/J Helmet [Berserker]";
+        hiddenSelectionsTextures[] = 
+        {
+            "KAT_Armor\_base\helmets\M52D_Jaeger\_textures\odst_berserker.paa"
+        };
+    };
 };

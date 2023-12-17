@@ -60,7 +60,14 @@ class XtdGearModels
 			{
 				alwaysSelectable = 1;
 				label = "Role";
-				values[] = {"valkyrie", "cooper", "barnes", "williams", "morningstar"};
+				values[] = {
+					"valkyrie",
+					"cooper",
+					"barnes",
+					"williams",
+					"morningstar",
+					"cline",
+				};
 				class valkyrie
 				{
 					label = "Valkyrie";
@@ -80,6 +87,10 @@ class XtdGearModels
 				class morningstar
 				{
 					label = "Morningstar";
+				};
+				class cline
+				{
+					label = "Cline";
 				};
 			};
 		};
@@ -138,6 +149,11 @@ class XtdGearInfos
 		{
 			model = "KAT_Helmets";
 			role = "morningstar";
+		};
+		class KAT_Helmets_Cline
+		{
+			model = "KAT_Helmets";
+			role = "cline";
 		};
 	};
 };
