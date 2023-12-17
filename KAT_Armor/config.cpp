@@ -28,10 +28,20 @@ class XtdGearModels
 			{
 				alwaysSelectable = 1;
 				label = "Role";
-				values[] = {"valkyrie", "cooper", "williams", "barnes", "morningstar"};
+				values[] = {
+					"valkyrie",
+					"berserker",
+					"cooper",
+					"barnes",
+					"morningstar"
+				};
 				class valkyrie
 				{
-					label = "Valkyrie";
+					label = "1-1 Valkyrie";
+				};
+				class berserker
+				{
+					label = "1-2 Berserker";
 				};
 				class cooper
 				{
@@ -40,10 +50,6 @@ class XtdGearModels
 				class barnes
 				{
 					label = "Barnes";
-				};
-				class williams
-				{
-					label = "Williams";
 				};
 				class morningstar
 				{
@@ -62,15 +68,19 @@ class XtdGearModels
 				label = "Role";
 				values[] = {
 					"valkyrie",
+					"berserker",
 					"cooper",
 					"barnes",
-					"williams",
 					"morningstar",
 					"cline",
 				};
 				class valkyrie
 				{
-					label = "Valkyrie";
+					label = "1-1 Valkyrie";
+				};
+				class berserker
+				{
+					label = "1-2 Berserker";
 				};
 				class cooper
 				{
@@ -79,10 +89,6 @@ class XtdGearModels
 				class barnes
 				{
 					label = "Barnes";
-				};
-				class williams
-				{
-					label = "Williams";
 				};
 				class morningstar
 				{
@@ -110,16 +116,6 @@ class XtdGearInfos
 			model = "KAT_Helmets";
 			role = "cooper";
 		};
-		class KAT_Armor_Williams
-		{
-			model = "KAT_Armor";
-			role = "williams";
-		};
-		class KAT_Helmets_Williams
-		{
-			model = "KAT_Helmets";
-			role = "williams";
-		};
 		class KAT_Armor_Valkyrie
 		{
 			model = "KAT_Armor";
@@ -129,6 +125,16 @@ class XtdGearInfos
 		{
 			model = "KAT_Helmets";
 			role = "valkyrie";
+		};
+		class KAT_Armor_Berserker
+		{
+			model = "KAT_Armor";
+			role = "berserker";
+		};
+		class KAT_Helmets_Berserker
+		{
+			model = "KAT_Helmets";
+			role = "berserker";
 		};
 		class KAT_Armor_Barnes
 		{
