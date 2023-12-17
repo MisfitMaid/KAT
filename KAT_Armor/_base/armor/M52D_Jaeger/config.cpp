@@ -40,10 +40,11 @@ class XtdGearModels
                 values[] =
                 {
                     "default",
-                    "oneill",
-                    "hayes",
-                    "reid",
+                    "carter",
                     "cline",
+                    "hayes",
+                    "oneill",
+                    "reid",
                 };
                 class default
                 {
@@ -64,6 +65,10 @@ class XtdGearModels
                 class cline
                 {
                     label = "Cline";
+                };
+                class carter
+                {
+                    label = "Carter";
                 };
             };
             class squad
@@ -103,7 +108,8 @@ class XtdGearModels
                     "breach",
                     "corpsman",
                     "gren",
-                    "sniper"
+                    "sniper",
+                    "rto",
                 };
                 class default
                 {
@@ -128,6 +134,10 @@ class XtdGearModels
                 class sniper
                 {
                     label = "Sniper";
+                };
+                class rto
+                {
+                    label = "RTO";
                 };
             };
         };
@@ -477,6 +487,22 @@ class XtdGearInfos
             vestmodel = "cline";
             squad = "berserker";
             role = "ar";
+        };
+
+        /* Custom: Carter */
+        class KAT_M52D_Jaeger_Armor_Carter_AutoRifleman_Berserker
+        {
+            model = "KAT_M52D_Jaeger_Vests";
+            vestmodel = "carter";
+            squad = "berserker";
+            role = "ar";
+        };
+        class KAT_M52D_Jaeger_Armor_Carter_RTO_Berserker
+        {
+            model = "KAT_M52D_Jaeger_Vests";
+            vestmodel = "carter";
+            squad = "berserker";
+            role = "rto";
         };
     };
 };
