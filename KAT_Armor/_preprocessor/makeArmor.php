@@ -19,23 +19,22 @@ foreach($configPlayers as $player) {
 $out = "// AUTOMATICALLY GENERATED. DO NOT EDIT MANUALLY.
 class CfgPatches
 {
-	class KAT_Armor
-	{
-		author = \"MisfitMaid\";
-		units[] = {};
-		weapons[] = {};
-		requiredVersion = 0.1;
-		requiredAddons[] =
-		{
-			\"A3_Characters_F\",
-			\"OPTRE_Core\"
-		};
-	};
+    class KAT_Armor
+    {
+        author = \"MisfitMaid\";
+        units[] = {};
+        weapons[] = {};
+        requiredVersion = 0.1;
+        requiredAddons[] =
+        {
+            \"A3_Characters_F\"
+        };
+    };
 };
 class XtdGearModels
 {
-	class CfgWeapons
-	{";
+    class CfgWeapons
+    {";
 $tpls = [];
 
 $tpls['metaitem'] = file_get_contents(__DIR__."/tpl/metaitem.tpl");
@@ -70,7 +69,7 @@ foreach ($groups as $k => $v) {
         $tpls['metaitem']
     );
 }
-$out .= "	};
+$out .= "    };
 };
 ";
 
