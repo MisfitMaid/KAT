@@ -1,0 +1,14 @@
+[
+    {
+        "id": "valkyrie",
+        "name": "1-1 Valkyrie Squad"
+    },
+    {
+        "id": "berserker",
+        "name": "1-2 Berserker Squad"
+    },
+    {
+        "id": "other",
+        "name": "Reserve/Valhalla"
+    }
+]

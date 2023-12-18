@@ -1,0 +1,18 @@
+[
+    {
+        "id": "cooper",
+        "name": "Cooper",
+        "weight": 1,
+        "group": "other",
+        "author": "MisfitMaid",
+        "tpl_armor": "m56r_standard",
+        "tpl_helmet": "v_cqc",
+        "paths": {
+            "armor_upper": "KAT_Armor\\cooper\\Reach_Armor_Upper_co.paa",
+            "armor_lower": "KAT_Armor\\cooper\\Reach_Armor_Lower_co.paa",
+            "helmet_body_texture": "KAT_Armor\\cooper\\cqc_helmet_co.paa",
+            "helmet_visor_texture": "KAT_Armor\\cooper\\cqc_visor_co.paa",
+            "helmet_visor_rvmat": "MA_Armor\\data\\Helmets\\hr_odst\\hr_odst_visor.rvmat"
+        }
+    }
+]
