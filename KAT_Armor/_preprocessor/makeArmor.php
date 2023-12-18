@@ -15,7 +15,23 @@ foreach($configPlayers as $player) {
     $groups[$player['group']]['members'][] = $player;
 }
 
+// build metaitems
 $out = "// AUTOMATICALLY GENERATED. DO NOT EDIT MANUALLY.
+class CfgPatches
+{
+	class KAT_Armor
+	{
+		author = \"MisfitMaid\";
+		units[] = {};
+		weapons[] = {};
+		requiredVersion = 0.1;
+		requiredAddons[] =
+		{
+			\"A3_Characters_F\",
+			\"OPTRE_Core\"
+		};
+	};
+};
 class XtdGearModels
 {
 	class CfgWeapons
@@ -54,5 +70,59 @@ foreach ($groups as $k => $v) {
     );
 }
 $out .= "	};
-};";
-file_put_contents(__DIR__."/config.cpp", $out);
+};
+";
+
+// build armors
+$tpls['armor'] = [];
+foreach(glob(__DIR__."/tpl/armor/*.tpl") as $v) {
+    $tpls['armor'][basename($v, ".tpl")] = file_get_contents($v);
+}
+
+$out .= "class CfgWeapons
+{
+    class ItemInfo;
+";
+
+foreach ($groups as $group) {
+    foreach ($group['members'] as $member) {
+        $tpl = $tpls['armor'][$member['tpl_armor']];
+        $vars = [];
+        $vars['{{id}}'] = $member['id'];
+        $vars['{{name}}'] = $member['name'];
+        $vars['{{author}}'] = $member['author'];
+        $vars['{{group}}'] = $member['group'];
+        foreach ($member['paths'] as $k => $v) {
+            $vars[sprintf("{{%s}}", $k)] = $v;
+        }
+        $out .= str_replace(array_keys($vars), array_values($vars), $tpl);
+    }
+}
+
+
+
+// build helmets
+$tpls['helmet'] = [];
+foreach(glob(__DIR__."/tpl/helmet/*.tpl") as $v) {
+    $tpls['helmet'][basename($v, ".tpl")] = file_get_contents($v);
+}
+
+foreach ($groups as $group) {
+    foreach ($group['members'] as $member) {
+        $tpl = $tpls['helmet'][$member['tpl_helmet']];
+        $vars = [];
+        $vars['{{id}}'] = $member['id'];
+        $vars['{{name}}'] = $member['name'];
+        $vars['{{author}}'] = $member['author'];
+        $vars['{{group}}'] = $member['group'];
+        foreach ($member['paths'] as $k => $v) {
+            $vars[sprintf("{{%s}}", $k)] = $v;
+        }
+        $out .= str_replace(array_keys($vars), array_values($vars), $tpl);
+    }
+}
+
+
+$out .= "};
+";
+file_put_contents(__DIR__."/../config.cpp", $out);

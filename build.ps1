@@ -10,6 +10,7 @@ if ($args.count -gt 0) {
 $oldPreference = $ErrorActionPreference
 $ErrorActionPreference = 'stop'
 try {if(Get-Command php){
+	php KAT_ARMOR/_preprocessor/makeArmor.php
 	php KAT_Gear/tictacs/csvToTictac.php
 }}
 catch {Write-Host "[WARN] php not found. skipping tictac generation" -ForegroundColor yellow}
