@@ -6,9 +6,6 @@ if ($args.count -gt 0) {
 	$dirs = "KAT_*";
 }
 
-Remove-Item "temp" -Force  -Recurse -ErrorAction SilentlyContinue
-mkdir "temp";
-
 # preprocessor stuff
 $oldPreference = $ErrorActionPreference
 $ErrorActionPreference = 'stop'
@@ -23,5 +20,5 @@ Get-ChildItem . -Directory $dirs | Foreach-Object {
 	$signArg = "-sign=" + $privKey;
 	$whitelistArg = "-include=" + $( Get-Location ) + "\addonBuilderWhitelist.txt";
 	
-	& $addonBuilder $fn $destination $signArg $whitelistArg -binarizeFullLogs -binarizeAllTextures -clear -temp=temp;
+	& $addonBuilder $fn $destination $signArg $whitelistArg -binarizeFullLogs -binarizeAllTextures -clear;
 }
