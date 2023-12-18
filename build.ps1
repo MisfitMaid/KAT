@@ -12,7 +12,7 @@ $ErrorActionPreference = 'stop'
 try {if(Get-Command php){
 	php KAT_Gear/tictacs/csvToTictac.php
 }}
-catch {Write-Host "[WARN] php not found. skipping armor and tictac generation" -ForegroundColor yellow}
+catch {Write-Host "[WARN] php not found. skipping tictac generation" -ForegroundColor yellow}
 finally {$ErrorActionPreference = $oldPreference}
 
 Get-ChildItem . -Directory $dirs | Foreach-Object {
