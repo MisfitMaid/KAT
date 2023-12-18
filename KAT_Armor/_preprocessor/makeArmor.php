@@ -41,6 +41,7 @@ $tpls = [];
 $tpls['metaitem'] = file_get_contents(__DIR__."/tpl/metaitem.tpl");
 
 foreach ($groups as $k => $v) {
+    echo sprintf("[KAT_Armor] Group %s has %s members found\n", $k, count($v['members']));
     uasort($v['members'], function ($a, $b) {
         return $a['weight'] <=> $b['weight'];
     });
@@ -86,6 +87,7 @@ $out .= "class CfgWeapons
 
 foreach ($groups as $group) {
     foreach ($group['members'] as $member) {
+        echo sprintf("[KAT_Armor] %s armor %s\n", $member['name'], $member['tpl_armor']);
         $tpl = $tpls['armor'][$member['tpl_armor']];
         $vars = [];
         $vars['{{id}}'] = $member['id'];
@@ -109,6 +111,7 @@ foreach(glob(__DIR__."/tpl/helmet/*.tpl") as $v) {
 
 foreach ($groups as $group) {
     foreach ($group['members'] as $member) {
+        echo sprintf("[KAT_Armor] %s helmet %s\n", $member['name'], $member['tpl_helmet']);
         $tpl = $tpls['helmet'][$member['tpl_helmet']];
         $vars = [];
         $vars['{{id}}'] = $member['id'];
