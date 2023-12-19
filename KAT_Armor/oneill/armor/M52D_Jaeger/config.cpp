@@ -20,7 +20,7 @@ class CfgWeapons
     class KAT_M52D_Jaeger_Armor_Rifleman;
     class KAT_M52D_Jaeger_Armor_ONeill_Berserker : KAT_M52D_Jaeger_Armor_Rifleman
     {
-        displayName = "[Azrael] M52D/J Grenadier [O'Neill][Valkyrie]";
+        displayName = "[Azrael] M52D (O'Neill)";
         hiddenSelectionsTextures[] =
         {
             "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
