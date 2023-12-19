@@ -235,13 +235,13 @@ class XtdGearInfos
         class KAT_Armor_Barnes
         {
             model = "KAT_Metaitem_Vest_Valkyrie";
-            type = "m56r";
+            type = "custom";
             customization = "barnes";
         };
         class KAT_Armor_Morningstar
         {
             model = "KAT_Metaitem_Vest_Valkyrie";
-            type = "m56s";
+            type = "custom";
             customization = "morningstar";
         };
 
@@ -264,31 +264,31 @@ class XtdGearInfos
         class KAT_M52D_Jaeger_Armor_Carter_Berserker
         {
             model = "KAT_Metaitem_Vest_Berserker";
-            type = "m52d";
+            type = "custom";
             customization = "carter";
         };
         class KAT_M52D_Jaeger_Armor_Cline_Berserker
         {
             model = "KAT_Metaitem_Vest_Berserker";
-            type = "m52d";
+            type = "custom";
             customization = "cline";
         };
         class KAT_M52D_Jaeger_Armor_Hayes_Berserker
         {
             model = "KAT_Metaitem_Vest_Berserker";
-            type = "m52d";
+            type = "custom";
             customization = "hayes";
         };
         class KAT_M52D_Jaeger_Armor_ONeill_Berserker
         {
             model = "KAT_Metaitem_Vest_Berserker";
-            type = "m52d";
+            type = "custom";
             customization = "oneill";
         };
         class KAT_M52D_Jaeger_Armor_Reid_Berserker
         {
             model = "KAT_Metaitem_Vest_Berserker";
-            type = "m52d";
+            type = "custom";
             customization = "reid";
         };
 
@@ -304,7 +304,7 @@ class XtdGearInfos
         class KAT_Armor_Cooper
         {
             model = "KAT_Metaitem_Vest_Valhalla";
-            type = "m56r";
+            type = "custom";
             customization = "cooper";
         };
     };
