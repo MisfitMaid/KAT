@@ -114,7 +114,7 @@ class CfgVehicles
 	class OPTRE_ANPRC_521_Black_Spartan;
 	class KAT_ZEUS_LR_Spartan: OPTRE_ANPRC_521_Black_Spartan
 	{
-		displayName="[KAT] Zeus LR (Spartan)";
+		displayName="[Azrael] Zeus LR (Spartan)";
 		tf_isolatedAmount=0.64999998;
 		tf_encryptionCode="tf_west_radio_code";
 		tf_dialog="anarc210_radio_dialog";

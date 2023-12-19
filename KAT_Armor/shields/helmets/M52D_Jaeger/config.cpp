@@ -21,7 +21,7 @@ class CfgWeapons
     class KAT_M52D_Jaeger_Helmet_Default;
     class KAT_M52D_Jaeger_Helmet_Shields_Blue : KAT_M52D_Jaeger_Helmet_Default // named "Blue" for legacy purposes
     {
-        displayName = "[KAT] M52D/J Helmet [Shields][Valkyrie]";
+        displayName = "[Azrael] M52D/J Helmet [Shields][Valkyrie]";
         hiddenSelectionsTextures[] =
         {
             "KAT_Armor\shields\helmets\M52D_Jaeger\_textures\blue.paa"

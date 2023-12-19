@@ -25,7 +25,7 @@ class CfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		author = "MisfitMaid";
-		displayName = "[KAT] M56R Combat Armor (Berserker)";
+		displayName = "[Azrael] M56R (Berserker)";
 		hiddenSelections[] = 
 		{
 			"camo1",
@@ -128,7 +128,7 @@ class CfgWeapons
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		author = "MisfitMaid";
-		displayName = "[KAT] M56S-R Helmet (Berserker)";
+		displayName = "[Azrael] M56S-R Helmet (Berserker)";
 		hiddenSelections[] = {"camo1","camo2"};
 		hiddenSelectionsTextures[] = {"KAT_Armor\berserker\hr_odst_helmet_co.paa","MA_Armor\data\Helmets\H3_ODST\H3_Visor_Red_co.paa"};
 		class ItemInfo: ItemInfo

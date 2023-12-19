@@ -100,31 +100,31 @@ class CfgWeapons
     class H_Beret_02;
     class KAT_Azrael_Beret_UNSC : H_Beret_02
     {
-        displayName = "[KAT] UNSC Beret";
+        displayName = "[Azrael] UNSC Beret";
         author = "wlan0";
         hiddenSelectionsTextures[] = { "KAT_Gear\hats\azrael_beret\_textures\unsc.paa" };
     };
     class KAT_Azrael_Beret_ODST: H_Beret_02
     {
-        displayName = "[KAT] ODST Beret";
+        displayName = "[Azrael] ODST Beret";
         author = "wlan0";
         hiddenSelectionsTextures[] = { "KAT_Gear\hats\azrael_beret\_textures\odst.paa" };
     };
     class KAT_Azrael_Beret_ONI: H_Beret_02
     {
-        displayName = "[KAT] ONI Beret";
+        displayName = "[Azrael] ONI Beret";
         author = "wlan0";
         hiddenSelectionsTextures[] = { "KAT_Gear\hats\azrael_beret\_textures\oni.paa" };
     };
     class KAT_Azrael_Beret_Valkyrie: H_Beret_02
     {
-        displayName = "[KAT] Valkyrie Squad Beret";
+        displayName = "[Azrael] Valkyrie Squad Beret";
         author = "wlan0";
         hiddenSelectionsTextures[] = { "KAT_Gear\hats\azrael_beret\_textures\valkyrie.paa" };
     };
     class KAT_Azrael_Beret_Berserker: H_Beret_02
     {
-        displayName = "[KAT] Berserker Squad Beret";
+        displayName = "[Azrael] Berserker Squad Beret";
         author = "wlan0";
         hiddenSelectionsTextures[] = { "KAT_Gear\hats\azrael_beret\_textures\berserker.paa" };
     };

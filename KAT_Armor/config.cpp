@@ -19,47 +19,9 @@ class XtdGearModels
 	class CamoBase;
 	class CfgWeapons
 	{
-		class KAT_Armor
-		{
-			label = "[KAT] M56 Armor (Valkyrie/Valhalla)";
-			author = "MisfitMaid";
-			options[] = {"role"};
-			class role
-			{
-				alwaysSelectable = 1;
-				label = "Role";
-				values[] = {
-					"valkyrie",
-					"berserker",
-					"cooper",
-					"barnes",
-					"morningstar"
-				};
-				class valkyrie
-				{
-					label = "1-1 Valkyrie";
-				};
-				class berserker
-				{
-					label = "1-2 Berserker";
-				};
-				class cooper
-				{
-					label = "Cooper";
-				};
-				class barnes
-				{
-					label = "Barnes";
-				};
-				class morningstar
-				{
-					label = "Morningstar";
-				};
-			};
-		};
 		class KAT_Helmets
 		{
-			label = "[KAT] M56 Helmets (Valkyrie/Valhalla)";
+			label = "[Azrael] M56 Helmets (Valkyrie/Valhalla)";
 			author = "MisfitMaid";
 			options[] = {"Role"};
 			class role
@@ -106,50 +68,25 @@ class XtdGearInfos
 {
 	class CfgWeapons
 	{
-		class KAT_Armor_Cooper
-		{
-			model = "KAT_Armor";
-			role = "cooper";
-		};
 		class KAT_Helmets_Cooper
 		{
 			model = "KAT_Helmets";
 			role = "cooper";
-		};
-		class KAT_Armor_Valkyrie
-		{
-			model = "KAT_Armor";
-			role = "valkyrie";
 		};
 		class KAT_Helmets_Valkyrie
 		{
 			model = "KAT_Helmets";
 			role = "valkyrie";
 		};
-		class KAT_Armor_Berserker
-		{
-			model = "KAT_Armor";
-			role = "berserker";
-		};
 		class KAT_Helmets_Berserker
 		{
 			model = "KAT_Helmets";
 			role = "berserker";
 		};
-		class KAT_Armor_Barnes
-		{
-			model = "KAT_Armor";
-			role = "barnes";
-		};
 		class KAT_Helmets_Barnes
 		{
 			model = "KAT_Helmets";
 			role = "barnes";
-		};
-		class KAT_Armor_Morningstar
-		{
-			model = "KAT_Armor";
-			role = "morningstar";
 		};
 		class KAT_Helmets_Morningstar
 		{

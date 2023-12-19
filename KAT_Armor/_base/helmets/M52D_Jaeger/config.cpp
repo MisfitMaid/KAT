@@ -188,7 +188,7 @@ class CfgWeapons
     {
         author = "wlan0";
         model = "ODST\ODST_helm_F.p3d";
-        displayName = "[KAT] M52D/J Helmet";
+        displayName = "[Azrael] M52D/J Helmet";
         ace_hearing_protection = 5.0;
         ace_hearing_lowerVolume = 0.25;
         hiddenSelections[] =
@@ -237,7 +237,7 @@ class CfgWeapons
     };
     class KAT_M52D_Jaeger_Helmet_Blue : KAT_M52D_Jaeger_Helmet_Default // named "Blue" for legacy purposes
     {
-        displayName = "[KAT] M52D/J Helmet [Valkyrie]";
+        displayName = "[Azrael] M52D/J Helmet [Valkyrie]";
         hiddenSelectionsTextures[] = 
         {
             "KAT_Armor\_base\helmets\M52D_Jaeger\_textures\odst_valkyrie.paa"
@@ -245,7 +245,7 @@ class CfgWeapons
     };
     class KAT_M52D_Jaeger_Helmet_Berserker : KAT_M52D_Jaeger_Helmet_Default
     {
-        displayName = "[KAT] M52D/J Helmet [Berserker]";
+        displayName = "[Azrael] M52D/J Helmet [Berserker]";
         hiddenSelectionsTextures[] = 
         {
             "KAT_Armor\_base\helmets\M52D_Jaeger\_textures\odst_berserker.paa"

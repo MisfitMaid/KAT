@@ -10,28 +10,23 @@ class CfgPatches
         };
         requiredVersion = 0.1;
         units[] = {};
-        weapons[] =
-        {
-            "KAT_M52D_Jaeger_Armor_Hayes_Corpsman_Blue",
-            "KAT_M52D_Jaeger_Armor_Hayes_Corpsman_Berserker",
-        };
+        weapons[] = {};
     };
 };
 class CfgWeapons
 {
      class ItemInfo;
-
     class KAT_M52D_Jaeger_Armor_Rifleman;
-    class KAT_M52D_Jaeger_Armor_Hayes_Corpsman_Blue : KAT_M52D_Jaeger_Armor_Rifleman // named "Blue" for legacy purposes
+    class KAT_M52D_Jaeger_Armor_Hayes_Berserker : KAT_M52D_Jaeger_Armor_Rifleman
     {
-        displayName = "[KAT] M52D/J Corpsman [Hayes][Valkyrie]";
+        displayName = "[Azrael] M52D (Hayes)";
         hiddenSelectionsTextures[] =
         {
             "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
             "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_valkyrie.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_berserker.paa",
             "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\hayes\armor\M52D_Jaeger\_textures\main_valkyrie.paa"
+            "KAT_Armor\hayes\armor\M52D_Jaeger\_textures\main_berserker.paa"
         };
         class ItemInfo : ItemInfo
         {
@@ -98,18 +93,6 @@ class CfgWeapons
                 "APO_Sniper",
                 "CustomKit_Scorch"
             };
-        };
-    };
-    class KAT_M52D_Jaeger_Armor_Hayes_Corpsman_Berserker : KAT_M52D_Jaeger_Armor_Hayes_Corpsman_Blue
-    {
-        displayName = "[KAT] M52D/J Corpsman [Hayes][Berserker]";
-        hiddenSelectionsTextures[] =
-        {
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_berserker.paa",
-            "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\hayes\armor\M52D_Jaeger\_textures\main_berserker.paa"
         };
     };
 };

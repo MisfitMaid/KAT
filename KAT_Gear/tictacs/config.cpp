@@ -21,7 +21,7 @@ class CfgVehicles
 	class KAT_TicTac_Empty: OPTRE_Ammo_SupplyPod_Empty
 	{
 		scope=2;
-		displayName="[KAT] Supply Pod (Empty)";
+		displayName="[Azrael] Supply Pod (Empty)";
 		maximumLoad=1000000;
 		hiddenselections[]=
 		{
@@ -39,7 +39,7 @@ class CfgVehicles
 	
 	class KAT_TicTac_Base: KAT_TicTac_Empty
 	{
-		displayName="[KAT] Supply Pod (Base)";
+		displayName="[Azrael] Supply Pod (Base)";
 		
 		class TransportItems
 		{
@@ -61,7 +61,7 @@ class CfgVehicles
 	};
 	class KAT_TicTac_Testing: KAT_TicTac_Base
 	{
-		displayName="[KAT] Supply Pod (Testing)";
+		displayName="[Azrael] Supply Pod (Testing)";
 		
 		class TransportMagazines
 		{
@@ -86,20 +86,20 @@ class CfgVehicles
 					};
 					class kat_pod_empty
 					{
-						name="[KAT] Supply Pod (Empty)";
+						name="[Azrael] Supply Pod (Empty)";
 						value="KAT_TicTac_Empty";
 					};
 					
 
 					class kat_pod_Base
 					{
-						name="[KAT] Supply Pod (Base)";
+						name="[Azrael] Supply Pod (Base)";
 						value="KAT_TicTac_Base";
 					};
 
 					class kat_pod_Testing
 					{
-						name="[KAT] Supply Pod (Testing)";
+						name="[Azrael] Supply Pod (Testing)";
 						value="KAT_TicTac_Testing";
 					};
 				};

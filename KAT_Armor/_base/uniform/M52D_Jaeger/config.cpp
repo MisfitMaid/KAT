@@ -89,7 +89,7 @@ class CfgWeapons
     class KAT_M56S_BDU;
     class KAT_M52D_Jaeger_BDU_Masc_Black: KAT_M56S_BDU
     {
-        displayName = "[KAT] M52D/J BDU [Masc][Black]";
+        displayName = "[Azrael] M52D/J BDU [Masc][Black]";
         class ItemInfo: ItemInfo
         {
             uniformClass = "KAT_M52D_Jaeger_BDU_Masc_Black";
@@ -98,7 +98,7 @@ class CfgWeapons
     };
     class KAT_M52D_Jaeger_BDU_Femme_Black: KAT_M56S_BDU
     {
-        displayName = "[KAT] M52D/J BDU [Femme][Black]";
+        displayName = "[Azrael] M52D/J BDU [Femme][Black]";
         class ItemInfo: ItemInfo
         {
             uniformClass = "KAT_M52D_Jaeger_BDU_Femme_Black";

@@ -128,7 +128,7 @@ class CfgVehicles
     class MA_M56S_Rucksack;
     class KAT_Backpack_ODST_Hardcase_Light_Basic : MA_M56S_Rucksack
     {
-        displayName = "[KAT] ODST Light Hardcase";
+        displayName = "[Azrael] ODST Light Hardcase";
         author = "wlan0";
         hiddenSelectionsTextures[] = {
             "KAT_Gear\backpacks\odst_hardcase\_textures\MA_Ruck\ruck.paa",
@@ -151,7 +151,7 @@ class CfgVehicles
     };
     class KAT_Backpack_ODST_Hardcase_Padded_Basic : KAT_Backpack_ODST_Hardcase_Main
     {
-        displayName = "[KAT] ODST Padded Hardcase";
+        displayName = "[Azrael] ODST Padded Hardcase";
         hiddenSelections[] = {
             "camo1",
             "AP_Heavy",
@@ -160,7 +160,7 @@ class CfgVehicles
     };
     class KAT_Backpack_ODST_Hardcase_Heavy_Basic : KAT_Backpack_ODST_Hardcase_Main
     {
-        displayName = "[KAT] ODST Heavy Hardcase";
+        displayName = "[Azrael] ODST Heavy Hardcase";
         hiddenSelections[] = {
             "camo1",
             // "AP_Heavy",
@@ -169,7 +169,7 @@ class CfgVehicles
     };
     class KAT_Backpack_ODST_Hardcase_Padded_Medical : KAT_Backpack_ODST_Hardcase_Main
     {
-        displayName = "[KAT] ODST Padded Medical Hardcase";
+        displayName = "[Azrael] ODST Padded Medical Hardcase";
         hiddenSelections[] = {
             "camo1",
             "AP_Heavy",
@@ -178,7 +178,7 @@ class CfgVehicles
     };
     class KAT_Backpack_ODST_Hardcase_Heavy_Medical : KAT_Backpack_ODST_Hardcase_Main
     {
-        displayName = "[KAT] ODST Heavy Medical Hardcase";
+        displayName = "[Azrael] ODST Heavy Medical Hardcase";
         hiddenSelections[] = {
             "camo1",
             // "AP_Heavy",
@@ -189,7 +189,7 @@ class CfgVehicles
     class OPTRE_ANPRC_521_green;
     class KAT_Backpack_ODST_Hardcase_Longbow_Basic : OPTRE_ANPRC_521_green
     {
-        displayName = "[KAT] AN/PRC-497 Longbow";
+        displayName = "[Azrael] AN/PRC-497 Longbow";
         author = "wlan0";
         descriptionShort = "AN/PRC-487 Longbow<br>UNSC Long Range Radio<br>25km Effective Range";
         scope = 2;

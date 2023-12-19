@@ -21,7 +21,7 @@ class cfgGlasses
     class LM_OPCAN_URB_Shemagh;
     class KAT_Shemagh_Green_Paisley : LM_OPCAN_URB_Shemagh
     {
-        displayName = "[KAT] Shemagh (Green Paisley)";
+        displayName = "[Azrael] Shemagh (Green Paisley)";
         author = "wlan0";
         hiddenSelectionsTextures[] = { "KAT_Gear\hats\shemagh\_textures\green_paisley.paa" };
     };

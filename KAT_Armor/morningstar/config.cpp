@@ -24,7 +24,7 @@ class CfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		author = "MisfitMaid";
-		displayName = "[KAT] M56S Combat Armor (Morningstar)";
+		displayName = "[Azrael] M56S (Morningstar)";
 		hiddenSelections[] = 
 		{
 			"camo1",
@@ -122,7 +122,7 @@ class CfgWeapons
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		author = "MisfitMaid";
-		displayName = "[KAT] M56R Helmet (Morningstar)";
+		displayName = "[Azrael] M56R Helmet (Morningstar)";
 		hiddenSelections[] = {"camo1","camo2"};
 		hiddenSelectionsTextures[] = {"KAT_Armor\morningstar\hr_odst_helmet_co.paa","MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_Red_co.paa"};
 		class ItemInfo: ItemInfo

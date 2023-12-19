@@ -10,26 +10,23 @@ class CfgPatches
         };
         requiredVersion = 0.1;
         units[] = {};
-        weapons[] =
-        {
-            "KAT_M52D_Jaeger_Armor_Cline_AutoRifleman_Valkyrie",
-        };
+        weapons[] = {};
     };
 };
 class CfgWeapons
 {
     class ItemInfo;
     class KAT_M52D_Jaeger_Armor_Rifleman;
-    class KAT_M52D_Jaeger_Armor_Cline_AutoRifleman_Valkyrie : KAT_M52D_Jaeger_Armor_Rifleman
+    class KAT_M52D_Jaeger_Armor_Cline_Berserker : KAT_M52D_Jaeger_Armor_Rifleman
     {
-        displayName = "[KAT] M52D/J AutoRifleman [Cline][Valkyrie]";
+        displayName = "[Azrael] M52D (Cline)";
         hiddenSelectionsTextures[] =
         {
             "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\cline\armor\M52D_Jaeger\_textures\armor_valkyrie.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_valkyrie.paa",
+            "KAT_Armor\cline\armor\M52D_Jaeger\_textures\armor_berserker.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_berserker.paa",
             "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\cline\armor\M52D_Jaeger\_textures\main_valkyrie.paa"
+            "KAT_Armor\cline\armor\M52D_Jaeger\_textures\main_berserker.paa"
         };
         class ItemInfo : ItemInfo
         {
@@ -96,18 +93,6 @@ class CfgWeapons
                 "APO_Sniper",
                 "CustomKit_Scorch"
             };
-        };
-    };
-    class KAT_M52D_Jaeger_Armor_Cline_AutoRifleman_Berserker : KAT_M52D_Jaeger_Armor_Cline_AutoRifleman_Valkyrie
-    {
-        displayName = "[KAT] M52D/J AutoRifleman [Cline][Berserker]";
-        hiddenSelectionsTextures[] =
-        {
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\cline\armor\M52D_Jaeger\_textures\armor_berserker.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_berserker.paa",
-            "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\cline\armor\M52D_Jaeger\_textures\main_berserker.paa"
         };
     };
 };
