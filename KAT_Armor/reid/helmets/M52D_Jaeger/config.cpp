@@ -20,17 +20,9 @@ class CfgPatches
 class CfgWeapons
 {
     class KAT_M52D_Jaeger_Helmet_Default;
-    class KAT_M52D_Jaeger_Helmet_Reid_Blue : KAT_M52D_Jaeger_Helmet_Default // named "Blue" for legacy purposes
-    {
-        displayName = "[Azrael] M52D/J Helmet [Reid][Valkyrie]";
-        hiddenSelectionsTextures[] =
-        {
-            "KAT_Armor\reid\helmets\M52D_Jaeger\_textures\blue.paa"
-        };
-    };
     class KAT_M52D_Jaeger_Helmet_Reid_Berserker : KAT_M52D_Jaeger_Helmet_Default
     {
-        displayName = "[Azrael] M52D/J Helmet [Reid][Berserker]";
+        displayName = "[Azrael] M52D (Reid)";
         hiddenSelectionsTextures[] =
         {
             "KAT_Armor\reid\helmets\M52D_Jaeger\_textures\berserker.paa"

@@ -134,7 +134,7 @@ class CfgWeapons
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		author = "MisfitMaid";
-		displayName = "[Azrael] Mark V/EOD Helmet (Barnes)";
+		displayName = "[Azrael] Mark V/EOD (Barnes)";
 		hiddenSelections[] = {"camo1","camo2"};
 		hiddenSelectionsTextures[] = {"KAT_Armor\barnes\eod_helmet_co.paa","KAT_Armor\barnes\eod_visor_co.paa"};
 		// hiddenSelectionsTextures[] = {"KAT_Armor\helper.paa","KAT_Armor\helper.paa"};

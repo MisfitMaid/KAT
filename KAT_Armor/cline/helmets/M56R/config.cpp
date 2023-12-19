@@ -22,7 +22,7 @@ class CfgWeapons
         scope = 2;
         scopeCurator = 2;
         scopeArsenal = 2;
-        displayName = "[Azrael] M56R Helmet (Cline)";
+        displayName = "[Azrael] M56R (Cline)";
         author = "wlan0";
         hiddenSelections[] =
         {
