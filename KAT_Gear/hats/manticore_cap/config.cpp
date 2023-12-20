@@ -17,7 +17,7 @@ class CfGWeapons
     class KAT_Hat_Manticore: H_Cap_oli
     {
         dlc="OPTRE";
-        displayname="Cap [Manticore]";
+        displayname="[Azrael] Cap (Manticore)";
         author="MisfitMaid";
         hiddenselectionstextures[]=
         {
