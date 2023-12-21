@@ -391,11 +391,16 @@ class XtdGearInfos
             type = "custom";
             customization = "hayes";
         };
-        class KAT_M52D_Jaeger_Helmet_ONeill_Berserker
+        class KAT_Helmets_ONeill
         {
             model = "KAT_Metaitem_Helmet_Berserker";
             type = "custom";
             customization = "oneill";
+            polarization = "on";
+        };
+        class KAT_Helmets_ONeill_dp: KAT_Helmets_ONeill
+        {
+            polarization = "off";
         };
         class KAT_M52D_Jaeger_Helmet_Reid_Berserker
         {
