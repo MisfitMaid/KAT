@@ -28,6 +28,7 @@ class XtdGearModels
             {
                 "type",
                 "customization",
+                "polarization",
             };
             class type
             {
@@ -35,10 +36,15 @@ class XtdGearModels
                 alwaysSelectable = 1;
                 values[] =
                 {
+                    "ch252d",
                     "m52d",
                     "m56r",
                     "m56s",
                     "custom",
+                };
+                class ch252d
+                {
+                    label = "CH252D";
                 };
                 class m52d
                 {
@@ -85,6 +91,26 @@ class XtdGearModels
                     label = "Shields";
                 };
             };
+            class polarization
+            {
+                label = "Polarization";
+                alwaysSelectable = 0;
+                changeingame = 1;
+                changedelay = 0;
+                values[] =
+                {
+                    "on",
+                    "off",
+                };
+                class on
+                {
+                    label = "On";
+                };
+                class off
+                {
+                    label = "Off";
+                };
+            };
         };
 
         class KAT_Metaitem_Helmet_Berserker
@@ -94,6 +120,7 @@ class XtdGearModels
             {
                 "type",
                 "customization",
+                "polarization",
             };
             class type
             {
@@ -101,10 +128,15 @@ class XtdGearModels
                 alwaysSelectable = 1;
                 values[] =
                 {
+                    "ch252d",
                     "m52d",
                     "m56r",
                     "m56s",
                     "custom",
+                };
+                class ch252d
+                {
+                    label = "CH252D";
                 };
                 class m52d
                 {
@@ -161,6 +193,26 @@ class XtdGearModels
                     label = "Reid";
                 };
             };
+            class polarization
+            {
+                label = "Polarization";
+                alwaysSelectable = 0;
+                changeingame = 1;
+                changedelay = 0;
+                values[] =
+                {
+                    "on",
+                    "off",
+                };
+                class on
+                {
+                    label = "On";
+                };
+                class off
+                {
+                    label = "Off";
+                };
+            };
         };
 
         class KAT_Metaitem_Helmet_Valhalla
@@ -170,6 +222,7 @@ class XtdGearModels
             {
                 "type",
                 "customization",
+                "polarization",
             };
             class type
             {
@@ -177,10 +230,15 @@ class XtdGearModels
                 alwaysSelectable = 1;
                 values[] =
                 {
+                    "ch252d",
                     "m52d",
                     "m56r",
                     "m56s",
                     "custom",
+                };
+                class ch252d
+                {
+                    label = "CH252D";
                 };
                 class m52d
                 {
@@ -217,6 +275,26 @@ class XtdGearModels
                     label = "Cooper";
                 };
             };
+            class polarization
+            {
+                label = "Polarization";
+                alwaysSelectable = 0;
+                changeingame = 1;
+                changedelay = 0;
+                values[] =
+                {
+                    "on",
+                    "off",
+                };
+                class on
+                {
+                    label = "On";
+                };
+                class off
+                {
+                    label = "Off";
+                };
+            };
         };
     };
 };
@@ -226,6 +304,17 @@ class XtdGearInfos
     {
         /* Valkyrie */
         // Stocks
+        class KAT_CH252D_Helmet_Valkyrie
+        {
+            model = "KAT_Metaitem_Helmet_Valkyrie";
+            type = "ch252d";
+            customization = "stock";
+            polarization = "on";
+        };
+        class KAT_CH252D_Helmet_Valkyrie_dp : KAT_CH252D_Helmet_Valkyrie
+        {
+            polarization = "off";
+        };
         class KAT_M52D_Jaeger_Helmet_Blue // named "Blue" for legacy purposes
         {
             model = "KAT_Metaitem_Helmet_Valkyrie";
@@ -260,6 +349,17 @@ class XtdGearInfos
 
         /* Berserker */
         // Stocks
+        class KAT_CH252D_Helmet_Berserker
+        {
+            model = "KAT_Metaitem_Helmet_Berserker";
+            type = "ch252d";
+            customization = "stock";
+            polarization = "on";
+        };
+        class KAT_CH252D_Helmet_Berserker_dp : KAT_CH252D_Helmet_Berserker
+        {
+            polarization = "off";
+        };
         class KAT_M52D_Jaeger_Helmet_Berserker
         {
             model = "KAT_Metaitem_Helmet_Berserker";
@@ -306,6 +406,17 @@ class XtdGearInfos
 
         /* Valhalla */
         // Stocks
+        class KAT_CH252D_Helmet_Default
+        {
+            model = "KAT_Metaitem_Helmet_Valhalla";
+            type = "ch252d";
+            customization = "stock";
+            polarization = "on";
+        };
+        class KAT_CH252D_Helmet_Default_dp : KAT_CH252D_Helmet_Default
+        {
+            polarization = "off";
+        };
         class KAT_M52D_Jaeger_Helmet_Default
         {
             model = "KAT_Metaitem_Helmet_Valhalla";
@@ -314,10 +425,10 @@ class XtdGearInfos
         };
         // Customs
         class KAT_Helmets_Cooper
-		{
-			model = "KAT_Metaitem_Helmet_Valhalla";
+        {
+            model = "KAT_Metaitem_Helmet_Valhalla";
             type = "custom";
             customization = "cooper";
-		};
+        };
     };
 };
