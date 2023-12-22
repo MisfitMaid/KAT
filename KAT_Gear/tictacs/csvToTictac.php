@@ -21,7 +21,7 @@ foreach ($csv as $v) {
 $tpl = "
 	class KAT_TicTac_%s: KAT_TicTac_%s
 	{
-		displayName=\"[KAT] Supply Pod (%s)\";
+		displayName=\"[Azrael] Supply Pod (%s)\";
 		%s
 	};";
 $tpl_Trans = "
@@ -36,7 +36,7 @@ $tpl_Module = "
 
 					class kat_pod_%s
 					{
-						name=\"[KAT] Supply Pod (%s)\";
+						name=\"[Azrael] Supply Pod (%s)\";
 						value=\"KAT_TicTac_%s\";
 					};";
 $tpl_Define = "\"KAT_TicTac_%s\"";

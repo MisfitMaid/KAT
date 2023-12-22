@@ -21,7 +21,7 @@ class CfgVehicles
 	class KAT_TicTac_Empty: OPTRE_Ammo_SupplyPod_Empty
 	{
 		scope=2;
-		displayName="[KAT] Supply Pod (Empty)";
+		displayName="[Azrael] Supply Pod (Empty)";
 		maximumLoad=1000000;
 		hiddenselections[]=
 		{
@@ -54,7 +54,7 @@ class CfgVehicles
 					};
 					class kat_pod_empty
 					{
-						name="[KAT] Supply Pod (Empty)";
+						name="[Azrael] Supply Pod (Empty)";
 						value="KAT_TicTac_Empty";
 					};
 					%s

@@ -22,7 +22,7 @@ class CfgWeapons
 	{
 		scope = 1;
 		scopeArsenal = 1;
-		displayName = "[KAT] Base M56R";
+		displayName = "[Azrael] Base M56R";
 		vestType = "Rebreather";
 		model = "MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
 		picture = "MA_Armor\data\Icons\H3ODST_Vest.paa";
@@ -112,7 +112,7 @@ class CfgWeapons
 		scope = 2;
 		scopeCurator = 2;
 		scopeArsenal = 2;
-		displayName = "[KAT] M56S BDU";
+		displayName = "[Azrael] M56S BDU";
 		CBRN_protectionLevel = "4 + 8";
 		ACE_GForceCoef = 0.9;
 		class ItemInfo: ItemInfo

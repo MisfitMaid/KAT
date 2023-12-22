@@ -12,19 +12,20 @@ class CfgPatches
         units[] = {};
         weapons[] =
         {
-            "KAT_M52D_Jaeger_Helmet_Hayes_Blue"
+            "KAT_M52D_Jaeger_Helmet_Hayes_Blue",
+            "KAT_M52D_Jaeger_Helmet_Hayes_Berserker",
         };
     };
 };
 class CfgWeapons
 {
     class KAT_M52D_Jaeger_Helmet_Default;
-    class KAT_M52D_Jaeger_Helmet_Hayes_Blue : KAT_M52D_Jaeger_Helmet_Default
+    class KAT_M52D_Jaeger_Helmet_Hayes_Berserker : KAT_M52D_Jaeger_Helmet_Default
     {
-        displayName = "[KAT] M52D/J Helmet [Hayes]";
+        displayName = "[Azrael] M52D (Hayes)";
         hiddenSelectionsTextures[] =
         {
-            "KAT_Armor\hayes\helmets\M52D_Jaeger\_textures\blue.paa"
+            "KAT_Armor\hayes\helmets\M52D_Jaeger\_textures\berserker.paa"
         };
     };
 };

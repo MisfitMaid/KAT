@@ -20,5 +20,5 @@ Get-ChildItem . -Directory $dirs | Foreach-Object {
 	$signArg = "-sign=" + $privKey;
 	$whitelistArg = "-include=" + $( Get-Location ) + "\addonBuilderWhitelist.txt";
 	
-	& $addonBuilder $fn $destination $signArg $whitelistArg -binarizeFullLogs -binarizeAllTextures;
+	& $addonBuilder $fn $destination $signArg $whitelistArg -binarizeFullLogs -binarizeAllTextures -clear;
 }

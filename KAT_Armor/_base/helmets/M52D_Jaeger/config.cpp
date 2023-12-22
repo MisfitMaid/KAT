@@ -11,200 +11,7 @@ class CfgPatches
         };
         requiredVersion = 0.1;
         units[] = {};
-        weapons[] =
-        {
-            "KAT_M52D_Jaeger_Helmet_Default",
-            "KAT_M52D_Jaeger_Helmet_Red",
-            "KAT_M52D_Jaeger_Helmet_Orange",
-            "KAT_M52D_Jaeger_Helmet_Green",
-            "KAT_M52D_Jaeger_Helmet_Blue",
-            "KAT_M52D_Jaeger_Helmet_Yellow",
-            "KAT_M52D_Jaeger_Helmet_Purple",
-
-        };
-    };
-};
-class XtdGearModels
-{
-    class CfgWeapons
-    {
-        class KAT_M52D_Jaeger_Helmets
-        {
-            label = "Jaeger";
-            options[] =
-            {
-                "helmmodel",
-                "color"
-            };
-            class helmmodel
-            {
-                label = "Model";
-                alwaysSelectable = 1;
-                values[] =
-                {
-                    "default",
-                    "oneill",
-                    "shields",
-                    "hayes",
-                    "carter",
-                    "reid",
-                };
-                class default
-                {
-                    label = "Default";
-                }
-                class oneill
-                {
-                    label = "O'Neill";
-                };
-                class shields
-                {
-                    label = "Shields";
-                };
-                class hayes
-                {
-                    label = "Hayes";
-                };
-                class carter
-                {
-                    label = "Carter";
-                };
-                class reid
-                {
-                    label = "Reid";
-                };
-            };
-            class color
-            {
-                label = "Color";
-                alwaysSelectable = 1;
-                values[] =
-                {
-                    "default",
-                    "red",
-                    "orange",
-                    "green",
-                    "blue",
-                    "yellow",
-                    "purple"
-                };
-                class default
-                {
-                    label = "Default";
-                    image = "#(rgb,8,8,3)color(0,0,0,1)";
-                };
-                class red
-                {
-                    label = "Red";
-                    image = "#(rgb,8,8,3)color(0.8,0,0,1)";
-                };
-                class orange
-                {
-                    label = "Orange";
-                    image = "#(rgb,8,8,3)color(0.81,0.58,0.03,1)";
-                };
-                class green
-                {
-                    label = "Green";
-                    image = "#(rgb,8,8,3)color(0.0,0.51,0,1)";
-                };
-                class blue
-                {
-                    label = "Blue";
-                    image = "#(rgb,8,8,3)color(0.0,0,0.51,1)";
-                };
-                class yellow
-                {
-                    label = "Yellow";
-                    image = "#(rgb,8,8,3)color(0.80,0.8,0,1)";
-                };
-                class purple
-                {
-                    label = "Purple";
-                    image = "#(rgb,8,8,3)color(0.263,0.067,0.718,1)";
-                };
-            };
-        };
-    };
-};
-class XtdGearInfos
-{
-    class CfgWeapons
-    {
-        /* Colors */
-        class KAT_M52D_Jaeger_Helmet_Default
-        {
-            model = "KAT_M52D_Jaeger_Helmets";
-            helmmodel = "default";
-            color = "default";
-        };
-        class KAT_M52D_Jaeger_Helmet_Red
-        {
-            model = "KAT_M52D_Jaeger_Helmets";
-            helmmodel = "default";
-            color = "red";
-        };
-        class KAT_M52D_Jaeger_Helmet_Orange
-        {
-            model = "KAT_M52D_Jaeger_Helmets";
-            helmmodel = "default";
-            color = "orange";
-        };
-        class KAT_M52D_Jaeger_Helmet_Green
-        {
-            model = "KAT_M52D_Jaeger_Helmets";
-            helmmodel = "default";
-            color = "green";
-        };
-        class KAT_M52D_Jaeger_Helmet_Blue
-        {
-            model = "KAT_M52D_Jaeger_Helmets";
-            helmmodel = "default";
-            color = "blue";
-        };
-        class KAT_M52D_Jaeger_Helmet_Yellow
-        {
-            model = "KAT_M52D_Jaeger_Helmets";
-            helmmodel = "default";
-            color = "yellow";
-        };
-        class KAT_M52D_Jaeger_Helmet_Purple
-        {
-            model = "KAT_M52D_Jaeger_Helmets";
-            helmmodel = "default";
-            color = "purple";
-        };
-        /* Customs */
-        class KAT_M52D_Jaeger_Helmet_ONeill_Blue
-        {
-            model = "KAT_M52D_Jaeger_Helmets";
-            helmmodel = "oneill";
-            color = "blue";
-        };
-        class KAT_M52D_Jaeger_Helmet_Shields_Blue
-        {
-            model = "KAT_M52D_Jaeger_Helmets";
-            helmmodel = "shields";
-            color = "blue";
-        };
-        class KAT_M52D_Jaeger_Helmet_Hayes_Blue
-        {
-            model = "KAT_M52D_Jaeger_Helmets";
-            helmmodel = "hayes";
-            color = "blue";
-        };
-        class KAT_M52D_Jaeger_Helmet_Carter_Blue
-        {
-            model = "KAT_M52D_Jaeger_Helmets";
-            helmmodel = "carter";
-            color = "blue";
-        };
-        class KAT_M52D_Jaeger_Helmet_Reid_Blue
-        {
-            model = "KAT_M52D_Jaeger_Helmets";
-            helmmodel = "reid";
-            color = "blue";
-        };
+        weapons[] = {};
     };
 };
 class CfgWeapons
@@ -216,7 +23,7 @@ class CfgWeapons
     {
         author = "wlan0";
         model = "ODST\ODST_helm_F.p3d";
-        displayName = "[KAT] M52D/J Helmet";
+        displayName = "[Azrael] M52D";
         ace_hearing_protection = 5.0;
         ace_hearing_lowerVolume = 0.25;
         hiddenSelections[] =
@@ -263,52 +70,20 @@ class CfgWeapons
             };
         };
     };
-    class KAT_M52D_Jaeger_Helmet_Red : KAT_M52D_Jaeger_Helmet_Default
+    class KAT_M52D_Jaeger_Helmet_Blue : KAT_M52D_Jaeger_Helmet_Default // named "Blue" for legacy purposes
     {
-        displayName = "[KAT] M52D/J Helmet [Red]";
+        displayName = "[Azrael] M52D (Valkyrie)";
         hiddenSelectionsTextures[] = 
         {
-            "KAT_Armor\_base\helmets\M52D_Jaeger\_textures\odst_red.paa"
+            "KAT_Armor\_base\helmets\M52D_Jaeger\_textures\odst_valkyrie.paa"
         };
     };
-    class KAT_M52D_Jaeger_Helmet_Orange : KAT_M52D_Jaeger_Helmet_Default
+    class KAT_M52D_Jaeger_Helmet_Berserker : KAT_M52D_Jaeger_Helmet_Default
     {
-        displayName = "[KAT] M52D/J Helmet [Orange]";
+        displayName = "[Azrael] M52D (Berserker)";
         hiddenSelectionsTextures[] = 
         {
-            "KAT_Armor\_base\helmets\M52D_Jaeger\_textures\odst_orange.paa"
-        };
-    };
-    class KAT_M52D_Jaeger_Helmet_Green : KAT_M52D_Jaeger_Helmet_Default
-    {
-        displayName = "[KAT] M52D/J Helmet [Green]";
-        hiddenSelectionsTextures[] = 
-        {
-            "KAT_Armor\_base\helmets\M52D_Jaeger\_textures\odst_green.paa"
-        };
-    };
-    class KAT_M52D_Jaeger_Helmet_Blue : KAT_M52D_Jaeger_Helmet_Default
-    {
-        displayName = "[KAT] M52D/J Helmet [Blue]";
-        hiddenSelectionsTextures[] = 
-        {
-            "KAT_Armor\_base\helmets\M52D_Jaeger\_textures\odst_blue.paa"
-        };
-    };
-    class KAT_M52D_Jaeger_Helmet_Yellow : KAT_M52D_Jaeger_Helmet_Default
-    {
-        displayName = "[KAT] M52D/J Helmet [Yellow]";
-        hiddenSelectionsTextures[] = 
-        {
-            "KAT_Armor\_base\helmets\M52D_Jaeger\_textures\odst_yellow.paa"
-        };
-    };
-    class KAT_M52D_Jaeger_Helmet_Purple : KAT_M52D_Jaeger_Helmet_Default
-    {
-        displayName = "[KAT] M52D/J Helmet [Purple]";
-        hiddenSelectionsTextures[] = 
-        {
-            "KAT_Armor\_base\helmets\M52D_Jaeger\_textures\odst_purple.paa"
+            "KAT_Armor\_base\helmets\M52D_Jaeger\_textures\odst_berserker.paa"
         };
     };
 };
