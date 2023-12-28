@@ -402,11 +402,16 @@ class XtdGearInfos
         {
             polarization = "off";
         };
-        class KAT_M52D_Jaeger_Helmet_Reid_Berserker
+        class KAT_Helmets_Reid
         {
             model = "KAT_Metaitem_Helmet_Berserker";
             type = "custom";
             customization = "reid";
+            polarization = "on";
+        };
+        class KAT_Helmets_Reid_dp : KAT_Helmets_Reid
+        {
+            polarization = "off";
         };
 
         /* Valhalla */
