@@ -373,11 +373,16 @@ class XtdGearInfos
             customization = "stock";
         };
         // Customs
-        class KAT_M52D_Jaeger_Helmet_Carter_Berserker
+        class KAT_Helmets_Carter
         {
             model = "KAT_Metaitem_Helmet_Berserker";
             type = "custom";
             customization = "carter";
+            polarization = "on";
+        };
+        class KAT_Helmets_Carter_dp : KAT_Helmets_Carter
+        {
+            polarization = "off";
         };
         class KAT_Helmets_Cline
         {
