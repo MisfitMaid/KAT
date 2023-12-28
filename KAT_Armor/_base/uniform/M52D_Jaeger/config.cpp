@@ -7,7 +7,7 @@ class CfgPatches
         requiredAddons[] =
         {
             "KAT_Armor",
-            "TCGM_Girls",
+            "HSim_Characters_H_Woman_Uniforms",
 
         };
         requiredVersion = 0.1;
@@ -108,7 +108,7 @@ class CfgVehicles
     class KAT_M52D_Jaeger_BDU_Femme: KAT_Base_Uniform
     {
         uniformClass = "KAT_M52D_Jaeger_BDU_Femme";
-        model = "TCGM_Girls\model\TCGM_CombatFatigues_Stealth.p3d";
+        model = "\HSim\Characters_H\Woman\Uniforms\b_soldier_01_woman.p3d";
         hiddenSelections[] =
         {
             "camo",
