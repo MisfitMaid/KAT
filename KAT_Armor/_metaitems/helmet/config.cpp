@@ -67,6 +67,7 @@ class XtdGearModels
                     "barnes",
                     "morningstar",
                     "shields",
+                    "vlane"
                 };
                 class stock
                 {
@@ -83,6 +84,10 @@ class XtdGearModels
                 class shields
                 {
                     label = "Shields";
+                };
+                class vlane
+                {
+                    label = "V.Lane";
                 };
             };
         };
@@ -256,6 +261,12 @@ class XtdGearInfos
             model = "KAT_Metaitem_Helmet_Valkyrie";
             type = "custom";
             customization = "shields";
+        };
+        class KAT_Helmets_VLane
+        {
+            model = "KAT_Metaitem_Helmet_Valkyrie";
+            type = "custom";
+            customization = "vlane";
         };
 
         /* Berserker */
