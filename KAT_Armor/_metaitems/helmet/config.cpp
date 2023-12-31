@@ -384,12 +384,24 @@ class XtdGearInfos
         {
             polarization = "off";
         };
+        class KAT_Helmets_CH252D_Valkyrie_Snow : KAT_CH252D_Helmet_Valkyrie
+        {
+            camouflage = "snow";
+        };
+        class KAT_Helmets_CH252D_Valkyrie_Snow_dp : KAT_Helmets_CH252D_Valkyrie_Snow
+        {
+            polarization = "off";
+        };
         class KAT_M52D_Jaeger_Helmet_Blue // named "Blue" for legacy purposes
         {
             model = "KAT_Metaitem_Helmet_Valkyrie";
             type = "m52d";
             customization = "stock";
             camouflage = "black";
+        };
+        class KAT_Helmets_M52D_Valkyrie_Snow : KAT_M52D_Jaeger_Helmet_Blue
+        {
+            camouflage = "snow";
         };
         class KAT_Helmets_Valkyrie
         {
@@ -420,6 +432,10 @@ class XtdGearInfos
             customization = "shields";
             camouflage = "black";
         };
+        class KAT_Helmets_Shields_Snow : KAT_M52D_Jaeger_Helmet_Shields_Blue
+        {
+            camouflage = "snow";
+        };
         class KAT_Helmets_VLane
         {
             model = "KAT_Metaitem_Helmet_Valkyrie";
@@ -442,12 +458,24 @@ class XtdGearInfos
         {
             polarization = "off";
         };
+        class KAT_Helmets_CH252D_Berserker_Snow : KAT_CH252D_Helmet_Berserker
+        {
+            camouflage = "snow";
+        };
+        class KAT_Helmets_CH252D_Berserker_Snow_dp : KAT_Helmets_CH252D_Berserker_Snow
+        {
+            polarization = "off";
+        };
         class KAT_M52D_Jaeger_Helmet_Berserker
         {
             model = "KAT_Metaitem_Helmet_Berserker";
             type = "m52d";
             customization = "stock";
             camouflage = "black";
+        };
+        class KAT_Helmets_M52D_Berserker_Snow : KAT_M52D_Jaeger_Helmet_Berserker
+        {
+            camouflage = "snow";
         };
         class KAT_Helmets_Berserker
         {
@@ -469,6 +497,14 @@ class XtdGearInfos
         {
             polarization = "off";
         };
+        class KAT_Helmets_Carter_Snow : KAT_Helmets_Carter
+        {
+            camouflage = "snow";
+        };
+        class KAT_Helmets_Carter_Snow_dp : KAT_Helmets_Carter_Snow
+        {
+            polarization = "off";
+        };
         class KAT_Helmets_Cline
         {
             model = "KAT_Metaitem_Helmet_Berserker";
@@ -476,12 +512,20 @@ class XtdGearInfos
             customization = "cline";
             camouflage = "black";
         };
+        class KAT_Helmets_Cline_Snow : KAT_Helmets_Cline
+        {
+            camouflage = "snow";
+        }
         class KAT_M52D_Jaeger_Helmet_Hayes_Berserker
         {
             model = "KAT_Metaitem_Helmet_Berserker";
             type = "custom";
             customization = "hayes";
             camouflage = "black";
+        };
+        class KAT_Helmets_Hayes_Snow : KAT_M52D_Jaeger_Helmet_Hayes_Berserker
+        {
+            camouflage = "snow";
         };
         class KAT_Helmets_ONeill
         {
@@ -495,6 +539,14 @@ class XtdGearInfos
         {
             polarization = "off";
         };
+        class KAT_Helmets_ONeill_Snow : KAT_Helmets_ONeill
+        {
+            camouflage = "snow";
+        };
+        class KAT_Helmets_ONeill_Snow_dp : KAT_Helmets_ONeill_Snow
+        {
+            polarization = "off";
+        };
         class KAT_Helmets_Reid
         {
             model = "KAT_Metaitem_Helmet_Berserker";
@@ -504,6 +556,14 @@ class XtdGearInfos
             polarization = "on";
         };
         class KAT_Helmets_Reid_dp : KAT_Helmets_Reid
+        {
+            polarization = "off";
+        };
+        class KAT_Helmets_Reid_Snow : KAT_Helmets_Reid
+        {
+            camouflage = "snow";
+        };
+        class KAT_Helmets_Reid_Snow_dp : KAT_Helmets_Reid_Snow
         {
             polarization = "off";
         };
@@ -522,12 +582,24 @@ class XtdGearInfos
         {
             polarization = "off";
         };
+        class KAT_Helmets_CH252D_Valhalla_Snow : KAT_CH252D_Helmet_Default
+        {
+            camouflage = "snow";
+        };
+        class KAT_Helmets_CH252D_Valhalla_Snow_dp : KAT_Helmets_CH252D_Valhalla_Snow
+        {
+            polarization = "off";
+        };
         class KAT_M52D_Jaeger_Helmet_Default
         {
             model = "KAT_Metaitem_Helmet_Valhalla";
             type = "m52d";
             customization = "stock";
             camouflage = "black";
+        };
+        class KAT_Helmets_M52D_Valhalla_Snow : KAT_M52D_Jaeger_Helmet_Default
+        {
+            camouflage = "snow";
         };
         // Customs
         class KAT_Helmets_Cooper
