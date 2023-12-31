@@ -289,6 +289,10 @@ class XtdGearInfos
             customization = "stock";
             camouflage = "black";
         };
+        class KAT_Armor_M52D_Valkyrie_Snow : KAT_M52D_Jaeger_Armor_Rifleman_Blue
+        {
+            camouflage = "snow";
+        };
         class KAT_Armor_Valkyrie
         {
             model = "KAT_Metaitem_Vest_Valkyrie";
@@ -321,7 +325,10 @@ class XtdGearInfos
             customization = "stock";
             camouflage = "black";
         };
-
+        class KAT_Armor_M52D_Berserker_Snow : KAT_M52D_Jaeger_Armor_Rifleman_Berserker
+        {
+            camouflage = "snow";
+        };
         class KAT_Armor_Berserker
         {
             model = "KAT_Metaitem_Vest_Berserker";
@@ -337,12 +344,20 @@ class XtdGearInfos
             customization = "carter";
             camouflage = "black";
         };
+        class KAT_Armor_M52D_Carter_Snow : KAT_M52D_Jaeger_Armor_Carter_Berserker
+        {
+            camouflage = "snow";
+        };
         class KAT_M52D_Jaeger_Armor_Cline_Berserker
         {
             model = "KAT_Metaitem_Vest_Berserker";
             type = "custom";
             customization = "cline";
             camouflage = "black";
+        };
+        class KAT_Armor_M52D_Cline_Snow : KAT_M52D_Jaeger_Armor_Cline_Berserker
+        {
+            camouflage = "snow";
         };
         class KAT_M52D_Jaeger_Armor_Hayes_Berserker
         {
@@ -351,6 +366,10 @@ class XtdGearInfos
             customization = "hayes";
             camouflage = "black";
         };
+        class KAT_Armor_M52D_Hayes_Snow : KAT_M52D_Jaeger_Armor_Hayes_Berserker
+        {
+            camouflage = "snow";
+        };
         class KAT_M52D_Jaeger_Armor_ONeill_Berserker
         {
             model = "KAT_Metaitem_Vest_Berserker";
@@ -358,12 +377,20 @@ class XtdGearInfos
             customization = "oneill";
             camouflage = "black";
         };
+        class KAT_Armor_M52D_ONeill_Snow : KAT_M52D_Jaeger_Armor_ONeill_Berserker
+        {
+            camouflage = "snow";
+        };
         class KAT_M52D_Jaeger_Armor_Reid_Berserker
         {
             model = "KAT_Metaitem_Vest_Berserker";
             type = "custom";
             customization = "reid";
             camouflage = "black";
+        };
+        class KAT_Armor_M52D_Reid_Snow : KAT_M52D_Jaeger_Armor_Reid_Berserker
+        {
+            camouflage = "snow";
         };
 
         /* Valhalla */
@@ -374,6 +401,10 @@ class XtdGearInfos
             type = "m52d";
             customization = "stock";
             camouflage = "black";
+        };
+        class KAT_Armor_M52D_Valhalla_Snow : KAT_M52D_Jaeger_Armor_Rifleman
+        {
+            camouflage = "snow";
         };
         // Customs
         class KAT_Armor_Cooper

@@ -25,7 +25,7 @@ class CfgWeapons
         {
             "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
             "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_berserker.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\Black\legs_berserker.paa",
             "optre_unsc_units\army\data\ghillie_desert_co.paa",
             "KAT_Armor\oneill\armor\M52D_Jaeger\_textures\main_berserker.paa",
         };
