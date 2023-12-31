@@ -35,7 +35,7 @@ class CfgVehicles {
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"KAT_Armor\helper.paa",
+			"KAT_Vehicles\pelican_artemis_main_co.paa",
 			""
 		};
 	};
@@ -54,7 +54,7 @@ class CfgVehicles {
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"KAT_Armor\helper.paa",
+			"KAT_Vehicles\pelican_artemis_main_co.paa",
 			""
 		};
 	};
