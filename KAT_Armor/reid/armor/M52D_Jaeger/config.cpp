@@ -95,4 +95,15 @@ class CfgWeapons
             };
         };
     };
+    class KAT_Armor_M52D_Reid_Snow : KAT_M52D_Jaeger_Armor_Reid_Berserker
+    {
+        hiddenSelectionsTextures[] =
+        {
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst_snow.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst_snow.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\Snow\legs_berserker.paa",
+            "optre_unsc_units\army\data\ghillie_desert_co.paa",
+            "KAT_Armor\reid\armor\M52D_Jaeger\_textures\main_berserker_snow.paa"
+        };
+    }
 };
