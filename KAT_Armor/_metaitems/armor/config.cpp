@@ -26,6 +26,7 @@ class XtdGearModels
             {
                 "type",
                 "customization",
+                "camouflage",
             };
             class type
             {
@@ -78,6 +79,26 @@ class XtdGearModels
                     label = "Morningstar";
                 };
             };
+            class camouflage
+            {
+                label = "Camouflage";
+                alwaysSelectable = 0;
+                values[] =
+                {
+                    "black",
+                    "snow",
+                };
+                class black
+                {
+                    label = "Black";
+                    image = "#(rgb,8,8,3)color(0,0,0,1)";
+                };
+                class snow
+                {
+                    label = "Snow";
+                    image="#(rgb,8,8,3)color(0.9,0.9,0.9,1)"
+                };
+            };
         };
 
         class KAT_Metaitem_Vest_Berserker
@@ -87,6 +108,7 @@ class XtdGearModels
             {
                 "type",
                 "customization",
+                "camouflage",
             };
             class type
             {
@@ -154,6 +176,26 @@ class XtdGearModels
                     label = "Reid";
                 };
             };
+            class camouflage
+            {
+                label = "Camouflage";
+                alwaysSelectable = 0;
+                values[] =
+                {
+                    "black",
+                    "snow",
+                };
+                class black
+                {
+                    label = "Black";
+                    image = "#(rgb,8,8,3)color(0,0,0,1)";
+                };
+                class snow
+                {
+                    label = "Snow";
+                    image="#(rgb,8,8,3)color(0.9,0.9,0.9,1)"
+                };
+            };
         };
 
         class KAT_Metaitem_Vest_Valhalla
@@ -163,6 +205,7 @@ class XtdGearModels
             {
                 "type",
                 "customization",
+                "camouflage",
             };
             class type
             {
@@ -210,6 +253,26 @@ class XtdGearModels
                     label = "Cooper";
                 };
             };
+            class camouflage
+            {
+                label = "Camouflage";
+                alwaysSelectable = 0;
+                values[] =
+                {
+                    "black",
+                    "snow",
+                };
+                class black
+                {
+                    label = "Black";
+                    image = "#(rgb,8,8,3)color(0,0,0,1)";
+                };
+                class snow
+                {
+                    label = "Snow";
+                    image="#(rgb,8,8,3)color(0.9,0.9,0.9,1)"
+                };
+            };
         };
     };
 };
@@ -224,12 +287,14 @@ class XtdGearInfos
             model = "KAT_Metaitem_Vest_Valkyrie";
             type = "m52d";
             customization = "stock";
+            camouflage = "black";
         };
         class KAT_Armor_Valkyrie
         {
             model = "KAT_Metaitem_Vest_Valkyrie";
             type = "m56r";
             customization = "stock";
+            camouflage = "black";
         };
         // Customs
         class KAT_Armor_Barnes
@@ -237,12 +302,14 @@ class XtdGearInfos
             model = "KAT_Metaitem_Vest_Valkyrie";
             type = "custom";
             customization = "barnes";
+            camouflage = "black";
         };
         class KAT_Armor_Morningstar
         {
             model = "KAT_Metaitem_Vest_Valkyrie";
             type = "custom";
             customization = "morningstar";
+            camouflage = "black";
         };
 
         /* Berserker */
@@ -252,6 +319,7 @@ class XtdGearInfos
             model = "KAT_Metaitem_Vest_Berserker";
             type = "m52d";
             customization = "stock";
+            camouflage = "black";
         };
 
         class KAT_Armor_Berserker
@@ -259,6 +327,7 @@ class XtdGearInfos
             model = "KAT_Metaitem_Vest_Berserker";
             type = "m56r";
             customization = "stock";
+            camouflage = "black";
         }
         // Customs
         class KAT_M52D_Jaeger_Armor_Carter_Berserker
@@ -266,30 +335,35 @@ class XtdGearInfos
             model = "KAT_Metaitem_Vest_Berserker";
             type = "custom";
             customization = "carter";
+            camouflage = "black";
         };
         class KAT_M52D_Jaeger_Armor_Cline_Berserker
         {
             model = "KAT_Metaitem_Vest_Berserker";
             type = "custom";
             customization = "cline";
+            camouflage = "black";
         };
         class KAT_M52D_Jaeger_Armor_Hayes_Berserker
         {
             model = "KAT_Metaitem_Vest_Berserker";
             type = "custom";
             customization = "hayes";
+            camouflage = "black";
         };
         class KAT_M52D_Jaeger_Armor_ONeill_Berserker
         {
             model = "KAT_Metaitem_Vest_Berserker";
             type = "custom";
             customization = "oneill";
+            camouflage = "black";
         };
         class KAT_M52D_Jaeger_Armor_Reid_Berserker
         {
             model = "KAT_Metaitem_Vest_Berserker";
             type = "custom";
             customization = "reid";
+            camouflage = "black";
         };
 
         /* Valhalla */
@@ -299,6 +373,7 @@ class XtdGearInfos
             model = "KAT_Metaitem_Vest_Valhalla";
             type = "m52d";
             customization = "stock";
+            camouflage = "black";
         };
         // Customs
         class KAT_Armor_Cooper
@@ -306,6 +381,7 @@ class XtdGearInfos
             model = "KAT_Metaitem_Vest_Valhalla";
             type = "custom";
             customization = "cooper";
+            camouflage = "black";
         };
     };
 };
