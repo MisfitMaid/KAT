@@ -15,7 +15,7 @@ class CfgPatches
 };
 class CfgWeapons
 {
-     class ItemInfo;
+    class ItemInfo;
     class KAT_M52D_Jaeger_Armor_Rifleman;
     class KAT_M52D_Jaeger_Armor_Hayes_Berserker : KAT_M52D_Jaeger_Armor_Rifleman
     {
@@ -93,6 +93,17 @@ class CfgWeapons
                 "APO_Sniper",
                 "CustomKit_Scorch"
             };
+        };
+    };
+    class KAT_Armor_M52D_Hayes_Snow : KAT_M52D_Jaeger_Armor_Hayes_Berserker
+    {
+        hiddenSelectionsTextures[] =
+        {
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst_snow.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst_snow.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\Snow\legs_berserker.paa",
+            "optre_unsc_units\army\data\ghillie_desert_co.paa",
+            "KAT_Armor\hayes\armor\M52D_Jaeger\_textures\main_berserker_snow.paa"
         };
     };
 };
