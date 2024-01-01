@@ -3,6 +3,7 @@ class CfgPatches
     class KAT_Armor_Cline
     {
         author = "wlan0";
+        addonRootClass = "KAT_Armor";
         requiredAddons[] =
         {
             "A3_Characters_F",
@@ -46,6 +47,14 @@ class CfgWeapons
                 "KAT_Armor\cline\helmets\M56R\_textures\helmet.paa",
                 "KAT_Armor\cline\helmets\M56R\_textures\visor.paa",
             };
+        };
+    };
+    class KAT_Helmets_Cline_Snow : KAT_Helmets_Cline
+    {
+        hiddenSelectionsTextures[] =
+        {
+            "KAT_Armor\cline\helmets\M56R\_textures\helmet_snow.paa",
+            "KAT_Armor\cline\helmets\M56R\_textures\visor.paa",
         };
     };
 };

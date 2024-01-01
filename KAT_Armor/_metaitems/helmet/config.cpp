@@ -527,7 +527,7 @@ class XtdGearInfos
         class KAT_Helmets_Cline_Snow : KAT_Helmets_Cline
         {
             camouflage = "snow";
-        }
+        };
         class KAT_M52D_Jaeger_Helmet_Hayes_Berserker
         {
             model = "KAT_Metaitem_Helmet_Berserker";
