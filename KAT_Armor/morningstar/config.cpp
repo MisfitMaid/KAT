@@ -114,6 +114,25 @@ class CfgWeapons
 			};
 		};
 	};
+	class KAT_Armor_Morningstar_snow : KAT_Armor_Morningstar
+	{
+		author = "MisfitMaid";
+		displayName = "[Azrael] M56S (Morningstar/snow)";
+
+		hiddenSelectionsTextures[] = 
+		{
+			"KAT_Armor\morningstar\H3_Upper_Armor_snow_co.paa",
+			"KAT_Armor\morningstar\H3_Lower_Armor_snow_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[] = 
+			{
+				"KAT_Armor\morningstar\H3_Upper_Armor_snow_co.paa",
+				"KAT_Armor\morningstar\H3_Lower_Armor_snow_co.paa"
+			};
+		};
+	};
 
 	class KAT_M56SR_Helmet_Base;
 	class KAT_Helmets_Morningstar: KAT_M56SR_Helmet_Base
@@ -129,6 +148,15 @@ class CfgWeapons
 		{
 			hiddenSelections[] = {"camo1","camo2"};
 			hiddenSelectionsTextures[] = {"KAT_Armor\morningstar\hr_odst_helmet_co.paa","MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_Red_co.paa"};
+		};
+	};
+	class KAT_Helmets_Morningstar_snow: KAT_Helmets_Morningstar
+	{
+		displayName = "[Azrael] M56R (Morningstar/snow)";
+		hiddenSelectionsTextures[] = {"KAT_Armor\morningstar\hr_odst_helmet_snow_co.paa","MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_Red_co.paa"};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"KAT_Armor\morningstar\hr_odst_helmet_snow_co.paa","MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_Red_co.paa"};
 		};
 	};
 
