@@ -10,11 +10,7 @@ class CfgPatches
         };
         requiredVersion = 0.1;
         units[] = {};
-        weapons[] =
-        {
-            "KAT_M52D_Jaeger_Helmet_Hayes_Blue",
-            "KAT_M52D_Jaeger_Helmet_Hayes_Berserker",
-        };
+        weapons[] = {};
     };
 };
 class CfgWeapons
@@ -28,4 +24,11 @@ class CfgWeapons
             "KAT_Armor\hayes\helmets\M52D_Jaeger\_textures\berserker.paa"
         };
     };
+    class KAT_Helmets_Hayes_Snow : KAT_M52D_Jaeger_Helmet_Hayes_Berserker
+    {
+        hiddenSelectionsTextures[] =
+        {
+            "KAT_Armor\hayes\helmets\M52D_Jaeger\_textures\berserker_snow.paa"
+        };
+    }
 };

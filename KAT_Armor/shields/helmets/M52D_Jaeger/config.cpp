@@ -27,4 +27,11 @@ class CfgWeapons
             "KAT_Armor\shields\helmets\M52D_Jaeger\_textures\blue.paa"
         };
     };
+    class KAT_Helmets_Shields_Snow : KAT_M52D_Jaeger_Helmet_Shields_Blue
+    {
+        hiddenSelectionsTextures[] =
+        {
+            "KAT_Armor\shields\helmets\M52D_Jaeger\_textures\valkyrie_snow.paa"
+        };
+    };
 };
