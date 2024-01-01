@@ -300,6 +300,10 @@ class XtdGearInfos
             customization = "stock";
             camouflage = "black";
         };
+        class KAT_Armor_Valkyrie_snow : KAT_Armor_Valkyrie
+        {
+            camouflage = "snow";
+        };
         // Customs
         class KAT_Armor_Barnes
         {
@@ -314,6 +318,10 @@ class XtdGearInfos
             type = "custom";
             customization = "morningstar";
             camouflage = "black";
+        };
+        class KAT_Armor_Morningstar_snow : KAT_Armor_Morningstar
+        {
+            camouflage = "snow";
         };
 
         /* Berserker */
@@ -336,6 +344,10 @@ class XtdGearInfos
             customization = "stock";
             camouflage = "black";
         }
+        class KAT_Armor_Berserker_snow : KAT_Armor_Berserker
+        {
+            camouflage = "snow";
+        };
         // Customs
         class KAT_M52D_Jaeger_Armor_Carter_Berserker
         {
@@ -413,6 +425,10 @@ class XtdGearInfos
             type = "custom";
             customization = "cooper";
             camouflage = "black";
+        };
+        class KAT_Armor_Cooper_snow : KAT_Armor_Cooper
+        {
+            camouflage = "snow";
         };
     };
 };

@@ -410,6 +410,10 @@ class XtdGearInfos
             customization = "stock";
             camouflage = "black";
         };
+        class KAT_Helmets_Valkyrie_snow : KAT_Helmets_Valkyrie
+        {
+            camouflage = "snow";
+        };
         // Customs
         class KAT_Helmets_Barnes
         {
@@ -424,6 +428,10 @@ class XtdGearInfos
             type = "custom";
             customization = "morningstar";
             camouflage = "black";
+        };
+        class KAT_Helmets_Morningstar_snow : KAT_Helmets_Morningstar
+        {
+            camouflage = "snow";
         };
         class KAT_M52D_Jaeger_Helmet_Shields_Blue // named "Blue" for legacy purposes
         {
@@ -483,6 +491,10 @@ class XtdGearInfos
             type = "m56s";
             customization = "stock";
             camouflage = "black";
+        };
+        class KAT_Helmets_Berserker_snow : KAT_Helmets_Berserker
+        {
+            camouflage = "snow";
         };
         // Customs
         class KAT_Helmets_Carter
@@ -608,6 +620,10 @@ class XtdGearInfos
             type = "custom";
             customization = "cooper";
             camouflage = "black";
+        };
+        class KAT_Helmets_Cooper_snow : KAT_Helmets_Cooper
+        {
+            camouflage = "snow";
         };
     };
 };
