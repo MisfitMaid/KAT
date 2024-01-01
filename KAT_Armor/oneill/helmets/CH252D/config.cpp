@@ -36,4 +36,20 @@ class CfgWeapons
             "KAT_Armor\_base\helmets\CH252D\_textures\visr_clear.paa",
         };
     };
+    class KAT_Helmets_ONeill_Snow : KAT_Helmets_ONeill
+    {
+        hiddenSelectionsTextures[] =
+        {
+            "KAT_Armor\oneill\helmets\CH252D\_textures\helmet_oneill_snow.paa",
+            "KAT_Armor\oneill\helmets\CH252D\_textures\visr_gold.paa",
+        };
+    };
+    class KAT_Helmets_ONeill_Snow_dp : KAT_Helmets_ONeill_dp
+    {
+        hiddenSelectionsTextures[] =
+        {
+            "KAT_Armor\oneill\helmets\CH252D\_textures\helmet_oneill_snow.paa",
+            "KAT_Armor\_base\helmets\CH252D\_textures\visr_clear.paa",
+        };
+    };
 };

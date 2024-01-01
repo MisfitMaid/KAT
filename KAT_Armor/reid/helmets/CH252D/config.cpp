@@ -36,4 +36,20 @@ class CfgWeapons
             "KAT_Armor\_base\helmets\CH252D\_textures\visr_clear.paa",
         };
     };
+    class KAT_Helmets_Reid_Snow : KAT_Helmets_Reid
+    {
+        hiddenSelectionsTextures[] =
+        {
+            "KAT_Armor\reid\helmets\CH252D\_textures\helmet_reid_snow.paa",
+            "KAT_Armor\reid\helmets\CH252D\_textures\visr_silver.paa",
+        };
+    };
+    class KAT_Helmets_Reid_Snow_dp : KAT_Helmets_Reid_dp
+    {
+        hiddenSelectionsTextures[] =
+        {
+            "KAT_Armor\reid\helmets\CH252D\_textures\helmet_reid_snow.paa",
+            "KAT_Armor\_base\helmets\CH252D\_textures\visr_clear.paa",
+        };
+    };
 };

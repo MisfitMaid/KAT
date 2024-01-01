@@ -36,4 +36,20 @@ class CfgWeapons
             "KAT_Armor\_base\helmets\CH252D\_textures\visr_clear.paa",
         };
     };
+    class KAT_Helmets_Carter_Snow : KAT_Helmets_Carter
+    {
+        hiddenSelectionsTextures[] =
+        {
+            "KAT_Armor\carter\helmets\CH252D\_textures\helmet_carter_snow.paa",
+            "KAT_Armor\carter\helmets\CH252D\_textures\visr_green.paa",
+        };
+    };
+    class KAT_Helmets_Carter_Snow_dp : KAT_Helmets_Carter_dp
+    {
+        hiddenSelectionsTextures[] =
+        {
+            "KAT_Armor\carter\helmets\CH252D\_textures\helmet_carter_snow.paa",
+            "KAT_Armor\_base\helmets\CH252D\_textures\visr_clear.paa",
+        };
+    };
 };
