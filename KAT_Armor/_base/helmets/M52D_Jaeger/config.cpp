@@ -70,6 +70,14 @@ class CfgWeapons
             };
         };
     };
+    class KAT_Helmets_M52D_Valhalla_Snow : KAT_M52D_Jaeger_Helmet_Default
+    {
+        hiddenSelectionsTextures[] =
+        {
+            "KAT_Armor\_base\helmets\M52D_Jaeger\_textures\odst_default_snow.paa"
+        };
+    };
+
     class KAT_M52D_Jaeger_Helmet_Blue : KAT_M52D_Jaeger_Helmet_Default // named "Blue" for legacy purposes
     {
         displayName = "[Azrael] M52D (Valkyrie)";
@@ -78,12 +86,27 @@ class CfgWeapons
             "KAT_Armor\_base\helmets\M52D_Jaeger\_textures\odst_valkyrie.paa"
         };
     };
+    class KAT_Helmets_M52D_Valkyrie_Snow : KAT_M52D_Jaeger_Helmet_Blue
+    {
+        hiddenSelectionsTextures[] = 
+        {
+            "KAT_Armor\_base\helmets\M52D_Jaeger\_textures\odst_valkyrie_snow.paa"
+        };
+    };
+
     class KAT_M52D_Jaeger_Helmet_Berserker : KAT_M52D_Jaeger_Helmet_Default
     {
         displayName = "[Azrael] M52D (Berserker)";
         hiddenSelectionsTextures[] = 
         {
             "KAT_Armor\_base\helmets\M52D_Jaeger\_textures\odst_berserker.paa"
+        };
+    };
+    class KAT_Helmets_M52D_Berserker_Snow : KAT_M52D_Jaeger_Helmet_Berserker
+    {
+        hiddenSelectionsTextures[] = 
+        {
+            "KAT_Armor\_base\helmets\M52D_Jaeger\_textures\odst_berserker_snow.paa"
         };
     };
 };

@@ -12,12 +12,7 @@ class CfgPatches
         };
         requiredVersion = 0.1;
         units[] = {};
-        weapons[] =
-        {
-            "KAT_M52D_Jaeger_Armor_Rifleman",
-            "KAT_M52D_Jaeger_Armor_Rifleman_Blue",
-            "KAT_M52D_Jaeger_Armor_Rifleman_Berserker",
-        };
+        weapons[] = {};
     };
 };
 class CfgWeapons
@@ -120,9 +115,9 @@ class CfgWeapons
         {
             "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
             "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_generic.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\Black\legs_generic.paa",
             "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_generic.paa"
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\Black\odst_generic.paa"
         };
         class ItemInfo: ItemInfo
         {
@@ -191,6 +186,17 @@ class CfgWeapons
             };
         };
     };
+    class KAT_Armor_M52D_Valhalla_Snow : KAT_M52D_Jaeger_Armor_Rifleman
+    {
+        hiddenSelectionsTextures[] =
+        {
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst_snow.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst_snow.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\Snow\legs_generic.paa",
+            "optre_unsc_units\army\data\ghillie_desert_co.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\Snow\odst_generic.paa"
+        };
+    };
     class KAT_M52D_Jaeger_Armor_Rifleman_Blue : KAT_M52D_Jaeger_Armor_Rifleman // named "Blue" for legacy purposes
     {
         displayName = "[Azrael] M52D (Valkyrie)";
@@ -198,9 +204,20 @@ class CfgWeapons
         {
             "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
             "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_valkyrie.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\Black\legs_valkyrie.paa",
             "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_valkyrie.paa"
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\Black\odst_valkyrie.paa"
+        };
+    };
+    class KAT_Armor_M52D_Valkyrie_Snow : KAT_M52D_Jaeger_Armor_Rifleman_Blue
+    {
+        hiddenSelectionsTextures[] =
+        {
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst_snow.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst_snow.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\Snow\legs_valkyrie.paa",
+            "optre_unsc_units\army\data\ghillie_desert_co.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\Snow\odst_valkyrie.paa"
         };
     };
     class KAT_M52D_Jaeger_Armor_Rifleman_Berserker : KAT_M52D_Jaeger_Armor_Rifleman
@@ -210,9 +227,9 @@ class CfgWeapons
         {
             "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
             "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_berserker.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\Black\legs_berserker.paa",
             "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\odst_berserker.paa"
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\Black\odst_berserker.paa"
         };
         class ItemInfo: ItemInfo
         {
@@ -279,6 +296,17 @@ class CfgWeapons
                 "APO_Sniper",
                 "CustomKit_Scorch"
             };
+        };
+    };
+    class KAT_Armor_M52D_Berserker_Snow : KAT_M52D_Jaeger_Armor_Rifleman_Berserker
+    {
+        hiddenSelectionsTextures[] =
+        {
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst_snow.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst_snow.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\Snow\legs_berserker.paa",
+            "optre_unsc_units\army\data\ghillie_desert_co.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Main\Snow\odst_berserker.paa"
         };
     };
 };

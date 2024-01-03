@@ -25,7 +25,7 @@ class CfgWeapons
         {
             "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
             "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\legs_berserker.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\Black\legs_berserker.paa",
             "optre_unsc_units\army\data\ghillie_desert_co.paa",
             "KAT_Armor\oneill\armor\M52D_Jaeger\_textures\main_berserker.paa",
         };
@@ -94,6 +94,17 @@ class CfgWeapons
                 "APO_Sniper",
                 "CustomKit_Scorch"
             };
+        };
+    };
+    class KAT_Armor_M52D_ONeill_Snow : KAT_M52D_Jaeger_Armor_ONeill_Berserker
+    {
+        hiddenSelectionsTextures[] =
+        {
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst_snow.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Armor\armor_odst_snow.paa",
+            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\Snow\legs_berserker.paa",
+            "optre_unsc_units\army\data\ghillie_desert_co.paa",
+            "KAT_Armor\oneill\armor\M52D_Jaeger\_textures\main_berserker_snow.paa",
         };
     };
 };

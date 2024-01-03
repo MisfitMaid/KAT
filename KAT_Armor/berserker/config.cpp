@@ -121,6 +121,31 @@ class CfgWeapons
 			};
 		};
 	};
+    class KAT_Armor_Berserker_snow : KAT_Armor_Berserker
+	{
+		displayName = "[Azrael] M56R (Berserker/snow)";
+		hiddenSelectionsTextures[] = 
+		{
+			"KAT_Armor\berserker\Reach_Armor_Upper_snow_co.paa", // shoulders
+			"", // unused
+			"", // unused
+			"KAT_Armor\berserker\Reach_Armor_Upper_snow_co.paa", // upper
+			"KAT_Armor\berserker\Reach_Armor_Lower_snow_co.paa", // lower
+			"" // unused
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[] = 
+			{
+				"KAT_Armor\berserker\Reach_Armor_Upper_snow_co.paa", // shoulders
+				"", // unused
+				"", // unused
+				"KAT_Armor\berserker\Reach_Armor_Upper_snow_co.paa", // upper
+				"KAT_Armor\berserker\Reach_Armor_Lower_snow_co.paa", // lower
+				"" // unused
+			};
+		};
+	};
 
     class KAT_Helmets_Berserker: KAT_M56SR_Helmet_Base
 	{
@@ -135,6 +160,16 @@ class CfgWeapons
 		{
 			hiddenSelections[] = {"camo1","camo2"};
 			hiddenSelectionsTextures[] = {"KAT_Armor\berserker\hr_odst_helmet_co.paa","MA_Armor\data\Helmets\H3_ODST\H3_Visor_Red_co.paa"};
+		};
+	};
+
+    class KAT_Helmets_Berserker_snow: KAT_Helmets_Berserker
+	{
+		displayName = "[Azrael] M56S (Berserker/snow)";
+		hiddenSelectionsTextures[] = {"KAT_Armor\berserker\hr_odst_helmet_snow_co.paa","MA_Armor\data\Helmets\H3_ODST\H3_Visor_Red_co.paa"};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"KAT_Armor\berserker\hr_odst_helmet_snow_co.paa","MA_Armor\data\Helmets\H3_ODST\H3_Visor_Red_co.paa"};
 		};
 	};
 

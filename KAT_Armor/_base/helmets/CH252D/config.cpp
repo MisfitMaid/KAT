@@ -149,6 +149,24 @@ class CfgWeapons
         };
     };
 
+    class KAT_Helmets_CH252D_Valhalla_Snow : KAT_CH252D_Helmet_Default
+    {
+        hiddenSelectionsTextures[] =
+        {
+            "KAT_Armor\_base\helmets\CH252D\_textures\helmet_azrael_snow.paa",
+            "KAT_Armor\_base\helmets\CH252D\_textures\visr_standard.paa",
+        };
+    };
+    class KAT_Helmets_CH252D_Valhalla_Snow_dp : KAT_CH252D_Helmet_Default_dp
+    {
+        hiddenSelectionsTextures[] =
+        {
+            "KAT_Armor\_base\helmets\CH252D\_textures\helmet_azrael_snow.paa",
+            "KAT_Armor\_base\helmets\CH252D\_textures\visr_clear.paa",
+        };
+    };
+
+    // Valkyrie
     class KAT_CH252D_Helmet_Valkyrie : KAT_CH252D_Helmet_Default
     {
         displayName = "[Azrael] CH252D (Valkyrie)";
@@ -168,6 +186,24 @@ class CfgWeapons
         };
     };
 
+    class KAT_Helmets_CH252D_Valkyrie_Snow : KAT_CH252D_Helmet_Valkyrie
+    {
+        hiddenSelectionsTextures[] =
+        {
+            "KAT_Armor\_base\helmets\CH252D\_textures\helmet_valkyrie_snow.paa",
+            "KAT_Armor\_base\helmets\CH252D\_textures\visr_standard.paa",
+        };
+    };
+    class KAT_Helmets_CH252D_Valkyrie_Snow_dp : KAT_CH252D_Helmet_Valkyrie_dp
+    {
+        hiddenSelectionsTextures[] =
+        {
+            "KAT_Armor\_base\helmets\CH252D\_textures\helmet_valkyrie_snow.paa",
+            "KAT_Armor\_base\helmets\CH252D\_textures\visr_clear.paa",
+        };
+    };
+
+    // Berserker
     class KAT_CH252D_Helmet_Berserker : KAT_CH252D_Helmet_Default
     {
         displayName = "[Azrael] CH252D (Berserker)";
@@ -183,6 +219,23 @@ class CfgWeapons
         hiddenSelectionsTextures[] =
         {
             "KAT_Armor\_base\helmets\CH252D\_textures\helmet_berserker.paa",
+            "KAT_Armor\_base\helmets\CH252D\_textures\visr_clear.paa",
+        };
+    };
+
+    class KAT_Helmets_CH252D_Berserker_Snow : KAT_CH252D_Helmet_Berserker
+    {
+        hiddenSelectionsTextures[] =
+        {
+            "KAT_Armor\_base\helmets\CH252D\_textures\helmet_berserker_snow.paa",
+            "KAT_Armor\_base\helmets\CH252D\_textures\visr_standard.paa",
+        };
+    };
+    class KAT_Helmets_CH252D_Berserker_Snow_dp : KAT_CH252D_Helmet_Berserker_dp
+    {
+        hiddenSelectionsTextures[] =
+        {
+            "KAT_Armor\_base\helmets\CH252D\_textures\helmet_berserker_snow.paa",
             "KAT_Armor\_base\helmets\CH252D\_textures\visr_clear.paa",
         };
     };
