@@ -44,19 +44,19 @@ class CfgVehicles
 		class TransportItems
 		{
 			
-			class _MEU_Medigel_Light {name="MEU_Medigel_Light";count=160;};
-			class _ACE_adenosine {name="ACE_adenosine";count=40;};
-			class _OPTRE_Biofoam {name="OPTRE_Biofoam";count=8;};
-			class _ACE_bodyBag {name="ACE_bodyBag";count=8;};
-			class _ACE_epinephrine {name="ACE_epinephrine";count=32;};
-			class _ACE_morphine {name="ACE_morphine";count=16;};
-			class _ACE_salineIV {name="ACE_salineIV";count=16;};
-			class _ACE_salineIV_500 {name="ACE_salineIV_500";count=8;};
-			class _ACE_salineIV_250 {name="ACE_salineIV_250";count=16;};
-			class _ACE_splint {name="ACE_splint";count=32;};
-			class _ACE_tourniquet {name="ACE_tourniquet";count=16;};
-			class _ACE_elasticBandage {name="ACE_elasticBandage";count=64;};
-			class _ACE_CableTie {name="ACE_CableTie";count=16;};
+			class _xx_MEU_Medigel_Light {name="MEU_Medigel_Light";count=160;};
+			class _xx_ACE_adenosine {name="ACE_adenosine";count=40;};
+			class _xx_OPTRE_Biofoam {name="OPTRE_Biofoam";count=8;};
+			class _xx_ACE_bodyBag {name="ACE_bodyBag";count=8;};
+			class _xx_ACE_epinephrine {name="ACE_epinephrine";count=32;};
+			class _xx_ACE_morphine {name="ACE_morphine";count=16;};
+			class _xx_ACE_salineIV {name="ACE_salineIV";count=16;};
+			class _xx_ACE_salineIV_500 {name="ACE_salineIV_500";count=8;};
+			class _xx_ACE_salineIV_250 {name="ACE_salineIV_250";count=16;};
+			class _xx_ACE_splint {name="ACE_splint";count=32;};
+			class _xx_ACE_tourniquet {name="ACE_tourniquet";count=16;};
+			class _xx_ACE_elasticBandage {name="ACE_elasticBandage";count=64;};
+			class _xx_ACE_CableTie {name="ACE_CableTie";count=16;};
 		};
 	};
 	class KAT_TicTac_Testing: KAT_TicTac_Base
@@ -66,7 +66,7 @@ class CfgVehicles
 		class TransportMagazines
 		{
 			
-			class _KAT_200Rnd_95x40_Box_JHPT8 {name="KAT_200Rnd_95x40_Box_JHPT8";count=8;};
+			class _xx_KAT_200Rnd_95x40_Box_JHPT8 {magazine="KAT_200Rnd_95x40_Box_JHPT8";count=8;};
 		};
 	};
 

@@ -1,15 +1,15 @@
-﻿Tic-Tac,Item,Type,Qty Each,Qty Squad
-Base,MEU_Medigel_Light,TransportItems,20,160
-Base,ACE_adenosine,TransportItems,5,40
-Base,OPTRE_Biofoam,TransportItems,1,8
-Base,ACE_bodyBag,TransportItems,1,8
-Base,ACE_epinephrine,TransportItems,4,32
-Base,ACE_morphine,TransportItems,2,16
-Base,ACE_salineIV,TransportItems,2,16
-Base,ACE_salineIV_500,TransportItems,1,8
-Base,ACE_salineIV_250,TransportItems,2,16
-Base,ACE_splint,TransportItems,4,32
-Base,ACE_tourniquet,TransportItems,2,16
-Base,ACE_elasticBandage,TransportItems,8,64
-Base,ACE_CableTie,TransportItems,2,16
-Testing,KAT_200Rnd_95x40_Box_JHPT8,TransportMagazines,1,8
+﻿Tic-Tac,Item,Type,Type2,Qty Each,Qty Squad
+Base,MEU_Medigel_Light,TransportItems,name,20,160
+Base,ACE_adenosine,TransportItems,name,5,40
+Base,OPTRE_Biofoam,TransportItems,name,1,8
+Base,ACE_bodyBag,TransportItems,name,1,8
+Base,ACE_epinephrine,TransportItems,name,4,32
+Base,ACE_morphine,TransportItems,name,2,16
+Base,ACE_salineIV,TransportItems,name,2,16
+Base,ACE_salineIV_500,TransportItems,name,1,8
+Base,ACE_salineIV_250,TransportItems,name,2,16
+Base,ACE_splint,TransportItems,name,4,32
+Base,ACE_tourniquet,TransportItems,name,2,16
+Base,ACE_elasticBandage,TransportItems,name,8,64
+Base,ACE_CableTie,TransportItems,name,2,16
+Testing,KAT_200Rnd_95x40_Box_JHPT8,TransportMagazines,magazine,1,8

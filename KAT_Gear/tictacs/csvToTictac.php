@@ -9,13 +9,14 @@ $tictacs = [];
 // 0 tictac
 // 1 item
 // 2 type
-// 3 (ignored)
-// 4 qty total
+// 3 mag name
+// 4 (ignored)
+// 5 qty total
 foreach ($csv as $v) {
 	if (!array_key_exists($v[0], $tictacs)) {
 		$tictacs[$v[0]] = ["TransportItems" => [], "TransportMagazines" => [], "TransportWeapons" => []];
 	}
-	$tictacs[$v[0]][$v[2]][trim($v[1])] = (int) $v[4];
+	$tictacs[$v[0]][$v[2]][trim($v[1])] = [$v[3], (int) $v[5]];
 }
 
 $tpl = "
@@ -30,7 +31,7 @@ $tpl_Trans = "
 			%s
 		};";
 $tpl_Item = "
-			class _%s {name=\"%s\";count=%s;};";
+			class _xx_%s {%s=\"%s\";count=%s;};";
 
 $tpl_Module = "
 
@@ -56,7 +57,7 @@ foreach ($tictacs as $k => $v) {
 
 		$items = "";
 		foreach ($tv as $item => $qty) {
-			$items .= sprintf($tpl_Item, $item, $item, $qty);
+			$items .= sprintf($tpl_Item, $item, $qty[0], $item, $qty[1]);
 		}
 		$transes .= sprintf($tpl_Trans, $tk, $items);
 	}
