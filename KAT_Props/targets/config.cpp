@@ -2,7 +2,7 @@
 
 class CfgPatches
 {
-	class KAT_Props_Targets
+	class KAT_Props
 	{
 		author = "MisfitMaid";
 		hideName = 0;
