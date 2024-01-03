@@ -38,5 +38,14 @@ class CfgWeapons
 			hiddenSelectionsMaterials[] = {"", "MA_Armor\data\Helmets\hr_odst\hr_odst_visor.rvmat"};
 		};
 	};
+    class KAT_Helmets_VLane_Snow: KAT_Helmets_VLane
+	{
+		displayName = "[Azrael] Mark V/K (V.Lane/snow)";
+		hiddenSelectionsTextures[] = {"KAT_Armor\lane-v\commando_helmet_black_snow_co.paa","KAT_Armor\lane-v\commando_visor_co.paa"};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[] = {"KAT_Armor\lane-v\commando_helmet_black_snow_co.paa","KAT_Armor\lane-v\commando_visor_co.paa"};
+		};
+	};
 
 };

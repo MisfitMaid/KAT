@@ -455,6 +455,10 @@ class XtdGearInfos
             customization = "vlane";
             camouflage = "black";
         };
+        class KAT_Helmets_VLane_Snow : KAT_Helmets_VLane
+        {
+            camouflage = "snow";
+        };
 
         /* Berserker */
         // Stocks
