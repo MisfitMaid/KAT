@@ -433,6 +433,10 @@ class XtdGearInfos
         {
             camouflage = "snow";
         };
+        class KAT_Helmets_Barnes_snow : KAT_Helmets_Barnes
+        {
+            camouflage = "snow";
+        };
         class KAT_M52D_Jaeger_Helmet_Shields_Blue // named "Blue" for legacy purposes
         {
             model = "KAT_Metaitem_Helmet_Valkyrie";

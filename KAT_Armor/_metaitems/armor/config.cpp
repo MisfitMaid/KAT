@@ -312,6 +312,10 @@ class XtdGearInfos
             customization = "barnes";
             camouflage = "black";
         };
+        class KAT_Armor_Barnes_snow : KAT_Armor_Barnes
+        {
+            camouflage = "snow";
+        };
         class KAT_Armor_Morningstar
         {
             model = "KAT_Metaitem_Vest_Valkyrie";
