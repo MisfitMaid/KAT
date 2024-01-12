@@ -9,7 +9,7 @@ class CfgPatches
 		{
 			"Module_OPTRE_PelicanSupplyDrop",
 			"KAT_TicTac_Empty",
-			"KAT_TicTac_Base", "KAT_TicTac_Testing"
+			"KAT_TicTac_Base", "KAT_TicTac_Valkyrie", "KAT_TicTac_Berserker", "KAT_TicTac_Valhalla"
 		};
 		weapons[]={};
 	};
@@ -59,14 +59,46 @@ class CfgVehicles
 			class _xx_ACE_CableTie {name="ACE_CableTie";count=16;};
 		};
 	};
-	class KAT_TicTac_Testing: KAT_TicTac_Base
+	class KAT_TicTac_Valkyrie: KAT_TicTac_Base
 	{
-		displayName="[Azrael] Supply Pod (Testing)";
+		displayName="[Azrael] Supply Pod (Valkyrie)";
 		
 		class TransportMagazines
 		{
 			
-			class _xx_KAT_200Rnd_95x40_Box_JHPT8 {magazine="KAT_200Rnd_95x40_Box_JHPT8";count=8;};
+			class _xx_OPTRE_36Rnd_95x40_Mag_JHP {magazine="OPTRE_36Rnd_95x40_Mag_JHP";count=20;};
+			class _xx_OPTRE_60Rnd_5x23mm_Mag_JHP {magazine="OPTRE_60Rnd_5x23mm_Mag_JHP";count=10;};
+			class _xx_MEU_400Rnd_762x51_AP_HV_Box {magazine="MEU_400Rnd_762x51_AP_HV_Box";count=6;};
+			class _xx_TCF_12Rnd_127x40_Mag_JHP {magazine="TCF_12Rnd_127x40_Mag_JHP";count=12;};
+			class _xx_TCF_12Rnd_127x40_Mag_JHPT {magazine="TCF_12Rnd_127x40_Mag_JHPT";count=4;};
+			class _xx_C7_Remote_Mag {magazine="C7_Remote_Mag";count=5;};
+		};
+	};
+	class KAT_TicTac_Berserker: KAT_TicTac_Base
+	{
+		displayName="[Azrael] Supply Pod (Berserker)";
+		
+		class TransportMagazines
+		{
+			
+			class _xx_MEU_60Rnd_5x23mm_Mag_AP {magazine="MEU_60Rnd_5x23mm_Mag_AP";count=10;};
+			class _xx_OPTRE_32Rnd_762x51_Mag_JHP {magazine="OPTRE_32Rnd_762x51_Mag_JHP";count=10;};
+			class _xx_OPTRE_15Rnd_DMR_762x51_Mag_JHP {magazine="OPTRE_15Rnd_DMR_762x51_Mag_JHP";count=10;};
+			class _xx_TCF_12Rnd_127x40_Mag_JHP {magazine="TCF_12Rnd_127x40_Mag_JHP";count=8;};
+			class _xx_TCF_12Rnd_127x40_Mag_NARQ {magazine="TCF_12Rnd_127x40_Mag_NARQ";count=2;};
+			class _xx_OPTRE_8Rnd_127x40_AP_Mag {magazine="OPTRE_8Rnd_127x40_AP_Mag";count=8;};
+		};
+	};
+	class KAT_TicTac_Valhalla: KAT_TicTac_Base
+	{
+		displayName="[Azrael] Supply Pod (Valhalla)";
+		
+		class TransportMagazines
+		{
+			
+			class _xx_KAT_200Rnd_95x40_Box_JHPT8 {magazine="KAT_200Rnd_95x40_Box_JHPT8";count=6;};
+			class _xx_4Rnd_454Casull {magazine="4Rnd_454Casull";count=4;};
+			class _xx_TCF_12Rnd_127x40_Mag_JHP {magazine="TCF_12Rnd_127x40_Mag_JHP";count=4;};
 		};
 	};
 
@@ -97,10 +129,22 @@ class CfgVehicles
 						value="KAT_TicTac_Base";
 					};
 
-					class kat_pod_Testing
+					class kat_pod_Valkyrie
 					{
-						name="[Azrael] Supply Pod (Testing)";
-						value="KAT_TicTac_Testing";
+						name="[Azrael] Supply Pod (Valkyrie)";
+						value="KAT_TicTac_Valkyrie";
+					};
+
+					class kat_pod_Berserker
+					{
+						name="[Azrael] Supply Pod (Berserker)";
+						value="KAT_TicTac_Berserker";
+					};
+
+					class kat_pod_Valhalla
+					{
+						name="[Azrael] Supply Pod (Valhalla)";
+						value="KAT_TicTac_Valhalla";
 					};
 				};
 			};
