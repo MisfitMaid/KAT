@@ -63,7 +63,7 @@ class RscDisplayMain: RscStandardDisplay
 			y="SafeZoneY";
 			h="SafeZoneH";
 			w="SafeZoneW";
-			text="\KAT_Core\kat2.paa";
+			text="\KAT_Core\jeff-christy-2.paa";
 		};
 	};
 };
@@ -83,7 +83,7 @@ class RscDisplayLoading
 					y="SafeZoneY";
 					h="SafeZoneH";
 					w="SafeZoneW";
-					text="\KAT_Core\kat1.paa";
+					text="\KAT_Core\jeff-christy-1.paa";
 				};
 			};
 		};
@@ -98,7 +98,7 @@ class RscDisplayLoading
 					y="SafeZoneY";
 					h="SafeZoneH";
 					w="SafeZoneW";
-					text="\KAT_Core\kat2.paa";
+					text="\KAT_Core\jeff-christy-2.paa";
 				};
 			};
 		};
@@ -113,7 +113,7 @@ class RscDisplayLoading
 					y="SafeZoneY";
 					h="SafeZoneH";
 					w="SafeZoneW";
-					text="\KAT_Core\kat2.paa";
+					text="\KAT_Core\jeff-christy-2.paa";
 				};
 			};
 		};
@@ -128,7 +128,7 @@ class RscDisplayLoading
 					y="SafeZoneY";
 					h="SafeZoneH";
 					w="SafeZoneW";
-					text="\KAT_Core\kat2.paa";
+					text="\KAT_Core\jeff-christy-2.paa";
 				};
 			};
 		};
@@ -143,7 +143,7 @@ class RscDisplayLoading
 					y="SafeZoneY";
 					h="SafeZoneH";
 					w="SafeZoneW";
-					text="\KAT_Core\kat2.paa";
+					text="\KAT_Core\jeff-christy-2.paa";
 				};
 			};
 		};
@@ -160,7 +160,7 @@ class RscDisplayLoadMission: RscStandardDisplay
 			y="SafeZoneY";
 			h="SafeZoneH";
 			w="SafeZoneW";
-			text="\KAT_Core\kat2.paa";
+			text="\KAT_Core\jeff-christy-2.paa";
 		};
 	};
 };
@@ -175,7 +175,7 @@ class RscDisplayStart: RscStandardDisplay
 			y="SafeZoneY";
 			h="SafeZoneH";
 			w="SafeZoneW";
-			text="\KAT_Core\kat1.paa";
+			text="\KAT_Core\jeff-christy-1.paa";
 		};
 	};
 };
@@ -189,7 +189,7 @@ class RscDisplayClientWait: RscDisplayMPPlayers
 		y="SafeZoneY";
 		h="SafeZoneH";
 		w="SafeZoneW";
-		text="\KAT_Core\kat2.paa";
+		text="\KAT_Core\jeff-christy-2.paa";
 	};
 };
 class RscDisplayClient: RscStandardDisplay
@@ -203,7 +203,7 @@ class RscDisplayClient: RscStandardDisplay
 			y="SafeZoneY";
 			h="SafeZoneH";
 			w="SafeZoneW";
-			text="\KAT_Core\kat2.paa";
+			text="\KAT_Core\jeff-christy-2.paa";
 		};
 	};
 };
