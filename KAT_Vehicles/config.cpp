@@ -38,6 +38,36 @@ class CfgVehicles {
 			"KAT_Vehicles\pelican_artemis_main_co.paa",
 			""
 		};
+
+		class textureSources
+		{
+			class artemisE621
+			{
+				displayName="Artemis E621";
+				author="MisfitMaid";
+				textures[]=
+				{
+					"KAT_Vehicles\pelican_artemis_main_co.paa"
+				};
+				factions[]=
+				{
+					"OPTRE_UNSC"
+				};
+			};
+			class artemisE621_Snow
+			{
+				displayName="Artemis E621 (Snow)";
+				author="MisfitMaid";
+				textures[]=
+				{
+					"KAT_Vehicles\pelican_artemis_main_snow_co.paa"
+				};
+				factions[]=
+				{
+					"OPTRE_UNSC"
+				};
+			};
+		};
 	};
 
 	class OPTRE_Pelican_armed_SOCOM;
@@ -56,6 +86,36 @@ class CfgVehicles {
 		{
 			"KAT_Vehicles\pelican_artemis_main_co.paa",
 			""
+		};
+		
+		class textureSources
+		{
+			class artemisE621
+			{
+				displayName="Artemis E621";
+				author="MisfitMaid";
+				textures[]=
+				{
+					"KAT_Vehicles\pelican_artemis_main_co.paa"
+				};
+				factions[]=
+				{
+					"OPTRE_UNSC"
+				};
+			};
+			class artemisE621_Snow
+			{
+				displayName="Artemis E621 (Snow)";
+				author="MisfitMaid";
+				textures[]=
+				{
+					"KAT_Vehicles\pelican_artemis_main_snow_co.paa"
+				};
+				factions[]=
+				{
+					"OPTRE_UNSC"
+				};
+			};
 		};
 	};
 
@@ -79,6 +139,39 @@ class CfgVehicles {
 		OPTRE_minVelocity=1.4;
 		OPTRE_maxVelocity=83;
 		OPTRE_velocityMult=1;
+
+		class textureSources {
+			class artemis
+			{
+				displayName="Artemis";
+				author="MisfitMaid";
+				textures[]=
+				{
+					"KAT_Vehicles\falcon_artemis_main_co.paa",
+					"KAT_Vehicles\falcon_artemis_attachments_co.paa",
+					"\optre_vehicles_air\falcon\data\falcon_interior_co.paa"
+				};
+				factions[]=
+				{
+					"OPTRE_UNSC"
+				};
+			};
+			class artemis_Snow
+			{
+				displayName="Artemis (Snow)";
+				author="MisfitMaid";
+				textures[]=
+				{
+					"KAT_Vehicles\falcon_artemis_main_snow_co.paa",
+					"KAT_Vehicles\falcon_artemis_attachments_snow_co.paa",
+					"\OPTRE_Vehicles_Air\Falcon\data\White\White_Falcon_Interior_co.paa"
+				};
+				factions[]=
+				{
+					"OPTRE_UNSC"
+				};
+			};
+		};
 	};
 
 	
