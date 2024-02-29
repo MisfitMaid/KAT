@@ -453,10 +453,27 @@ class CfgMusic
 		duration=219;
 		musicClass = "KAT_Music_INF_Mult";
 	};
+
+
+	class KAT_Music_HD2_000
+	{
+		name = "Helldivers - A Cup of Liber-Tea";
+		sound[] = {"KAT_Music\tracks\Helldivers - A Cup of Liber-Tea.ogg",db+0,1};
+		duration=217;
+		musicClass = "KAT_Music_HD2";
+	};
+	class KAT_Music_HD2_001
+	{
+		name = "Helldivers - A Cup of Liber-Tea (ODST cut - hit play on TP)";
+		sound[] = {"KAT_Music\tracks\Helldivers - A Cup of Liber-Tea (ODST drop cut).ogg",db+0,1};
+		duration=115;
+		musicClass = "KAT_Music_HD2";
+	};
 };
 class CfgMusicClasses
 {
 	class KAT_Music_INF_Camp { displayName = "Halo Infinite [Campaign]"; };
 	class KAT_Music_INF_Fire { displayName = "Halo Infinite [Set A Fire In Your Heart EP]"; };
 	class KAT_Music_INF_Mult { displayName = "Halo Infinite [Multiplayer]"; };
+	class KAT_Music_HD2      { displayName = "Helldivers 2"; };
 };
