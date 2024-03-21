@@ -6,7 +6,7 @@ class CfgPatches
         addonRootClass = "KAT_Gear";
         requiredAddons[] =
         {
-            "LM_OPCAN_UNSC",
+            "1st_MEU_patch_gear_glasses",
         };
         requiredVersion = 0.1;
         units[] = {};
@@ -18,8 +18,8 @@ class CfgPatches
 };
 class cfgGlasses
 {
-    class LM_OPCAN_URB_Shemagh;
-    class KAT_Shemagh_Green_Paisley : LM_OPCAN_URB_Shemagh
+    class MEU_Shemagh;
+    class KAT_Shemagh_Green_Paisley : MEU_Shemagh
     {
         displayName = "[Azrael] Shemagh (Green Paisley)";
         author = "wlan0";
