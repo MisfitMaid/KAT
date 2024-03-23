@@ -19,6 +19,7 @@ class CfgWeapons
     class MAPO_Commando_Helmet;
     class KAT_Mjolnir_Helmet_A063 : MAPO_Commando_Helmet
 	{
+		MJOLNIR_isHelmet=1;
 		scope = 2;
 		scopeArsenal = 2;
 		author = "MisfitMaid";
@@ -38,6 +39,7 @@ class CfgWeapons
 	class MAPO_MKVB_Armor;
 	class KAT_Mjolnir_Vest_A063 : MAPO_MKVB_Armor
 	{
+		MJOLNIR_isArmor=1;
 		scope = 2;
 		scopeArsenal = 2;
 		author = "MisfitMaid";
