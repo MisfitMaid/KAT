@@ -16,8 +16,8 @@ class CfgPatches
 
 class CfgWeapons
 {
-    class MAPO_Commando_Helmet;
-    class KAT_Mjolnir_Helmet_G042 : MAPO_Commando_Helmet
+    class MAPO_Mjolnir_H3_EOD_Helmet;
+    class KAT_Mjolnir_Helmet_G042 : MAPO_Mjolnir_H3_EOD_Helmet
 	{
 		scope = 2;
 		scopeArsenal = 2;
