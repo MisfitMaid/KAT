@@ -164,7 +164,7 @@ class CfgVehicles {
 				{
 					"KAT_Vehicles\falcon_artemis_main_snow_co.paa",
 					"KAT_Vehicles\falcon_artemis_attachments_snow_co.paa",
-					"\OPTRE_Vehicles_Air\Falcon\data\White\White_Falcon_Interior_co.paa"
+					"\optre_vehicles_air\falcon\data\falcon_interior_co.paa"
 				};
 				factions[]=
 				{
