@@ -18,7 +18,6 @@ class CfgWeapons
 {
     class ItemInfo;
 
-    class KAT_Base_CQC_Helmet;
     class KAT_Armor__Base;
     class KAT_Armor_Cooper : KAT_Armor__Base
 	{
@@ -147,7 +146,8 @@ class CfgWeapons
 		};
 	};
 
-    class KAT_Helmets_Cooper: KAT_Base_CQC_Helmet
+    class MA_Mjolnir_CQC_Helmet;
+    class KAT_Helmets_Cooper: MA_Mjolnir_CQC_Helmet
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -156,12 +156,12 @@ class CfgWeapons
 		displayName = "[Azrael] Mark V/CQC (Cooper)";
 		hiddenSelections[] = {"camo1","camo2"};
 		hiddenSelectionsTextures[] = {"KAT_Armor\cooper\cqc_helmet_co.paa","KAT_Armor\cooper\cqc_visor_co.paa"};
-		hiddenSelectionsMaterials[] = {"", "MA_Armor\data\Helmets\hr_odst\hr_odst_visor.rvmat"};
+		// hiddenSelectionsMaterials[] = {"", "MA_Armor\data\Helmets\hr_odst\hr_odst_visor.rvmat"};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelections[] = {"camo1","camo2"};
 			hiddenSelectionsTextures[] = {"KAT_Armor\cooper\cqc_helmet_co.paa","KAT_Armor\cooper\cqc_visor_co.paa"};
-			hiddenSelectionsMaterials[] = {"", "MA_Armor\data\Helmets\hr_odst\hr_odst_visor.rvmat"};
+			// hiddenSelectionsMaterials[] = {"", "MA_Armor\data\Helmets\hr_odst\hr_odst_visor.rvmat"};
 		};
 	};
 
