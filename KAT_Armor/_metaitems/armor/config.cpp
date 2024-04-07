@@ -36,6 +36,7 @@ class XtdGearModels
                     "A",
                     "B",
                     "Barnes",
+                    "Kertz",
                     "Cline",
                     "Hayes",
                     "Morningstar",
@@ -55,6 +56,7 @@ class XtdGearInfos
         class KAT_Armor_Berserker                   { model = "KAT_Metaitem_Armor"; customization = "B"; }
         
         class KAT_Armor_Barnes                      { model = "KAT_Metaitem_Armor"; customization = "Barnes"; };
+        class KAT_Armor_Kertz                       { model = "KAT_Metaitem_Armor"; customization = "Kertz"; };
         class KAT_Armor_Morningstar                 { model = "KAT_Metaitem_Armor"; customization = "Morningstar"; };
         class KAT_M52D_Jaeger_Armor_Cline_Berserker { model = "KAT_Metaitem_Armor"; customization = "Cline"; };
         class KAT_M52D_Jaeger_Armor_Hayes_Berserker { model = "KAT_Metaitem_Armor"; customization = "Hayes"; };

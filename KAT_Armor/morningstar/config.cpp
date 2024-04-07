@@ -24,7 +24,7 @@ class CfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		author = "MisfitMaid";
-		displayName = "[Azrael] M56S (Morningstar)";
+		displayName = "[Azrael] M56S-H (Morningstar)";
 		hiddenSelections[] = 
 		{
 			"camo1",

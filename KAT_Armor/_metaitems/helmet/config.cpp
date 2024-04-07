@@ -33,16 +33,18 @@ class XtdGearModels
                 {
                     "m56s_r",
                     "m56s_h",
-                    "m56m_eod",
                     "m56m_cdo",
                     "m56m_cqc",
+                    "m56m_eod",
+                    "m56m_grn",
                     "legacy",
                 };
                 class m56s_r  { label = "M56S-R"; };
                 class m56s_h  { label = "M56S-H"; };
-                class m56m_eod  { label = "M56M-EOD"; };
                 class m56m_cdo  { label = "M56M-CDO"; };
                 class m56m_cqc  { label = "M56M-CQC"; };
+                class m56m_eod  { label = "M56M-EOD"; };
+                class m56m_GRN  { label = "M56M-GRN"; };
                 class legacy { label = "Legacy"; };
             };
             class customization
@@ -56,6 +58,7 @@ class XtdGearModels
                     "Barnes",
                     "Cline",
                     "Hayes",
+                    "Kertz",
                     "Lane",
                     "Morningstar",
                     "Cooper",
@@ -76,6 +79,7 @@ class XtdGearInfos
         class KAT_Helmets_Barnes                     { model = "KAT_Metaitem_Helmet"; type = "m56m_eod"; customization = "Barnes"; };
         class KAT_Helmets_Cline                      { model = "KAT_Metaitem_Helmet"; type = "legacy";   customization = "Cline"; };
         class KAT_M52D_Jaeger_Helmet_Hayes_Berserker { model = "KAT_Metaitem_Helmet"; type = "legacy";   customization = "Hayes"; };
+        class KAT_Helmets_Kertz                      { model = "KAT_Metaitem_Helmet"; type = "m56m_grn"; customization = "Kertz"; };
         class KAT_Helmets_VLane                      { model = "KAT_Metaitem_Helmet"; type = "m56m_cdo"; customization = "Lane"; };
         class KAT_Helmets_Morningstar                { model = "KAT_Metaitem_Helmet"; type = "m56s_r";   customization = "Morningstar"; };
 
