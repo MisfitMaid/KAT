@@ -24,4 +24,4 @@ class CfgWeapons
             "KAT_Armor\hayes\helmets\M52D_Jaeger\_textures\berserker.paa"
         };
     };
-
+};

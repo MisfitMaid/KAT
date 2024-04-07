@@ -21,12 +21,11 @@ class XtdGearModels
     {
         class KAT_Metaitem_Vest_Valkyrie
         {
-            label = "1-1 Valkyrie"
+            label = "1-1 Valkyrie";
             options[] =
             {
                 "type",
                 "customization",
-                "camouflage",
             };
             class type
             {
@@ -79,26 +78,6 @@ class XtdGearModels
                     label = "Morningstar";
                 };
             };
-            class camouflage
-            {
-                label = "Camouflage";
-                alwaysSelectable = 0;
-                values[] =
-                {
-                    "black",
-                    "snow",
-                };
-                class black
-                {
-                    label = "Black";
-                    image = "#(rgb,8,8,3)color(0,0,0,1)";
-                };
-                class snow
-                {
-                    label = "Snow";
-                    image="#(rgb,8,8,3)color(0.9,0.9,0.9,1)"
-                };
-            };
         };
 
         class KAT_Metaitem_Vest_Berserker
@@ -108,7 +87,6 @@ class XtdGearModels
             {
                 "type",
                 "customization",
-                "camouflage",
             };
             class type
             {
@@ -161,26 +139,7 @@ class XtdGearModels
                     label = "Hayes";
                 };
             };
-            class camouflage
-            {
-                label = "Camouflage";
-                alwaysSelectable = 0;
-                values[] =
-                {
-                    "black",
-                    "snow",
-                };
-                class black
-                {
-                    label = "Black";
-                    image = "#(rgb,8,8,3)color(0,0,0,1)";
-                };
-                class snow
-                {
-                    label = "Snow";
-                    image="#(rgb,8,8,3)color(0.9,0.9,0.9,1)"
-                };
-            };
+
         };
 
         class KAT_Metaitem_Vest_Valhalla
@@ -190,7 +149,6 @@ class XtdGearModels
             {
                 "type",
                 "customization",
-                "camouflage",
             };
             class type
             {
@@ -238,26 +196,6 @@ class XtdGearModels
                     label = "Cooper";
                 };
             };
-            class camouflage
-            {
-                label = "Camouflage";
-                alwaysSelectable = 0;
-                values[] =
-                {
-                    "black",
-                    "snow",
-                };
-                class black
-                {
-                    label = "Black";
-                    image = "#(rgb,8,8,3)color(0,0,0,1)";
-                };
-                class snow
-                {
-                    label = "Snow";
-                    image="#(rgb,8,8,3)color(0.9,0.9,0.9,1)"
-                };
-            };
         };
     };
 };
@@ -274,20 +212,12 @@ class XtdGearInfos
             customization = "stock";
             camouflage = "black";
         };
-        class KAT_Armor_M52D_Valkyrie_Snow : KAT_M52D_Jaeger_Armor_Rifleman_Blue
-        {
-            camouflage = "snow";
-        };
         class KAT_Armor_Valkyrie
         {
             model = "KAT_Metaitem_Vest_Valkyrie";
             type = "m56r";
             customization = "stock";
             camouflage = "black";
-        };
-        class KAT_Armor_Valkyrie_snow : KAT_Armor_Valkyrie
-        {
-            camouflage = "snow";
         };
         // Customs
         class KAT_Armor_Barnes
@@ -297,20 +227,12 @@ class XtdGearInfos
             customization = "barnes";
             camouflage = "black";
         };
-        class KAT_Armor_Barnes_snow : KAT_Armor_Barnes
-        {
-            camouflage = "snow";
-        };
         class KAT_Armor_Morningstar
         {
             model = "KAT_Metaitem_Vest_Valkyrie";
             type = "custom";
             customization = "morningstar";
             camouflage = "black";
-        };
-        class KAT_Armor_Morningstar_snow : KAT_Armor_Morningstar
-        {
-            camouflage = "snow";
         };
 
         /* Berserker */
@@ -322,10 +244,6 @@ class XtdGearInfos
             customization = "stock";
             camouflage = "black";
         };
-        class KAT_Armor_M52D_Berserker_Snow : KAT_M52D_Jaeger_Armor_Rifleman_Berserker
-        {
-            camouflage = "snow";
-        };
         class KAT_Armor_Berserker
         {
             model = "KAT_Metaitem_Vest_Berserker";
@@ -333,10 +251,6 @@ class XtdGearInfos
             customization = "stock";
             camouflage = "black";
         }
-        class KAT_Armor_Berserker_snow : KAT_Armor_Berserker
-        {
-            camouflage = "snow";
-        };
         // Customs
         class KAT_M52D_Jaeger_Armor_Cline_Berserker
         {
@@ -345,20 +259,12 @@ class XtdGearInfos
             customization = "cline";
             camouflage = "black";
         };
-        class KAT_Armor_M52D_Cline_Snow : KAT_M52D_Jaeger_Armor_Cline_Berserker
-        {
-            camouflage = "snow";
-        };
         class KAT_M52D_Jaeger_Armor_Hayes_Berserker
         {
             model = "KAT_Metaitem_Vest_Berserker";
             type = "custom";
             customization = "hayes";
             camouflage = "black";
-        };
-        class KAT_Armor_M52D_Hayes_Snow : KAT_M52D_Jaeger_Armor_Hayes_Berserker
-        {
-            camouflage = "snow";
         };
 
         /* Valhalla */
@@ -370,10 +276,7 @@ class XtdGearInfos
             customization = "stock";
             camouflage = "black";
         };
-        class KAT_Armor_M52D_Valhalla_Snow : KAT_M52D_Jaeger_Armor_Rifleman
-        {
-            camouflage = "snow";
-        };
+
         // Customs
         class KAT_Armor_Cooper
         {
@@ -381,10 +284,6 @@ class XtdGearInfos
             type = "custom";
             customization = "cooper";
             camouflage = "black";
-        };
-        class KAT_Armor_Cooper_snow : KAT_Armor_Cooper
-        {
-            camouflage = "snow";
         };
     };
 };
