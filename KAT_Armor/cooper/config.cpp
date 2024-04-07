@@ -120,31 +120,6 @@ class CfgWeapons
 			};
 		};
 	};
-    class KAT_Armor_Cooper_snow : KAT_Armor_Cooper
-	{
-		displayName = "[Azrael] M56R (Cooper/snow)";
-		hiddenSelectionsTextures[] = 
-		{
-			"KAT_Armor\cooper\Reach_Armor_Upper_snow_co.paa", // shoulders
-			"", // unused
-			"", // unused
-			"KAT_Armor\cooper\Reach_Armor_Upper_snow_co.paa", // upper
-			"KAT_Armor\cooper\Reach_Armor_Lower_snow_co.paa", // lower
-			"" // unused
-		};
-		class ItemInfo: ItemInfo
-		{
-			hiddenSelectionsTextures[] = 
-			{
-				"KAT_Armor\cooper\Reach_Armor_Upper_snow_co.paa", // shoulders
-				"", // unused
-				"", // unused
-				"KAT_Armor\cooper\Reach_Armor_Upper_snow_co.paa", // upper
-				"KAT_Armor\cooper\Reach_Armor_Lower_snow_co.paa", // lower
-				"" // unused
-			};
-		};
-	};
 
     class MA_Mjolnir_CQC_Helmet;
     class KAT_Helmets_Cooper: MA_Mjolnir_CQC_Helmet
@@ -164,15 +139,4 @@ class CfgWeapons
 			// hiddenSelectionsMaterials[] = {"", "MA_Armor\data\Helmets\hr_odst\hr_odst_visor.rvmat"};
 		};
 	};
-
-    class KAT_Helmets_Cooper_snow: KAT_Helmets_Cooper
-	{
-		displayName = "[Azrael] Mark V/CQC (Cooper/snow)";
-		hiddenSelectionsTextures[] = {"KAT_Armor\cooper\cqc_helmet_snow_co.paa","KAT_Armor\cooper\cqc_visor_co.paa"};
-		class ItemInfo: ItemInfo
-		{
-			hiddenSelectionsTextures[] = {"KAT_Armor\cooper\cqc_helmet_snow_co.paa","KAT_Armor\cooper\cqc_visor_co.paa"};
-		};
-	};
-
 };

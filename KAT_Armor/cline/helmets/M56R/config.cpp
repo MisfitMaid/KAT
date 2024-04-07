@@ -49,12 +49,4 @@ class CfgWeapons
             };
         };
     };
-    class KAT_Helmets_Cline_Snow : KAT_Helmets_Cline
-    {
-        hiddenSelectionsTextures[] =
-        {
-            "KAT_Armor\cline\helmets\M56R\_textures\helmet_snow.paa",
-            "KAT_Armor\cline\helmets\M56R\_textures\visor.paa",
-        };
-    };
 };

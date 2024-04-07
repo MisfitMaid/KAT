@@ -127,39 +127,6 @@ class CfgWeapons
 			};
 		};
 	};
-
-    class KAT_Armor_Barnes_Snow : KAT_Armor_Barnes
-	{
-		displayName = "[Azrael] M56R (Barnes/snow)";
-		hiddenSelectionsTextures[] = 
-		{
-			"KAT_Armor\barnes\Reach_Armor_Upper_snow_co.paa", // shoulders
-			"", // unused
-			"MA_Armor\data\vests\h3_odst\addons\thigh_pouch_co.paa", // thigh
-			"KAT_Armor\barnes\Reach_Armor_Upper_snow_co.paa", // upper
-			"KAT_Armor\valkyrie\Reach_Armor_Lower_snow_co.paa", // lower
-			"MA_Armor\data\vests\reach_odst\canisters_co.paa", // cans
-			"", // unused
-			"", // unused
-			"KAT_Armor\barnes\cqb_snow_co.paa" // CQB
-		};
-		class ItemInfo: ItemInfo
-		{
-			hiddenSelectionsTextures[] = 
-			{
-				"KAT_Armor\barnes\Reach_Armor_Upper_snow_co.paa", // shoulders
-				"", // unused
-				"MA_Armor\data\vests\h3_odst\addons\thigh_pouch_co.paa", // thigh
-				"KAT_Armor\barnes\Reach_Armor_Upper_snow_co.paa", // upper
-				"KAT_Armor\valkyrie\Reach_Armor_Lower_snow_co.paa", // lower
-				"MA_Armor\data\vests\reach_odst\canisters_co.paa", // cans
-				"", // unused
-				"", // unused
-				"KAT_Armor\barnes\cqb_snow_co.paa" // CQB
-			};
-		};
-	};
-
     class KAT_Helmets_Barnes: KAT_Base_EOD_Helmet
 	{
 		scope = 2;
@@ -179,16 +146,4 @@ class CfgWeapons
 			hiddenSelectionsMaterials[] = {"KAT_Armor\barnes\eod.rvmat", "MA_Armor\data\Helmets\hr_odst\hr_odst_visor.rvmat"};
 		};
 	};
-
-    class KAT_Helmets_Barnes_snow: KAT_Helmets_Barnes
-	{
-
-		displayName = "[Azrael] Mark V/EOD (Barnes/snow)";
-		hiddenSelectionsTextures[] = {"KAT_Armor\barnes\eod_helmet_snow_co.paa","KAT_Armor\barnes\eod_visor_co.paa"};
-		class ItemInfo: ItemInfo
-		{
-			hiddenSelectionsTextures[] = {"KAT_Armor\barnes\eod_helmet_snow_co.paa","KAT_Armor\barnes\eod_visor_co.paa"};
-		};
-	};
-
 };
