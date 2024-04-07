@@ -19,6 +19,8 @@ class CfgWeapons
     class KAT_M52D_Jaeger_Armor_Rifleman;
     class KAT_M52D_Jaeger_Armor_Cline_Berserker : KAT_M52D_Jaeger_Armor_Rifleman
     {
+		scope = 2;
+		scopeArsenal = 2;
         displayName = "[Azrael] M52D (Cline)";
         hiddenSelectionsTextures[] =
         {

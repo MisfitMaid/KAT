@@ -19,6 +19,8 @@ class CfgWeapons
     class KAT_M52D_Jaeger_Armor_Rifleman;
     class KAT_M52D_Jaeger_Armor_Hayes_Berserker : KAT_M52D_Jaeger_Armor_Rifleman
     {
+		scope = 2;
+		scopeArsenal = 2;
         displayName = "[Azrael] M52D (Hayes)";
         hiddenSelectionsTextures[] =
         {
@@ -99,6 +101,8 @@ class CfgWeapons
     class KAT_M52D_Jaeger_Helmet_Default;
     class KAT_M52D_Jaeger_Helmet_Hayes_Berserker : KAT_M52D_Jaeger_Helmet_Default
     {
+		scope = 2;
+		scopeArsenal = 2;
         displayName = "[Azrael] M52D (Hayes)";
         hiddenSelectionsTextures[] =
         {
