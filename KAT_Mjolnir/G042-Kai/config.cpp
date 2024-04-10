@@ -179,7 +179,7 @@ class CfgGlasses
 	};
 
 	class MAPO_MVB_Grenadier_Kit;
-	class MAPO_MVB_Grenadier_Kit: MAPO_MVB_Grenadier_Kit
+	class KAT_Mjolnir_Chest_G042: MAPO_MVB_Grenadier_Kit
 	{
 		scope=2;
 		scopeArsenal=2;
