@@ -57,6 +57,7 @@ class XtdGearModels
                     "B",
                     "Barnes",
                     "Cline",
+                    "Frost",
                     "Hayes",
                     "Kertz",
                     "Lane",
@@ -78,6 +79,7 @@ class XtdGearInfos
 
         class KAT_Helmets_Barnes                     { model = "KAT_Metaitem_Helmet"; type = "m56m_eod"; customization = "Barnes"; };
         class KAT_Helmets_Cline                      { model = "KAT_Metaitem_Helmet"; type = "legacy";   customization = "Cline"; };
+        class KAT_Helmets_Frost                      { model = "KAT_Metaitem_Helmet"; type = "m56s_r";   customization = "Frost"; };
         class KAT_M52D_Jaeger_Helmet_Hayes_Berserker { model = "KAT_Metaitem_Helmet"; type = "legacy";   customization = "Hayes"; };
         class KAT_Helmets_Kertz                      { model = "KAT_Metaitem_Helmet"; type = "m56m_grn"; customization = "Kertz"; };
         class KAT_Helmets_VLane                      { model = "KAT_Metaitem_Helmet"; type = "m56m_cdo"; customization = "Lane"; };
