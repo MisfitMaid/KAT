@@ -41,26 +41,13 @@ class CfgVehicles {
 
 		class textureSources
 		{
-			class artemisE621
+			class artemis_E621
 			{
 				displayName="Artemis E621";
 				author="MisfitMaid";
 				textures[]=
 				{
 					"KAT_Vehicles\pelican_artemis_main_co.paa"
-				};
-				factions[]=
-				{
-					"OPTRE_UNSC"
-				};
-			};
-			class artemisE621_Snow
-			{
-				displayName="Artemis E621 (Snow)";
-				author="MisfitMaid";
-				textures[]=
-				{
-					"KAT_Vehicles\pelican_artemis_main_snow_co.paa"
 				};
 				factions[]=
 				{
@@ -90,26 +77,13 @@ class CfgVehicles {
 		
 		class textureSources
 		{
-			class artemisE621
+			class artemis_E621
 			{
 				displayName="Artemis E621";
 				author="MisfitMaid";
 				textures[]=
 				{
 					"KAT_Vehicles\pelican_artemis_main_co.paa"
-				};
-				factions[]=
-				{
-					"OPTRE_UNSC"
-				};
-			};
-			class artemisE621_Snow
-			{
-				displayName="Artemis E621 (Snow)";
-				author="MisfitMaid";
-				textures[]=
-				{
-					"KAT_Vehicles\pelican_artemis_main_snow_co.paa"
 				};
 				factions[]=
 				{
@@ -141,29 +115,14 @@ class CfgVehicles {
 		OPTRE_velocityMult=1;
 
 		class textureSources {
-			class artemis
+			class artemis_7829
 			{
-				displayName="Artemis";
+				displayName="Artemis 7829";
 				author="MisfitMaid";
 				textures[]=
 				{
 					"KAT_Vehicles\falcon_artemis_main_co.paa",
 					"KAT_Vehicles\falcon_artemis_attachments_co.paa",
-					"\optre_vehicles_air\falcon\data\falcon_interior_co.paa"
-				};
-				factions[]=
-				{
-					"OPTRE_UNSC"
-				};
-			};
-			class artemis_Snow
-			{
-				displayName="Artemis (Snow)";
-				author="MisfitMaid";
-				textures[]=
-				{
-					"KAT_Vehicles\falcon_artemis_main_snow_co.paa",
-					"KAT_Vehicles\falcon_artemis_attachments_snow_co.paa",
 					"\optre_vehicles_air\falcon\data\falcon_interior_co.paa"
 				};
 				factions[]=

@@ -55,7 +55,22 @@ class CfgWeapons
 			"KAT_Mjolnir\A085-Hex\lower.paa"
 		};
 	};
-
+	class MAPO_EOD_CBRN_Attachment_NVG_Spartan ;
+	class KAT_Mjolnir_Face_A085: MAPO_EOD_CBRN_Attachment_NVG_Spartan
+	{
+		scope=2;
+		scopeArsenal=2;
+		author="MisfitMaid";
+		displayName="[Azrael] Mjolnir Face A085";
+		hiddenSelections[]=
+		{
+			"Camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"KAT_Mjolnir\A085-Hex\cbrn.paa"
+		};
+	};
 };
 
 class CfgVehicles
@@ -161,22 +176,7 @@ class CfgVehicles
 
 class CfgGlasses
 {
-	class MAPO_EOD_CBRN_Attachment_NVG_Spartan ;
-	class KAT_Mjolnir_Face_A085: MAPO_EOD_CBRN_Attachment_NVG_Spartan
-	{
-		scope=2;
-		scopeArsenal=2;
-		author="MisfitMaid";
-		displayName="[Azrael] Mjolnir Face A085";
-		hiddenSelections[]=
-		{
-			"Camo1"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"KAT_Mjolnir\A085-Hex\cbrn.paa"
-		};
-	};
+
 
 	class MAPO_MKVB_ODST_Chest;
 	class KAT_Mjolnir_Chest_A085: MAPO_MKVB_ODST_Chest
