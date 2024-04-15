@@ -97,17 +97,13 @@ class CfgVehicles {
 	class KAT_Falcon_Artemis : OPTRE_UNSC_falcon_armed_S {
 		displayName="UH-144S Falcon [Artemis]";
 		crew="OPTRE_UNSC_Airforce_FML_Soldier_Airman";
-		hiddenSelections[]=
-		{
-			"camo1",
-			"camo2",
-			"camo3"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"KAT_Vehicles\falcon_artemis_main_co.paa",
-			"KAT_Vehicles\falcon_artemis_attachments_co.paa",
-			"\optre_vehicles_air\falcon\data\falcon_interior_co.paa"
+		hiddenSelections[] = {"camo1","camo2","camo3","camoGlass","camoGlassPilot"};
+		hiddenSelectionsTextures[] = {
+		"KAT_Vehicles\falcon_main_co.paa",
+		"KAT_Vehicles\falcon_attachments_co.paa",
+		"KAT_Vehicles\falcon_interior_co.paa",
+		"KAT_Vehicles\falcon_glass_ca.paa",
+		"KAT_Vehicles\falcon_glass_ca.paa"
 		};
 		OPTRE_canThrust=1;
 		OPTRE_minVelocity=1.4;
@@ -115,15 +111,17 @@ class CfgVehicles {
 		OPTRE_velocityMult=1;
 
 		class textureSources {
-			class artemis_7829
+			class artemis_447829
 			{
-				displayName="Artemis 7829";
+				displayName="Artemis 44-7829";
 				author="MisfitMaid";
 				textures[]=
 				{
-					"KAT_Vehicles\falcon_artemis_main_co.paa",
-					"KAT_Vehicles\falcon_artemis_attachments_co.paa",
-					"\optre_vehicles_air\falcon\data\falcon_interior_co.paa"
+					"KAT_Vehicles\falcon_main_co.paa",
+					"KAT_Vehicles\falcon_attachments_co.paa",
+					"KAT_Vehicles\falcon_interior_co.paa",
+					"KAT_Vehicles\falcon_glass_ca.paa",
+					"KAT_Vehicles\falcon_glass_ca.paa"
 				};
 				factions[]=
 				{
