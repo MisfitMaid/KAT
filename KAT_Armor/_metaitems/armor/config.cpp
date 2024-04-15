@@ -41,6 +41,7 @@ class XtdGearModels
                     "Cline",
                     "Hayes",
                     "Morningstar",
+                    "Selanne",
                     "Cooper",
                 };
                 class A { label = "A (Valkyrie)"; };
@@ -60,6 +61,7 @@ class XtdGearInfos
         class KAT_Armor_Frost                       { model = "KAT_Metaitem_Armor"; customization = "Frost"; };
         class KAT_Armor_Kertz                       { model = "KAT_Metaitem_Armor"; customization = "Kertz"; };
         class KAT_Armor_Morningstar                 { model = "KAT_Metaitem_Armor"; customization = "Morningstar"; };
+        class KAT_Armor_Selanne                     { model = "KAT_Metaitem_Armor"; customization = "Selanne"; };
         class KAT_M52D_Jaeger_Armor_Cline_Berserker { model = "KAT_Metaitem_Armor"; customization = "Cline"; };
         class KAT_M52D_Jaeger_Armor_Hayes_Berserker { model = "KAT_Metaitem_Armor"; customization = "Hayes"; };
 

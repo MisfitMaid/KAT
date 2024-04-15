@@ -62,6 +62,7 @@ class XtdGearModels
                     "Kertz",
                     "Lane",
                     "Morningstar",
+                    "Selanne",
                     "Cooper",
                 };
                 class A { label = "A (Valkyrie)"; };
@@ -84,6 +85,7 @@ class XtdGearInfos
         class KAT_Helmets_Kertz                      { model = "KAT_Metaitem_Helmet"; type = "m56m_grn"; customization = "Kertz"; };
         class KAT_Helmets_VLane                      { model = "KAT_Metaitem_Helmet"; type = "m56m_cdo"; customization = "Lane"; };
         class KAT_Helmets_Morningstar                { model = "KAT_Metaitem_Helmet"; type = "m56s_r";   customization = "Morningstar"; };
+        class KAT_Helmets_Selanne                    { model = "KAT_Metaitem_Helmet"; type = "m56s_r";   customization = "Selanne"; };
 
         class KAT_Helmets_Cooper                     { model = "KAT_Metaitem_Helmet"; type = "m56m_cqc"; customization = "Cooper"; };
     };
