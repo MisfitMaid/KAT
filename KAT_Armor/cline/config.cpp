@@ -1,133 +1,144 @@
 class CfgPatches
 {
-    class KAT_M52D_Jaeger_Armor_Cline
-    {
-        author = "wlan0";
-        addonRootClass = "KAT_M52D_Jaeger_Armor";
-        requiredAddons[] =
-        {
-            "KAT_M52D_Jaeger_Armor",
-        };
-        requiredVersion = 0.1;
-        units[] = {};
-        weapons[] = {};
-    };
+	class KAT_Armor_Cline
+	{
+		author = "MisfitMaid";
+		units[] = {};
+		weapons[] = {};
+		requiredVersion = 0.1;
+		requiredAddons[] =
+		{
+			"A3_Characters_F",
+			"OPTRE_Core"
+		};
+	};
 };
+
 class CfgWeapons
 {
     class ItemInfo;
-    class KAT_M52D_Jaeger_Armor_Rifleman;
-    class KAT_M52D_Jaeger_Armor_Cline_Berserker : KAT_M52D_Jaeger_Armor_Rifleman
-    {
+
+    class KAT_Armor__Base;
+    class KAT_Armor_Cline : KAT_Armor__Base
+	{
 		scope = 2;
 		scopeArsenal = 2;
-        displayName = "[Azrael] M52D (Cline)";
-        hiddenSelectionsTextures[] =
-        {
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Vest\vest_odst.paa",
-            "KAT_Armor\cline\armor_berserker.paa",
-            "KAT_Armor\_base\armor\M52D_Jaeger\_textures\Legs\Black\legs_berserker.paa",
-            "optre_unsc_units\army\data\ghillie_desert_co.paa",
-            "KAT_Armor\cline\main_berserker.paa"
-        };
-        class ItemInfo : ItemInfo
-        {
-            hiddenSelections[] =
+		author = "MisfitMaid";
+		displayName = "[Azrael] M56S-R (Cline)";
+		hiddenSelections[] = 
+		{
+			"camo1",
+			"camo2",
+			"camo3",
+			"camo4",
+			"camo5",
+			"camo6",
+			"camo7",
+			"camo8",
+			"camo9",
+			"camo10",
+			//"Reach_Forearm_Left",
+			//"Reach_Forearm_Right",
+			"H3_Forearm_Left",
+			"H3_Forearm_Right",
+			"H3_Pauldron_Left",
+			"H3_Pauldron_Right",
+			//"Reach_Pauldron_Left",
+			//"Reach_Pauldron_Right",
+			"Reach_Shoulder_Radio_Left",
+			//"Reach_Shoulder_Radio_Right",
+			"Reach_Sniper_Pauldron_Left",
+			"Reach_Sniper_Pauldron_Right",
+			"Reach_CQB_Pauldron_Left",
+			"Reach_CQB_Pauldron_Right",
+			//"Thigh_Pouch",
+			//"Reach_Armor_Upper",
+			//"Reach_Armor_Lower",
+			"H3_Armor_Upper",
+			"H3_Armor_Lower",
+			//"Forearm_Vent_Left",
+			//"Forearm_Vent_Right",
+			//"Canisters"
+		};
+		hiddenSelectionsTextures[] = 
+		{
+            "",       //camo1 (H3 Upper Armor)
+            "",       //camo2 (H3 Lower Armor)
+            "KAT_Armor\Cline\thigh.paa",//camo3 (Thigh Pouch)
+            "KAT_Armor\Cline\upper.paa",    //camo4 (Reach Upper Armor)
+            "KAT_Armor\Cline\lower.paa",    //camo5 (Reach Lower Armor)
+            "KAT_Armor\Cline\cans.paa",      //camo6 (Canisters)
+            "KAT_Armor\Cline\vents.paa",   //camo7 (Forearm Vents)
+            "KAT_Armor\Cline\radio.paa" //camo10 (Shoulder Radio)
+		};
+		class ItemInfo: ItemInfo
+		{
+			vestType = "Rebreather";
+			uniformModel = "MA_Armor\data\Vests\H3_ODST\H3_ODST_Armor.p3d";
+			containerClass = "Supply200";
+            hiddenSelections[] = 
             {
-                // Commented out means visible on the armor
-                /*
-                    A = Armor component
-                    AS = Shoulder plate
-                    AP = Belt Pouches
-                    APO = Accessories
-                */
-                "camo",
+                "camo1",
                 "camo2",
                 "camo3",
                 "camo4",
                 "camo5",
-                // "A_Base",
-                // "A_ChestArmor",
-                "A_Ghillie",
-                // "A_KneesLeft",
-                // "A_KneesRight",
-                "A_KneesMarLeft",
-                "A_KneesMarRight",
-                // "A_ODST",
-                // "A_ShinArmorLeft",
-                // "A_ShinArmorRight",
-                "A_TacPad",
-                // "A_ThighArmorLeft",
-                // "A_ThighArmorRight",
-                // "AS_BaseLeft",
-                // "AS_BaseRight",
-                "AS_LargeLeft",
-                "AS_LargeRight",
-                "AS_MediumLeft",
-                "AS_MediumRight",
-                "AS_ODSTCQBLeft",
-                "AS_ODSTCQBRight",
-                // "AS_ODSTLeft",
-                "AS_ODSTRight",
-                "AS_ODSTSniperLeft",
-                "AS_ODSTSniperRight",
-                "AS_SmallLeft",
-                // "AS_SmallRight",
-                "AP_AR",
-                "AP_BR",
-                "AP_Canteen",
-                "AP_GL",
-                // "AP_Knife",
-                // "AP_MGThigh",
-                "AP_Pack",
-                "AP_Pistol",
-                "AP_Rounds",
-                "AP_SG",
-                "AP_SMG",
-                "AP_Sniper",
-                // "AP_Thigh",
-                // "AP_Frag",
-                // "AP_Smoke",
-                // "APO_AR",
-                "APO_BR",
-                "APO_Knife",
-                "APO_SMG",
-                "APO_Sniper",
-                "CustomKit_Scorch"
+                "camo6",
+                "camo7",
+                "camo8",
+                "camo9",
+                "camo10",
+                //"Reach_Forearm_Left",
+                //"Reach_Forearm_Right",
+                "H3_Forearm_Left",
+                "H3_Forearm_Right",
+                "H3_Pauldron_Left",
+                "H3_Pauldron_Right",
+                //"Reach_Pauldron_Left",
+                //"Reach_Pauldron_Right",
+                "Reach_Shoulder_Radio_Left",
+                //"Reach_Shoulder_Radio_Right",
+                "Reach_Sniper_Pauldron_Left",
+                "Reach_Sniper_Pauldron_Right",
+                "Reach_CQB_Pauldron_Left",
+                "Reach_CQB_Pauldron_Right",
+                //"Thigh_Pouch",
+                //"Reach_Armor_Upper",
+                //"Reach_Armor_Lower",
+                "H3_Armor_Upper",
+                "H3_Armor_Lower",
+                //"Forearm_Vent_Left",
+                //"Forearm_Vent_Right",
+                //"Canisters"
             };
-        };
-    };
-	
-    class KAT_M56SR_Helmet_Base;
-    class KAT_Helmets_Cline : KAT_M56SR_Helmet_Base
-    {
-        scope = 2;
-        scopeCurator = 2;
-        scopeArsenal = 2;
-        displayName = "[Azrael] M56R (Cline)";
-        author = "wlan0";
-        hiddenSelections[] =
-        {
-            "camo1",
-            "camo2",
-        };
-        hiddenSelectionsTextures[] =
-        {
-            "KAT_Armor\cline\helmet.paa",
-            "KAT_Armor\cline\visor.paa",
-        };
-        class ItemInfo : ItemInfo
-        {
-            hiddenSelections[] =
+            hiddenSelectionsTextures[] = 
             {
-                "camo1",
-                "camo2",
+                "",       //camo1 (H3 Upper Armor)
+                "",       //camo2 (H3 Lower Armor)
+                "KAT_Armor\Cline\thigh.paa",//camo3 (Thigh Pouch)
+                "KAT_Armor\Cline\upper.paa",    //camo4 (Reach Upper Armor)
+                "KAT_Armor\Cline\lower.paa",    //camo5 (Reach Lower Armor)
+                "KAT_Armor\Cline\cans.paa",      //camo6 (Canisters)
+                "KAT_Armor\Cline\vents.paa",   //camo7 (Forearm Vents)
+                "KAT_Armor\Cline\radio.paa" //camo10 (Shoulder Radio)
             };
-            hiddenSelectionsTextures[] =
-            {
-                "KAT_Armor\cline\helmet.paa",
-                "KAT_Armor\cline\visor.paa",
-            };
-        };
-    };
+		};
+	};
+
+	class KAT_M56SR_Helmet_Base;
+    class KAT_Helmets_Cline: KAT_M56SR_Helmet_Base
+	{
+		scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		author = "MisfitMaid";
+		displayName = "[Azrael] M56S-R (Cline)";
+		hiddenSelections[] = {"camo1","camo2"};
+		hiddenSelectionsTextures[] = {"KAT_Armor\Cline\helmet.paa","KAT_Armor\Cline\helmet_visor.paa"};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelections[] = {"camo1","camo2"};
+			hiddenSelectionsTextures[] = {"KAT_Armor\Cline\helmet.paa","KAT_Armor\Cline\helmet_visor.paa"};
+		};
+	};
 };
