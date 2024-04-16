@@ -119,7 +119,7 @@ class CfgWeapons
 				"", // unused
 				"MA_Armor\data\vests\h3_odst\addons\thigh_pouch_co.paa", // thigh
 				"KAT_Armor\barnes\Reach_Armor_Upper_co.paa", // upper
-				"KAT_Armor\valkyrie\Reach_Armor_Lower_co.paa", // lower
+				"KAT_Armor\valkyrie\lower.paa", // lower
 				"MA_Armor\data\vests\reach_odst\canisters_co.paa", // cans
 				"", // unused
 				"", // unused
