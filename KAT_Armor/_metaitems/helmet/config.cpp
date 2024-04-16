@@ -89,7 +89,7 @@ class XtdGearInfos
         class KAT_Helmets_Selanne                    { model = "KAT_Metaitem_Helmet"; type = "m56s_r";   customization = "Selanne"; };
 
         // 1-2
-        
+        class KAT_Helmets_Outlaw                     { model = "KAT_Metaitem_Helmet"; type = "m56s_r";   customization = "2A"; };
 
         // command
         class KAT_Helmets_Cooper                     { model = "KAT_Metaitem_Helmet"; type = "m56m_cqc"; customization = "Cooper"; };

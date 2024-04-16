@@ -67,7 +67,7 @@ class XtdGearInfos
         class KAT_Armor_Cline                       { model = "KAT_Metaitem_Armor"; customization = "Cline"; };
 
         // 1-2
-
+        class KAT_Armor_Outlaw                      { model = "KAT_Metaitem_Armor"; customization = "2A"; };
 
         // command
         class KAT_Armor_Cooper                      { model = "KAT_Metaitem_Armor"; customization = "Cooper"; };

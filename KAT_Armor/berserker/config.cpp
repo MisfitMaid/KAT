@@ -25,7 +25,7 @@ class CfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		author = "MisfitMaid";
-		displayName = "[Azrael] M56R (Berserker)";
+		displayName = "[Azrael] M56S-R (Berserker)";
 		hiddenSelections[] = 
 		{
 			"camo1",
@@ -63,11 +63,11 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[] = 
 		{
-			"KAT_Armor\berserker\Reach_Armor_Upper_co.paa", // shoulders
+			"KAT_Armor\berserker\upper.paa", // shoulders
 			"", // unused
 			"", // unused
-			"KAT_Armor\berserker\Reach_Armor_Upper_co.paa", // upper
-			"KAT_Armor\berserker\Reach_Armor_Lower_co.paa", // lower
+			"KAT_Armor\berserker\upper.paa", // upper
+			"KAT_Armor\berserker\lower.paa", // lower
 			"" // unused
 		};
 		class ItemInfo: ItemInfo
@@ -112,11 +112,11 @@ class CfgWeapons
 			};
 			hiddenSelectionsTextures[] = 
 			{
-				"KAT_Armor\berserker\Reach_Armor_Upper_co.paa", // shoulders
+				"KAT_Armor\berserker\upper.paa", // shoulders
 				"", // unused
 				"", // unused
-				"KAT_Armor\berserker\Reach_Armor_Upper_co.paa", // upper
-				"KAT_Armor\berserker\Reach_Armor_Lower_co.paa", // lower
+				"KAT_Armor\berserker\upper.paa", // upper
+				"KAT_Armor\berserker\lower.paa", // lower
 				"" // unused
 			};
 		};
@@ -128,13 +128,13 @@ class CfgWeapons
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		author = "MisfitMaid";
-		displayName = "[Azrael] M56S (Berserker)";
+		displayName = "[Azrael] M56S-R (Berserker)";
 		hiddenSelections[] = {"camo1","camo2"};
-		hiddenSelectionsTextures[] = {"KAT_Armor\berserker\hr_odst_helmet_co.paa","MA_Armor\data\Helmets\H3_ODST\H3_Visor_Red_co.paa"};
+		hiddenSelectionsTextures[] = {"KAT_Armor\berserker\helmet.paa","KAT_Armor\berserker\visor.paa"};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelections[] = {"camo1","camo2"};
-			hiddenSelectionsTextures[] = {"KAT_Armor\berserker\hr_odst_helmet_co.paa","MA_Armor\data\Helmets\H3_ODST\H3_Visor_Red_co.paa"};
+			hiddenSelectionsTextures[] = {"KAT_Armor\berserker\helmet.paa","KAT_Armor\berserker\visor.paa"};
 		};
 	};
 };
