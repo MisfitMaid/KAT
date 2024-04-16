@@ -53,8 +53,9 @@ class XtdGearModels
                 alwaysSelectable = 1;
                 values[] =
                 {
-                    "A",
-                    "B",
+                    "1A",
+                    "1B",
+                    "2A",
                     "Barnes",
                     "Cline",
                     "Frost",
@@ -65,8 +66,9 @@ class XtdGearModels
                     "Selanne",
                     "Cooper",
                 };
-                class A { label = "A (Valkyrie)"; };
-                class B { label = "B (Berserker)"; };
+                class 1A { label = "1-1-A (Valkyrie)"; };
+                class 1B { label = "1-1-B (Berserker)"; };
+                class 2A { label = "1-2-A (Outlaw)"; };
             };
         };
     };
@@ -75,18 +77,24 @@ class XtdGearInfos
 {
     class CfgWeapons
     {
-        class KAT_Helmets_Valkyrie                   { model = "KAT_Metaitem_Helmet"; type = "m56s_r";   customization = "A"; };
-        class KAT_Helmets_Berserker                  { model = "KAT_Metaitem_Helmet"; type = "m56s_r";   customization = "B"; };
-
+        // 1-1
+        class KAT_Helmets_Valkyrie                   { model = "KAT_Metaitem_Helmet"; type = "m56s_r";   customization = "1A"; };
+        class KAT_Helmets_Berserker                  { model = "KAT_Metaitem_Helmet"; type = "m56s_r";   customization = "1B"; };
         class KAT_Helmets_Barnes                     { model = "KAT_Metaitem_Helmet"; type = "m56m_eod"; customization = "Barnes"; };
         class KAT_Helmets_Cline                      { model = "KAT_Metaitem_Helmet"; type = "legacy";   customization = "Cline"; };
         class KAT_Helmets_Frost                      { model = "KAT_Metaitem_Helmet"; type = "m56s_r";   customization = "Frost"; };
-        class KAT_M52D_Jaeger_Helmet_Hayes_Berserker { model = "KAT_Metaitem_Helmet"; type = "legacy";   customization = "Hayes"; };
         class KAT_Helmets_Kertz                      { model = "KAT_Metaitem_Helmet"; type = "m56m_grn"; customization = "Kertz"; };
         class KAT_Helmets_VLane                      { model = "KAT_Metaitem_Helmet"; type = "m56m_cdo"; customization = "Lane"; };
         class KAT_Helmets_Morningstar                { model = "KAT_Metaitem_Helmet"; type = "m56s_r";   customization = "Morningstar"; };
         class KAT_Helmets_Selanne                    { model = "KAT_Metaitem_Helmet"; type = "m56s_r";   customization = "Selanne"; };
 
+        // 1-2
+        
+
+        // command
         class KAT_Helmets_Cooper                     { model = "KAT_Metaitem_Helmet"; type = "m56m_cqc"; customization = "Cooper"; };
+
+        // loa/misc
+        class KAT_M52D_Jaeger_Helmet_Hayes_Berserker { model = "KAT_Metaitem_Helmet"; type = "legacy";   customization = "Hayes"; };
     };
 };
