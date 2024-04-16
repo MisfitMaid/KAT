@@ -53,6 +53,7 @@ class XtdGearModels
                 alwaysSelectable = 1;
                 values[] =
                 {
+                    "Recruit",
                     "1A",
                     "1B",
                     "2A",
@@ -66,6 +67,7 @@ class XtdGearModels
                     "Selanne",
                     "Cooper",
                 };
+                class Recruit { label = "Basic"; };
                 class 1A { label = "1-1-A (Valkyrie)"; };
                 class 1B { label = "1-1-B (Berserker)"; };
                 class 2A { label = "1-2-A (Outlaw)"; };
@@ -95,6 +97,7 @@ class XtdGearInfos
         class KAT_Helmets_Cooper                     { model = "KAT_Metaitem_Helmet"; type = "m56m_cqc"; customization = "Cooper"; };
 
         // loa/misc
+        class KAT_Helmets_Recruit                    { model = "KAT_Metaitem_Helmet"; type = "m56s_r";   customization = "Recruit"; };
         class KAT_M52D_Jaeger_Helmet_Hayes_Berserker { model = "KAT_Metaitem_Helmet"; type = "legacy";   customization = "Hayes"; };
     };
 };
