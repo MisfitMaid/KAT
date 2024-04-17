@@ -37,6 +37,7 @@ class XtdGearModels
                     "m56m_cqc",
                     "m56m_eod",
                     "m56m_grn",
+                    "m56m_r",
                     "legacy",
                 };
                 class m56s_r  { label = "M56S-R"; };
@@ -44,7 +45,8 @@ class XtdGearModels
                 class m56m_cdo  { label = "M56M-CDO"; };
                 class m56m_cqc  { label = "M56M-CQC"; };
                 class m56m_eod  { label = "M56M-EOD"; };
-                class m56m_GRN  { label = "M56M-GRN"; };
+                class m56m_grn  { label = "M56M-GRN"; };
+                class m56m_r  { label = "M56M-R"; };
                 class legacy { label = "Legacy"; };
             };
             class customization
@@ -66,6 +68,7 @@ class XtdGearModels
                     "Morningstar",
                     "Selanne",
                     "Cooper",
+                    "Buckley",
                 };
                 class Recruit { label = "Basic"; };
                 class 1A { label = "1-1-A (Valkyrie)"; };
@@ -95,6 +98,7 @@ class XtdGearInfos
 
         // command
         class KAT_Helmets_Cooper                     { model = "KAT_Metaitem_Helmet"; type = "m56m_cqc"; customization = "Cooper"; };
+        class KAT_Helmets_Buckley                    { model = "KAT_Metaitem_Helmet"; type = "m56m_r"; customization = "Buckley"; };
 
         // loa/misc
         class KAT_Helmets_Recruit                    { model = "KAT_Metaitem_Helmet"; type = "m56s_r";   customization = "Recruit"; };
