@@ -23,7 +23,7 @@ class CfgWeapons
 	{
 		scope = 2;
 		scopeArsenal = 2;
-		author = "MisfitMaid";
+		author = "frwrd";
 		displayName = "[Azrael] M56S-R (Cline)";
 		hiddenSelections[] = 
 		{
@@ -131,7 +131,7 @@ class CfgWeapons
 		scope = 2;
 		scopeCurator = 2;
 		scopeArsenal = 2;
-		author = "MisfitMaid";
+		author = "frwrd";
 		displayName = "[Azrael] M56S-R (Cline)";
 		hiddenSelections[] = {"camo1","camo2"};
 		hiddenSelectionsTextures[] = {"KAT_Armor\Cline\helmet.paa","KAT_Armor\Cline\helmet_visor.paa"};

@@ -24,7 +24,7 @@ class CfgWeapons
 	{
 		scope = 2;
 		scopeArsenal = 2;
-		author = "MisfitMaid";
+		author = "frwrd";
 		displayName = "[Azrael] M56S-R (Valkyrie)";
 		hiddenSelections[] = 
 		{
@@ -127,7 +127,7 @@ class CfgWeapons
 		scope = 2;
 		scopeCurator = 2;
 		scopeArsenal = 2;
-		author = "MisfitMaid";
+		author = "frwrd";
 		displayName = "[Azrael] M56S-R (Valkyrie)";
 		hiddenSelections[] = {"camo1","camo2"};
 		hiddenSelectionsTextures[] = {"KAT_Armor\valkyrie\helmet.paa","KAT_Armor\valkyrie\visor.paa"};

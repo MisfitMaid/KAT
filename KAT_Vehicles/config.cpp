@@ -114,7 +114,7 @@ class CfgVehicles {
 			class artemis_447829
 			{
 				displayName="Artemis 44-7829";
-				author="MisfitMaid";
+				author="frwrd";
 				textures[]=
 				{
 					"KAT_Vehicles\falcon_main_co.paa",
