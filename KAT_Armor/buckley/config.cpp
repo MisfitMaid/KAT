@@ -23,7 +23,7 @@ class CfgWeapons
 	{
 		scope = 2;
 		scopeArsenal = 2;
-		author = "MisfitMaid";
+		author = "frwrd";
 		displayName = "[Azrael] M56S-R (Buckley)";
 		hiddenSelections[] = 
 		{

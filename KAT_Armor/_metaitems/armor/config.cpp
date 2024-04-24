@@ -40,6 +40,7 @@ class XtdGearModels
                     "Barnes",
                     "Frost",
                     "Kertz",
+                    "Lane",
                     "Cline",
                     "Hayes",
                     "Morningstar",
@@ -65,6 +66,7 @@ class XtdGearInfos
         class KAT_Armor_Barnes                      { model = "KAT_Metaitem_Armor"; customization = "Barnes"; };
         class KAT_Armor_Frost                       { model = "KAT_Metaitem_Armor"; customization = "Frost"; };
         class KAT_Armor_Kertz                       { model = "KAT_Metaitem_Armor"; customization = "Kertz"; };
+        class KAT_Armor_Lane                        { model = "KAT_Metaitem_Armor"; customization = "Lane"; };
         class KAT_Armor_Morningstar                 { model = "KAT_Metaitem_Armor"; customization = "Morningstar"; };
         class KAT_Armor_Selanne                     { model = "KAT_Metaitem_Armor"; customization = "Selanne"; };
         class KAT_Armor_Cline                       { model = "KAT_Metaitem_Armor"; customization = "Cline"; };

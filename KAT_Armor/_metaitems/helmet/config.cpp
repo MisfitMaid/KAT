@@ -89,7 +89,7 @@ class XtdGearInfos
         class KAT_Helmets_Cline                      { model = "KAT_Metaitem_Helmet"; type = "legacy";   customization = "Cline"; };
         class KAT_Helmets_Frost                      { model = "KAT_Metaitem_Helmet"; type = "m56s_r";   customization = "Frost"; };
         class KAT_Helmets_Kertz                      { model = "KAT_Metaitem_Helmet"; type = "m56m_grn"; customization = "Kertz"; };
-        class KAT_Helmets_VLane                      { model = "KAT_Metaitem_Helmet"; type = "m56m_cdo"; customization = "Lane"; };
+        class KAT_Helmets_Lane                       { model = "KAT_Metaitem_Helmet"; type = "m56m_cdo"; customization = "Lane"; };
         class KAT_Helmets_Morningstar                { model = "KAT_Metaitem_Helmet"; type = "m56s_r";   customization = "Morningstar"; };
         class KAT_Helmets_Selanne                    { model = "KAT_Metaitem_Helmet"; type = "m56s_r";   customization = "Selanne"; };
 
