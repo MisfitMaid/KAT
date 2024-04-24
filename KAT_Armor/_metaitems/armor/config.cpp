@@ -45,6 +45,7 @@ class XtdGearModels
                     "Morningstar",
                     "Selanne",
                     "Cooper",
+                    "Buckley",
                 };
                 class Recruit { label = "Basic"; };
                 class 1A { label = "1-1-A (Valkyrie)"; };
@@ -73,6 +74,7 @@ class XtdGearInfos
 
         // command
         class KAT_Armor_Cooper                      { model = "KAT_Metaitem_Armor"; customization = "Cooper"; };
+        class KAT_Armor_Buckley                     { model = "KAT_Metaitem_Armor"; customization = "Buckley"; };
 
         // LOA/misc
         class KAT_Armor_Recruit                     { model = "KAT_Metaitem_Armor"; customization = "Recruit"; };
