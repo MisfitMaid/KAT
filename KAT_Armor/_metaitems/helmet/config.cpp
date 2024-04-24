@@ -66,6 +66,7 @@ class XtdGearModels
                     "Kertz",
                     "Lane",
                     "Morningstar",
+                    "Raider",
                     "Selanne",
                     "Cooper",
                     "Buckley",
@@ -95,6 +96,7 @@ class XtdGearInfos
 
         // 1-2
         class KAT_Helmets_Outlaw                     { model = "KAT_Metaitem_Helmet"; type = "m56s_r";   customization = "2A"; };
+        class KAT_Helmets_Raider                     { model = "KAT_Metaitem_Helmet"; type = "m56s_r";   customization = "Raider"; };
 
         // command
         class KAT_Helmets_Cooper                     { model = "KAT_Metaitem_Helmet"; type = "m56m_cqc"; customization = "Cooper"; };

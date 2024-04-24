@@ -44,6 +44,7 @@ class XtdGearModels
                     "Cline",
                     "Hayes",
                     "Morningstar",
+                    "Raider",
                     "Selanne",
                     "Cooper",
                     "Buckley",
@@ -73,6 +74,7 @@ class XtdGearInfos
 
         // 1-2
         class KAT_Armor_Outlaw                      { model = "KAT_Metaitem_Armor"; customization = "2A"; };
+        class KAT_Armor_Raider                      { model = "KAT_Metaitem_Armor"; customization = "Raider"; };
 
         // command
         class KAT_Armor_Cooper                      { model = "KAT_Metaitem_Armor"; customization = "Cooper"; };
