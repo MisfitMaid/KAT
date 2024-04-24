@@ -87,7 +87,7 @@ class XtdGearInfos
         class KAT_Helmets_Valkyrie                   { model = "KAT_Metaitem_Helmet"; type = "m56s_r";   customization = "1A"; };
         class KAT_Helmets_Berserker                  { model = "KAT_Metaitem_Helmet"; type = "m56s_r";   customization = "1B"; };
         class KAT_Helmets_Barnes                     { model = "KAT_Metaitem_Helmet"; type = "m56m_eod"; customization = "Barnes"; };
-        class KAT_Helmets_Cline                      { model = "KAT_Metaitem_Helmet"; type = "legacy";   customization = "Cline"; };
+        class KAT_Helmets_Cline                      { model = "KAT_Metaitem_Helmet"; type = "m56s_r";   customization = "Cline"; };
         class KAT_Helmets_Frost                      { model = "KAT_Metaitem_Helmet"; type = "m56s_r";   customization = "Frost"; };
         class KAT_Helmets_Kertz                      { model = "KAT_Metaitem_Helmet"; type = "m56m_grn"; customization = "Kertz"; };
         class KAT_Helmets_Lane                       { model = "KAT_Metaitem_Helmet"; type = "m56m_cdo"; customization = "Lane"; };
