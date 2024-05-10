@@ -105,18 +105,22 @@ class CfgWeapons
 				//"Reach_Armor_Lower",
 				"H3_Armor_Upper",
 				"H3_Armor_Lower",
-				"Forearm_Vent_Left",
-				"Forearm_Vent_Right",
+				//"Forearm_Vent_Left",
+				//"Forearm_Vent_Right",
 				"Canisters"
 			};
 			hiddenSelectionsTextures[] = 
 			{
-				"KAT_Armor\cooper\Reach_Armor_Upper_co.paa", // shoulders
-				"", // unused
-				"", // unused
-				"KAT_Armor\cooper\Reach_Armor_Upper_co.paa", // upper
-				"KAT_Armor\cooper\Reach_Armor_Lower_co.paa", // lower
-				"" // unused
+				"", //camo1 (H3 Upper Armor)
+				"", //camo2 (H3 Lower Armor)
+				"", //camo3 (Thigh Pouch)
+				"KAT_Armor\cooper\Reach_Armor_Upper_co.paa", //camo4 (Reach Upper Armor)
+				"KAT_Armor\cooper\Reach_Armor_Lower_co.paa", //camo5 (Reach Lower Armor)
+				"" //camo6 (Canisters)
+				"", //camo7 (Forearm Vents)
+				"", //camo8 (Sniper Shoulders)
+				"", //camo9 (CQB Shoulders)
+				"" //camo10 (Shoulder Radio)
 			};
 		};
 	};
@@ -131,12 +135,10 @@ class CfgWeapons
 		displayName = "[Azrael] M56M-CQC (Cooper)";
 		hiddenSelections[] = {"camo1","camo2"};
 		hiddenSelectionsTextures[] = {"KAT_Armor\cooper\cqc_helmet_co.paa","KAT_Armor\cooper\cqc_visor_co.paa"};
-		// hiddenSelectionsMaterials[] = {"", "MA_Armor\data\Helmets\hr_odst\hr_odst_visor.rvmat"};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelections[] = {"camo1","camo2"};
 			hiddenSelectionsTextures[] = {"KAT_Armor\cooper\cqc_helmet_co.paa","KAT_Armor\cooper\cqc_visor_co.paa"};
-			// hiddenSelectionsMaterials[] = {"", "MA_Armor\data\Helmets\hr_odst\hr_odst_visor.rvmat"};
 		};
 	};
 };

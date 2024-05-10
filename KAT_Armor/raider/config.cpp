@@ -110,7 +110,7 @@ class CfgWeapons
 				"Reach_Armor_Lower",
 				"H3_Armor_Upper",
 				//"H3_Armor_Lower",
-				"Forearm_Vent_Left",
+				// "Forearm_Vent_Left",
 				"Forearm_Vent_Right",
 				// "Canisters"
 			};
