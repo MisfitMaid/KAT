@@ -37,9 +37,9 @@ class XtdGearModels
                     "1A",
                     "1B",
                     "2A",
-                    "Barnes",
                     "Frost",
                     "Kertz",
+                    "Laeca",
                     "Lane",
                     "Cline",
                     "Morningstar",
@@ -47,6 +47,7 @@ class XtdGearModels
                     "Selanne",
                     "Cooper",
                     "Buckley",
+                    "Barnes",
                 };
                 class Recruit { label = "Basic"; };
                 class 1A { label = "1-1-A (Valkyrie)"; };
@@ -63,9 +64,9 @@ class XtdGearInfos
         // 1-1
         class KAT_Armor_Valkyrie                    { model = "KAT_Metaitem_Armor"; customization = "1A"; };
         class KAT_Armor_Berserker                   { model = "KAT_Metaitem_Armor"; customization = "1B"; };
-        class KAT_Armor_Barnes                      { model = "KAT_Metaitem_Armor"; customization = "Barnes"; };
         class KAT_Armor_Frost                       { model = "KAT_Metaitem_Armor"; customization = "Frost"; };
         class KAT_Armor_Kertz                       { model = "KAT_Metaitem_Armor"; customization = "Kertz"; };
+        class KAT_Armor_Laeca                        { model = "KAT_Metaitem_Armor"; customization = "Laeca"; };
         class KAT_Armor_Lane                        { model = "KAT_Metaitem_Armor"; customization = "Lane"; };
         class KAT_Armor_Morningstar                 { model = "KAT_Metaitem_Armor"; customization = "Morningstar"; };
         class KAT_Armor_Selanne                     { model = "KAT_Metaitem_Armor"; customization = "Selanne"; };
@@ -81,5 +82,6 @@ class XtdGearInfos
 
         // LOA/misc
         class KAT_Armor_Recruit                     { model = "KAT_Metaitem_Armor"; customization = "Recruit"; };
+        class KAT_Armor_Barnes                      { model = "KAT_Metaitem_Armor"; customization = "Barnes"; };
     };
 };
