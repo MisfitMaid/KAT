@@ -42,7 +42,6 @@ class XtdGearModels
                     "Kertz",
                     "Lane",
                     "Cline",
-                    "Hayes",
                     "Morningstar",
                     "Raider",
                     "Selanne",
@@ -82,6 +81,5 @@ class XtdGearInfos
 
         // LOA/misc
         class KAT_Armor_Recruit                     { model = "KAT_Metaitem_Armor"; customization = "Recruit"; };
-        class KAT_M52D_Jaeger_Armor_Hayes_Berserker { model = "KAT_Metaitem_Armor"; customization = "Hayes"; };
     };
 };

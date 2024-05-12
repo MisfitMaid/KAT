@@ -62,7 +62,6 @@ class XtdGearModels
                     "Barnes",
                     "Cline",
                     "Frost",
-                    "Hayes",
                     "Kertz",
                     "Lane",
                     "Morningstar",
@@ -104,6 +103,5 @@ class XtdGearInfos
 
         // loa/misc
         class KAT_Helmets_Recruit                    { model = "KAT_Metaitem_Helmet"; type = "m56s_r";   customization = "Recruit"; };
-        class KAT_M52D_Jaeger_Helmet_Hayes_Berserker { model = "KAT_Metaitem_Helmet"; type = "legacy";   customization = "Hayes"; };
     };
 };
