@@ -12,6 +12,8 @@ class CfgPatches
 		weapons[] = {};
 		magazines[]=
 		{
+			"KAT_60Rnd_5x23mm_Mag_APT5",
+
 			"KAT_200Rnd_95x40_Box_JHP",
 			"KAT_200Rnd_95x40_Box_JHPT",
 			"KAT_200Rnd_95x40_Box_JHPT8",
@@ -37,7 +39,8 @@ class CfgPatches
 		requiredVersion = 0.1;
 		requiredAddons[] = {
 			"TCF_MUNITIONS",
-			"OPTRE_Weapons"
+			"OPTRE_Weapons",
+			"1st_MEU_patch_end"
 		};
 	};
 };
@@ -107,6 +110,13 @@ class CfgMagazineWells
 			"KAT_4Rnd_145x114_APFSDS_Mag"
 		};
 	};
+	
+	class MEU_smg_uw { // for some reason OPTRE_Magwell_M7 doesn't work
+		KAT_5x23_60Rnd[]=
+		{
+			"KAT_60Rnd_5x23mm_Mag_APT5",
+		};
+	};
 };
 
 class CfgVehicles
@@ -128,7 +138,16 @@ class CfgVehicles
 
 class CfgMagazines
 {
-	// BEGIN autogen
+	class MEU_60Rnd_5x23mm_Mag_APT;
+	class KAT_60Rnd_5x23mm_Mag_APT5: MEU_60Rnd_5x23mm_Mag_APT
+	{
+		displayname = "60Rnd 5x23mm AP Magazine (Tracers/5)";
+		descriptionShort = "5x23mm AP (Tracers/5)";
+		displaynameshort = "5x23mm AP T5";
+		author = "MisfitMaid";
+		tracersEvery=5;
+		lastRoundsTracer=5;
+	};
 
 	class OPTRE_200Rnd_95x40_Box_Tracer;
 	class KAT_200Rnd_95x40_Box_HPSAPT: OPTRE_200Rnd_95x40_Box_Tracer {
@@ -321,11 +340,8 @@ class CfgMagazines
 		picture="\KAT_Gear\data\Icon\95x40AmmoCan.paa";
 		hiddenSelectionsTextures[]= {"KAT_Gear\data\Ammo\95x40_100_ss_co.paa"};
 	};
-	
-	// END autogen
-	
-	
-	// sniper ammo
+
+
 	class OPTRE_4Rnd_145x114_APFSDS_Mag;
 	class OPTRE_4Rnd_145x114_HVAP_Mag;
 	
