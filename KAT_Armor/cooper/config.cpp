@@ -24,7 +24,7 @@ class CfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		author = "MisfitMaid";
-		displayName = "[Azrael] M56R (Cooper)";
+		displayName = "[Azrael] 091 M56S-R (Cooper)";
 		hiddenSelections[] = 
 		{
 			"camo1",
@@ -136,7 +136,7 @@ class CfgWeapons
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		author = "MisfitMaid";
-		displayName = "[Azrael] M56M-CQC (Cooper)";
+		displayName = "[Azrael] 091 M56M-CQC (Cooper)";
 		hiddenSelections[] = {"camo1","camo2"};
 		hiddenSelectionsTextures[] = {"KAT_Armor\cooper\cqc_helmet_co.paa","KAT_Armor\cooper\cqc_visor_co.paa"};
 		class ItemInfo: ItemInfo

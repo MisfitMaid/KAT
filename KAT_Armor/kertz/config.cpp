@@ -24,7 +24,7 @@ class CfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		author = "MisfitMaid";
-		displayName = "[Azrael] M56S-H (Kertz)";
+		displayName = "[Azrael] 0911 M56S-H (Kertz)";
 		hiddenSelections[] = 
 		{
 			"camo1",
@@ -164,7 +164,7 @@ class CfgWeapons
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		author = "MisfitMaid";
-		displayName = "[Azrael] M56M-GRN (Kertz)";
+		displayName = "[Azrael] 0911 M56M-GRN (Kertz)";
 		hiddenSelections[] = {"camo1","camo2"};
 		hiddenSelectionsTextures[] = {
 			"KAT_Armor\kertz\black_grenadier_helmet_co.paa",

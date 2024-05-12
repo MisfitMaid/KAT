@@ -25,7 +25,7 @@ class CfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		author = "frwrd";
-		displayName = "[Azrael] M56S-R (Basic)";
+		displayName = "[Azrael] 091 M56S-R (Basic)";
 		hiddenSelections[] = 
 		{
 			"camo1",
@@ -128,7 +128,7 @@ class CfgWeapons
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		author = "frwrd";
-		displayName = "[Azrael] M56S-R (Basic)";
+		displayName = "[Azrael] 091 M56S-R (Basic)";
 		hiddenSelections[] = {"camo1","camo2"};
 		hiddenSelectionsTextures[] = {"KAT_Armor\recruit\helmet.paa","KAT_Armor\recruit\visor.paa"};
 		class ItemInfo: ItemInfo

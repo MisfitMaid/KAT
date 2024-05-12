@@ -25,7 +25,7 @@ class CfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		author = "frwrd";
-		displayName = "[Azrael] M56S-R (Berserker)";
+		displayName = "[Azrael] 0911 M56S-R (Berserker)";
 		hiddenSelections[] = 
 		{
 			"camo1",
@@ -128,7 +128,7 @@ class CfgWeapons
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		author = "frwrd";
-		displayName = "[Azrael] M56S-R (Berserker)";
+		displayName = "[Azrael] 0911 M56S-R (Berserker)";
 		hiddenSelections[] = {"camo1","camo2"};
 		hiddenSelectionsTextures[] = {"KAT_Armor\berserker\helmet.paa","KAT_Armor\berserker\visor.paa"};
 		class ItemInfo: ItemInfo

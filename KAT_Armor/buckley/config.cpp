@@ -24,7 +24,7 @@ class CfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		author = "frwrd";
-		displayName = "[Azrael] M56S-R (Buckley)";
+		displayName = "[Azrael] 091 M56S-R (Buckley)";
 		hiddenSelections[] = 
 		{
 			"camo1",
@@ -139,7 +139,7 @@ class CfgWeapons
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		author = "MisfitMaid";
-		displayName = "[Azrael] M56M-R (Buckley)";
+		displayName = "[Azrael] 091 M56M-R (Buckley)";
 		hiddenSelections[] = {"camo1","camo2"};
 		hiddenSelectionsTextures[] = {"MA_Armor\data\Helmets\Recon\Helmets\Black_Recon_Helmet_CO.paa","KAT_Armor\buckley\base_recon_visor_co.paa"};
 		class ItemInfo: ItemInfo

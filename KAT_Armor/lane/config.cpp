@@ -24,7 +24,7 @@ class CfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		author = "ArusAscending";
-		displayName = "[Azrael] M56S-R (Lane)";
+		displayName = "[Azrael] 0911 M56S-R (Lane)";
 		hiddenSelections[] = 
 		{
 			"camo1",
@@ -139,7 +139,7 @@ class CfgWeapons
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		author = "ArusAscending";
-		displayName = "[Azrael] M56M-CDO (Lane)";
+		displayName = "[Azrael] 0911 M56M-CDO (Lane)";
 		hiddenSelections[] = {"camo1","camo2"};
 		hiddenSelectionsTextures[] = {"KAT_Armor\lane\helmet.paa","KAT_Armor\lane\visor.paa"};
 		class ItemInfo: ItemInfo
