@@ -63,28 +63,15 @@ class CfgWeapons
 
 		hiddenSelectionsTextures[] = 
 		{
-			"KAT_Armor\kertz\h3_upper_armor_co.paa",       //camo1 (H3 Upper Armor)
-			"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       //camo2 (H3 Lower Armor)
+			"KAT_Armor\kertz\upper.paa",       //camo1 (H3 Upper Armor)
+			"KAT_Armor\kertz\lower.paa",       //camo2 (H3 Lower Armor)
 			"",//camo3 (Thigh Pouch)
 			"",    //camo4 (Reach Upper Armor)
 			"",    //camo5 (Reach Lower Armor)
 			"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      //camo6 (Canisters)
 			"",   //camo7 (Forearm Vents)
 			"", //camo8 (Sniper Shoulders)
-			"KAT_Armor\kertz\CQB_co.paa",  //camo9 (CQB Shoulders)
-			"" //camo10 (Shoulder Radio)
-		};
-		hiddenSelectionsMaterials[] =
-		{
-			"",       //camo1 (H3 Upper Armor)
-			"",       //camo2 (H3 Lower Armor)
-			"",//camo3 (Thigh Pouch)
-			"",    //camo4 (Reach Upper Armor)
-			"",    //camo5 (Reach Lower Armor)
-			"",      //camo6 (Canisters)
-			"",   //camo7 (Forearm Vents)
-			"", //camo8 (Sniper Shoulders)
-			"KAT_Armor\kertz\cqb_shoulders.rvmat",  //camo9 (CQB Shoulders)
+			"KAT_Armor\kertz\CQB.paa",  //camo9 (CQB Shoulders)
 			"" //camo10 (Shoulder Radio)
 		};
 		class ItemInfo: ItemInfo
@@ -130,28 +117,15 @@ class CfgWeapons
 
 			hiddenSelectionsTextures[] = 
 			{
-				"KAT_Armor\kertz\h3_upper_armor_co.paa",       //camo1 (H3 Upper Armor)
-				"MA_Armor\data\Vests\H3_ODST\H3_Lower_Armor_co.paa",       //camo2 (H3 Lower Armor)
+				"KAT_Armor\kertz\upper.paa",       //camo1 (H3 Upper Armor)
+				"KAT_Armor\kertz\lower.paa",       //camo2 (H3 Lower Armor)
 				"",//camo3 (Thigh Pouch)
 				"",    //camo4 (Reach Upper Armor)
 				"",    //camo5 (Reach Lower Armor)
 				"MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      //camo6 (Canisters)
 				"",   //camo7 (Forearm Vents)
 				"", //camo8 (Sniper Shoulders)
-				"KAT_Armor\kertz\CQB_co.paa",  //camo9 (CQB Shoulders)
-				"" //camo10 (Shoulder Radio)
-			};
-			hiddenSelectionsMaterials[] =
-			{
-				"",       //camo1 (H3 Upper Armor)
-				"",       //camo2 (H3 Lower Armor)
-				"",//camo3 (Thigh Pouch)
-				"",    //camo4 (Reach Upper Armor)
-				"",    //camo5 (Reach Lower Armor)
-				"",      //camo6 (Canisters)
-				"",   //camo7 (Forearm Vents)
-				"", //camo8 (Sniper Shoulders)
-				"KAT_Armor\kertz\cqb_shoulders.rvmat",  //camo9 (CQB Shoulders)
+				"KAT_Armor\kertz\CQB.paa",  //camo9 (CQB Shoulders)
 				"" //camo10 (Shoulder Radio)
 			};
 		};
@@ -167,8 +141,8 @@ class CfgWeapons
 		displayName = "[Azrael] 0911 M56M-GRN (Kertz)";
 		hiddenSelections[] = {"camo1","camo2"};
 		hiddenSelectionsTextures[] = {
-			"KAT_Armor\kertz\black_grenadier_helmet_co.paa",
-			"KAT_Armor\kertz\grenadier_visor_co.paa"
+			"KAT_Armor\kertz\helmet.paa",
+			"KAT_Armor\kertz\visor.paa"
 		};
 	};
 };
