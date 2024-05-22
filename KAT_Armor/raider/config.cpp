@@ -25,7 +25,7 @@ class CfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		author = "frwrd";
-		displayName = "[Azrael] M56S-R (Raider)";
+		displayName = "[Azrael] 0912 M56S-R (Raider)";
 		hiddenSelections[] = 
 		{
 			"camo1",
@@ -110,7 +110,7 @@ class CfgWeapons
 				"Reach_Armor_Lower",
 				"H3_Armor_Upper",
 				//"H3_Armor_Lower",
-				"Forearm_Vent_Left",
+				// "Forearm_Vent_Left",
 				"Forearm_Vent_Right",
 				// "Canisters"
 			};
@@ -136,7 +136,7 @@ class CfgWeapons
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		author = "frwrd";
-		displayName = "[Azrael] M56S-R (Raider)";
+		displayName = "[Azrael] 0912 M56S-R (Raider)";
 		hiddenSelections[] = {"camo1","camo2"};
 		hiddenSelectionsTextures[] = {"KAT_Armor\raider\helmet.paa","KAT_Armor\raider\visor.paa"};
 		class ItemInfo: ItemInfo

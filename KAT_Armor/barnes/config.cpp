@@ -25,7 +25,7 @@ class CfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		author = "MisfitMaid";
-		displayName = "[Azrael] M56S-R (Barnes)";
+		displayName = "[Azrael] 091 M56S-R (Barnes)";
 		hiddenSelections[] = 
 		{
 			"camo1",
@@ -133,16 +133,14 @@ class CfgWeapons
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		author = "MisfitMaid";
-		displayName = "[Azrael] Mark V/EOD (Barnes)";
+		displayName = "[Azrael] 091 M56M-EOD (Barnes)";
 		hiddenSelections[] = {"camo1","camo2"};
 		hiddenSelectionsTextures[] = {"KAT_Armor\barnes\eod_helmet_co.paa","KAT_Armor\barnes\eod_visor_co.paa"};
-		// hiddenSelectionsTextures[] = {"KAT_Armor\helper.paa","KAT_Armor\helper.paa"};
 		hiddenSelectionsMaterials[] = {"KAT_Armor\barnes\eod.rvmat", "MA_Armor\data\Helmets\hr_odst\hr_odst_visor.rvmat"};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelections[] = {"camo1","camo2"};
 			hiddenSelectionsTextures[] = {"KAT_Armor\barnes\eod_helmet_co.paa","KAT_Armor\barnes\eod_visor_co.paa"};
-			// hiddenSelectionsTextures[] = {"KAT_Armor\helper.paa","KAT_Armor\helper.paa"};
 			hiddenSelectionsMaterials[] = {"KAT_Armor\barnes\eod.rvmat", "MA_Armor\data\Helmets\hr_odst\hr_odst_visor.rvmat"};
 		};
 	};

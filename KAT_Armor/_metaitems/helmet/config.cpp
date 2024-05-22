@@ -21,9 +21,8 @@ class XtdGearModels
 {
     class CfgWeapons
     {
-        class KAT_Metaitem_Helmet
+        class KAT_Metaitem_Helmet_Base
         {
-            label = "ODST-MSOT-091 'Azrael'";
             options[] = { "type", "customization"};
             class type
             {
@@ -38,7 +37,6 @@ class XtdGearModels
                     "m56m_eod",
                     "m56m_grn",
                     "m56m_r",
-                    "legacy",
                 };
                 class m56s_r  { label = "M56S-R"; };
                 class m56s_h  { label = "M56S-H"; };
@@ -47,7 +45,6 @@ class XtdGearModels
                 class m56m_eod  { label = "M56M-EOD"; };
                 class m56m_grn  { label = "M56M-GRN"; };
                 class m56m_r  { label = "M56M-R"; };
-                class legacy { label = "Legacy"; };
             };
             class customization
             {
@@ -55,28 +52,38 @@ class XtdGearModels
                 alwaysSelectable = 1;
                 values[] =
                 {
-                    "Recruit",
                     "1A",
                     "1B",
-                    "2A",
-                    "Barnes",
                     "Cline",
                     "Frost",
-                    "Hayes",
                     "Kertz",
+                    "Laeca",
                     "Lane",
                     "Morningstar",
-                    "Raider",
                     "Selanne",
-                    "Cooper",
+
+                    "2A",
+                    "Raider",
+
+                    "Recruit",
                     "Buckley",
+                    "Cooper",
+
+                    "Barnes",
                 };
-                class Recruit { label = "Basic"; };
                 class 1A { label = "1-1-A (Valkyrie)"; };
                 class 1B { label = "1-1-B (Berserker)"; };
+                class Selanne { label = "Selänne"; };
+
                 class 2A { label = "1-2-A (Outlaw)"; };
+
+                class Recruit { label = "Basic"; };
             };
         };
+
+        class KAT_Metaitem_Helmet_091  : KAT_Metaitem_Helmet_Base { label = "ODST-MSOT-091";  };
+        class KAT_Metaitem_Helmet_0911 : KAT_Metaitem_Helmet_Base { label = "ODST-MSOT-0911"; };
+        class KAT_Metaitem_Helmet_0912 : KAT_Metaitem_Helmet_Base { label = "ODST-MSOT-0912"; };
     };
 };
 class XtdGearInfos
@@ -84,26 +91,25 @@ class XtdGearInfos
     class CfgWeapons
     {
         // 1-1
-        class KAT_Helmets_Valkyrie                   { model = "KAT_Metaitem_Helmet"; type = "m56s_r";   customization = "1A"; };
-        class KAT_Helmets_Berserker                  { model = "KAT_Metaitem_Helmet"; type = "m56s_r";   customization = "1B"; };
-        class KAT_Helmets_Barnes                     { model = "KAT_Metaitem_Helmet"; type = "m56m_eod"; customization = "Barnes"; };
-        class KAT_Helmets_Cline                      { model = "KAT_Metaitem_Helmet"; type = "m56s_r";   customization = "Cline"; };
-        class KAT_Helmets_Frost                      { model = "KAT_Metaitem_Helmet"; type = "m56s_r";   customization = "Frost"; };
-        class KAT_Helmets_Kertz                      { model = "KAT_Metaitem_Helmet"; type = "m56m_grn"; customization = "Kertz"; };
-        class KAT_Helmets_Lane                       { model = "KAT_Metaitem_Helmet"; type = "m56m_cdo"; customization = "Lane"; };
-        class KAT_Helmets_Morningstar                { model = "KAT_Metaitem_Helmet"; type = "m56s_r";   customization = "Morningstar"; };
-        class KAT_Helmets_Selanne                    { model = "KAT_Metaitem_Helmet"; type = "m56s_r";   customization = "Selanne"; };
+        class KAT_Helmets_Valkyrie                   { model = "KAT_Metaitem_Helmet_0911"; type = "m56s_r";   customization = "1A"; };
+        class KAT_Helmets_Berserker                  { model = "KAT_Metaitem_Helmet_0911"; type = "m56s_r";   customization = "1B"; };
+        class KAT_Helmets_Cline                      { model = "KAT_Metaitem_Helmet_0911"; type = "m56s_r";   customization = "Cline"; };
+        class KAT_Helmets_Frost                      { model = "KAT_Metaitem_Helmet_0911"; type = "m56s_r";   customization = "Frost"; };
+        class KAT_Helmets_Kertz                      { model = "KAT_Metaitem_Helmet_0911"; type = "m56m_grn"; customization = "Kertz"; };
+        class KAT_Helmets_Laeca                      { model = "KAT_Metaitem_Helmet_0911"; type = "m56s_r";   customization = "Laeca"; };
+        class KAT_Helmets_Lane                       { model = "KAT_Metaitem_Helmet_0911"; type = "m56m_cdo"; customization = "Lane"; };
+        class KAT_Helmets_Morningstar                { model = "KAT_Metaitem_Helmet_0911"; type = "m56s_r";   customization = "Morningstar"; };
+        class KAT_Helmets_Selanne                    { model = "KAT_Metaitem_Helmet_0911"; type = "m56s_r";   customization = "Selanne"; };
 
         // 1-2
-        class KAT_Helmets_Outlaw                     { model = "KAT_Metaitem_Helmet"; type = "m56s_r";   customization = "2A"; };
-        class KAT_Helmets_Raider                     { model = "KAT_Metaitem_Helmet"; type = "m56s_r";   customization = "Raider"; };
+        class KAT_Helmets_Outlaw                     { model = "KAT_Metaitem_Helmet_0912"; type = "m56s_r";   customization = "2A"; };
+        class KAT_Helmets_Raider                     { model = "KAT_Metaitem_Helmet_0912"; type = "m56s_r";   customization = "Raider"; };
 
-        // command
-        class KAT_Helmets_Cooper                     { model = "KAT_Metaitem_Helmet"; type = "m56m_cqc"; customization = "Cooper"; };
-        class KAT_Helmets_Buckley                    { model = "KAT_Metaitem_Helmet"; type = "m56m_r"; customization = "Buckley"; };
+        // command / LoA / misc
+        class KAT_Helmets_Recruit                    { model = "KAT_Metaitem_Helmet_091"; type = "m56s_r";    customization = "Recruit"; };
+        class KAT_Helmets_Buckley                    { model = "KAT_Metaitem_Helmet_091"; type = "m56m_r";    customization = "Buckley"; };
+        class KAT_Helmets_Cooper                     { model = "KAT_Metaitem_Helmet_091"; type = "m56m_cqc";  customization = "Cooper"; };
 
-        // loa/misc
-        class KAT_Helmets_Recruit                    { model = "KAT_Metaitem_Helmet"; type = "m56s_r";   customization = "Recruit"; };
-        class KAT_M52D_Jaeger_Helmet_Hayes_Berserker { model = "KAT_Metaitem_Helmet"; type = "legacy";   customization = "Hayes"; };
+        class KAT_Helmets_Barnes                     { model = "KAT_Metaitem_Helmet_091"; type = "m56m_eod";  customization = "Barnes"; };
     };
 };

@@ -19,10 +19,8 @@ class XtdGearModels
 {
     class CfgWeapons
     {
-
-        class KAT_Metaitem_Armor
+        class KAT_Metaitem_Armor_Base
         {
-            label = "ODST-MSOT-091 'Azrael'";
             options[] =
             {
                 "customization",
@@ -30,31 +28,40 @@ class XtdGearModels
             class customization
             {
                 label = "Customization";
-                alwaysSelectable = 1;
                 values[] =
                 {
-                    "Recruit",
                     "1A",
                     "1B",
-                    "2A",
-                    "Barnes",
                     "Frost",
                     "Kertz",
+                    "Laeca",
                     "Lane",
                     "Cline",
-                    "Hayes",
                     "Morningstar",
-                    "Raider",
                     "Selanne",
-                    "Cooper",
+
+                    "2A",
+                    "Raider",
+
+                    "Recruit",
                     "Buckley",
+                    "Cooper",
+                    "Barnes",
                 };
-                class Recruit { label = "Basic"; };
+
                 class 1A { label = "1-1-A (Valkyrie)"; };
                 class 1B { label = "1-1-B (Berserker)"; };
+                class Selanne { label = "Selänne"; };
+
                 class 2A { label = "1-2-A (Outlaw)"; };
+                
+                class Recruit { label = "Basic"; };
             };
         };
+
+        class KAT_Metaitem_Armor_091  : KAT_Metaitem_Armor_Base { label = "ODST-MSOT-091";  };
+        class KAT_Metaitem_Armor_0911 : KAT_Metaitem_Armor_Base { label = "ODST-MSOT-0911"; };
+        class KAT_Metaitem_Armor_0912 : KAT_Metaitem_Armor_Base { label = "ODST-MSOT-0912"; };
     };
 };
 class XtdGearInfos
@@ -62,26 +69,26 @@ class XtdGearInfos
     class CfgWeapons
     {
         // 1-1
-        class KAT_Armor_Valkyrie                    { model = "KAT_Metaitem_Armor"; customization = "1A"; };
-        class KAT_Armor_Berserker                   { model = "KAT_Metaitem_Armor"; customization = "1B"; };
-        class KAT_Armor_Barnes                      { model = "KAT_Metaitem_Armor"; customization = "Barnes"; };
-        class KAT_Armor_Frost                       { model = "KAT_Metaitem_Armor"; customization = "Frost"; };
-        class KAT_Armor_Kertz                       { model = "KAT_Metaitem_Armor"; customization = "Kertz"; };
-        class KAT_Armor_Lane                        { model = "KAT_Metaitem_Armor"; customization = "Lane"; };
-        class KAT_Armor_Morningstar                 { model = "KAT_Metaitem_Armor"; customization = "Morningstar"; };
-        class KAT_Armor_Selanne                     { model = "KAT_Metaitem_Armor"; customization = "Selanne"; };
-        class KAT_Armor_Cline                       { model = "KAT_Metaitem_Armor"; customization = "Cline"; };
+        class KAT_Armor_Valkyrie                    { model = "KAT_Metaitem_Armor_0911"; customization = "1A"; };
+        class KAT_Armor_Berserker                   { model = "KAT_Metaitem_Armor_0911"; customization = "1B"; };
+        class KAT_Armor_Frost                       { model = "KAT_Metaitem_Armor_0911"; customization = "Frost"; };
+        class KAT_Armor_Kertz                       { model = "KAT_Metaitem_Armor_0911"; customization = "Kertz"; };
+        class KAT_Armor_Laeca                       { model = "KAT_Metaitem_Armor_0911"; customization = "Laeca"; };
+        class KAT_Armor_Lane                        { model = "KAT_Metaitem_Armor_0911"; customization = "Lane"; };
+        class KAT_Armor_Morningstar                 { model = "KAT_Metaitem_Armor_0911"; customization = "Morningstar"; };
+        class KAT_Armor_Selanne                     { model = "KAT_Metaitem_Armor_0911"; customization = "Selanne"; };
+        class KAT_Armor_Cline                       { model = "KAT_Metaitem_Armor_0911"; customization = "Cline"; };
 
         // 1-2
-        class KAT_Armor_Outlaw                      { model = "KAT_Metaitem_Armor"; customization = "2A"; };
-        class KAT_Armor_Raider                      { model = "KAT_Metaitem_Armor"; customization = "Raider"; };
+        class KAT_Armor_Outlaw                      { model = "KAT_Metaitem_Armor_0912"; customization = "2A"; };
+        class KAT_Armor_Raider                      { model = "KAT_Metaitem_Armor_0912"; customization = "Raider"; };
 
-        // command
-        class KAT_Armor_Cooper                      { model = "KAT_Metaitem_Armor"; customization = "Cooper"; };
-        class KAT_Armor_Buckley                     { model = "KAT_Metaitem_Armor"; customization = "Buckley"; };
+        // command / LoA / misc
+        class KAT_Armor_Cooper                      { model = "KAT_Metaitem_Armor_091"; customization = "Cooper"; };
+        class KAT_Armor_Buckley                     { model = "KAT_Metaitem_Armor_091"; customization = "Buckley"; };
 
-        // LOA/misc
-        class KAT_Armor_Recruit                     { model = "KAT_Metaitem_Armor"; customization = "Recruit"; };
-        class KAT_M52D_Jaeger_Armor_Hayes_Berserker { model = "KAT_Metaitem_Armor"; customization = "Hayes"; };
+        class KAT_Armor_Recruit                     { model = "KAT_Metaitem_Armor_091"; customization = "Recruit"; };
+
+        class KAT_Armor_Barnes                      { model = "KAT_Metaitem_Armor_091"; customization = "Barnes"; };
     };
 };

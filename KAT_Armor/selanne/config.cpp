@@ -24,7 +24,7 @@ class CfgWeapons
 		scope = 2;
 		scopeArsenal = 2;
 		author = "frwrd";
-		displayName = "[Azrael] M56S-R (Sel√§nne)";
+		displayName = "[Azrael] 0911 M56S-R (Sel‰nne)";
 		hiddenSelections[] = 
 		{
 			"camo1",
@@ -130,7 +130,7 @@ class CfgWeapons
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		author = "frwrd";
-		displayName = "[Azrael] M56S-R (Sel√§nne)";
+		displayName = "[Azrael] 0911 M56S-R (Sel‰nne)";
 		hiddenSelections[] = {"camo1","camo2"};
 		hiddenSelectionsTextures[] = {"KAT_Armor\Selanne\helmet.paa","MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_Blue_co.paa"};
 		class ItemInfo: ItemInfo
