@@ -1,3 +1,14 @@
-name="Keira's Arma Thing";
-tooltipOwned="Keira's Arma Thing";
-overview="Keira's Arma Thing";
+ name 			= "Azrael Company Quartermaster"; // Name of your mod
+ author 		= "Azrael Mod Team"; // Affects Arma 3 Launcher, when the mod are loaded as local
+ logo 			= "KAT_Core\azrael128.paa"; // Logo displayed in the main menu
+ logoOver 		= "KAT_Core\azrael128.paa"; // When the mouse is over, in the main menu
+ tooltip 		= "Azrael Company Quartermaster";
+ tooltipOwned 	= "Azrael Company Quartermaster"; // Tool tip displayed when the mouse is left over, in the main menu
+ picture 		= "KAT_Core\azrael-header.paa"; // Picture displayed from the expansions menu. Optimal size is 2048x1024
+ actionName 	= "Discord";
+ action 		= "https://discord.gg/Su5SSwwVY3"; // Website URL, that can be accessed from the expansions menu
+ overview 		= "Quartermaster and utility mod for the 9th STB - Azrael Company"; // Supports structured text
+ hideName 		= 0; // Hide the extension name
+ hidePicture	= 0; // Hide the extension menu
+ dlcColor[] 	= {0.36,0.13,0.46,1}; // Color used for DLC stripes and backgrounds (RGBA)
+ logoSmall 		= "KAT_Core\azrael64.paa"; // Display in creative lists, next to the entities added by the mod   
