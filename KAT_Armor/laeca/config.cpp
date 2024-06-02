@@ -52,14 +52,14 @@ class CfgWeapons
 			"Reach_Sniper_Pauldron_Right",
 			//"Reach_CQB_Pauldron_Left",
 			"Reach_CQB_Pauldron_Right",
-			"Thigh_Pouch",
+			//"Thigh_Pouch",
 			//"Reach_Armor_Upper",
 			//"Reach_Armor_Lower",
 			"H3_Armor_Upper",
 			"H3_Armor_Lower",
 			//"Forearm_Vent_Left",
 			//"Forearm_Vent_Right",
-			//"Canisters"
+			"Canisters"
 		};
 		hiddenSelectionsTextures[] = 
 		{
@@ -105,14 +105,14 @@ class CfgWeapons
 				"Reach_Sniper_Pauldron_Right",
 				//"Reach_CQB_Pauldron_Left",
 				"Reach_CQB_Pauldron_Right",
-				"Thigh_Pouch",
+				//"Thigh_Pouch",
 				//"Reach_Armor_Upper",
 				//"Reach_Armor_Lower",
 				"H3_Armor_Upper",
 				"H3_Armor_Lower",
 				//"Forearm_Vent_Left",
 				//"Forearm_Vent_Right",
-				//"Canisters"
+				"Canisters"
 			};
 			hiddenSelectionsTextures[] = 
 			{
