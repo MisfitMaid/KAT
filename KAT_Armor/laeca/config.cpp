@@ -136,7 +136,7 @@ class CfgWeapons
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		author = "frwrd";
-		displayName = "[Azrael] 0911 M56S-R (Basic)";
+		displayName = "[Azrael] 0911 M56S-R (Laeca)";
 		hiddenSelections[] = {"camo1","camo2"};
 		hiddenSelectionsTextures[] = {"KAT_Armor\laeca\helmet.paa","KAT_Armor\laeca\visor.paa"};
 		class ItemInfo: ItemInfo
