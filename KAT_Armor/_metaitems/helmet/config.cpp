@@ -60,6 +60,7 @@ class XtdGearModels
                     "Laeca",
                     "Lane",
                     "Morningstar",
+                    "Prentice",
                     "Selanne",
 
                     "2A",
@@ -99,6 +100,7 @@ class XtdGearInfos
         class KAT_Helmets_Laeca                      { model = "KAT_Metaitem_Helmet_0911"; type = "m56s_r";   customization = "Laeca"; };
         class KAT_Helmets_Lane                       { model = "KAT_Metaitem_Helmet_0911"; type = "m56m_cdo"; customization = "Lane"; };
         class KAT_Helmets_Morningstar                { model = "KAT_Metaitem_Helmet_0911"; type = "m56s_r";   customization = "Morningstar"; };
+        class KAT_Helmets_Prentice                   { model = "KAT_Metaitem_Helmet_0911"; type = "m56s_r";   customization = "Prentice"; };
         class KAT_Helmets_Selanne                    { model = "KAT_Metaitem_Helmet_0911"; type = "m56s_r";   customization = "Selanne"; };
 
         // 1-2

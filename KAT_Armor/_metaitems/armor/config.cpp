@@ -38,6 +38,7 @@ class XtdGearModels
                     "Lane",
                     "Cline",
                     "Morningstar",
+                    "Prentice",
                     "Selanne",
 
                     "2A",
@@ -76,6 +77,7 @@ class XtdGearInfos
         class KAT_Armor_Laeca                       { model = "KAT_Metaitem_Armor_0911"; customization = "Laeca"; };
         class KAT_Armor_Lane                        { model = "KAT_Metaitem_Armor_0911"; customization = "Lane"; };
         class KAT_Armor_Morningstar                 { model = "KAT_Metaitem_Armor_0911"; customization = "Morningstar"; };
+        class KAT_Armor_Prentice                    { model = "KAT_Metaitem_Armor_0911"; customization = "Prentice"; };
         class KAT_Armor_Selanne                     { model = "KAT_Metaitem_Armor_0911"; customization = "Selanne"; };
         class KAT_Armor_Cline                       { model = "KAT_Metaitem_Armor_0911"; customization = "Cline"; };
 
