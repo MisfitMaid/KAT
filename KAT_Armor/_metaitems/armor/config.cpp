@@ -40,6 +40,7 @@ class XtdGearModels
                     "Morningstar",
                     "Prentice",
                     "Selanne",
+                    "Wolf",
 
                     "2A",
                     "Raider",
@@ -79,6 +80,7 @@ class XtdGearInfos
         class KAT_Armor_Morningstar                 { model = "KAT_Metaitem_Armor_0911"; customization = "Morningstar"; };
         class KAT_Armor_Prentice                    { model = "KAT_Metaitem_Armor_0911"; customization = "Prentice"; };
         class KAT_Armor_Selanne                     { model = "KAT_Metaitem_Armor_0911"; customization = "Selanne"; };
+        class KAT_Armor_Wolf                        { model = "KAT_Metaitem_Armor_0911"; customization = "Wolf"; };
         class KAT_Armor_Cline                       { model = "KAT_Metaitem_Armor_0911"; customization = "Cline"; };
 
         // 1-2
