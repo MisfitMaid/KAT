@@ -39,7 +39,6 @@ class XtdGearModels
                     "Cline",
                     "Morningstar",
                     "Prentice",
-                    "Selanne",
                     "Wolf",
 
                     "2A",
@@ -53,7 +52,6 @@ class XtdGearModels
 
                 class 1A { label = "1-1-A (Valkyrie)"; };
                 class 1B { label = "1-1-B (Berserker)"; };
-                class Selanne { label = "Selänne"; };
 
                 class 2A { label = "1-2-A (Outlaw)"; };
                 
@@ -79,7 +77,6 @@ class XtdGearInfos
         class KAT_Armor_Lane                        { model = "KAT_Metaitem_Armor_0911"; customization = "Lane"; };
         class KAT_Armor_Morningstar                 { model = "KAT_Metaitem_Armor_0911"; customization = "Morningstar"; };
         class KAT_Armor_Prentice                    { model = "KAT_Metaitem_Armor_0911"; customization = "Prentice"; };
-        class KAT_Armor_Selanne                     { model = "KAT_Metaitem_Armor_0911"; customization = "Selanne"; };
         class KAT_Armor_Wolf                        { model = "KAT_Metaitem_Armor_0911"; customization = "Wolf"; };
         class KAT_Armor_Cline                       { model = "KAT_Metaitem_Armor_0911"; customization = "Cline"; };
 
