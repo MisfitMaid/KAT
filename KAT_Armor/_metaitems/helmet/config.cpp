@@ -62,6 +62,7 @@ class XtdGearModels
                     "Morningstar",
                     "Prentice",
                     "Wolf",
+                    "Khan",
 
                     "2A",
                     "Raider",
@@ -101,6 +102,7 @@ class XtdGearInfos
         class KAT_Helmets_Morningstar                { model = "KAT_Metaitem_Helmet_0911"; type = "m56s_r";   customization = "Morningstar"; };
         class KAT_Helmets_Prentice                   { model = "KAT_Metaitem_Helmet_0911"; type = "m56s_r";   customization = "Prentice"; };
         class KAT_Helmets_Wolf                       { model = "KAT_Metaitem_Helmet_0911"; type = "m56s_r";   customization = "Wolf"; };
+        class KAT_Helmets_Khan                       { model = "KAT_Metaitem_Helmet_0911"; type = "m56s_r";   customization = "Khan"; };
 
         // 1-2
         class KAT_Helmets_Outlaw                     { model = "KAT_Metaitem_Helmet_0912"; type = "m56s_r";   customization = "2A"; };
