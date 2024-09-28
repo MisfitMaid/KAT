@@ -61,6 +61,7 @@ class XtdGearModels
                     "Lane",
                     "Morningstar",
                     "Prentice",
+                    "Selanne",
                     "Wolf",
                     "Khan",
 
@@ -75,6 +76,7 @@ class XtdGearModels
                 };
                 class 1A { label = "1-1-A (Valkyrie)"; };
                 class 1B { label = "1-1-B (Berserker)"; };
+                class Selanne { label = "Selänne"; };
 
                 class 2A { label = "1-2-A (Outlaw)"; };
 
@@ -101,6 +103,7 @@ class XtdGearInfos
         class KAT_Helmets_Lane                       { model = "KAT_Metaitem_Helmet_0911"; type = "m56m_cdo"; customization = "Lane"; };
         class KAT_Helmets_Morningstar                { model = "KAT_Metaitem_Helmet_0911"; type = "m56s_r";   customization = "Morningstar"; };
         class KAT_Helmets_Prentice                   { model = "KAT_Metaitem_Helmet_0911"; type = "m56s_r";   customization = "Prentice"; };
+        class KAT_Helmets_Selanne                    { model = "KAT_Metaitem_Helmet_0911"; type = "m56s_r";   customization = "Selanne"; };
         class KAT_Helmets_Wolf                       { model = "KAT_Metaitem_Helmet_0911"; type = "m56s_r";   customization = "Wolf"; };
         class KAT_Helmets_Khan                       { model = "KAT_Metaitem_Helmet_0911"; type = "m56s_r";   customization = "Khan"; };
 
