@@ -130,19 +130,20 @@ class CfgWeapons
 		};
 	};
 
-    class KAT_Helmets_Prentice: KAT_M56SR_Helmet_Base
+	class OPTRE_UNSC_Operator_Helmet;
+    class KAT_Helmets_Prentice: OPTRE_UNSC_Operator_Helmet
 	{
 		scope = 2;
 		scopeCurator = 2;
 		scopeArsenal = 2;
 		author = "frwrd";
 		displayName = "[Azrael] 0911 M56S-R (Prentice)";
-		hiddenSelections[] = {"camo1","camo2"};
-		hiddenSelectionsTextures[] = {"KAT_Armor\Prentice\helmet.paa","KAT_Armor\Prentice\visor.paa"};
+		hiddenSelections[] = {"camo1","camo2", "attach_nvg"};
+		hiddenSelectionsTextures[] = {"KAT_Armor\Prentice\helmet.paa","KAT_Armor\Prentice\visor.paa", "KAT_Armor\Prentice\helmet_attach.paa"};
 		class ItemInfo: ItemInfo
 		{
-			hiddenSelections[] = {"camo1","camo2"};
-			hiddenSelectionsTextures[] = {"KAT_Armor\Prentice\helmet.paa","KAT_Armor\Prentice\visor.paa"};
+			hiddenSelections[] = {"camo1","camo2", "attach_nvg"};
+			hiddenSelectionsTextures[] = {"KAT_Armor\Prentice\helmet.paa","KAT_Armor\Prentice\visor.paa", "KAT_Armor\Prentice\helmet_attach.paa"};
 		};
 	};
 };
