@@ -1,0 +1,21 @@
+{
+    "name": "misfitmaid/kat-ribbonboard",
+    "type": "project",
+    "require": {
+        "intervention/image": "dev-develop",
+        "sylae/collection": "dev-master"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Misfitmaid\\KatRibbonboard\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Keira Dueck",
+            "email": "sylae@calref.net"
+        }
+    ],
+    "minimum-stability": "dev"
+}
