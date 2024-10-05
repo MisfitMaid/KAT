@@ -2,5 +2,6 @@
 /dist/addons/*.pbo
 /dist/addons/*.bisign
 /temp/
+/KAT_Gear/dressuniforms/uniform_*.png
 /KAT_Music/tracks/*.ogg
 .autosave
