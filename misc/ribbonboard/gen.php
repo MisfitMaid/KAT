@@ -33,16 +33,25 @@ fclose($handle);
 
 $chars = [];
 foreach ($awards as $award) {
-    if (!array_key_exists($award[0], $chars)) {
-        $chars[$award[0]] = [];
-        foreach (array_keys($ribbons) as $r) $chars[$award[0]][$r] = 0;
+    $surname = explode(",", $award[0])[0];
+    if (!array_key_exists($surname, $chars)) {
+        $chars[$surname] = [];
+        foreach (array_keys($ribbons) as $r) $chars[$surname][$r] = 0;
     }
-    $chars[$award[0]][$award[1]]++;
+    $chars[$surname][$award[1]]++;
 }
 
 // add chars without ribbons
 foreach ($orbat as $v) {
+    if ($v[1] == "") continue;
+    if ($v[3] == "head") continue;
+    if ($v[1] == "Tessa-G216") continue;
 
+    $surname = substr(str_replace("├ñ", "ä", $v[1]), 3); // gsheets is not exporting utf-8 despite what it says, idk whats happening.
+    if (!array_key_exists($surname, $chars)) {
+        $chars[$surname] = [];
+        foreach (array_keys($ribbons) as $r) $chars[$surname][$r] = 0;
+    }
 }
 
 $manager = new ImageManager(new Driver());
