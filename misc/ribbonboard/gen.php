@@ -15,6 +15,14 @@ $ribbons['Prisoner of War Medal']    = '/img/17 pow.png';
 $ribbons['Naval Intelligence Medal'] = '/img/20 naval intelligence.png';
 $ribbons['Colonial Defense Ribbon']  = '/img/21 colonial defense.png';
 
+$handle = fopen(dirname(__FILE__) . "/orbat.csv", "r");
+$orbat = [];
+fgetcsv($handle, 1000, ","); // skip header row
+while ($v = fgetcsv($handle, 1000, ",")) {
+    $orbat[] = $v;
+}
+fclose($handle);
+
 $handle = fopen(dirname(__FILE__) . "/ribbons.csv", "r");
 $awards = [];
 fgetcsv($handle, 1000, ","); // skip header row
@@ -50,8 +58,11 @@ $cpp[] = [
 ];
 $uniformBase = $manager->read(dirname(__FILE__) . "/img/uniform_tpl.png");
 
+ksort($chars);
+
 foreach ($chars as $name => $char) {
     echo $name;
+    $surname = explode(",", $name)[0];
     $h = 4*65; // ceil(count($char)/4)*65
     $img = $manager->create(960,$h);
     $row = 0;
@@ -82,9 +93,21 @@ foreach ($chars as $name => $char) {
     $img->save(sprintf(dirname(__FILE__) . "/out/ribbon_%s.png", $name));
     echo ".";
 
-    // config.cpp generation
+    // get rank from orbat
+    $bestscore = PHP_INT_MAX;
+    $bestname = "";
+    $bestrank = "";
+    foreach ($orbat as $row) {
+        if ($row[1] == "") continue;
+        $score = levenshtein($surname, substr(str_replace("├ñ", "ä", $row[1]), 3)); // gsheets is not exporting utf-8 despite what it says, idk whats happening.
+        if ($score <= $bestscore) {
+            $bestrank = trim(mb_strtolower($row[0]));
+            $bestscore = $score;
+        }
+    }
+
+    // uniform and config.cpp generation
     $safename = str_replace([",", " ", "-"], "", idn_to_ascii($name));
-    $surname = explode(",", $name)[0];
     $cpp[] = [
         'safe' => $safename,
         'name' => $surname,
@@ -92,13 +115,33 @@ foreach ($chars as $name => $char) {
     ];
 
     $uniform = clone $uniformBase;
-    $uniform->text(mb_strtoupper($surname), 648, 502, function ($font) {
+    $uniform->text(mb_strtoupper($surname), 698, 502, function ($font) {
         $font->filename(dirname(__FILE__) . '/../GOTHICB.TTF');
         $font->size(36);
         $font->color('fff');
         $font->align('center');
         $font->valign('middle');
     });
+
+    // find matching icon
+    $rankpath = false;
+    $unicom = dirname(__FILE__) . sprintf("/../ranks_unicom/%s.png", $bestrank);
+    $navcom = dirname(__FILE__) . sprintf("/../ranks_navcom/%s.png", $bestrank);
+    if (file_exists($unicom)) {
+        $rankpath = $unicom;
+    } elseif (file_exists($navcom)) {
+        $rankpath = $navcom;
+    } else {
+        $rankpath = dirname(__FILE__) . "/../azrael.png";
+    }
+
+    if ($rankpath) {
+        $rank = $manager->read($rankpath);
+        if (!str_ends_with($rankpath, "azrael.png")) $rank->brightness(100);
+        $rank->pad(72,72, "00000000");
+        $uniform->place($rank, "top-left", 466, 466);
+    }
+    echo ".";
 
     $ribbonboard = clone $img;
     $ribbonboard->resize(477,142);
