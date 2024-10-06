@@ -12,7 +12,7 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] = {};
 		weapons[] = {
-			%s
+%s
 		};
 	};
 };
@@ -27,8 +27,10 @@ class XtdGearModels
 			options[] = {"type"};
 			class type
 			{
-				label = "type";
-				values[] = {%s};
+				label = "Customization";
+				values[] = {
+%s
+				};
 				alwaysSelectable = 1;
 			};
 		};
@@ -38,7 +40,7 @@ class XtdGearInfos
 {
 	class CfgWeapons
 	{
-		%s
+%s
 	};
 };
 class CfgWeapons
@@ -49,11 +51,11 @@ class CfgWeapons
 		class ItemInfo;
 	};
 
-	%s
+%s
 };
 class CfgVehicles
 {
 	class KAT_Base_Uniform;
 
-	%s
+%s
 };

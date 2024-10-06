@@ -12,7 +12,7 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] = {};
 		weapons[] = {
-						"KAT_Dress_Uniform_Generic",
+			"KAT_Dress_Uniform_Generic",
 			"KAT_Dress_Uniform_barnes",
 			"KAT_Dress_Uniform_cline",
 			"KAT_Dress_Uniform_cooper",
@@ -51,8 +51,34 @@ class XtdGearModels
 			options[] = {"type"};
 			class type
 			{
-				label = "type";
-				values[] = {"Generic", "Barnes", "Cline", "Cooper", "Frost", "Halleck", "Hayes", "Hunter", "Kertz", "Khan", "Laeca", "Lane", "Marshall", "Morningstar", "Nomad", "Payne", "Prentice", "Raider", "Reid", "Richter", "Selänne", "Tessa G216", "Vyke", "Wells", "Wolf"};
+				label = "Customization";
+				values[] = {
+					"Generic",
+					"Barnes",
+					"Cline",
+					"Cooper",
+					"Frost",
+					"Halleck",
+					"Hayes",
+					"Hunter",
+					"Kertz",
+					"Khan",
+					"Laeca",
+					"Lane",
+					"Marshall",
+					"Morningstar",
+					"Nomad",
+					"Payne",
+					"Prentice",
+					"Raider",
+					"Reid",
+					"Richter",
+					"Selänne",
+					"Tessa G216",
+					"Vyke",
+					"Wells",
+					"Wolf"
+				};
 				alwaysSelectable = 1;
 			};
 		};
@@ -62,7 +88,7 @@ class XtdGearInfos
 {
 	class CfgWeapons
 	{
-				class KAT_Dress_Uniform_Generic {model = "KAT_DressUniforms"; type = "Generic";};
+		class KAT_Dress_Uniform_Generic {model = "KAT_DressUniforms"; type = "Generic";};
 		class KAT_Dress_Uniform_barnes {model = "KAT_DressUniforms"; type = "Barnes";};
 		class KAT_Dress_Uniform_cline {model = "KAT_DressUniforms"; type = "Cline";};
 		class KAT_Dress_Uniform_cooper {model = "KAT_DressUniforms"; type = "Cooper";};
@@ -97,7 +123,7 @@ class CfgWeapons
 		class ItemInfo;
 	};
 
-		class KAT_Dress_Uniform_Generic: OPTRE_UNSC_Dress_Uniform_gray {
+	class KAT_Dress_Uniform_Generic: OPTRE_UNSC_Dress_Uniform_gray {
 		displayName = "[Azrael] Dress Uniform (Generic)";
 		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_Generic_Soldier"; };
 	};
@@ -202,7 +228,7 @@ class CfgVehicles
 {
 	class KAT_Base_Uniform;
 
-		class KAT_Dress_Uniform_Generic_Soldier: KAT_Base_Uniform
+	class KAT_Dress_Uniform_Generic_Soldier: KAT_Base_Uniform
 	{
 		dlc = "OPTRE";
 		author = "MisfitMaid";
