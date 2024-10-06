@@ -40,6 +40,11 @@ foreach ($awards as $award) {
     $chars[$award[0]][$award[1]]++;
 }
 
+// add chars without ribbons
+foreach ($orbat as $v) {
+
+}
+
 $manager = new ImageManager(new Driver());
 $devices = [
     0 => [],
@@ -107,7 +112,7 @@ foreach ($chars as $name => $char) {
     }
 
     // uniform and config.cpp generation
-    $safename = str_replace([",", " ", "-"], "", idn_to_ascii($name));
+    $safename = str_replace([",", " ", "-"], "", idn_to_ascii($surname));
     $cpp[] = [
         'safe' => $safename,
         'name' => $surname,

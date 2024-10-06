@@ -13,23 +13,23 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {
 						"KAT_Dress_Uniform_Generic",
-			"KAT_Dress_Uniform_barneschloe",
-			"KAT_Dress_Uniform_clinejohnathan",
-			"KAT_Dress_Uniform_cooperlaura",
-			"KAT_Dress_Uniform_frostcarter",
-			"KAT_Dress_Uniform_hayessarah",
-			"KAT_Dress_Uniform_hunterkarl",
-			"KAT_Dress_Uniform_kertzmichael",
-			"KAT_Dress_Uniform_khanowen",
-			"KAT_Dress_Uniform_laecavassena",
-			"KAT_Dress_Uniform_lanevictoria",
-			"KAT_Dress_Uniform_morningstarhyena",
-			"KAT_Dress_Uniform_prenticegenevieve",
-			"KAT_Dress_Uniform_raideralex",
-			"KAT_Dress_Uniform_reidmabellee",
-			"KAT_Dress_Uniform_xnselnnetaylor7hb",
+			"KAT_Dress_Uniform_barnes",
+			"KAT_Dress_Uniform_cline",
+			"KAT_Dress_Uniform_cooper",
+			"KAT_Dress_Uniform_frost",
+			"KAT_Dress_Uniform_hayes",
+			"KAT_Dress_Uniform_hunter",
+			"KAT_Dress_Uniform_kertz",
+			"KAT_Dress_Uniform_khan",
+			"KAT_Dress_Uniform_laeca",
+			"KAT_Dress_Uniform_lane",
+			"KAT_Dress_Uniform_morningstar",
+			"KAT_Dress_Uniform_prentice",
+			"KAT_Dress_Uniform_raider",
+			"KAT_Dress_Uniform_reid",
+			"KAT_Dress_Uniform_xnselnnedua",
 			"KAT_Dress_Uniform_tessag216",
-			"KAT_Dress_Uniform_wolftalon"
+			"KAT_Dress_Uniform_wolf"
 		};
 	};
 };
@@ -56,23 +56,23 @@ class XtdGearInfos
 	class CfgWeapons
 	{
 				class KAT_Dress_Uniform_Generic {model = "KAT_DressUniforms"; type = "Generic";};
-		class KAT_Dress_Uniform_barneschloe {model = "KAT_DressUniforms"; type = "Barnes";};
-		class KAT_Dress_Uniform_clinejohnathan {model = "KAT_DressUniforms"; type = "Cline";};
-		class KAT_Dress_Uniform_cooperlaura {model = "KAT_DressUniforms"; type = "Cooper";};
-		class KAT_Dress_Uniform_frostcarter {model = "KAT_DressUniforms"; type = "Frost";};
-		class KAT_Dress_Uniform_hayessarah {model = "KAT_DressUniforms"; type = "Hayes";};
-		class KAT_Dress_Uniform_hunterkarl {model = "KAT_DressUniforms"; type = "Hunter";};
-		class KAT_Dress_Uniform_kertzmichael {model = "KAT_DressUniforms"; type = "Kertz";};
-		class KAT_Dress_Uniform_khanowen {model = "KAT_DressUniforms"; type = "Khan";};
-		class KAT_Dress_Uniform_laecavassena {model = "KAT_DressUniforms"; type = "Laeca";};
-		class KAT_Dress_Uniform_lanevictoria {model = "KAT_DressUniforms"; type = "Lane";};
-		class KAT_Dress_Uniform_morningstarhyena {model = "KAT_DressUniforms"; type = "Morningstar";};
-		class KAT_Dress_Uniform_prenticegenevieve {model = "KAT_DressUniforms"; type = "Prentice";};
-		class KAT_Dress_Uniform_raideralex {model = "KAT_DressUniforms"; type = "Raider";};
-		class KAT_Dress_Uniform_reidmabellee {model = "KAT_DressUniforms"; type = "Reid";};
-		class KAT_Dress_Uniform_xnselnnetaylor7hb {model = "KAT_DressUniforms"; type = "Selänne";};
+		class KAT_Dress_Uniform_barnes {model = "KAT_DressUniforms"; type = "Barnes";};
+		class KAT_Dress_Uniform_cline {model = "KAT_DressUniforms"; type = "Cline";};
+		class KAT_Dress_Uniform_cooper {model = "KAT_DressUniforms"; type = "Cooper";};
+		class KAT_Dress_Uniform_frost {model = "KAT_DressUniforms"; type = "Frost";};
+		class KAT_Dress_Uniform_hayes {model = "KAT_DressUniforms"; type = "Hayes";};
+		class KAT_Dress_Uniform_hunter {model = "KAT_DressUniforms"; type = "Hunter";};
+		class KAT_Dress_Uniform_kertz {model = "KAT_DressUniforms"; type = "Kertz";};
+		class KAT_Dress_Uniform_khan {model = "KAT_DressUniforms"; type = "Khan";};
+		class KAT_Dress_Uniform_laeca {model = "KAT_DressUniforms"; type = "Laeca";};
+		class KAT_Dress_Uniform_lane {model = "KAT_DressUniforms"; type = "Lane";};
+		class KAT_Dress_Uniform_morningstar {model = "KAT_DressUniforms"; type = "Morningstar";};
+		class KAT_Dress_Uniform_prentice {model = "KAT_DressUniforms"; type = "Prentice";};
+		class KAT_Dress_Uniform_raider {model = "KAT_DressUniforms"; type = "Raider";};
+		class KAT_Dress_Uniform_reid {model = "KAT_DressUniforms"; type = "Reid";};
+		class KAT_Dress_Uniform_xnselnnedua {model = "KAT_DressUniforms"; type = "Selänne";};
 		class KAT_Dress_Uniform_tessag216 {model = "KAT_DressUniforms"; type = "Tessa G216";};
-		class KAT_Dress_Uniform_wolftalon {model = "KAT_DressUniforms"; type = "Wolf";};
+		class KAT_Dress_Uniform_wolf {model = "KAT_DressUniforms"; type = "Wolf";};
 	};
 };
 class CfgWeapons
@@ -87,73 +87,73 @@ class CfgWeapons
 		displayName = "[Azrael] Dress Uniform (Generic)";
 		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_Generic_Soldier"; };
 	};
-	class KAT_Dress_Uniform_barneschloe: OPTRE_UNSC_Dress_Uniform_gray {
+	class KAT_Dress_Uniform_barnes: OPTRE_UNSC_Dress_Uniform_gray {
 		displayName = "[Azrael] Dress Uniform (Barnes)";
-		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_barneschloe_Soldier"; };
+		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_barnes_Soldier"; };
 	};
-	class KAT_Dress_Uniform_clinejohnathan: OPTRE_UNSC_Dress_Uniform_gray {
+	class KAT_Dress_Uniform_cline: OPTRE_UNSC_Dress_Uniform_gray {
 		displayName = "[Azrael] Dress Uniform (Cline)";
-		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_clinejohnathan_Soldier"; };
+		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_cline_Soldier"; };
 	};
-	class KAT_Dress_Uniform_cooperlaura: OPTRE_UNSC_Dress_Uniform_gray {
+	class KAT_Dress_Uniform_cooper: OPTRE_UNSC_Dress_Uniform_gray {
 		displayName = "[Azrael] Dress Uniform (Cooper)";
-		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_cooperlaura_Soldier"; };
+		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_cooper_Soldier"; };
 	};
-	class KAT_Dress_Uniform_frostcarter: OPTRE_UNSC_Dress_Uniform_gray {
+	class KAT_Dress_Uniform_frost: OPTRE_UNSC_Dress_Uniform_gray {
 		displayName = "[Azrael] Dress Uniform (Frost)";
-		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_frostcarter_Soldier"; };
+		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_frost_Soldier"; };
 	};
-	class KAT_Dress_Uniform_hayessarah: OPTRE_UNSC_Dress_Uniform_gray {
+	class KAT_Dress_Uniform_hayes: OPTRE_UNSC_Dress_Uniform_gray {
 		displayName = "[Azrael] Dress Uniform (Hayes)";
-		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_hayessarah_Soldier"; };
+		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_hayes_Soldier"; };
 	};
-	class KAT_Dress_Uniform_hunterkarl: OPTRE_UNSC_Dress_Uniform_gray {
+	class KAT_Dress_Uniform_hunter: OPTRE_UNSC_Dress_Uniform_gray {
 		displayName = "[Azrael] Dress Uniform (Hunter)";
-		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_hunterkarl_Soldier"; };
+		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_hunter_Soldier"; };
 	};
-	class KAT_Dress_Uniform_kertzmichael: OPTRE_UNSC_Dress_Uniform_gray {
+	class KAT_Dress_Uniform_kertz: OPTRE_UNSC_Dress_Uniform_gray {
 		displayName = "[Azrael] Dress Uniform (Kertz)";
-		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_kertzmichael_Soldier"; };
+		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_kertz_Soldier"; };
 	};
-	class KAT_Dress_Uniform_khanowen: OPTRE_UNSC_Dress_Uniform_gray {
+	class KAT_Dress_Uniform_khan: OPTRE_UNSC_Dress_Uniform_gray {
 		displayName = "[Azrael] Dress Uniform (Khan)";
-		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_khanowen_Soldier"; };
+		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_khan_Soldier"; };
 	};
-	class KAT_Dress_Uniform_laecavassena: OPTRE_UNSC_Dress_Uniform_gray {
+	class KAT_Dress_Uniform_laeca: OPTRE_UNSC_Dress_Uniform_gray {
 		displayName = "[Azrael] Dress Uniform (Laeca)";
-		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_laecavassena_Soldier"; };
+		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_laeca_Soldier"; };
 	};
-	class KAT_Dress_Uniform_lanevictoria: OPTRE_UNSC_Dress_Uniform_gray {
+	class KAT_Dress_Uniform_lane: OPTRE_UNSC_Dress_Uniform_gray {
 		displayName = "[Azrael] Dress Uniform (Lane)";
-		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_lanevictoria_Soldier"; };
+		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_lane_Soldier"; };
 	};
-	class KAT_Dress_Uniform_morningstarhyena: OPTRE_UNSC_Dress_Uniform_gray {
+	class KAT_Dress_Uniform_morningstar: OPTRE_UNSC_Dress_Uniform_gray {
 		displayName = "[Azrael] Dress Uniform (Morningstar)";
-		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_morningstarhyena_Soldier"; };
+		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_morningstar_Soldier"; };
 	};
-	class KAT_Dress_Uniform_prenticegenevieve: OPTRE_UNSC_Dress_Uniform_gray {
+	class KAT_Dress_Uniform_prentice: OPTRE_UNSC_Dress_Uniform_gray {
 		displayName = "[Azrael] Dress Uniform (Prentice)";
-		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_prenticegenevieve_Soldier"; };
+		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_prentice_Soldier"; };
 	};
-	class KAT_Dress_Uniform_raideralex: OPTRE_UNSC_Dress_Uniform_gray {
+	class KAT_Dress_Uniform_raider: OPTRE_UNSC_Dress_Uniform_gray {
 		displayName = "[Azrael] Dress Uniform (Raider)";
-		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_raideralex_Soldier"; };
+		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_raider_Soldier"; };
 	};
-	class KAT_Dress_Uniform_reidmabellee: OPTRE_UNSC_Dress_Uniform_gray {
+	class KAT_Dress_Uniform_reid: OPTRE_UNSC_Dress_Uniform_gray {
 		displayName = "[Azrael] Dress Uniform (Reid)";
-		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_reidmabellee_Soldier"; };
+		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_reid_Soldier"; };
 	};
-	class KAT_Dress_Uniform_xnselnnetaylor7hb: OPTRE_UNSC_Dress_Uniform_gray {
+	class KAT_Dress_Uniform_xnselnnedua: OPTRE_UNSC_Dress_Uniform_gray {
 		displayName = "[Azrael] Dress Uniform (Selänne)";
-		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_xnselnnetaylor7hb_Soldier"; };
+		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_xnselnnedua_Soldier"; };
 	};
 	class KAT_Dress_Uniform_tessag216: OPTRE_UNSC_Dress_Uniform_gray {
 		displayName = "[Azrael] Dress Uniform (Tessa G216)";
 		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_tessag216_Soldier"; };
 	};
-	class KAT_Dress_Uniform_wolftalon: OPTRE_UNSC_Dress_Uniform_gray {
+	class KAT_Dress_Uniform_wolf: OPTRE_UNSC_Dress_Uniform_gray {
 		displayName = "[Azrael] Dress Uniform (Wolf)";
-		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_wolftalon_Soldier"; };
+		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_wolf_Soldier"; };
 	};
 };
 class CfgVehicles
@@ -169,140 +169,140 @@ class CfgVehicles
 		hiddenSelections[] = {"camo1","camo2","insignia","clan"};
 		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\_uniform_generic.paa"};
 	};
-	class KAT_Dress_Uniform_barneschloe_Soldier: KAT_Base_Uniform
+	class KAT_Dress_Uniform_barnes_Soldier: KAT_Base_Uniform
 	{
 		dlc = "OPTRE";
 		author = "MisfitMaid";
-		uniformClass = "KAT_Dress_Uniform_barneschloe";
+		uniformClass = "KAT_Dress_Uniform_barnes";
 		model = "\OPTRE_UNSC_Units\Army\officer.p3d";
 		hiddenSelections[] = {"camo1","camo2","insignia","clan"};
-		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\uniform_barneschloe.paa"};
+		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\uniform_barnes.paa"};
 	};
-	class KAT_Dress_Uniform_clinejohnathan_Soldier: KAT_Base_Uniform
+	class KAT_Dress_Uniform_cline_Soldier: KAT_Base_Uniform
 	{
 		dlc = "OPTRE";
 		author = "MisfitMaid";
-		uniformClass = "KAT_Dress_Uniform_clinejohnathan";
+		uniformClass = "KAT_Dress_Uniform_cline";
 		model = "\OPTRE_UNSC_Units\Army\officer.p3d";
 		hiddenSelections[] = {"camo1","camo2","insignia","clan"};
-		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\uniform_clinejohnathan.paa"};
+		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\uniform_cline.paa"};
 	};
-	class KAT_Dress_Uniform_cooperlaura_Soldier: KAT_Base_Uniform
+	class KAT_Dress_Uniform_cooper_Soldier: KAT_Base_Uniform
 	{
 		dlc = "OPTRE";
 		author = "MisfitMaid";
-		uniformClass = "KAT_Dress_Uniform_cooperlaura";
+		uniformClass = "KAT_Dress_Uniform_cooper";
 		model = "\OPTRE_UNSC_Units\Army\officer.p3d";
 		hiddenSelections[] = {"camo1","camo2","insignia","clan"};
-		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\uniform_cooperlaura.paa"};
+		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\uniform_cooper.paa"};
 	};
-	class KAT_Dress_Uniform_frostcarter_Soldier: KAT_Base_Uniform
+	class KAT_Dress_Uniform_frost_Soldier: KAT_Base_Uniform
 	{
 		dlc = "OPTRE";
 		author = "MisfitMaid";
-		uniformClass = "KAT_Dress_Uniform_frostcarter";
+		uniformClass = "KAT_Dress_Uniform_frost";
 		model = "\OPTRE_UNSC_Units\Army\officer.p3d";
 		hiddenSelections[] = {"camo1","camo2","insignia","clan"};
-		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\uniform_frostcarter.paa"};
+		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\uniform_frost.paa"};
 	};
-	class KAT_Dress_Uniform_hayessarah_Soldier: KAT_Base_Uniform
+	class KAT_Dress_Uniform_hayes_Soldier: KAT_Base_Uniform
 	{
 		dlc = "OPTRE";
 		author = "MisfitMaid";
-		uniformClass = "KAT_Dress_Uniform_hayessarah";
+		uniformClass = "KAT_Dress_Uniform_hayes";
 		model = "\OPTRE_UNSC_Units\Army\officer.p3d";
 		hiddenSelections[] = {"camo1","camo2","insignia","clan"};
-		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\uniform_hayessarah.paa"};
+		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\uniform_hayes.paa"};
 	};
-	class KAT_Dress_Uniform_hunterkarl_Soldier: KAT_Base_Uniform
+	class KAT_Dress_Uniform_hunter_Soldier: KAT_Base_Uniform
 	{
 		dlc = "OPTRE";
 		author = "MisfitMaid";
-		uniformClass = "KAT_Dress_Uniform_hunterkarl";
+		uniformClass = "KAT_Dress_Uniform_hunter";
 		model = "\OPTRE_UNSC_Units\Army\officer.p3d";
 		hiddenSelections[] = {"camo1","camo2","insignia","clan"};
-		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\uniform_hunterkarl.paa"};
+		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\uniform_hunter.paa"};
 	};
-	class KAT_Dress_Uniform_kertzmichael_Soldier: KAT_Base_Uniform
+	class KAT_Dress_Uniform_kertz_Soldier: KAT_Base_Uniform
 	{
 		dlc = "OPTRE";
 		author = "MisfitMaid";
-		uniformClass = "KAT_Dress_Uniform_kertzmichael";
+		uniformClass = "KAT_Dress_Uniform_kertz";
 		model = "\OPTRE_UNSC_Units\Army\officer.p3d";
 		hiddenSelections[] = {"camo1","camo2","insignia","clan"};
-		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\uniform_kertzmichael.paa"};
+		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\uniform_kertz.paa"};
 	};
-	class KAT_Dress_Uniform_khanowen_Soldier: KAT_Base_Uniform
+	class KAT_Dress_Uniform_khan_Soldier: KAT_Base_Uniform
 	{
 		dlc = "OPTRE";
 		author = "MisfitMaid";
-		uniformClass = "KAT_Dress_Uniform_khanowen";
+		uniformClass = "KAT_Dress_Uniform_khan";
 		model = "\OPTRE_UNSC_Units\Army\officer.p3d";
 		hiddenSelections[] = {"camo1","camo2","insignia","clan"};
-		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\uniform_khanowen.paa"};
+		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\uniform_khan.paa"};
 	};
-	class KAT_Dress_Uniform_laecavassena_Soldier: KAT_Base_Uniform
+	class KAT_Dress_Uniform_laeca_Soldier: KAT_Base_Uniform
 	{
 		dlc = "OPTRE";
 		author = "MisfitMaid";
-		uniformClass = "KAT_Dress_Uniform_laecavassena";
+		uniformClass = "KAT_Dress_Uniform_laeca";
 		model = "\OPTRE_UNSC_Units\Army\officer.p3d";
 		hiddenSelections[] = {"camo1","camo2","insignia","clan"};
-		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\uniform_laecavassena.paa"};
+		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\uniform_laeca.paa"};
 	};
-	class KAT_Dress_Uniform_lanevictoria_Soldier: KAT_Base_Uniform
+	class KAT_Dress_Uniform_lane_Soldier: KAT_Base_Uniform
 	{
 		dlc = "OPTRE";
 		author = "MisfitMaid";
-		uniformClass = "KAT_Dress_Uniform_lanevictoria";
+		uniformClass = "KAT_Dress_Uniform_lane";
 		model = "\OPTRE_UNSC_Units\Army\officer.p3d";
 		hiddenSelections[] = {"camo1","camo2","insignia","clan"};
-		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\uniform_lanevictoria.paa"};
+		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\uniform_lane.paa"};
 	};
-	class KAT_Dress_Uniform_morningstarhyena_Soldier: KAT_Base_Uniform
+	class KAT_Dress_Uniform_morningstar_Soldier: KAT_Base_Uniform
 	{
 		dlc = "OPTRE";
 		author = "MisfitMaid";
-		uniformClass = "KAT_Dress_Uniform_morningstarhyena";
+		uniformClass = "KAT_Dress_Uniform_morningstar";
 		model = "\OPTRE_UNSC_Units\Army\officer.p3d";
 		hiddenSelections[] = {"camo1","camo2","insignia","clan"};
-		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\uniform_morningstarhyena.paa"};
+		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\uniform_morningstar.paa"};
 	};
-	class KAT_Dress_Uniform_prenticegenevieve_Soldier: KAT_Base_Uniform
+	class KAT_Dress_Uniform_prentice_Soldier: KAT_Base_Uniform
 	{
 		dlc = "OPTRE";
 		author = "MisfitMaid";
-		uniformClass = "KAT_Dress_Uniform_prenticegenevieve";
+		uniformClass = "KAT_Dress_Uniform_prentice";
 		model = "\OPTRE_UNSC_Units\Army\officer.p3d";
 		hiddenSelections[] = {"camo1","camo2","insignia","clan"};
-		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\uniform_prenticegenevieve.paa"};
+		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\uniform_prentice.paa"};
 	};
-	class KAT_Dress_Uniform_raideralex_Soldier: KAT_Base_Uniform
+	class KAT_Dress_Uniform_raider_Soldier: KAT_Base_Uniform
 	{
 		dlc = "OPTRE";
 		author = "MisfitMaid";
-		uniformClass = "KAT_Dress_Uniform_raideralex";
+		uniformClass = "KAT_Dress_Uniform_raider";
 		model = "\OPTRE_UNSC_Units\Army\officer.p3d";
 		hiddenSelections[] = {"camo1","camo2","insignia","clan"};
-		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\uniform_raideralex.paa"};
+		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\uniform_raider.paa"};
 	};
-	class KAT_Dress_Uniform_reidmabellee_Soldier: KAT_Base_Uniform
+	class KAT_Dress_Uniform_reid_Soldier: KAT_Base_Uniform
 	{
 		dlc = "OPTRE";
 		author = "MisfitMaid";
-		uniformClass = "KAT_Dress_Uniform_reidmabellee";
+		uniformClass = "KAT_Dress_Uniform_reid";
 		model = "\OPTRE_UNSC_Units\Army\officer.p3d";
 		hiddenSelections[] = {"camo1","camo2","insignia","clan"};
-		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\uniform_reidmabellee.paa"};
+		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\uniform_reid.paa"};
 	};
-	class KAT_Dress_Uniform_xnselnnetaylor7hb_Soldier: KAT_Base_Uniform
+	class KAT_Dress_Uniform_xnselnnedua_Soldier: KAT_Base_Uniform
 	{
 		dlc = "OPTRE";
 		author = "MisfitMaid";
-		uniformClass = "KAT_Dress_Uniform_xnselnnetaylor7hb";
+		uniformClass = "KAT_Dress_Uniform_xnselnnedua";
 		model = "\OPTRE_UNSC_Units\Army\officer.p3d";
 		hiddenSelections[] = {"camo1","camo2","insignia","clan"};
-		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\uniform_xnselnnetaylor7hb.paa"};
+		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\uniform_xnselnnedua.paa"};
 	};
 	class KAT_Dress_Uniform_tessag216_Soldier: KAT_Base_Uniform
 	{
@@ -313,13 +313,13 @@ class CfgVehicles
 		hiddenSelections[] = {"camo1","camo2","insignia","clan"};
 		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\uniform_tessag216.paa"};
 	};
-	class KAT_Dress_Uniform_wolftalon_Soldier: KAT_Base_Uniform
+	class KAT_Dress_Uniform_wolf_Soldier: KAT_Base_Uniform
 	{
 		dlc = "OPTRE";
 		author = "MisfitMaid";
-		uniformClass = "KAT_Dress_Uniform_wolftalon";
+		uniformClass = "KAT_Dress_Uniform_wolf";
 		model = "\OPTRE_UNSC_Units\Army\officer.p3d";
 		hiddenSelections[] = {"camo1","camo2","insignia","clan"};
-		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\uniform_wolftalon.paa"};
+		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\uniform_wolf.paa"};
 	};
 };
