@@ -12,7 +12,9 @@ $ErrorActionPreference = 'stop'
 try {if(Get-Command php){
 	php KAT_Gear/tictacs/csvToTictac.php
 
-	curl "https://docs.google.com/spreadsheets/d/1ZKEbKNlRvx0r0isqFN1tWX5DEFEw8uWWZIFkfc99PQI/gviz/tq?tqx=out:csv&sheet=Names" > misc/ribbonboard/orbat.csv
+	if ((Get-Date).AddMinutes(-5) -ge (Get-Item misc/ribbonboard/orbat.csv).LastWriteTime) {
+		curl "https://docs.google.com/spreadsheets/d/1ZKEbKNlRvx0r0isqFN1tWX5DEFEw8uWWZIFkfc99PQI/gviz/tq?tqx=out:csv&sheet=Names" > misc/ribbonboard/orbat.csv
+	}
 	rm KAT_Gear/dressuniforms/uniform_*.png
 	rm KAT_Gear/dressuniforms/uniform_*.paa
 	rm misc/ribbonboard/out/*.png
