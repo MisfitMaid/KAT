@@ -45,7 +45,7 @@ class CfgWeapons
 			"H3_Pauldron_Right",
 			//"Reach_Pauldron_Left",
 			//"Reach_Pauldron_Right",
-			"Reach_Shoulder_Radio_Left",
+			//"Reach_Shoulder_Radio_Left",
 			"Reach_Shoulder_Radio_Right",
 			"Reach_Sniper_Pauldron_Left",
 			"Reach_Sniper_Pauldron_Right",
@@ -68,7 +68,10 @@ class CfgWeapons
 			"KAT_Armor\Frost\upper.paa", // upper
 			"KAT_Armor\Frost\lower.paa", // lower
 			"KAT_Armor\Frost\cans.paa", // cans
-			"KAT_Armor\Frost\vents.paa" // vents
+			"KAT_Armor\Frost\vents.paa", // vents
+			"",
+			"",
+			"KAT_Armor\Frost\radio.paa" // radio
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -95,7 +98,7 @@ class CfgWeapons
 				"H3_Pauldron_Right",
 				//"Reach_Pauldron_Left",
 				//"Reach_Pauldron_Right",
-				"Reach_Shoulder_Radio_Left",
+				//"Reach_Shoulder_Radio_Left",
 				"Reach_Shoulder_Radio_Right",
 				"Reach_Sniper_Pauldron_Left",
 				"Reach_Sniper_Pauldron_Right",
@@ -118,7 +121,10 @@ class CfgWeapons
 				"KAT_Armor\Frost\upper.paa", // upper
 				"KAT_Armor\Frost\lower.paa", // lower
 				"KAT_Armor\Frost\cans.paa", // cans
-				"KAT_Armor\Frost\vents.paa" // vents
+				"KAT_Armor\Frost\vents.paa", // vents
+				"",
+				"",
+				"KAT_Armor\Frost\radio.paa" // radio
 			};
 		};
 	};

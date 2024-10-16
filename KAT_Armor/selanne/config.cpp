@@ -132,11 +132,11 @@ class CfgWeapons
 		author = "frwrd";
 		displayName = "[Azrael] 0911 M56S-R (Selänne)";
 		hiddenSelections[] = {"camo1","camo2"};
-		hiddenSelectionsTextures[] = {"KAT_Armor\Selanne\helmet.paa","MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_Blue_co.paa"};
+		hiddenSelectionsTextures[] = {"KAT_Armor\Selanne\helmet.paa","KAT_Armor\Selanne\visor.paa"};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelections[] = {"camo1","camo2"};
-			hiddenSelectionsTextures[] = {"KAT_Armor\Selanne\helmet.paa","MA_Armor\data\Helmets\HR_ODST\HR_ODST_Visor_Blue_co.paa"};
+			hiddenSelectionsTextures[] = {"KAT_Armor\Selanne\helmet.paa","KAT_Armor\Selanne\visor.paa"};
 		};
 	};
 };
