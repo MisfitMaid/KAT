@@ -67,7 +67,7 @@ class CfgWeapons
             "",//camo3 (Thigh Pouch)
             "KAT_Armor\Khan\upper.paa",    //camo4 (Reach Upper Armor)
             "KAT_Armor\Khan\lower.paa",    //camo5 (Reach Lower Armor)
-            "",      //camo6 (Canisters)
+            "MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      //camo6 (Canisters)
             "MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   //camo7 (Forearm Vents)
             "" //camo10 (Shoulder Radio)
 		};
@@ -118,7 +118,7 @@ class CfgWeapons
                 "",//camo3 (Thigh Pouch)
                 "KAT_Armor\Khan\upper.paa",    //camo4 (Reach Upper Armor)
                 "KAT_Armor\Khan\lower.paa",    //camo5 (Reach Lower Armor)
-                "",      //camo6 (Canisters)
+                "MA_Armor\data\Vests\Reach_ODST\Canisters_co.paa",      //camo6 (Canisters)
                 "MA_Armor\data\Vests\Reach_ODST\Forearm_Vents_co.paa",   //camo7 (Forearm Vents)
                 "" //camo10 (Shoulder Radio)
             };
