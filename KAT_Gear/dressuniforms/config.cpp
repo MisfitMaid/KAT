@@ -17,6 +17,7 @@ class CfgPatches
 			"KAT_Dress_Uniform_cline",
 			"KAT_Dress_Uniform_cooper",
 			"KAT_Dress_Uniform_frost",
+			"KAT_Dress_Uniform_ginnis",
 			"KAT_Dress_Uniform_halleck",
 			"KAT_Dress_Uniform_harris",
 			"KAT_Dress_Uniform_hayes",
@@ -59,6 +60,7 @@ class XtdGearModels
 					"Cline",
 					"Cooper",
 					"Frost",
+					"Ginnis",
 					"Halleck",
 					"Harris",
 					"Hayes",
@@ -95,6 +97,7 @@ class XtdGearInfos
 		class KAT_Dress_Uniform_cline {model = "KAT_DressUniforms"; type = "Cline";};
 		class KAT_Dress_Uniform_cooper {model = "KAT_DressUniforms"; type = "Cooper";};
 		class KAT_Dress_Uniform_frost {model = "KAT_DressUniforms"; type = "Frost";};
+		class KAT_Dress_Uniform_ginnis {model = "KAT_DressUniforms"; type = "Ginnis";};
 		class KAT_Dress_Uniform_halleck {model = "KAT_DressUniforms"; type = "Halleck";};
 		class KAT_Dress_Uniform_harris {model = "KAT_DressUniforms"; type = "Harris";};
 		class KAT_Dress_Uniform_hayes {model = "KAT_DressUniforms"; type = "Hayes";};
@@ -145,6 +148,10 @@ class CfgWeapons
 	class KAT_Dress_Uniform_frost: OPTRE_UNSC_Dress_Uniform_gray {
 		displayName = "[Azrael] Dress Uniform (Frost)";
 		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_frost_Soldier"; };
+	};
+	class KAT_Dress_Uniform_ginnis: OPTRE_UNSC_Dress_Uniform_gray {
+		displayName = "[Azrael] Dress Uniform (Ginnis)";
+		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_ginnis_Soldier"; };
 	};
 	class KAT_Dress_Uniform_halleck: OPTRE_UNSC_Dress_Uniform_gray {
 		displayName = "[Azrael] Dress Uniform (Halleck)";
@@ -279,6 +286,15 @@ class CfgVehicles
 		model = "\OPTRE_UNSC_Units\Army\officer.p3d";
 		hiddenSelections[] = {"camo1","camo2","insignia","clan"};
 		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\uniform_frost.paa"};
+	};
+	class KAT_Dress_Uniform_ginnis_Soldier: KAT_Base_Uniform
+	{
+		dlc = "OPTRE";
+		author = "MisfitMaid";
+		uniformClass = "KAT_Dress_Uniform_ginnis";
+		model = "\OPTRE_UNSC_Units\Army\officer.p3d";
+		hiddenSelections[] = {"camo1","camo2","insignia","clan"};
+		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\uniform_ginnis.paa"};
 	};
 	class KAT_Dress_Uniform_halleck_Soldier: KAT_Base_Uniform
 	{
