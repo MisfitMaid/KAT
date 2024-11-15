@@ -25,7 +25,7 @@ class CfgVehicles {
 
 	class OPTRE_UNSC_falcon_armed_S;
 	class KAT_Falcon_Artemis : OPTRE_UNSC_falcon_armed_S {
-		displayName="[Azrael] UH-144S Falcon [Artemis]";
+		displayName="[Azrael] MH-144S Falcon [Artemis]";
 		crew="OPTRE_UNSC_Marine_FML_Pilot";
 		hiddenSelections[] = {"camo1","camo2","camo3","camoGlass","camoGlassPilot", "camoDecal"};
 		hiddenSelectionsTextures[] = {
@@ -41,6 +41,25 @@ class CfgVehicles {
 		OPTRE_maxVelocity=83;
 		OPTRE_velocityMult=1;
 	};
+
+	class OPTRE_UNSC_falcon_medical;
+	class KAT_Falcon_Artemis_Med : OPTRE_UNSC_falcon_medical {
+		displayName="[Azrael] UH-144 Falcon [Artemis Medical]";
+		crew="OPTRE_UNSC_Marine_FML_Pilot";
+		hiddenSelections[] = {"camo1","camo2","camo3","camoGlass","camoGlassPilot", "camoDecal"};
+		hiddenSelectionsTextures[] = {
+			"\OPTRE_Vehicles_Air\falcon\data\black\falcon_main_co.paa",
+			"\OPTRE_Vehicles_Air\falcon\data\black\falcon_attachments_co.paa",
+			"\KAT_Vehicles\falcon_interior.paa",
+			"\KAT_Vehicles\falcon_glass.paa",
+			"\KAT_Vehicles\falcon_glass.paa",
+			"\KAT_Vehicles\falcon_48-7829.paa"
+		};
+		OPTRE_canThrust=1;
+		OPTRE_minVelocity=1.4;
+		OPTRE_maxVelocity=83;
+		OPTRE_velocityMult=1;
+	}
 
 	class Splits_UNSC_D77_TC_Pelican;
 	class KAT_Pelican_Artemis : Splits_UNSC_D77_TC_Pelican {
