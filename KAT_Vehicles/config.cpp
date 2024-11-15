@@ -26,14 +26,15 @@ class CfgVehicles {
 	class OPTRE_UNSC_falcon_armed_S;
 	class KAT_Falcon_Artemis : OPTRE_UNSC_falcon_armed_S {
 		displayName="[Azrael] UH-144S Falcon [Artemis]";
-		crew="OPTRE_UNSC_Airforce_FML_Soldier_Airman";
-		hiddenSelections[] = {"camo1","camo2","camo3","camoGlass","camoGlassPilot"};
+		crew="OPTRE_UNSC_Marine_FML_Pilot";
+		hiddenSelections[] = {"camo1","camo2","camo3","camoGlass","camoGlassPilot", "camoDecal"};
 		hiddenSelectionsTextures[] = {
-			"KAT_Vehicles\e621-default\falcon_main_co.paa",
-			"KAT_Vehicles\e621-default\falcon_attachments_co.paa",
-			"KAT_Vehicles\e621-default\falcon_interior_co.paa",
-			"KAT_Vehicles\e621-default\falcon_glass_ca.paa",
-			"KAT_Vehicles\e621-default\falcon_glass_ca.paa"
+			"\OPTRE_Vehicles_Air\falcon\data\black\falcon_main_co.paa",
+			"\OPTRE_Vehicles_Air\falcon\data\black\falcon_attachments_co.paa",
+			"\KAT_Vehicles\falcon_interior.paa",
+			"\KAT_Vehicles\falcon_glass.paa",
+			"\KAT_Vehicles\falcon_glass.paa",
+			"\KAT_Vehicles\falcon_48-7829.paa"
 		};
 		OPTRE_canThrust=1;
 		OPTRE_minVelocity=1.4;
