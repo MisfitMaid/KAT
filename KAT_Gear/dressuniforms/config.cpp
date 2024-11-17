@@ -13,6 +13,7 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {
 			"KAT_Dress_Uniform_Generic",
+			"KAT_Dress_Uniform_SpartanGeneric",
 			"KAT_Dress_Uniform_barnes",
 			"KAT_Dress_Uniform_cline",
 			"KAT_Dress_Uniform_cooper",
@@ -56,6 +57,7 @@ class XtdGearModels
 				label = "Customization";
 				values[] = {
 					"Generic",
+					"Spartan",
 					"Barnes",
 					"Cline",
 					"Cooper",
@@ -93,6 +95,7 @@ class XtdGearInfos
 	class CfgWeapons
 	{
 		class KAT_Dress_Uniform_Generic {model = "KAT_DressUniforms"; type = "Generic";};
+		class KAT_Dress_Uniform_SpartanGeneric {model = "KAT_DressUniforms"; type = "Spartan";};
 		class KAT_Dress_Uniform_barnes {model = "KAT_DressUniforms"; type = "Barnes";};
 		class KAT_Dress_Uniform_cline {model = "KAT_DressUniforms"; type = "Cline";};
 		class KAT_Dress_Uniform_cooper {model = "KAT_DressUniforms"; type = "Cooper";};
@@ -128,10 +131,19 @@ class CfgWeapons
 	{
 		class ItemInfo;
 	};
+	class OPTRE_MJOLNIR_Undersuit;
+	class OPTRE_MJOLNIR_Dress_Uniform: OPTRE_MJOLNIR_Undersuit
+	{
+		class ItemInfo;
+	};
 
 	class KAT_Dress_Uniform_Generic: OPTRE_UNSC_Dress_Uniform_gray {
 		displayName = "[Azrael] Dress Uniform (Generic)";
 		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_Generic_Soldier"; };
+	};
+	class KAT_Dress_Uniform_SpartanGeneric: OPTRE_MJOLNIR_Dress_Uniform {
+		displayName = "[Azrael] Dress Uniform (Spartan)";
+		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_SpartanGeneric_Soldier"; };
 	};
 	class KAT_Dress_Uniform_barnes: OPTRE_UNSC_Dress_Uniform_gray {
 		displayName = "[Azrael] Dress Uniform (Barnes)";
@@ -221,7 +233,7 @@ class CfgWeapons
 		displayName = "[Azrael] Dress Uniform (Selänne)";
 		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_xnselnnedua_Soldier"; };
 	};
-	class KAT_Dress_Uniform_tessag216: OPTRE_UNSC_Dress_Uniform_gray {
+	class KAT_Dress_Uniform_tessag216: OPTRE_MJOLNIR_Dress_Uniform {
 		displayName = "[Azrael] Dress Uniform (Tessa G216)";
 		class ItemInfo: ItemInfo { uniformClass = "KAT_Dress_Uniform_tessag216_Soldier"; };
 	};
@@ -241,6 +253,7 @@ class CfgWeapons
 class CfgVehicles
 {
 	class KAT_Base_Uniform;
+	class OPTRE_Spartan_DressWhite;
 
 	class KAT_Dress_Uniform_Generic_Soldier: KAT_Base_Uniform
 	{
@@ -248,6 +261,15 @@ class CfgVehicles
 		author = "MisfitMaid";
 		uniformClass = "KAT_Dress_Uniform_Generic";
 		model = "\OPTRE_UNSC_Units\Army\officer.p3d";
+		hiddenSelections[] = {"camo1","camo2","insignia","clan"};
+		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\_uniform_generic.paa"};
+	};
+	class KAT_Dress_Uniform_SpartanGeneric_Soldier: OPTRE_Spartan_DressWhite
+	{
+		dlc = "OPTRE";
+		author = "MisfitMaid";
+		uniformClass = "KAT_Dress_Uniform_SpartanGeneric";
+		model = "\OPTRE_MJOLNIR_Units\dressuniform.p3d";
 		hiddenSelections[] = {"camo1","camo2","insignia","clan"};
 		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\_uniform_generic.paa"};
 	};
@@ -449,12 +471,12 @@ class CfgVehicles
 		hiddenSelections[] = {"camo1","camo2","insignia","clan"};
 		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\uniform_xnselnnedua.paa"};
 	};
-	class KAT_Dress_Uniform_tessag216_Soldier: KAT_Base_Uniform
+	class KAT_Dress_Uniform_tessag216_Soldier: OPTRE_Spartan_DressWhite
 	{
 		dlc = "OPTRE";
 		author = "MisfitMaid";
 		uniformClass = "KAT_Dress_Uniform_tessag216";
-		model = "\OPTRE_UNSC_Units\Army\officer.p3d";
+		model = "\OPTRE_MJOLNIR_Units\dressuniform.p3d";
 		hiddenSelections[] = {"camo1","camo2","insignia","clan"};
 		hiddenSelectionsTextures[] = {"OPTRE_UNSC_Units\Army\data\dress_uniform_odst_co.paa","KAT_Gear\dressuniforms\uniform_tessag216.paa"};
 	};

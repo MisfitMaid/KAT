@@ -50,12 +50,18 @@ class CfgWeapons
 	{
 		class ItemInfo;
 	};
+	class OPTRE_MJOLNIR_Undersuit;
+	class OPTRE_MJOLNIR_Dress_Uniform: OPTRE_MJOLNIR_Undersuit
+	{
+		class ItemInfo;
+	};
 
 %s
 };
 class CfgVehicles
 {
 	class KAT_Base_Uniform;
+	class OPTRE_Spartan_DressWhite;
 
 %s
 };

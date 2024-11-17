@@ -70,6 +70,11 @@ $cpp[] = [
     'name' => 'Generic',
     'image' => '_uniform_generic'
 ];
+$cpp[] = [
+    'safe' => 'SpartanGeneric',
+    'name' => 'Spartan',
+    'image' => '_uniform_generic'
+];
 $uniformBase = $manager->read(dirname(__FILE__) . "/img/uniform_tpl.png");
 
 ksort($chars);
@@ -174,19 +179,23 @@ $xtdWeapons = [];
 $cfgWeapons = [];
 $cfgVehicles = [];
 foreach ($cpp as $v) { // safe, name, image
+    $spartan = in_array($v['safe'], [
+        "SpartanGeneric",
+        "tessag216"
+    ]);
     $classes[]     = sprintf("\t\t\t\"KAT_Dress_Uniform_%s\"", $v['safe']);
     $types[]       = sprintf("\t\t\t\t\t\"%s\"", $v['name']);
     $xtdWeapons[]  = sprintf("\t\tclass KAT_Dress_Uniform_%s {model = \"KAT_DressUniforms\"; type = \"%s\";};", $v['safe'], $v['name']);
-    $cfgWeapons[]  = sprintf("\tclass KAT_Dress_Uniform_%s: OPTRE_UNSC_Dress_Uniform_gray {\n\t\tdisplayName = \"[Azrael] Dress Uniform (%s)\";\n\t\tclass ItemInfo: ItemInfo { uniformClass = \"KAT_Dress_Uniform_%s_Soldier\"; };\n\t};", $v['safe'], $v['name'], $v['safe']);
-    $cfgVehicles[] = sprintf("	class KAT_Dress_Uniform_%s_Soldier: KAT_Base_Uniform
+    $cfgWeapons[]  = sprintf("\tclass KAT_Dress_Uniform_%s: %s {\n\t\tdisplayName = \"[Azrael] Dress Uniform (%s)\";\n\t\tclass ItemInfo: ItemInfo { uniformClass = \"KAT_Dress_Uniform_%s_Soldier\"; };\n\t};", $v['safe'], $spartan ? "OPTRE_MJOLNIR_Dress_Uniform" : "OPTRE_UNSC_Dress_Uniform_gray", $v['name'], $v['safe']);
+    $cfgVehicles[] = sprintf("	class KAT_Dress_Uniform_%s_Soldier: %s
 	{
 		dlc = \"OPTRE\";
 		author = \"MisfitMaid\";
 		uniformClass = \"KAT_Dress_Uniform_%s\";
-		model = \"\\OPTRE_UNSC_Units\\Army\\officer.p3d\";
+		model = \"%s\";
 		hiddenSelections[] = {\"camo1\",\"camo2\",\"insignia\",\"clan\"};
 		hiddenSelectionsTextures[] = {\"OPTRE_UNSC_Units\\Army\\data\\dress_uniform_odst_co.paa\",\"KAT_Gear\\dressuniforms\\%s.paa\"};
-	};", $v['safe'], $v['safe'], $v['image']);
+	};", $v['safe'], $spartan ? "OPTRE_Spartan_DressWhite" : "KAT_Base_Uniform", $v['safe'], $spartan ? "\\OPTRE_MJOLNIR_Units\\dressuniform.p3d" : "\\OPTRE_UNSC_Units\\Army\\officer.p3d", $v['image']);
 }
 
 $base = file_get_contents(dirname(__FILE__) . "/config.cpp.tpl");
