@@ -72,29 +72,29 @@ class XtdGearInfos
     class CfgWeapons
     {
         // 1-1
-        class KAT_Armor_Valkyrie                    { model = "KAT_Metaitem_Armor_0911"; customization = "1A"; };
-        class KAT_Armor_Berserker                   { model = "KAT_Metaitem_Armor_0911"; customization = "1B"; };
-        class KAT_Armor_Frost                       { model = "KAT_Metaitem_Armor_0911"; customization = "Frost"; };
-        class KAT_Armor_Kertz                       { model = "KAT_Metaitem_Armor_0911"; customization = "Kertz"; };
-        class KAT_Armor_Khan                        { model = "KAT_Metaitem_Armor_0911"; customization = "Khan"; };
-        class KAT_Armor_Laeca                       { model = "KAT_Metaitem_Armor_0911"; customization = "Laeca"; };
-        class KAT_Armor_Lane                        { model = "KAT_Metaitem_Armor_0911"; customization = "Lane"; };
-        class KAT_Armor_Prentice                    { model = "KAT_Metaitem_Armor_0911"; customization = "Prentice"; };
-        class KAT_Armor_Raider                      { model = "KAT_Metaitem_Armor_0911"; customization = "Raider"; };
-        class KAT_Armor_Wolf                        { model = "KAT_Metaitem_Armor_0911"; customization = "Wolf"; };
+        class KAT_Armor_Valkyrie    { model = "KAT_Metaitem_Armor_0911"; customization = "1A"; };
+        class KAT_Armor_Berserker   { model = "KAT_Metaitem_Armor_0911"; customization = "1B"; };
+        class KAT_Armor_Frost       { model = "KAT_Metaitem_Armor_0911"; customization = "Frost"; };
+        class KAT_Armor_Kertz       { model = "KAT_Metaitem_Armor_0911"; customization = "Kertz"; };
+        class KAT_Armor_Khan        { model = "KAT_Metaitem_Armor_0911"; customization = "Khan"; };
+        class KAT_Armor_Laeca       { model = "KAT_Metaitem_Armor_0911"; customization = "Laeca"; };
+        class KAT_Armor_Lane        { model = "KAT_Metaitem_Armor_0911"; customization = "Lane"; };
+        class KAT_Armor_Prentice    { model = "KAT_Metaitem_Armor_0911"; customization = "Prentice"; };
+        class KAT_Armor_Raider      { model = "KAT_Metaitem_Armor_0911"; customization = "Raider"; };
+        class KAT_Armor_Wolf        { model = "KAT_Metaitem_Armor_0911"; customization = "Wolf"; };
 
         // 1-2
-        class KAT_Armor_Outlaw                      { model = "KAT_Metaitem_Armor_0912"; customization = "2A"; };
+        class KAT_Armor_Outlaw      { model = "KAT_Metaitem_Armor_0912"; customization = "2A"; };
 
         // command / LoA / misc
-        class KAT_Armor_Cooper                      { model = "KAT_Metaitem_Armor_091"; customization = "Cooper"; };
+        class KAT_Armor_Cooper      { model = "KAT_Metaitem_Armor_091"; customization = "Cooper"; };
 
-        class KAT_Armor_Recruit                     { model = "KAT_Metaitem_Armor_091"; customization = "Recruit"; };
+        class KAT_Armor_Recruit     { model = "KAT_Metaitem_Armor_091"; customization = "Recruit"; };
 
-        class KAT_Armor_Barnes                      { model = "KAT_Metaitem_Armor_091"; customization = "Barnes"; };
-        class KAT_Armor_Buckley                     { model = "KAT_Metaitem_Armor_091"; customization = "Buckley"; };
-        class KAT_Armor_Cline                       { model = "KAT_Metaitem_Armor_091"; customization = "Cline"; };
-        class KAT_Armor_Morningstar                 { model = "KAT_Metaitem_Armor_091"; customization = "Morningstar"; };
-        class KAT_Armor_Selanne                     { model = "KAT_Metaitem_Armor_091"; customization = "Selanne"; };
+        class KAT_Armor_Barnes      { model = "KAT_Metaitem_Armor_091"; customization = "Barnes"; };
+        class KAT_Armor_Buckley     { model = "KAT_Metaitem_Armor_091"; customization = "Buckley"; };
+        class KAT_Armor_Cline       { model = "KAT_Metaitem_Armor_091"; customization = "Cline"; };
+        class KAT_Armor_Morningstar { model = "KAT_Metaitem_Armor_091"; customization = "Morningstar"; };
+        class KAT_Armor_Selanne     { model = "KAT_Metaitem_Armor_091"; customization = "Selanne"; };
     };
 };
