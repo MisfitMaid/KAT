@@ -10,9 +10,9 @@ class CfgPatches
         };
         requiredVersion = 0.1;
         units[] = {
-            "KAT_M56_Rucksack_Base",
-            "KAT_M56_Rucksack_Base_Medical",
-            "KAT_M56_Rucksack_Base_Radio",
+            "KAT_M56_Rucksack_Std_Azrael_Urban",
+            "KAT_M56_Rucksack_Medic_Azrael_Urban",
+            "KAT_M56_Rucksack_Radio_Azrael_Urban",
         };
         weapons[] = {};
     };
@@ -28,7 +28,7 @@ class XtdGearModels
             {
                 "type",
                 "element",
-                "camouflage"
+                "camo"
             };
             class type
             {
@@ -51,30 +51,17 @@ class XtdGearModels
                     "1X",
                     "1A",
                     "1B",
+                    "2A"
                 };
                 class 1X { label = "1-1 Quicksilver"; };
                 class 1A { label = "1-1-A Valkyrie"; };
                 class 1B { label = "1-1-B Berserker"; };
             };
-            class camouflage
+            class camo
             {
                 label = "Camouflage";
-                alwaysSelectable = 0;
-                values[] =
-                {
-                    "black",
-                    "snow",
-                };
-                class black
-                {
-                    label = "Black";
-                    image = "#(rgb,8,8,3)color(0,0,0,1)";
-                };
-                class snow
-                {
-                    label = "Snow";
-                    image="#(rgb,8,8,3)color(0.9,0.9,0.9,1)"
-                };
+                alwaysSelectable = 1;
+                values[] = {"BLK", "WHT"};
             };
         };
     };
@@ -83,212 +70,102 @@ class XtdGearInfos
 {
     class CfgVehicles
     {
-        class KAT_Backpack_ODST_Hardcase_Light_Basic
-        {
-            model = "KAT_Backpack_ODST_Hardcases";
-            type = "light";
-            role = "basic";
-            camouflage = "black";
-        };
-        class KAT_Backpack_ODST_Hardcase_Light_Basic_Snow : KAT_Backpack_ODST_Hardcase_Light_Basic
-        {
-            camouflage = "snow";
-        };
-        class KAT_Backpack_ODST_Hardcase_Padded_Basic
-        {
-            model = "KAT_Backpack_ODST_Hardcases";
-            type = "padded";
-            role = "basic";
-            camouflage = "black";
-        };
-        class KAT_Backpack_ODST_Hardcase_Padded_Basic_Snow : KAT_Backpack_ODST_Hardcase_Padded_Basic
-        {
-            camouflage = "snow";
-        };
-        class KAT_Backpack_ODST_Hardcase_Heavy_Basic
-        {
-            model = "KAT_Backpack_ODST_Hardcases";
-            type = "heavy";
-            role = "basic";
-            camouflage = "black";
-        };
-        class KAT_Backpack_ODST_Hardcase_Heavy_Basic_Snow : KAT_Backpack_ODST_Hardcase_Heavy_Basic
-        {
-            camouflage = "snow";
-        };
-        class KAT_Backpack_ODST_Hardcase_Padded_Medical
-        {
-            model = "KAT_Backpack_ODST_Hardcases";
-            type = "padded";
-            role = "medical";
-            camouflage = "black";
-        };
-        class KAT_Backpack_ODST_Hardcase_Padded_Medical_Snow : KAT_Backpack_ODST_Hardcase_Padded_Medical
-        {
-            camouflage = "snow";
-        };
-        class KAT_Backpack_ODST_Hardcase_Heavy_Medical
-        {
-            model = "KAT_Backpack_ODST_Hardcases";
-            type = "heavy";
-            role = "medical";
-            camouflage = "black";
-        };
-        class KAT_Backpack_ODST_Hardcase_Heavy_Medical_Snow : KAT_Backpack_ODST_Hardcase_Heavy_Medical
-        {
-            camouflage = "snow";
-        }
-        class KAT_Backpack_ODST_Hardcase_Longbow_Basic
-        {
-            model = "KAT_Backpack_ODST_Hardcases";
-            type = "longbow";
-            role = "basic";
-            camouflage = "black";
-        };
-        class KAT_Backpack_ODST_Hardcase_Longbow_Basic_Snow : KAT_Backpack_ODST_Hardcase_Longbow_Basic
-        {
-            camouflage = "snow";
-        };
+        class KAT_M56_Rucksack_Std_Azrael_Urban   { model = "KAT_Gear_Backpacks"; type = "Standard"; element = "Azrael"; camo = "BLK"; };
+        class KAT_M56_Rucksack_Medic_Azrael_Urban { model = "KAT_Gear_Backpacks"; type = "Medical";  element = "Azrael"; camo = "BLK"; };
+        class KAT_M56_Rucksack_Radio_Azrael_Urban { model = "KAT_Gear_Backpacks"; type = "Radio";    element = "Azrael"; camo = "BLK"; };
+        class KAT_M56_Rucksack_Std_1x_Urban       { model = "KAT_Gear_Backpacks"; type = "Standard"; element = "1X";     camo = "BLK"; };
+        class KAT_M56_Rucksack_Medic_1x_Urban     { model = "KAT_Gear_Backpacks"; type = "Medical";  element = "1X";     camo = "BLK"; };
+        class KAT_M56_Rucksack_Radio_1x_Urban     { model = "KAT_Gear_Backpacks"; type = "Radio";    element = "1X";     camo = "BLK"; };
+        class KAT_M56_Rucksack_Std_1a_Urban       { model = "KAT_Gear_Backpacks"; type = "Standard"; element = "1A";     camo = "BLK"; };
+        class KAT_M56_Rucksack_Medic_1a_Urban     { model = "KAT_Gear_Backpacks"; type = "Medical";  element = "1A";     camo = "BLK"; };
+        class KAT_M56_Rucksack_Radio_1a_Urban     { model = "KAT_Gear_Backpacks"; type = "Radio";    element = "1A";     camo = "BLK"; };
+        class KAT_M56_Rucksack_Std_1b_Urban       { model = "KAT_Gear_Backpacks"; type = "Standard"; element = "1B";     camo = "BLK"; };
+        class KAT_M56_Rucksack_Medic_1b_Urban     { model = "KAT_Gear_Backpacks"; type = "Medical";  element = "1B";     camo = "BLK"; };
+        class KAT_M56_Rucksack_Radio_1b_Urban     { model = "KAT_Gear_Backpacks"; type = "Radio";    element = "1B";     camo = "BLK"; };
     };
 };
 class CfgVehicles
 {
     class MA_M56S_Rucksack;
-    class KAT_Backpack_ODST_Hardcase_Light_Basic : MA_M56S_Rucksack
-    {
-        displayName = "[Azrael] ODST Light Hardcase";
-        author = "wlan0";
-        hiddenSelectionsTextures[] = {
-            "KAT_Gear\backpacks\odst_hardcase\_textures\MA_Ruck\ruck.paa",
-            "KAT_Gear\backpacks\odst_hardcase\_textures\MA_Ruck\backpack_radio_green.paa",
-        };
-    };
-    class KAT_Backpack_ODST_Hardcase_Light_Basic_Snow : KAT_Backpack_ODST_Hardcase_Light_Basic
-    {
-        hiddenSelectionsTextures[] = {
-            "KAT_Gear\backpacks\odst_hardcase\_textures\MA_Ruck\ruck_snow.paa",
-            "KAT_Gear\backpacks\odst_hardcase\_textures\MA_Ruck\backpack_radio_green.paa",
+    class MA_M56S_Rucksack_Medic;
+    class MA_M56S_Rucksack_Radio;
+
+    class KAT_M56_Rucksack_Std_Azrael_Urban : MA_M56S_Rucksack {
+        displayName = "[Azrael] M56 Rucksack (Azrael/Urban)";
+        hiddenSelectionsTextures[]=
+        {
+            "KAT_Gear\backpacks\std_azrael_urban.paa", // bag
+            "", // radio
+            "KAT_Gear\backpacks\std_azrael_urban.paa"  // straps
         };
     };
 
-    class OPTRE_ILCS_Rucksack_Heavy;
-    class KAT_Backpack_ODST_Hardcase_Main : OPTRE_ILCS_Rucksack_Heavy
-    {
-        author = "wlan0";
-        scope = 2;
-        scopeArsenal = 2;
-        scopeCurator = 2;
-        maximumLoad = 350;
-        mass = 50;
-        hiddenSelectionsTextures[] = {
-            "KAT_Gear\backpacks\odst_hardcase\_textures\OPTRE_ILCS_Ruck\hardcase_black.paa",
-        };
-    };
-    class KAT_Backpack_ODST_Hardcase_Padded_Basic : KAT_Backpack_ODST_Hardcase_Main
-    {
-        displayName = "[Azrael] ODST Padded Hardcase";
-        hiddenSelections[] = {
-            "camo1",
-            "AP_Heavy",
-            "biofoam",
-        };
-    };
-    class KAT_Backpack_ODST_Hardcase_Heavy_Basic : KAT_Backpack_ODST_Hardcase_Main
-    {
-        displayName = "[Azrael] ODST Heavy Hardcase";
-        hiddenSelections[] = {
-            "camo1",
-            // "AP_Heavy",
-            "biofoam",
-        };
-    };
-    class KAT_Backpack_ODST_Hardcase_Padded_Medical : KAT_Backpack_ODST_Hardcase_Main
-    {
-        displayName = "[Azrael] ODST Padded Medical Hardcase";
-        hiddenSelections[] = {
-            "camo1",
-            "AP_Heavy",
-            // "biofoam",
-        };
-    };
-    class KAT_Backpack_ODST_Hardcase_Heavy_Medical : KAT_Backpack_ODST_Hardcase_Main
-    {
-        displayName = "[Azrael] ODST Heavy Medical Hardcase";
-        hiddenSelections[] = {
-            "camo1",
-            // "AP_Heavy",
-            // "biofoam",
-        };
-    };
-    class KAT_Backpack_ODST_Hardcase_Main_Snow : KAT_Backpack_ODST_Hardcase_Main
-    {
-        hiddenSelectionsTextures[] = {
-            "KAT_Gear\backpacks\odst_hardcase\_textures\OPTRE_ILCS_Ruck\hardcase_snow.paa",
-        };
-    };
-    class KAT_Backpack_ODST_Hardcase_Padded_Basic_Snow : KAT_Backpack_ODST_Hardcase_Main_Snow
-    {
-        displayName = "[Azrael] ODST Padded Hardcase";
-        hiddenSelections[] = {
-            "camo1",
-            "AP_Heavy",
-            "biofoam",
-        };
-    };
-    class KAT_Backpack_ODST_Hardcase_Heavy_Basic_Snow : KAT_Backpack_ODST_Hardcase_Main_Snow
-    {
-        displayName = "[Azrael] ODST Heavy Hardcase";
-        hiddenSelections[] = {
-            "camo1",
-            // "AP_Heavy",
-            "biofoam",
-        };
-    };
-    class KAT_Backpack_ODST_Hardcase_Padded_Medical_Snow : KAT_Backpack_ODST_Hardcase_Main_Snow
-    {
-        displayName = "[Azrael] ODST Padded Medical Hardcase";
-        hiddenSelections[] = {
-            "camo1",
-            "AP_Heavy",
-            // "biofoam",
-        };
-    };
-    class KAT_Backpack_ODST_Hardcase_Heavy_Medical_Snow : KAT_Backpack_ODST_Hardcase_Main_Snow
-    {
-        displayName = "[Azrael] ODST Heavy Medical Hardcase";
-        hiddenSelections[] = {
-            "camo1",
-            // "AP_Heavy",
-            // "biofoam",
+    class KAT_M56_Rucksack_Medic_Azrael_Urban : MA_M56S_Rucksack_Medic {
+        displayName = "[Azrael] M56 Rucksack SARC (Azrael/Urban)";
+        hiddenSelectionsTextures[]=
+        {
+            "KAT_Gear\backpacks\medic_azrael_urban.paa", // bag
+            "", // radio
+            "KAT_Gear\backpacks\medic_azrael_urban.paa"  // straps
         };
     };
 
-    class OPTRE_ANPRC_521_green;
-    class KAT_Backpack_ODST_Hardcase_Longbow_Basic : OPTRE_ANPRC_521_green
-    {
-        displayName = "[Azrael] AN/PRC-497 Longbow";
-        author = "wlan0";
-        descriptionShort = "AN/PRC-487 Longbow<br>UNSC Long Range Radio<br>25km Effective Range";
-        scope = 2;
-        scopeCurator = 2;
-        maximumLoad = 350;
-        hiddenSelectionsTextures[] = {
-            "KAT_Gear\backpacks\odst_hardcase\_textures\Longbow\longbow_base_black.paa",
-            "KAT_Gear\backpacks\odst_hardcase\_textures\Longbow\longbow_main_black.paa",
+    class KAT_M56_Rucksack_Radio_Azrael_Urban : MA_M56S_Rucksack_Radio {
+        displayName = "[Azrael] M56 Rucksack RTO (Azrael/Urban)";
+        hiddenSelectionsTextures[]=
+        {
+            "KAT_Gear\backpacks\std_azrael_urban.paa", // bag
+            "KAT_Gear\backpacks\_radio.paa", // radio
+            "KAT_Gear\backpacks\std_azrael_urban.paa"  // straps
         };
-        // TFAR
-        tf_encryptionCode = "tf_west_radio_code";
-        tf_dialog = "rt1523g_radio_dialog";
-        tf_subtype = "digital_lr";
-        tf_range = 120000;
-        tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel";
-        tf_hasLRradio = 1;
+        hiddenSelectionsMaterials[]=
+        {
+            "MA_Armor\data\Backpacks\ODST_Rucksack\ODST_Ruck.rvmat",
+            "KAT_Gear\backpacks\_radio.rvmat",
+            "MA_Armor\data\Backpacks\ODST_Rucksack\ODST_Ruck.rvmat"
+        };
     };
-    class KAT_Backpack_ODST_Hardcase_Longbow_Basic_Snow : KAT_Backpack_ODST_Hardcase_Longbow_Basic
-    {
-        hiddenSelectionsTextures[] = {
-            "KAT_Gear\backpacks\odst_hardcase\_textures\Longbow\longbow_base_snow.paa",
-            "KAT_Gear\backpacks\odst_hardcase\_textures\Longbow\longbow_main_snow.paa",
-        };
+
+
+    // everything below should extend KAT_Rucksack_*_Azrael_Urban and ONLY change displayName and textures
+    // if other changes need to be made, they should be made to the items above so it cascades to all reskins
+
+    class KAT_M56_Rucksack_Std_1x_Urban : KAT_M56_Rucksack_Std_Azrael_Urban {
+        displayName = "[Azrael] M56 Rucksack (1-1/Urban)";
+        hiddenSelectionsTextures[]= { "KAT_Gear\backpacks\std_1x_urban.paa" };
+    };
+    class KAT_M56_Rucksack_Medic_1x_Urban : KAT_M56_Rucksack_Medic_Azrael_Urban {
+        displayName = "[Azrael] M56 Rucksack (1-1/Urban)";
+        hiddenSelectionsTextures[]= { "KAT_Gear\backpacks\medic_1x_urban.paa" };
+    };
+    class KAT_M56_Rucksack_Radio_1x_Urban : KAT_M56_Rucksack_Radio_Azrael_Urban {
+        displayName = "[Azrael] M56 Rucksack (1-1/Urban)";
+        hiddenSelectionsTextures[]= { "KAT_Gear\backpacks\std_1x_urban.paa" };
+    };
+
+    class KAT_M56_Rucksack_Std_1a_Urban : KAT_M56_Rucksack_Std_Azrael_Urban {
+        displayName = "[Azrael] M56 Rucksack (1-1-A/Urban)";
+        hiddenSelectionsTextures[]= { "KAT_Gear\backpacks\std_1a_urban.paa" };
+    };
+    class KAT_M56_Rucksack_Medic_1a_Urban : KAT_M56_Rucksack_Medic_Azrael_Urban {
+        displayName = "[Azrael] M56 Rucksack (1-1-A/Urban)";
+        hiddenSelectionsTextures[]= { "KAT_Gear\backpacks\medic_1a_urban.paa" };
+    };
+    class KAT_M56_Rucksack_Radio_1a_Urban : KAT_M56_Rucksack_Radio_Azrael_Urban {
+        displayName = "[Azrael] M56 Rucksack (1-1-A/Urban)";
+        hiddenSelectionsTextures[]= { "KAT_Gear\backpacks\std_1a_urban.paa" };
+    };
+
+    class KAT_M56_Rucksack_Std_1b_Urban : KAT_M56_Rucksack_Std_Azrael_Urban {
+        displayName = "[Azrael] M56 Rucksack (1-1-B/Urban)";
+        hiddenSelectionsTextures[]= { "KAT_Gear\backpacks\std_1b_urban.paa" };
+    };
+    class KAT_M56_Rucksack_Medic_1b_Urban : KAT_M56_Rucksack_Medic_Azrael_Urban {
+        displayName = "[Azrael] M56 Rucksack (1-1-B/Urban)";
+        hiddenSelectionsTextures[]= { "KAT_Gear\backpacks\medic_1b_urban.paa" };
+    };
+    class KAT_M56_Rucksack_Radio_1b_Urban : KAT_M56_Rucksack_Radio_Azrael_Urban {
+        displayName = "[Azrael] M56 Rucksack (1-1-B/Urban)";
+        hiddenSelectionsTextures[]= { "KAT_Gear\backpacks\std_1b_urban.paa" };
     };
 };
