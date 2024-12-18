@@ -25,6 +25,34 @@ class CfgAddons
 		};
 	};
 };
+
+
+class CfgMarkerClasses
+{
+    class MarkerCats_Azrael
+	{
+		displayName="Azrael";
+    }
+};
+class CfgMarkers
+{
+    class Marker_Azrael
+    {
+        name="Azrael";
+        icon="KAT_Mission\azrael.paa";
+        color[]={1,1,1,1};
+        size=40;
+        shadow = 0;
+        scope = 2;
+        markerClass = "MarkerCats_Azrael";
+    };
+
+	// class Marker_Quicksilver : Marker_Azrael { name="Quicksilver"; icon="KAT_Mission\quicksilver.paa"; }
+	class Marker_Valkyrie    : Marker_Azrael { name="Valkyrie";    icon="KAT_Mission\valkyrie.paa"; }
+	class Marker_Berserker   : Marker_Azrael { name="Berserker";   icon="KAT_Mission\berserker.paa"; }
+	class Marker_Outlaw      : Marker_Azrael { name="Outlaw";      icon="KAT_Mission\outlaw.paa"; }
+};
+
 class RscPicture{};
 class RscActiveText{};
 class RscActivePicture: RscActiveText{};
